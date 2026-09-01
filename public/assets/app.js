@@ -1,0 +1,876 @@
+/* ---------------------------------------------------------------------------
+   Availability map.
+
+   Reads two static JSON files written by scripts/build_data.py and
+   scripts/universities.py. No framework, no build step, no backend: whatever
+   static host you drop /public on will serve this as-is.
+--------------------------------------------------------------------------- */
+
+const CONFIG = {
+  contactEmail: "bookings@acomodo.in",
+  brand: "Availability Map",
+  // Drive image endpoints. `w` is the requested pixel width; Drive resizes.
+  driveThumb: (id, w) => `https://drive.google.com/thumbnail?id=${id}&sz=w${w}`,
+  driveFull: (id, w) => `https://lh3.googleusercontent.com/d/${id}=w${w}`,
+  // Fallback view when nothing is filtered in.
+  home: { center: [53.33, -6.9], zoom: 8 },
+  // OpenStreetMap's standard tiles need no API key. Dark mode is a CSS filter
+  // on the tile pane (see styles.css) rather than a second, key-gated provider.
+  tiles: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+};
+
+const $ = (id) => document.getElementById(id);
+const els = {
+  results: $("results"),
+  count: $("result-count"),
+  q: $("q"),
+  seg: document.querySelector(".seg"),
+  campus: $("campus"),
+  price: $("price"),
+  priceOut: $("price-out"),
+  roomtype: $("roomtype"),
+  onlyAvailable: $("only-available"),
+  billsInc: $("bills-inc"),
+  ensuite: $("ensuite"),
+  shortStay: $("short-stay"),
+  reset: $("reset"),
+  drawer: $("drawer"),
+  drawerInner: $("drawer-inner"),
+  scrim: $("scrim"),
+  viewToggle: $("view-toggle"),
+  themeToggle: $("theme-toggle"),
+  lightbox: $("lightbox"),
+};
+
+const state = {
+  properties: [],
+  universities: [],
+  filtered: [],
+  city: "all",
+  campus: null,
+  selectedId: null,
+  markers: new Map(),
+  uniLayer: null,
+  map: null,
+  tileLayer: null,
+  maxPrice: Infinity,
+};
+
+/* --- helpers ------------------------------------------------------------- */
+
+const esc = (value) =>
+  String(value ?? "").replace(/[&<>"']/g, (ch) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch])
+  );
+
+const money = (amount, symbol = "€") =>
+  amount == null ? "—" : `${symbol}${amount.toLocaleString("en-IE")}`;
+
+function distanceKm(a, b) {
+  const R = 6371;
+  const toRad = (deg) => (deg * Math.PI) / 180;
+  const dLat = toRad(b[0] - a[0]);
+  const dLng = toRad(b[1] - a[1]);
+  const lat1 = toRad(a[0]);
+  const lat2 = toRad(b[0]);
+  const h =
+    Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+function statusOf(property) {
+  if (property.available > 0) return "free";
+  if (property.onHold > 0) return "hold";
+  return "full";
+}
+
+function statusLabel(property) {
+  if (property.available > 0) {
+    return `${property.available} bed${property.available > 1 ? "s" : ""} free`;
+  }
+  if (property.onHold > 0) return `${property.onHold} on hold`;
+  return "Fully booked";
+}
+
+/* --- theme --------------------------------------------------------------- */
+
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  try {
+    localStorage.setItem("map-theme", theme);
+  } catch {
+    /* private window: the choice just does not persist */
+  }
+  if (state.map) {
+    state.map.getContainer().classList.toggle("map-dark", theme === "dark");
+  }
+}
+
+function initTheme() {
+  let stored = null;
+  try {
+    stored = localStorage.getItem("map-theme");
+  } catch {
+    /* ignore */
+  }
+  const prefersLight = window.matchMedia?.("(prefers-color-scheme: light)").matches;
+  applyTheme(stored || (prefersLight ? "light" : "dark"));
+  els.themeToggle.addEventListener("click", () => {
+    applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+  });
+}
+
+/* --- data ---------------------------------------------------------------- */
+
+async function loadData() {
+  const [properties, universities] = await Promise.all([
+    fetch("./data/properties.json").then((r) => r.json()),
+    fetch("./data/universities.json")
+      .then((r) => r.json())
+      .catch(() => ({ universities: [] })),
+  ]);
+
+  state.properties = properties.properties.filter((p) => p.lat != null && p.lng != null);
+  state.universities = universities.universities || [];
+
+  $("stat-available").textContent = properties.stats.available;
+  $("stat-hold").textContent = properties.stats.onHold;
+  $("stat-props").textContent = properties.stats.properties;
+  $("brand-sub").textContent = `Managed student rooms · ${properties.stats.cities.join(" & ")}`;
+
+  const stamp = new Date(properties.generatedAt);
+  $("updated").textContent = `Updated ${stamp.toLocaleDateString("en-IE", {
+    day: "numeric",
+    month: "short",
+  })}, ${stamp.toLocaleTimeString("en-IE", { hour: "2-digit", minute: "2-digit" })}`;
+
+  const mailto = `mailto:${CONFIG.contactEmail}?subject=${encodeURIComponent(
+    "Area request"
+  )}&body=${encodeURIComponent("Hi — I am looking for a room near:\n\nMove-in date:\nBudget:\n")}`;
+  $("request-area").href = mailto;
+}
+
+/* --- controls ------------------------------------------------------------ */
+
+function buildControls() {
+  const cities = [...new Set(state.properties.map((p) => p.city))].sort();
+  els.seg.innerHTML = "";
+  for (const city of ["all", ...cities]) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "seg-btn" + (city === "all" ? " is-on" : "");
+    button.dataset.city = city;
+    button.textContent = city === "all" ? "All" : city;
+    els.seg.append(button);
+  }
+
+  const grouped = {};
+  for (const uni of state.universities) (grouped[uni.city] ||= []).push(uni);
+  for (const [city, list] of Object.entries(grouped)) {
+    const group = document.createElement("optgroup");
+    group.label = city;
+    for (const uni of list) {
+      const option = document.createElement("option");
+      option.value = uni.id;
+      option.textContent = uni.name;
+      group.append(option);
+    }
+    els.campus.append(group);
+  }
+
+  const types = [...new Set(state.properties.flatMap((p) => p.rooms.map((r) => r.type)))].sort();
+  for (const type of types) {
+    const option = document.createElement("option");
+    option.value = type;
+    option.textContent = type;
+    els.roomtype.append(option);
+  }
+
+  const prices = state.properties.map((p) => p.priceMax).filter(Boolean);
+  const ceiling = Math.ceil(Math.max(...prices, 1000) / 50) * 50;
+  els.price.max = String(ceiling);
+  els.price.value = String(ceiling);
+  state.maxPrice = Infinity;
+}
+
+/* --- filtering ----------------------------------------------------------- */
+
+function currentFilters() {
+  const query = els.q.value.trim().toLowerCase();
+  const campus = state.campus;
+  return (property) => {
+    if (state.city !== "all" && property.city !== state.city) return false;
+    if (els.onlyAvailable.checked && property.available < 1) return false;
+    if (property.priceMin != null && property.priceMin > state.maxPrice) return false;
+
+    if (els.billsInc.checked && !/included/i.test(property.utilities)) return false;
+    if (els.ensuite.checked && !property.rooms.some((r) => /(^|\s)ensuite/i.test(r.type))) {
+      return false;
+    }
+    if (els.shortStay.checked) {
+      const short = property.tenancies.some((t) => /4 month|semester/i.test(t));
+      if (!short) return false;
+    }
+
+    const type = els.roomtype.value;
+    if (type && !property.rooms.some((r) => r.type === type)) return false;
+
+    if (query) {
+      const haystack = [
+        property.name,
+        property.area,
+        property.city,
+        property.eircode,
+        property.address,
+      ]
+        .join(" ")
+        .toLowerCase();
+      if (!haystack.includes(query)) return false;
+    }
+
+    if (campus && property.city !== campus.city) return false;
+    return true;
+  };
+}
+
+function applyFilters({ fit = true } = {}) {
+  const predicate = currentFilters();
+  let list = state.properties.filter(predicate);
+
+  if (state.campus) {
+    const origin = [state.campus.lat, state.campus.lng];
+    for (const property of list) {
+      property._km = distanceKm(origin, [property.lat, property.lng]);
+    }
+    list.sort((a, b) => a._km - b._km);
+  } else {
+    for (const property of state.properties) delete property._km;
+    list.sort(
+      (a, b) =>
+        b.available - a.available ||
+        (a.priceMin ?? 9e9) - (b.priceMin ?? 9e9) ||
+        a.name.localeCompare(b.name)
+    );
+  }
+
+  state.filtered = list;
+  renderList();
+  renderMarkers({ fit });
+  syncUrl();
+}
+
+/* --- list ---------------------------------------------------------------- */
+
+function cardMarkup(property) {
+  const status = statusOf(property);
+  const total = Math.max(property.totalBedspaces, 1);
+  const pct = (n) => `${(n / total) * 100}%`;
+  const near =
+    property._km != null
+      ? `<span class="sep">·</span><span>${property._km.toFixed(1)} km to ${esc(
+          state.campus.name
+        )}</span>`
+      : "";
+
+  return `
+    <li>
+      <article class="card" data-id="${esc(property.id)}" tabindex="0" role="button"
+               aria-label="${esc(property.name)}, ${esc(statusLabel(property))}">
+        <div class="card-head">
+          <div class="card-title">
+            <h3>${esc(property.name)}</h3>
+            <p>${esc([property.area, property.eircode].filter(Boolean).join(" · "))}</p>
+          </div>
+          <span class="pill pill-${status}">${esc(statusLabel(property))}</span>
+        </div>
+        <div class="card-facts">
+          <span><b>${esc(property.priceDisplay)}</b> /bed</span>
+          <span class="sep">·</span>
+          <span>${property.totalBedspaces} bedspaces</span>
+          ${near}
+        </div>
+        <div class="bar" aria-hidden="true">
+          ${property.available ? `<i class="b-free" style="flex:0 0 ${pct(property.available)}"></i>` : ""}
+          ${property.onHold ? `<i class="b-hold" style="flex:0 0 ${pct(property.onHold)}"></i>` : ""}
+          ${property.booked ? `<i class="b-full" style="flex:0 0 ${pct(property.booked)}"></i>` : ""}
+        </div>
+      </article>
+    </li>`;
+}
+
+function renderList() {
+  const list = state.filtered;
+  els.count.textContent = `${list.length} propert${list.length === 1 ? "y" : "ies"}`;
+
+  if (!list.length) {
+    els.results.innerHTML = `<li><p class="empty">Nothing matches those filters.<br>Try widening the price, or clear the campus.</p></li>`;
+    return;
+  }
+  els.results.innerHTML = list.map(cardMarkup).join("");
+}
+
+/* --- map ----------------------------------------------------------------- */
+
+function initMap() {
+  state.map = L.map("map", {
+    center: CONFIG.home.center,
+    zoom: CONFIG.home.zoom,
+    zoomControl: false,
+    scrollWheelZoom: true,
+  });
+  L.control.zoom({ position: "bottomright" }).addTo(state.map);
+
+  state.tileLayer = L.tileLayer(CONFIG.tiles, {
+    attribution: CONFIG.attribution,
+    maxZoom: 19,
+  }).addTo(state.map);
+  state.map
+    .getContainer()
+    .classList.toggle("map-dark", document.documentElement.dataset.theme === "dark");
+
+  state.uniLayer = L.layerGroup().addTo(state.map);
+
+  // The map is built before the CSS grid has given its cell a height, so
+  // Leaflet starts with a 0×0 size and any early fit collapses to zoom 0.
+  // Watch the container: re-measure on every size change, and the first time
+  // it reports a real size, fit to the results (unless a card is already open).
+  const observer = new ResizeObserver(() => {
+    state.map.invalidateSize();
+    if (!state.fittedOnce && state.map.getSize().x > 0) {
+      state.fittedOnce = true;
+      const picked = state.selectedId && state.properties.find((p) => p.id === state.selectedId);
+      if (picked) {
+        state.map.setView([picked.lat, picked.lng], 14, { animate: false });
+        state.markers.get(picked.id)?.openPopup();
+      } else {
+        fitToResults({ animate: false });
+      }
+    }
+  });
+  observer.observe(document.getElementById("map"));
+
+  if (location.hostname === "127.0.0.1" || location.hostname === "localhost") {
+    window.__state = state; // dev-only handle for debugging
+  }
+}
+
+function markerIcon(property) {
+  const status = statusOf(property);
+  const label = property.available || property.onHold || "·";
+  return L.divIcon({
+    className: "",
+    html: `<div class="marker marker-${status}" data-id="${esc(property.id)}"><span>${label}</span></div>`,
+    iconSize: [30, 30],
+    iconAnchor: [15, 28],
+    popupAnchor: [0, -26],
+  });
+}
+
+function popupMarkup(property) {
+  return `
+    <h4>${esc(property.name)}</h4>
+    <p>${esc(property.area || property.city)}</p>
+    <p class="pop-price">${esc(property.priceDisplay)} <span style="font-weight:400">/bed/month</span></p>
+    <p>${esc(statusLabel(property))} of ${property.totalBedspaces}</p>
+    <button type="button" data-open="${esc(property.id)}">View rooms</button>`;
+}
+
+function renderMarkers({ fit = true } = {}) {
+  for (const marker of state.markers.values()) marker.remove();
+  state.markers.clear();
+
+  for (const property of state.filtered) {
+    const marker = L.marker([property.lat, property.lng], {
+      icon: markerIcon(property),
+      title: property.name,
+      riseOnHover: true,
+    })
+      .addTo(state.map)
+      .bindPopup(popupMarkup(property));
+
+    marker.on("click", () => selectProperty(property.id, { pan: false }));
+    state.markers.set(property.id, marker);
+  }
+
+  renderCampusMarkers();
+
+  if (fit) fitToResults();
+}
+
+function fitToResults({ animate = true } = {}) {
+  // Fitting to a zero-size viewport projects to NaN and throws; the
+  // ResizeObserver re-fits the moment the map has real dimensions.
+  if (state.map.getSize().x === 0) return;
+  const points = state.filtered.map((p) => [p.lat, p.lng]);
+  if (state.campus) points.push([state.campus.lat, state.campus.lng]);
+  if (points.length > 1) {
+    state.map.fitBounds(L.latLngBounds(points).pad(0.18), { animate });
+  } else if (points.length === 1) {
+    state.map.setView(points[0], 14, { animate });
+  } else {
+    state.map.setView(CONFIG.home.center, CONFIG.home.zoom, { animate });
+  }
+}
+
+function renderCampusMarkers() {
+  state.uniLayer.clearLayers();
+  const visibleCities = new Set(state.filtered.map((p) => p.city));
+  if (state.campus) visibleCities.add(state.campus.city);
+
+  for (const uni of state.universities) {
+    if (!visibleCities.has(uni.city)) continue;
+    const isPicked = state.campus?.id === uni.id;
+    L.marker([uni.lat, uni.lng], {
+      icon: L.divIcon({
+        className: "",
+        html: `<div class="uni-marker"></div>`,
+        iconSize: [18, 18],
+        iconAnchor: [9, 9],
+      }),
+      zIndexOffset: -500,
+      interactive: !isPicked,
+    })
+      .bindTooltip(uni.name, {
+        permanent: isPicked,
+        direction: "top",
+        className: "uni-label",
+        offset: [0, -8],
+      })
+      .addTo(state.uniLayer);
+  }
+}
+
+/* --- selection & drawer -------------------------------------------------- */
+
+function selectProperty(id, { pan = true } = {}) {
+  state.selectedId = id;
+  const property = state.properties.find((p) => p.id === id);
+  if (!property) return;
+
+  for (const card of els.results.querySelectorAll(".card")) {
+    card.classList.toggle("is-active", card.dataset.id === id);
+  }
+  const card = els.results.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  card?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+
+  // Open the drawer first, so a map hiccup can never block the detail panel.
+  openDrawer(property);
+
+  const marker = state.markers.get(id);
+  // Popups and flyTo both divide by the map's pixel size; both throw on a
+  // still-zero-size map (initial preselect). The ResizeObserver opens the
+  // popup once the map has a size, so it is safe to skip here.
+  if (marker && state.map.getSize().x > 0) {
+    if (pan) {
+      state.map.flyTo([property.lat, property.lng], Math.max(state.map.getZoom(), 14), {
+        duration: 0.6,
+      });
+    }
+    marker.openPopup();
+  }
+  syncUrl();
+}
+
+function roomRow(room) {
+  const tag = room.available
+    ? `<span class="tag tag-free">${room.available} free</span>`
+    : room.onHold
+    ? `<span class="tag tag-hold">${room.onHold} on hold</span>`
+    : `<span class="tag tag-full">Booked</span>`;
+  const who = room.demography ? ` · ${esc(room.demography)}` : "";
+  return `
+    <tr>
+      <td>
+        <strong>${esc(room.type)}</strong><br>
+        <span style="color:var(--ink-3)">Room ${esc(room.room)}${
+    room.floor ? ` · ${esc(room.floor)}` : ""
+  }${who}</span>
+      </td>
+      <td class="rent">${room.rentDisplay ? esc(room.rentDisplay) : "—"}</td>
+      <td>${tag}</td>
+    </tr>`;
+}
+
+function featureMarkup(features) {
+  if (!features) return "";
+  const parts = [];
+  if (features.summary) parts.push(`<p>${esc(features.summary)}</p>`);
+  for (const section of features.sections) {
+    parts.push(`<h5>${esc(section.title)}</h5>`);
+    if (section.items.length === 1) {
+      parts.push(`<p>${esc(section.items[0])}</p>`);
+    } else {
+      parts.push(`<ul>${section.items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`);
+    }
+  }
+  return `<div class="d-section"><h4>About this house</h4><div class="prose">${parts.join("")}</div></div>`;
+}
+
+function galleryMarkup(property) {
+  const media = property.media || {};
+  const images = media.images || [];
+
+  if (images.length) {
+    const hero = images[0];
+    const thumbs = images
+      .map(
+        (img, index) => `
+        <button type="button" class="g-thumb${index === 0 ? " is-on" : ""}"
+                data-gallery="${index}" aria-label="Photo ${index + 1}${
+          img.name ? ": " + esc(img.name) : ""
+        }">
+          <img loading="lazy" src="${CONFIG.driveThumb(img.id, 300)}" alt="">
+        </button>`
+      )
+      .join("");
+    return `
+      <figure class="gallery" data-count="${images.length}">
+        <button type="button" class="g-hero" data-gallery="0" aria-label="Open photo viewer">
+          <img id="g-hero-img" src="${CONFIG.driveThumb(hero.id, 1000)}"
+               alt="${esc(property.name)} — ${esc(hero.name || "photo")}">
+          <span class="g-count">${images.length} photos</span>
+        </button>
+        <div class="g-strip">${thumbs}</div>
+      </figure>`;
+  }
+
+  // No cached images yet, but staff have linked a Drive folder — offer it.
+  if (media.folder) {
+    return `
+      <a class="gallery-empty" href="${esc(media.folder)}" target="_blank" rel="noopener">
+        <span class="ge-icon" aria-hidden="true">▦</span>
+        <span>Photos on Google Drive<small>Opens the property's photo folder</small></span>
+        <span class="ge-arrow" aria-hidden="true">↗</span>
+      </a>`;
+  }
+  return "";
+}
+
+function setHero(property, index, thumbEl) {
+  const img = property?.media?.images?.[index];
+  if (!img) return;
+  const hero = document.getElementById("g-hero-img");
+  if (hero) hero.src = CONFIG.driveThumb(img.id, 1000);
+  const heroBtn = document.querySelector(".g-hero");
+  if (heroBtn) heroBtn.dataset.gallery = String(index);
+  for (const t of els.drawerInner.querySelectorAll(".g-thumb")) t.classList.remove("is-on");
+  thumbEl?.classList.add("is-on");
+}
+
+// Lightbox state for the currently open property's gallery.
+const lightbox = { images: [], index: 0 };
+
+function openLightbox(images, index) {
+  lightbox.images = images;
+  lightbox.index = index;
+  renderLightbox();
+  els.lightbox.hidden = false;
+  document.body.classList.add("lightbox-open");
+  els.lightbox.focus();
+}
+
+function renderLightbox() {
+  const img = lightbox.images[lightbox.index];
+  const total = lightbox.images.length;
+  els.lightbox.querySelector(".lb-img").src = CONFIG.driveFull(img.id, 1600);
+  els.lightbox.querySelector(".lb-img").alt = img.name || "";
+  els.lightbox.querySelector(".lb-caption").textContent = img.name || "";
+  els.lightbox.querySelector(".lb-index").textContent = `${lightbox.index + 1} / ${total}`;
+}
+
+function stepLightbox(delta) {
+  const total = lightbox.images.length;
+  lightbox.index = (lightbox.index + delta + total) % total;
+  renderLightbox();
+}
+
+function closeLightbox() {
+  els.lightbox.hidden = true;
+  document.body.classList.remove("lightbox-open");
+}
+
+function openDrawer(property) {
+  const subject = `Enquiry — ${property.name}`;
+  const body = `Hi,\n\nI would like to enquire about ${property.name} (${property.address}).\n\nMove-in date:\nLength of stay:\nRoom type:\n\nThanks`;
+  const mailto = `mailto:${CONFIG.contactEmail}?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
+  const directions = `https://www.google.com/maps/dir/?api=1&destination=${property.lat},${property.lng}`;
+
+  const nearest = state.universities
+    .filter((u) => u.city === property.city)
+    .map((u) => ({ ...u, km: distanceKm([property.lat, property.lng], [u.lat, u.lng]) }))
+    .sort((a, b) => a.km - b.km)
+    .slice(0, 3);
+
+  els.drawerInner.innerHTML = `
+    <button type="button" class="d-close" id="d-close" aria-label="Close">×</button>
+    <h2 class="d-title">${esc(property.name)}</h2>
+    <p class="d-sub">${esc([property.area, property.eircode, property.city].filter(Boolean).join(" · "))}</p>
+
+    ${galleryMarkup(property)}
+
+    <div class="d-stats">
+      <dl class="d-stat"><dt>Free</dt><dd style="color:var(--free)">${property.available}</dd></dl>
+      <dl class="d-stat"><dt>On hold</dt><dd>${property.onHold}</dd></dl>
+      <dl class="d-stat"><dt>Bedspaces</dt><dd>${property.totalBedspaces}</dd></dl>
+    </div>
+
+    <div class="d-section">
+      <h4>Terms</h4>
+      <dl class="facts">
+        <dt>Rent</dt><dd>${esc(property.priceDisplay)} per bed / month</dd>
+        <dt>Bills</dt><dd>${esc(property.utilities || "—")}</dd>
+        <dt>Furnished</dt><dd>${property.furnished ? "Yes" : "—"}</dd>
+        <dt>Move in</dt><dd>${esc(property.moveIn.join(" · ") || "—")}</dd>
+        <dt>Tenancy</dt><dd>${esc(property.tenancies.join(" · ") || "—")}</dd>
+        <dt>Deposit</dt><dd>${esc(property.paymentTerms || "—")}</dd>
+      </dl>
+    </div>
+
+    <div class="d-section">
+      <h4>Rooms</h4>
+      <table class="rooms">
+        <thead><tr><th>Room</th><th>Rent</th><th>Status</th></tr></thead>
+        <tbody>${property.rooms.map(roomRow).join("")}</tbody>
+      </table>
+    </div>
+
+    ${
+      nearest.length
+        ? `<div class="d-section"><h4>Campuses nearby</h4>
+             <dl class="facts">${nearest
+               .map((u) => `<dt>${esc(u.name)}</dt><dd>${u.km.toFixed(1)} km</dd>`)
+               .join("")}</dl>
+           </div>`
+        : ""
+    }
+
+    ${featureMarkup(property.features)}
+
+    <div class="d-actions">
+      <a class="btn btn-primary" href="${mailto}">Enquire</a>
+      <a class="btn btn-quiet" href="${directions}" target="_blank" rel="noopener">Directions</a>
+    </div>
+    ${
+      property.geoPrecision && property.geoPrecision !== "address"
+        ? `<p class="geo-note">Pin is approximate — placed at ${esc(
+            property.geoPrecision
+          )} level from the address on file.</p>`
+        : ""
+    }`;
+
+  els.drawer.classList.add("is-open");
+  els.drawer.setAttribute("aria-hidden", "false");
+  els.scrim.hidden = false;
+  $("d-close").focus();
+}
+
+function closeDrawer() {
+  els.drawer.classList.remove("is-open");
+  els.drawer.setAttribute("aria-hidden", "true");
+  els.scrim.hidden = true;
+  state.selectedId = null;
+  for (const card of els.results.querySelectorAll(".card")) card.classList.remove("is-active");
+  syncUrl();
+}
+
+/* --- url state ----------------------------------------------------------- */
+
+function syncUrl() {
+  const params = new URLSearchParams();
+  if (state.city !== "all") params.set("city", state.city);
+  if (state.campus) params.set("near", state.campus.id);
+  if (els.q.value.trim()) params.set("q", els.q.value.trim());
+  if (state.maxPrice !== Infinity) params.set("max", String(state.maxPrice));
+  if (els.roomtype.value) params.set("type", els.roomtype.value);
+  if (!els.onlyAvailable.checked) params.set("all", "1");
+  if (els.billsInc.checked) params.set("bills", "1");
+  if (els.ensuite.checked) params.set("ensuite", "1");
+  if (els.shortStay.checked) params.set("short", "1");
+  if (state.selectedId) params.set("p", state.selectedId);
+
+  const query = params.toString();
+  history.replaceState(null, "", query ? `?${query}` : location.pathname);
+}
+
+function readUrl() {
+  const params = new URLSearchParams(location.search);
+  if (params.has("city")) state.city = params.get("city");
+  if (params.has("q")) els.q.value = params.get("q");
+  if (params.has("type")) els.roomtype.value = params.get("type");
+  if (params.has("max")) {
+    els.price.value = params.get("max");
+    state.maxPrice = Number(params.get("max"));
+    els.priceOut.textContent = money(state.maxPrice);
+  }
+  els.onlyAvailable.checked = !params.has("all");
+  els.billsInc.checked = params.has("bills");
+  els.ensuite.checked = params.has("ensuite");
+  els.shortStay.checked = params.has("short");
+
+  if (params.has("near")) {
+    const uni = state.universities.find((u) => u.id === params.get("near"));
+    if (uni) {
+      state.campus = uni;
+      els.campus.value = uni.id;
+      if (!params.has("city")) state.city = uni.city; // keep the segment in sync
+    }
+  }
+  for (const button of els.seg.querySelectorAll(".seg-btn")) {
+    button.classList.toggle("is-on", button.dataset.city === state.city);
+  }
+  return params.get("p");
+}
+
+/* --- events -------------------------------------------------------------- */
+
+function wireEvents() {
+  els.seg.addEventListener("click", (event) => {
+    const button = event.target.closest(".seg-btn");
+    if (!button) return;
+    state.city = button.dataset.city;
+    for (const other of els.seg.querySelectorAll(".seg-btn")) {
+      other.classList.toggle("is-on", other === button);
+    }
+    if (state.campus && state.city !== "all" && state.campus.city !== state.city) {
+      state.campus = null;
+      els.campus.value = "";
+    }
+    applyFilters();
+  });
+
+  els.campus.addEventListener("change", () => {
+    state.campus = state.universities.find((u) => u.id === els.campus.value) || null;
+    if (state.campus) {
+      state.city = state.campus.city;
+      for (const button of els.seg.querySelectorAll(".seg-btn")) {
+        button.classList.toggle("is-on", button.dataset.city === state.city);
+      }
+    }
+    applyFilters();
+  });
+
+  els.price.addEventListener("input", () => {
+    const value = Number(els.price.value);
+    state.maxPrice = value >= Number(els.price.max) ? Infinity : value;
+    els.priceOut.textContent = state.maxPrice === Infinity ? "any" : money(value);
+    applyFilters({ fit: false });
+  });
+
+  let searchTimer;
+  els.q.addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => applyFilters(), 180);
+  });
+
+  for (const box of [els.onlyAvailable, els.billsInc, els.ensuite, els.shortStay, els.roomtype]) {
+    box.addEventListener("change", () => applyFilters());
+  }
+
+  els.reset.addEventListener("click", () => {
+    els.q.value = "";
+    els.roomtype.value = "";
+    els.campus.value = "";
+    els.price.value = els.price.max;
+    els.priceOut.textContent = "any";
+    els.onlyAvailable.checked = true;
+    els.billsInc.checked = els.ensuite.checked = els.shortStay.checked = false;
+    state.city = "all";
+    state.campus = null;
+    state.maxPrice = Infinity;
+    for (const button of els.seg.querySelectorAll(".seg-btn")) {
+      button.classList.toggle("is-on", button.dataset.city === "all");
+    }
+    applyFilters();
+  });
+
+  els.results.addEventListener("click", (event) => {
+    const card = event.target.closest(".card");
+    if (card) selectProperty(card.dataset.id);
+  });
+  els.results.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const card = event.target.closest(".card");
+    if (!card) return;
+    event.preventDefault();
+    selectProperty(card.dataset.id);
+  });
+
+  document.addEventListener("click", (event) => {
+    const open = event.target.closest("[data-open]");
+    if (open) selectProperty(open.dataset.open, { pan: false });
+    if (event.target.id === "d-close") closeDrawer();
+
+    const thumb = event.target.closest("[data-gallery]");
+    if (thumb) {
+      const property = state.properties.find((p) => p.id === state.selectedId);
+      const images = property?.media?.images || [];
+      const index = Number(thumb.dataset.gallery);
+      // A strip thumbnail just swaps the hero; the hero opens the lightbox.
+      if (thumb.classList.contains("g-thumb")) {
+        setHero(property, index, thumb);
+      } else if (images.length) {
+        openLightbox(images, index);
+      }
+    }
+  });
+
+  // Lightbox controls.
+  els.lightbox.addEventListener("click", (event) => {
+    if (event.target.closest(".lb-next")) return stepLightbox(1);
+    if (event.target.closest(".lb-prev")) return stepLightbox(-1);
+    if (event.target.closest(".lb-close") || event.target === els.lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (els.lightbox.hidden) return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowRight") stepLightbox(1);
+    if (event.key === "ArrowLeft") stepLightbox(-1);
+  });
+
+  els.scrim.addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && els.drawer.classList.contains("is-open")) closeDrawer();
+  });
+
+  els.viewToggle.addEventListener("click", () => {
+    document.body.classList.toggle("map-view");
+    els.viewToggle.textContent = document.body.classList.contains("map-view") ? "List" : "Map";
+    if (document.body.classList.contains("map-view")) state.map.invalidateSize();
+  });
+
+  window.addEventListener("resize", () => state.map?.invalidateSize());
+}
+
+/* --- boot ---------------------------------------------------------------- */
+
+async function main() {
+  initTheme();
+  try {
+    await loadData();
+  } catch (error) {
+    els.results.innerHTML = `<li><p class="empty">Could not load the availability data.<br><small>${esc(
+      error.message
+    )}</small></p></li>`;
+    return;
+  }
+
+  buildControls();
+  initMap();
+  const preselect = readUrl();
+  wireEvents();
+  applyFilters();
+
+  if (preselect) selectProperty(preselect);
+
+  // Mobile opens on the map; the toggle label always names the other view.
+  if (window.matchMedia("(max-width: 860px)").matches) {
+    document.body.classList.add("map-view");
+    els.viewToggle.textContent = "List";
+  }
+}
+
+main();

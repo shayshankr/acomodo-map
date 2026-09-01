@@ -1,0 +1,87 @@
+{
+  "Dublin Business School, Aungier Street, Dublin": {
+    "lat": 53.340516,
+    "lng": -6.265439,
+    "matched": "Dublin Business School, 13, Aungier Street, Royal Exchange B Ward 1986, Dublin, County Dublin, Leinster, D02 RW67, Irela"
+  },
+  "Dublin City University St Patrick's Campus": {
+    "lat": 53.37116,
+    "lng": -6.256142,
+    "matched": "Dublin City University Saint Patrick's Campus, Drumcondra Road Upper, Drumcondra South C ED, Dublin, County Dublin, Lein"
+  },
+  "Dublin City University, Glasnevin, Dublin": {
+    "lat": 53.381856,
+    "lng": -6.27147,
+    "matched": "Dublin City University Sports Campus, Ballymun Road, Glasnevin, Ballygall C Ward 1986, Dublin, County Dublin, Leinster, "
+  },
+  "Griffith College Dublin": {
+    "lat": 53.330646,
+    "lng": -6.278242,
+    "matched": "Griffith College Dublin, Greenville Terrace, Merchants Quay E ED, Dublin, County Dublin, Leinster, Ireland"
+  },
+  "IADT, Kill Avenue, Dun Laoghaire": {
+    "lat": 53.280143,
+    "lng": -6.151751,
+    "matched": "Institute of Art, Design + Technology, Kill Avenue, Dun Laoghaire Sallynoggin West DED 1986, Dún Laoghaire, Dún Laoghair"
+  },
+  "Institute of Technology Tallaght, Dublin": {
+    "lat": 53.290989,
+    "lng": -6.363056,
+    "matched": "TU Dublin Tallaght, Old Blessington Road, Tallaght-Kingswood DED 1986, Tallaght, South Dublin, County Dublin, Leinster, "
+  },
+  "Limerick Institute of Technology, Limerick": {
+    "lat": 52.674307,
+    "lng": -8.647092,
+    "matched": "TUS Moylish Campus, Moylish Park, Limerick (set by hand)"
+  },
+  "Mary Immaculate College, South Circular Road, Limerick": {
+    "lat": 52.652627,
+    "lng": -8.637463,
+    "matched": "Mary Immaculate College, South Circular Road, Dock C, The Metropolitan District of Limerick City, Limerick, County Limer"
+  },
+  "Maynooth University, Maynooth, County Kildare": {
+    "lat": 53.382061,
+    "lng": -6.598807,
+    "matched": "Maynooth University, Kilcock Road, Maynooth ED, The Municipal District of Clane — Maynooth, County Kildare, Leinster, Ir"
+  },
+  "National College of Ireland, IFSC, Dublin": {
+    "lat": 53.348622,
+    "lng": -6.243421,
+    "matched": "Fusion, Mayor Square, IFSC II, International Financial Services Centre, North Dock C ED, Dublin, County Dublin, Leinster"
+  },
+  "O'Connell Avenue, Limerick": {
+    "lat": 52.653155,
+    "lng": -8.635472,
+    "matched": "O'Connell Avenue, Dock C, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland"
+  },
+  "Royal College of Surgeons in Ireland, St Stephen's Green, Dublin": {
+    "lat": 53.339156,
+    "lng": -6.262699,
+    "matched": "Royal College of Surgeons in Ireland, St. Stephen's Green, Royal Exchange B ED, Dublin, County Dublin, Leinster, Ireland"
+  },
+  "TU Dublin Blanchardstown Campus, Dublin": {
+    "lat": 53.403567,
+    "lng": -6.378473,
+    "matched": "TU Dublin Blanchardstown, TUD Blanchardstown Main Campus Avenue, Blanchardstown-Mulhuddart DED 1986, Blanchardstown, Fin"
+  },
+  "TU Dublin Grangegorman, Dublin": {
+    "lat": 53.35385,
+    "lng": -6.278016,
+    "matched": "TU Dublin East Quad, Grangegorman Lower, Grangegorman, Arran Quay B Ward 1986, Dublin, County Dublin, Leinster, D07 XFF2"
+  },
+  "Trinity College Dublin, College Green, Dublin": {
+    "lat": 53.343706,
+    "lng": -6.254428,
+    "matched": "Trinity College Dublin, College Green, Mansion House A ED, Dublin, County Dublin, Leinster, D02 VR66, Ireland"
+  },
+  "University College Dublin, Belfield, Dublin": {
+    "lat": 53.308129,
+    "lng": -6.227041,
+    "matched": "UCD Clubhouse Bar, Set Down Area, Roebuck, Clonskeagh-Belfield DED 1986, Dublin, Dún Laoghaire-Rathdown, County Dublin, "
+  },
+  "University of Limerick, Castletroy, Limerick": {
+    "lat": 52.673258,
+    "lng": -8.56981,
+    "matched": "University of Limerick, Plassey Village, Castletroy, Ballysimon ED, The Metropolitan District of Limerick City, Limerick"
+  }
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Live Availability Map · Student rooms in Dublin &amp; Limerick</title>
+<meta name="description" content="Every managed bedspace in Dublin and Limerick on one map. Filter by campus, price, room type and move-in date, and see what is actually free right now.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Live Availability Map">
+<meta property="og:description" content="Every managed bedspace in Dublin and Limerick on one map.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="./assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%97%9D%EF%B8%8F%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-text">
+      <strong>Availability Map</strong>
+      <small id="brand-sub">Managed student rooms · Dublin &amp; Limerick</small>
+    </span>
+  </div>
+
+  <dl class="tally" id="tally">
+    <div><dt>Beds free</dt><dd id="stat-available">—</dd></div>
+    <div><dt>On hold</dt><dd id="stat-hold">—</dd></div>
+    <div><dt>Properties</dt><dd id="stat-props">—</dd></div>
+  </dl>
+
+  <div class="topbar-actions">
+    <span class="updated" id="updated"></span>
+    <button type="button" class="ghost-btn" id="theme-toggle" aria-label="Switch colour theme">
+      <span data-theme-icon>◐</span>
+    </button>
+  </div>
+</header>
+
+<main class="layout" id="layout">
+  <section class="panel" aria-label="Filters and results">
+    <div class="panel-controls">
+      <label class="field search-field">
+        <span class="sr-only">Search by address, area or eircode</span>
+        <input type="search" id="q" placeholder="Search area, street or eircode" autocomplete="off">
+      </label>
+
+      <div class="seg" role="group" aria-label="City">
+        <button type="button" class="seg-btn is-on" data-city="all">All</button>
+      </div>
+
+      <label class="field">
+        <span>Near campus</span>
+        <select id="campus">
+          <option value="">Anywhere</option>
+        </select>
+      </label>
+
+      <div class="field-row">
+        <label class="field">
+          <span>Max rent <b id="price-out">any</b></span>
+          <input type="range" id="price" min="500" max="1300" step="25" value="1300">
+        </label>
+        <label class="field">
+          <span>Room type</span>
+          <select id="roomtype"><option value="">Any</option></select>
+        </label>
+      </div>
+
+      <div class="chips" role="group" aria-label="Quick filters">
+        <label class="chip"><input type="checkbox" id="only-available" checked><span>Has a free bed</span></label>
+        <label class="chip"><input type="checkbox" id="bills-inc"><span>Bills included</span></label>
+        <label class="chip"><input type="checkbox" id="ensuite"><span>Ensuite</span></label>
+        <label class="chip"><input type="checkbox" id="short-stay"><span>Short stay</span></label>
+      </div>
+
+      <div class="panel-meta">
+        <span id="result-count">—</span>
+        <button type="button" class="link-btn" id="reset">Reset</button>
+      </div>
+    </div>
+
+    <ol class="results" id="results" tabindex="-1"></ol>
+
+    <p class="panel-foot">
+      Nothing in your area? <a id="request-area" href="#">Ask us to look</a>
+    </p>
+  </section>
+
+  <section class="mapwrap" aria-label="Map">
+    <div id="map"></div>
+    <div class="legend" id="legend">
+      <span><i class="dot dot-free"></i>Free beds</span>
+      <span><i class="dot dot-hold"></i>On hold</span>
+      <span><i class="dot dot-full"></i>Full</span>
+      <span><i class="dot dot-uni"></i>Campus</span>
+    </div>
+    <button type="button" class="view-toggle" id="view-toggle" aria-live="polite">List</button>
+  </section>
+</main>
+
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Property detail">
+  <div class="drawer-inner" id="drawer-inner"></div>
+</aside>
+<div class="scrim" id="scrim" hidden></div>
+
+<div class="lightbox" id="lightbox" tabindex="-1" role="dialog" aria-label="Photo viewer" hidden>
+  <button type="button" class="lb-close" aria-label="Close photos">×</button>
+  <button type="button" class="lb-nav lb-prev" aria-label="Previous photo">‹</button>
+  <img class="lb-img" src="" alt="">
+  <button type="button" class="lb-nav lb-next" aria-label="Next photo">›</button>
+  <div class="lb-bar">
+    <span class="lb-caption"></span>
+    <span class="lb-index"></span>
+  </div>
+</div>
+
+<noscript><p class="noscript">This map needs JavaScript. The same availability is in the weekly PDF — email us and we will send it.</p></noscript>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="./assets/app.js" type="module"></script>
+</body>
+</html>

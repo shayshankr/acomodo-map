@@ -1,0 +1,49 @@
+name: Sync availability & photos
+
+# Pulls the Sheet + Drive photos and rebuilds the site data on a schedule.
+# Staff just edit the Google Sheet and drop photos into the Drive folders;
+# this keeps public/data/*.json in step, and the connected host redeploys on
+# the commit it pushes back.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"      # every 30 minutes
+  workflow_dispatch:            # …and a "Run workflow" button for on-demand syncs
+
+permissions:
+  contents: write               # to commit the refreshed data back
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Pull Sheet + Drive, rebuild data
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          SHEET_TABS: ${{ vars.SHEET_TABS }}   # optional, e.g. "Ireland Sept26 Portfolio detail"
+        run: python scripts/sync_from_google.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "acomodo-map bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ public/data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: sync availability & photos"
+            git push
+          fi

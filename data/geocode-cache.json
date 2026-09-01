@@ -1,0 +1,184 @@
+{
+  "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24": {
+    "lat": 53.366153,
+    "lng": -6.247865,
+    "matched": "Waterfall Avenue, Ballybough, North Strand, Drumcondra South A Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "1 Waterfall Avenue, Drumcondra, Dublin 3, Dublin"
+  },
+  "13 Grangemore Drive, Dublin 13, D13 H9TX": {
+    "lat": 53.397698,
+    "lng": -6.166175,
+    "matched": "Grangemore Drive, Belmayne, Grange A Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "13 Grangemore Drive, Dublin 13, Dublin"
+  },
+  "145 Cromwells Fort Road, Walkinstown, Dublin, D12 E4C9": {
+    "lat": 53.321613,
+    "lng": -6.330118,
+    "matched": "Walkinstown, Walkinstown B Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "area",
+    "query": "Walkinstown, Dublin, Dublin"
+  },
+  "16 Emmet Lodge, Emmet Court, Dublin 8 D08 EY83": {
+    "lat": 53.335712,
+    "lng": -6.318525,
+    "matched": "Emmet Court, Kilmainham C ED, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "area",
+    "query": "Emmet Court, Dublin 8, Dublin"
+  },
+  "195 Barton road east Dundrum - D14N765": {
+    "lat": 53.287943,
+    "lng": -6.248835,
+    "matched": "195, Barton Road East, Ballinteer-Meadowbroads ED, Dundrum, Dún Laoghaire-Rathdown, Dublin 16, Leinster, Ireland",
+    "precision": "address",
+    "query": "195 Barton road east Dundrum, Dublin"
+  },
+  "1a Brookfield Artane Dublin 5 - D05E7Y0": {
+    "lat": 53.382993,
+    "lng": -6.205268,
+    "matched": "Artane, Clontarf West A Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Artane, Dublin"
+  },
+  "1a Brookfield Artane Dublin 5 - D05E7Y0 SELF-CONTAINED 2 BED FLAT APT": {
+    "lat": 53.382993,
+    "lng": -6.205268,
+    "matched": "Artane, Clontarf West A Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Artane, Dublin"
+  },
+  "23 Belveder Avenue D01": {
+    "lat": 53.359525,
+    "lng": -6.257373,
+    "matched": "Belvidere Avenue, Ballybough B ED, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Belvidere Avenue, Dublin"
+  },
+  "4 SPRINGFIELD AVENUE D6W DK38": {
+    "lat": 53.298581,
+    "lng": -6.298222,
+    "matched": "Springfield Avenue, Rathfarnham D ED, South Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Springfield Avenue, Templeogue, Dublin"
+  },
+  "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657": {
+    "lat": 53.276803,
+    "lng": -6.254025,
+    "matched": "41, Ballinteer Crescent, Ballinteer, Ballinteer-Ludford ED, Dún Laoghaire-Rathdown, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "41 Ballinteer Crescent,Ballinteer, Dublin 16, Dublin"
+  },
+  "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279": {
+    "lat": 53.27856,
+    "lng": -6.445587,
+    "matched": "Slade Castle Avenue, Saggart DED 1986, Saggart, South Dublin, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "53 Slade Castle Avenue, Saggart, Co. Dublin, Dublin"
+  },
+  "55 Mountjoy Square D01 DY79": {
+    "lat": 53.356845,
+    "lng": -6.257068,
+    "matched": "Mountjoy Square, Mountjoy B Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "55 Mountjoy Square, Dublin"
+  },
+  "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW": {
+    "lat": 52.665904,
+    "lng": -8.64789,
+    "matched": "North Circular Road, Castle C, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "hint",
+    "query": "North Circular Road, Limerick"
+  },
+  "Apartment 602, Windmill House, Dock Road, Limerick, V94 YK19": {
+    "lat": 52.649212,
+    "lng": -8.663941,
+    "matched": "Dock Road, Raheen, Ballycummin ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "hint",
+    "query": "Dock Road, Limerick"
+  },
+  "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19": {
+    "lat": 52.649212,
+    "lng": -8.663941,
+    "matched": "Dock Road, Raheen, Ballycummin ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "hint",
+    "query": "Dock Road, Limerick"
+  },
+  "Beechwood Court Stillorgan, Dublin A94 X1PR": {
+    "lat": 53.282292,
+    "lng": -6.19007,
+    "matched": "Beechwood Court, 270-296a, Beechwood Court, Stillorgan Park, Beechwood Court, Blackrock-Carysfort DED 1986, Blackrock, Dún Laoghaire-Rathdown, County Dublin, Le",
+    "precision": "address",
+    "query": "Beechwood Court Stillorgan, Dublin, Dublin"
+  },
+  "Charles Street, Great, Dublin 1": {
+    "lat": 53.356597,
+    "lng": -6.255245,
+    "matched": "CHARLES STREET GREAT (C), Great Charles Street, Mountjoy Square, Mountjoy B Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "Charles Street, Great, Dublin 1, Dublin"
+  },
+  "City Centre / O’Curry Street - V94 N9WK": {
+    "lat": 52.658843,
+    "lng": -8.635664,
+    "matched": "O'Curry Street, Dock A, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "hint",
+    "query": "O'Curry Street, Limerick"
+  },
+  "Flat 5 - Ardhu Apartments, Roses Avenue V94 1X64": {
+    "lat": 52.66502,
+    "lng": -8.648591,
+    "matched": "Roses Avenue, Castle C, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "area",
+    "query": "Roses Avenue, Limerick"
+  },
+  "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)": {
+    "lat": 53.349776,
+    "lng": -6.22699,
+    "matched": "East Wall Road, North Wall, North Dock B ED, Dublin, County Dublin, Leinster, D01 CF99, Ireland",
+    "precision": "hint",
+    "query": "East Road, North Wall, Dublin"
+  },
+  "Marshall yards, East Road, North Wall, Dublin 1 (Flat 2)": {
+    "lat": 53.349776,
+    "lng": -6.22699,
+    "matched": "East Wall Road, North Wall, North Dock B ED, Dublin, County Dublin, Leinster, D01 CF99, Ireland",
+    "precision": "hint",
+    "query": "East Road, North Wall, Dublin"
+  },
+  "Nicholas House, St patricks, D08YC64": {
+    "lat": 53.337524,
+    "lng": -6.278014,
+    "matched": "St Patricks Division 1918, Merchants Quay C ED, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "area",
+    "query": "St patricks, Dublin"
+  },
+  "Tandys Drive, Adamstown, Lucan K78C5T10": {
+    "lat": 53.344714,
+    "lng": -6.452627,
+    "matched": "Tandy's Lane, Somerton, Adamstown, Lucan-St. Helens DED 1986, Lucan, South Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Tandy's Lane, Adamstown, Dublin"
+  },
+  "Tandys Drive, Adamstown, Lucan K78C5T11": {
+    "lat": 53.344714,
+    "lng": -6.452627,
+    "matched": "Tandy's Lane, Somerton, Adamstown, Lucan-St. Helens DED 1986, Lucan, South Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Tandy's Lane, Adamstown, Dublin"
+  },
+  "Tandys Drive, Adamstown, Lucan K78C5T12": {
+    "lat": 53.344714,
+    "lng": -6.452627,
+    "matched": "Tandy's Lane, Somerton, Adamstown, Lucan-St. Helens DED 1986, Lucan, South Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Tandy's Lane, Adamstown, Dublin"
+  },
+  "Tandys Drive, Adamstown, Lucan K78C5T9": {
+    "lat": 53.344714,
+    "lng": -6.452627,
+    "matched": "Tandy's Lane, Somerton, Adamstown, Lucan-St. Helens DED 1986, Lucan, South Dublin, County Dublin, Leinster, Ireland",
+    "precision": "hint",
+    "query": "Tandy's Lane, Adamstown, Dublin"
+  }
+}

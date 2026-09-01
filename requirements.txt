@@ -1,0 +1,5 @@
+# Only needed for the automated sync (scripts/sync_from_google.py) and CI.
+# The build scripts themselves (geocode/universities/build_data) use the stdlib.
+google-api-python-client>=2.100
+google-auth>=2.23
+openpyxl>=3.1          # scripts/extract_media.py (manual XLSX path)

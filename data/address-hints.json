@@ -1,0 +1,17 @@
+{
+  "_comment": "Search strings for addresses OpenStreetMap cannot resolve as written (typos, building names, fake eircode suffixes). Key = the Property Name cell exactly as it appears in the sheet. Delete an entry to force a fresh lookup.",
+  "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW": "North Circular Road, Limerick",
+  "City Centre / O’Curry Street - V94 N9WK": "O'Curry Street, Limerick",
+  "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19": "Dock Road, Limerick",
+  "Apartment 602, Windmill House, Dock Road, Limerick, V94 YK19": "Dock Road, Limerick",
+  "Tandys Drive, Adamstown, Lucan K78C5T9": "Tandy's Lane, Adamstown, Dublin",
+  "Tandys Drive, Adamstown, Lucan K78C5T10": "Tandy's Lane, Adamstown, Dublin",
+  "Tandys Drive, Adamstown, Lucan K78C5T11": "Tandy's Lane, Adamstown, Dublin",
+  "Tandys Drive, Adamstown, Lucan K78C5T12": "Tandy's Lane, Adamstown, Dublin",
+  "23 Belveder Avenue D01": "Belvidere Avenue, Dublin",
+  "1a Brookfield Artane Dublin 5 - D05E7Y0": "Artane, Dublin",
+  "1a Brookfield Artane Dublin 5 - D05E7Y0 SELF-CONTAINED 2 BED FLAT APT": "Artane, Dublin",
+  "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)": "East Road, North Wall, Dublin",
+  "Marshall yards, East Road, North Wall, Dublin 1 (Flat 2)": "East Road, North Wall, Dublin",
+  "4 SPRINGFIELD AVENUE D6W DK38": "Springfield Avenue, Templeogue, Dublin"
+}

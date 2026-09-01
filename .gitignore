@@ -1,0 +1,12 @@
+# nothing secret here, but keep local cruft out of the repo
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+/public/**/.DS_Store
+
+# transient sheet export used only by the manual media-extraction path
+/data/portfolio.xlsx
+# service-account key — never commit
+*service-account*.json
+key.json

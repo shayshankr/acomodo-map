@@ -1,0 +1,123 @@
+{
+  "universities": [
+    {
+      "id": "trinity-college-dublin",
+      "name": "Trinity College Dublin",
+      "city": "Dublin",
+      "lat": 53.343706,
+      "lng": -6.254428
+    },
+    {
+      "id": "ucd-belfield",
+      "name": "UCD Belfield",
+      "city": "Dublin",
+      "lat": 53.308129,
+      "lng": -6.227041
+    },
+    {
+      "id": "dcu-glasnevin",
+      "name": "DCU Glasnevin",
+      "city": "Dublin",
+      "lat": 53.381856,
+      "lng": -6.27147
+    },
+    {
+      "id": "dcu-st-patrick-s",
+      "name": "DCU St Patrick's",
+      "city": "Dublin",
+      "lat": 53.37116,
+      "lng": -6.256142
+    },
+    {
+      "id": "tu-dublin-grangegorman",
+      "name": "TU Dublin Grangegorman",
+      "city": "Dublin",
+      "lat": 53.35385,
+      "lng": -6.278016
+    },
+    {
+      "id": "tu-dublin-tallaght",
+      "name": "TU Dublin Tallaght",
+      "city": "Dublin",
+      "lat": 53.290989,
+      "lng": -6.363056
+    },
+    {
+      "id": "tu-dublin-blanchardstown",
+      "name": "TU Dublin Blanchardstown",
+      "city": "Dublin",
+      "lat": 53.403567,
+      "lng": -6.378473
+    },
+    {
+      "id": "rcsi",
+      "name": "RCSI",
+      "city": "Dublin",
+      "lat": 53.339156,
+      "lng": -6.262699
+    },
+    {
+      "id": "griffith-college-dublin",
+      "name": "Griffith College Dublin",
+      "city": "Dublin",
+      "lat": 53.330646,
+      "lng": -6.278242
+    },
+    {
+      "id": "national-college-of-ireland",
+      "name": "National College of Ireland",
+      "city": "Dublin",
+      "lat": 53.348622,
+      "lng": -6.243421
+    },
+    {
+      "id": "dublin-business-school",
+      "name": "Dublin Business School",
+      "city": "Dublin",
+      "lat": 53.340516,
+      "lng": -6.265439
+    },
+    {
+      "id": "maynooth-university",
+      "name": "Maynooth University",
+      "city": "Dublin",
+      "lat": 53.382061,
+      "lng": -6.598807
+    },
+    {
+      "id": "iadt-dun-laoghaire",
+      "name": "IADT Dun Laoghaire",
+      "city": "Dublin",
+      "lat": 53.280143,
+      "lng": -6.151751
+    },
+    {
+      "id": "university-of-limerick",
+      "name": "University of Limerick",
+      "city": "Limerick",
+      "lat": 52.673258,
+      "lng": -8.56981
+    },
+    {
+      "id": "tus-moylish",
+      "name": "TUS Moylish",
+      "city": "Limerick",
+      "lat": 52.674307,
+      "lng": -8.647092
+    },
+    {
+      "id": "mary-immaculate-college",
+      "name": "Mary Immaculate College",
+      "city": "Limerick",
+      "lat": 52.652627,
+      "lng": -8.637463
+    },
+    {
+      "id": "griffith-college-limerick",
+      "name": "Griffith College Limerick",
+      "city": "Limerick",
+      "lat": 52.653155,
+      "lng": -8.635472
+    }
+  ]
+}

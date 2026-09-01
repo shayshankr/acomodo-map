@@ -1,0 +1,10 @@
+{
+  "_comment": "Optional per-property fixes, keyed by the id in public/data/properties.json. Any field here wins over the generated value. Examples: pin a coordinate, rename, or attach a media/photos URL.",
+  "_example": {
+    "1-waterfall-avenue-d03-da24": {
+      "lat": 53.366153,
+      "lng": -6.247865,
+      "media": "https://drive.google.com/drive/folders/XXXX"
+    }
+  }
+}

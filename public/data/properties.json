@@ -1,0 +1,2558 @@
+{
+  "generatedAt": "2026-09-01T12:02:07+00:00",
+  "source": "portfolio.csv",
+  "stats": {
+    "properties": 26,
+    "cities": [
+      "Dublin",
+      "Limerick"
+    ],
+    "bedspaces": 152,
+    "available": 19,
+    "onHold": 8,
+    "booked": 125,
+    "withPhotos": 1,
+    "withFolder": 22
+  },
+  "properties": [
+    {
+      "id": "1-waterfall-avenue-d03-da24",
+      "name": "1 Waterfall Avenue",
+      "unitNote": "",
+      "area": "Drumcondra, Dublin 3",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D03 DA24",
+      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
+      "lat": 53.366153,
+      "lng": -6.247865,
+      "geoPrecision": "address",
+      "totalBedspaces": 13,
+      "available": 7,
+      "onHold": 0,
+      "booked": 6,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
+              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
+              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
+              "Dublin city centre: 15 minutes on foot",
+              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
+              "Dublin City University (DCU): 15 to 20 minutes by bus",
+              "UCD Belfield: 40 to 45 minutes by bus",
+              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
+              "TU Dublin Tallaght: 50 to 55 minutes by bus",
+              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
+              "NCI / DBS (City Centre): 20 minutes by bus",
+              "Griffith College Dublin: 25 to 30 minutes by bus",
+              "NCAD Thomas Street: 25 to 30 minutes by bus",
+              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "5 Common Washrooms + 2 WC's",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "3",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "6A",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "",
+          "available": 1,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "6B",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "",
+          "available": 1,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "7",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "windmill-house-apt-602-v94-yk19",
+      "name": "Windmill House (Apt 602)",
+      "unitNote": "",
+      "area": "Dock Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 YK19",
+      "address": "Apartment 602, Windmill House, Dock Road, Limerick, V94 YK19",
+      "lat": 52.649032,
+      "lng": -8.663941,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 4,
+      "onHold": 0,
+      "booked": 0,
+      "priceMin": 725,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€725–€750",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Limerick Bus Éireann and City Link services operate from the city centre",
+              "Limerick Colbert Railway Station: 10–15 minutes' walk",
+              "Well-connected to the M7 and N18 motorway network"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities and colleges",
+            "items": [
+              "University of Limerick (UL): 25–30 minutes by bus",
+              "Mary Immaculate College (MIC): 10–15 minutes on foot",
+              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
+              "Limerick College of Further Education: 10 minutes on foot"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        }
+      ],
+      "geoNudged": true
+    },
+    {
+      "id": "53-slade-castle-avenue-d24-n279",
+      "name": "53 Slade Castle Avenue",
+      "unitNote": "",
+      "area": "Saggart, Co. Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D24 N279",
+      "address": "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279",
+      "lat": 53.27856,
+      "lng": -6.445587,
+      "geoPrecision": "address",
+      "totalBedspaces": 5,
+      "available": 2,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 600,
+      "priceMax": 675,
+      "currency": "€",
+      "priceDisplay": "€600–€675",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "4 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "53 Slade Castle Avenue, Saggart, Co. Dublin — D24 N279",
+            "items": [
+              "A well-presented property situated in the sought-after Slade Castle development, right in the heart of Saggart Village — a charming and rapidly growing community offering a fantastic blend of village atmosphere and modern convenience.",
+              "A short stroll from a wide range of local amenities including shops, cafés, bars, restaurants, creches, and schools. The nearby Citywest Shopping Centre and Citywest Business Campus add further convenience, while recreational facilities including golf clubs, gyms, Rathcoole Park, and scenic walking trails are all easily accessible.",
+              "Outstanding transport connectivity with the Saggart Luas stop (Red Line) just minutes away, offering regular, direct tram services into Dublin City Centre. For drivers, the N7, N81, and M50 road networks are right on the doorstep."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Red Line (Saggart Stop): ~5 min walk",
+              "Dublin City Centre (Abbey Street) via LUAS: ~38–42 mins",
+              "Heuston Station via LUAS: ~30 mins",
+              "Citywest & Fortunestown (adjacent stops): 1–2 mins by tram",
+              "Bus Routes: multiple services along the N7 corridor",
+              "M50 / N7 Motorway: ~5 min drive",
+              "Dublin Airport: ~20 min drive"
+            ]
+          },
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "TU Dublin (Tallaght Campus) — ~10 mins via LUAS (Cookstown stop)",
+              "TU Dublin (Grangegorman) — ~45 mins via LUAS to Smithfield",
+              "UCD Belfield — ~35 min drive / ~55 mins via LUAS + bus",
+              "TCD (Trinity College Dublin) — ~45 mins via LUAS to city centre + walk",
+              "NCAD (Thomas Street) — ~40 mins via LUAS to James's stop"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double - Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 2,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "13-grangemore-drive-d13-h9tx",
+      "name": "13 Grangemore Drive",
+      "unitNote": "",
+      "area": "Dublin 13",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D13 H9TX",
+      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
+      "lat": 53.397698,
+      "lng": -6.166175,
+      "geoPrecision": "address",
+      "totalBedspaces": 16,
+      "available": 1,
+      "onHold": 0,
+      "booked": 15,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & last month rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Single ensuite",
+          "rawType": "Single Ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "Ground",
+          "type": "Triple ensuite",
+          "rawType": "Triple Ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "23-belveder-avenue-dublin",
+      "name": "23 Belveder Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "23 Belveder Avenue D01",
+      "lat": 53.359525,
+      "lng": -6.257373,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 1,
+      "onHold": 1,
+      "booked": 0,
+      "priceMin": 1200,
+      "priceMax": 1200,
+      "currency": "€",
+      "priceDisplay": "€1,200",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
+        "images": []
+      },
+      "features": {
+        "summary": "A bright, well-positioned apartment on Belvedere Avenue in the heart of Dublin's historic north inner city, just off Mountjoy Square. Sitting in one of Dublin's most central student catchments with exceptional walkability to the city centre. The unit is being offered as a premium twin-share with a private bedroom for two sharers and a fully separate living/kitchen space — a real, residential apartment rather than a converted bedsit. Fully furnished and ready to move in. Surrounded by independent cafés, restaurants, traditional Dublin pubs, and supermarkets. Walking distance to Croke Park, the GPO Museum, the Spire on O'Connell Street, and the IFSC corporate district. Strong choice for international postgraduate students at NCI, Trinity, TU Bolton Street, or TU Aungier Street who want a genuine residential setup over a PBSA or hostel environment.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Green Line (Marlborough Stop): ~7 min walk",
+              "LUAS Red Line (Connolly): ~10 min walk",
+              "DART (Connolly Station): ~10 min walk",
+              "Dublin Bus (multiple routes): ~2 min walk",
+              "Dublin City Centre (O'Connell Street): ~7 min walk",
+              "Dublin Airport: ~25 min drive",
+              "Travel Times to Universities",
+              "NCI (IFSC) — ~11 min walk (~900m)",
+              "TU Dublin (Bolton Street) — ~12 min walk (~1 km)",
+              "Trinity College Dublin — ~15 min walk (~1.3 km)",
+              "TU Dublin (Aungier Street) — ~19 min walk",
+              "TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red",
+              "DBS (Aungier Street) — ~19 min walk",
+              "RCSI (St Stephen's Green) — ~22 min walk"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Shared apartment",
+          "rawType": "Shared apartment",
+          "bedspaces": 2,
+          "washrooms": "1 communal washroom",
+          "rent": 1200,
+          "rentDisplay": "€1,200",
+          "demography": "",
+          "available": 1,
+          "onHold": 1,
+          "booked": 0
+        }
+      ]
+    },
+    {
+      "id": "41-ballinteer-crescent-d16-e657",
+      "name": "41 Ballinteer Crescent",
+      "unitNote": "",
+      "area": "Ballinteer, Dublin 16",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D16 E657",
+      "address": "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657",
+      "lat": 53.276803,
+      "lng": -6.254025,
+      "geoPrecision": "address",
+      "totalBedspaces": 12,
+      "available": 1,
+      "onHold": 0,
+      "booked": 11,
+      "priceMin": 700,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€700–€850",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "4 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl",
+        "images": [
+          {
+            "id": "1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB",
+            "name": "Exterior"
+          },
+          {
+            "id": "1lh5MnwPqk-9aZk0CjfcpCpcwNn_g8n5K",
+            "name": "Ground floor double"
+          },
+          {
+            "id": "1vuIcowBU3A_tspwJidffuuvXTwnCZvSN",
+            "name": "Dining area"
+          },
+          {
+            "id": "1cTC4jwNyUCr1y7Y02lUG9d2nc1-gaXn4",
+            "name": "Backyard"
+          },
+          {
+            "id": "1GMqqtv_v2HQTlkw5dTBV3wba_GAJ0omo",
+            "name": "Garden"
+          },
+          {
+            "id": "1F7KY7Pwy6AwqEKoNAXgDvyLHhJ9820Vy",
+            "name": "Dining"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Situated in the mature and sought-after suburb of Ballinteer, this expansive semi-detached home offers modern, light-filled living in a quiet residential setting. The property features a stylish interior with generous room proportions, ideal for students or professionals.",
+        "sections": [
+          {
+            "title": "Interior & Facilities",
+            "items": [
+              "A high-end, contemporary grey kitchen featuring a large central island with seating, marble-effect floor tiles, and skylights that bathe the space in natural light.",
+              "A spacious open-plan reception room with polished wood flooring, a modern wall-mounted fireplace, and elegant furnishings.",
+              "Six well-appointed bedrooms including double and single options, featuring bespoke built-in wardrobes and large windows.",
+              "A beautiful sheltered patio area leading to a meticulously maintained private lawned garden.",
+              "Multiple sleek bathrooms finished with contemporary tiling and high-quality fixtures."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Bus Routes: Highly accessible via the 14, 16, 116, and 161 routes, providing direct access to Dublin City Centre.",
+              "LUAS (Green Line): Balally and Dundrum stops are approximately a 15–20 min walk away.",
+              "M50 Motorway: Just a 5-minute drive away, offering easy access to all major national routes."
+            ]
+          },
+          {
+            "title": "Universities",
+            "items": [
+              "University College Dublin (UCD): ~15 min by bus / 10 min drive.",
+              "Trinity College Dublin: ~35 min via bus or LUAS.",
+              "TU Dublin (Tallaght): ~20 min drive via M50"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "",
+          "available": 1,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "Second",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Toilet",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "7",
+          "floor": "Second",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "charles-street-great-dublin-1",
+      "name": "Charles Street",
+      "unitNote": "",
+      "area": "Great, Dublin 1",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Charles Street, Great, Dublin 1",
+      "lat": 53.356597,
+      "lng": -6.255245,
+      "geoPrecision": "address",
+      "totalBedspaces": 5,
+      "available": 1,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 700,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€700–€850",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "15th Aug 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",
+        "sections": [
+          {
+            "title": "Interior & Facilities",
+            "items": [
+              "A cozy common room with leather seating and wood-effect flooring.",
+              "Fully fitted with a tiled splashback, integrated oven, hob, and washing machine.",
+              "Fully furnished bedrooms (Single, Double, and Triple options) featuring built-in wardrobes and ample natural light.",
+              "High-speed Wi-Fi, central heating, and inclusive utility bills for easy living."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Bus Stops: Multiple routes within a short walking distance.",
+              "LUAS (Tram): A short stroll to nearby green and red line stops.",
+              "Connolly Station: 13-minute walk for DART and National Rail services.",
+              "Dublin Airport: Approximately 8 km away, accessible via airport coach hubs nearby."
+            ]
+          },
+          {
+            "title": "Universities",
+            "items": [
+              "Trinity College Dublin: 15-minute walk / 5-minute cycle.",
+              "Dublin City University (DCU): Easily accessible via local bus routes.",
+              "TU Dublin (Technological University): Within comfortable traveling distance"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double (Single beds)",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (Single beds)",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "marshall-yards-east-road-north-wall-dublin-1-flat-1",
+      "name": "Marshall yards",
+      "unitNote": "",
+      "area": "East Road, North Wall, Dublin 1 (Flat 1)",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)",
+      "lat": 53.349776,
+      "lng": -6.22699,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 1000,
+      "priceMax": 1000,
+      "currency": "€",
+      "priceDisplay": "€1,000",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Property Description This fully furnished two-bedroom, two-bathroom apartment is located within a premium, professionally managed residential development in Dublin's North Docklands. Designed for modern student living, the apartment offers stylish, move-in-ready interiors alongside an exceptional range of amenities, creating a comfortable and convenient home away from home. Residents benefit from an extensive amenities package including a fully equipped gym, residents' lounge, co-working spaces with meeting pods, concierge service, landscaped rooftop terraces, dedicated pickleball courts, outdoor BBQ area, 24/7 parcel lockers, secure bike storage, high-speed internet, resident app, shared appliances and tools, electric scooters and a car club. The development is also pet-friendly, with additional lifestyle services available. Area & Student Lifestyle Situated in Dublin's North Docklands, the property places students in one of the city's most vibrant and well-connected neighbourhoods. The area is home to major technology, financial and business institutions while offering a growing selection of cafés, restaurants, bars, supermarkets and entertainment venues. Everyday essentials are close by, with East Road Café just 55m away, Lidl approximately 650m away and Aldi approximately 750m away. Students can also easily access 3Arena, Point Village, Odeon Cinema, EPIC and the Bord Gáis Energy Theatre. The surrounding Docklands is ideal for students who enjoy an active social lifestyle, with plenty of opportunities for dining, entertainment, cycling and exploring central Dublin. Transport & University Access The property benefits from excellent access to Dublin's public transport network: Spencer Dock LUAS: approximately 7 minutes' walk IFSC: approximately 10 minutes' walk Connolly Station: approximately 10 minutes by LUAS Point Village: approximately 5 minutes by LUAS Grand Canal Dock: approximately 20 minutes' walk O'Connell Street: approximately 5 minutes by bike Dublin Airport: approximately 10 minutes by car Approximate commute times to universities National College of Ireland (NCI): approximately 10–15 minutes Trinity College Dublin (TCD): approximately 15–20 minutes Dublin City University (DCU): approximately 15 minutes by public transport TU Dublin: approximately 20–30 minutes, depending on campus University College Dublin (UCD Belfield): approximately 35–45 minutes by public transport",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washrooms",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "flat-5-ardhu-apartments-v94-1x64",
+      "name": "Flat 5 - Ardhu Apartments",
+      "unitNote": "",
+      "area": "Roses Avenue",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 1X64",
+      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 1X64",
+      "lat": 52.66502,
+      "lng": -8.648591,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "€",
+      "priceDisplay": "On request",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "2 Sept 2026",
+        "3 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "2 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, two-bathroom apartment is located within Ardhú Apartments, a modern, professionally managed residential development on Roses Avenue, North Circular Road, Limerick. Designed with contemporary living in mind, the apartment offers bright open-plan living and dining space, a fully equipped modern kitchen, two well-appointed bedrooms with fitted wardrobe storage, and two modern bathrooms. Large windows provide plenty of natural light, while oak flooring and quality furnishings create a comfortable, move-in-ready home. High-speed fibre broadband is also available, making the apartment well suited to students for both study and everyday living.",
+              "Residents benefit from a secure and well-maintained development with private car and motorcycle parking, video intercom access and CCTV. The apartment also provides private outdoor space, while the development's residential setting offers a quieter environment away from the busier parts of the city."
+            ]
+          },
+          {
+            "title": "Area & Student Lifestyle",
+            "items": [
+              "Situated on the North Circular Road, Ardhú offers a peaceful, leafy residential setting while remaining close to Limerick city centre and the city's major educational institutions. The surrounding area provides convenient access to supermarkets, cafés, restaurants, pharmacies and other everyday essentials, while the city centre is approximately 2 km away.",
+              "Students can easily access Limerick's cafés, restaurants, shopping, nightlife and cultural attractions, as well as green spaces and sporting facilities around the city. The location is particularly convenient for students attending TUS Moylish, while University of Limerick and Mary Immaculate College are also accessible by public transport."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "The property benefits from access to several public transport services, with bus stops located within approximately 500m of the development and the closest stop only a short walk away.",
+              "Limerick City Centre: approximately 20 minutes' walk",
+              "TUS Moylish Campus: approximately 20–25 minutes' walk / shorter by bus or bicycle",
+              "Limerick Train & Bus Station: approximately 25–30 minutes' walk",
+              "Mary Immaculate College: approximately 15–25 minutes by public transport",
+              "University of Limerick: approximately 20–35 minutes by public transport",
+              "Limerick Airport: approximately 25–30 minutes by car",
+              "M7 Motorway: approximately 5 minutes by car"
+            ]
+          },
+          {
+            "title": "Everyday Convenience",
+            "items": [
+              "Lidl: approximately 10–15 minutes' walk",
+              "Limerick City Centre: approximately 20 minutes' walk",
+              "Local cafés, shops and services: within the surrounding North Circular Road area",
+              "Major supermarkets and shopping: easily accessible by bus, bicycle or car",
+              "Overall, Ardhú is a strong option for students looking for a premium, private apartment environment with the convenience of modern furnishings, two bathrooms, reliable internet and secure residential facilities, while remaining within easy reach of Limerick's universities, city centre and everyday amenities."
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washrooms",
+          "rent": null,
+          "rentDisplay": "",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": null,
+          "rentDisplay": "",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "145-cromwells-fort-road-d12-e4c9",
+      "name": "145 Cromwells Fort Road",
+      "unitNote": "",
+      "area": "Walkinstown, Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D12 E4C9",
+      "address": "145 Cromwells Fort Road, Walkinstown, Dublin, D12 E4C9",
+      "lat": 53.321613,
+      "lng": -6.330118,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 775,
+      "priceMax": 775,
+      "currency": "€",
+      "priceDisplay": "€775",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1vDT_rBDgE-X589c_k_OyQqzDqEPIhWAW?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This substantial ten-bedroom property offers a well-appointed standard of shared living accommodation, ideally suited for students and young professionals. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
+              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located in the well-established residential suburb of Walkinstown, Cromwellsfort Road benefits from a settled, community-oriented neighbourhood feel whilst remaining within easy reach of the city centre — just 6 km away. An excellent selection of local amenities are close at hand, including Ashleaf Shopping Centre, local shops, pubs, cafés, and restaurants. Walkinstown Roundabout serves as a convenient hub for the surrounding area, with Drimnagh, Crumlin, and Kimmage all nearby."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Dublin Bus routes 15, 49, 54A, 65, 65B, and 150 all serve stops within walking distance",
+              "Well-connected to city centre via Sundrive Road and Walkinstown Road corridors",
+              "M50 motorway: easily accessible by car"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 30–35 minutes by bus",
+              "UCD Belfield: 35–40 minutes by bus",
+              "Dublin City University (DCU): 50–55 minutes by bus",
+              "TU Dublin Grangegorman: 30–35 minutes by bus",
+              "TU Dublin Tallaght: 30–35 minutes by bus",
+              "RCSI St Stephen's Green: 30–35 minutes by bus",
+              "DBS / NCI (City Centre): 25–30 minutes by bus",
+              "Griffith College Dublin: 15–20 minutes by bus",
+              "NCAD Thomas Street: 20–25 minutes by bus",
+              "IADT Dún Laoghaire: 45–50 minutes by bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "16-emmet-lodge-d08-ey83",
+      "name": "16 Emmet Lodge",
+      "unitNote": "",
+      "area": "Emmet Court, Dublin 8",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D08 EY83",
+      "address": "16 Emmet Lodge, Emmet Court, Dublin 8 D08 EY83",
+      "lat": 53.335712,
+      "lng": -6.318525,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 750,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€750–€800",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1aIrSl8vTCLyhrGiy5w-ngXMUeQqVpgN-?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "A well-presented apartment situated within the sought-after gated development of Emmet Court, nestled in the heart of Inchicore — one of Dublin's most vibrant and up-and-coming neighbourhoods, recently recognised by Time Out as one of the Coolest Neighbourhoods on the Planet. Set beside the scenic Grand Canal, with easy access to the Grand Canal towpath, the Irish War Memorial Gardens, Phoenix Park, and a thriving local scene of independent cafés, restaurants, and amenities in Inchicore Village — including Lidl and SuperValu within walking distance. A short stroll from the Drimnagh LUAS stop (Red Line), offering fast, direct connections into Dublin City Centre, Heuston Station, and beyond.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Red Line (Drimnagh stop): ~2 min walk",
+              "Dublin City Centre (via LUAS): ~18–22 mins",
+              "Heuston Station (via LUAS): ~10 mins",
+              "Bus Routes: 13, 40, 51, 68, 69, 78, 79 — multiple stops within short walking distance",
+              "M50 Motorway: ~5 min drive",
+              "Travel Times to Universities",
+              "Trinity College Dublin (TCD) — ~25 mins via LUAS + walk",
+              "NCAD (Thomas Street) — ~15 mins via bus or 20 min walk",
+              "TU Dublin (City Campus, Grangegorman) — ~30 mins via LUAS + bus",
+              "TU Dublin (Tallaght) — ~25 min drive / ~40 mins via bus",
+              "UCD Belfield — ~35–40 mins via bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "195-barton-road-east-dundrum-d14-n765",
+      "name": "195 Barton road east Dundrum",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D14 N765",
+      "address": "195 Barton road east Dundrum - D14N765",
+      "lat": 53.287943,
+      "lng": -6.248835,
+      "geoPrecision": "address",
+      "totalBedspaces": 3,
+      "available": 0,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 950,
+      "priceMax": 1100,
+      "currency": "€",
+      "priceDisplay": "€950–€1,100",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1aoBNAWuh9UJwN-TpZrmJETnfe50jIb1w?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Property Description This charming, fully furnished granny flat offers a self-contained living space ideally suited for three friends looking to share. The unit comprises one double bedroom and one single bedroom, alongside a comfortable living room and all essential amenities. Compact, private, and move-in ready — perfect for students or young professionals seeking an affordable and convenient base in one of South Dublin's most desirable suburbs. Area & Lifestyle Dundrum is one of Dublin's most sought-after residential areas, combining leafy suburban charm with outstanding amenities. Dundrum Town Centre - one of Ireland's largest shopping destinations — is just moments away, offering supermarkets, restaurants, a cinema, and extensive retail. The beautiful grounds of Marlay Park and the Slang River walk are close by for those who enjoy green space and outdoor activities. Transport & University Access Dundrum LUAS Green Line: within walking distance, providing fast direct access across Dublin Dublin Bus routes including the 44, 75, and 116 serve the area Approximate commute times: UCD Belfield: 15-20 minutes by bus Trinity College Dublin: 35-40 minutes via LUAS DBS / NCI (City Centre): 40-45 minutes IADT Dún Laoghaire: 20 minutes",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 1100,
+          "rentDisplay": "€1,100",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "1a-brookfield-artane-dublin-5-d05-e7y0",
+      "name": "1a Brookfield Artane Dublin 5 · D05E7Y0",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D05 E7Y0",
+      "address": "1a Brookfield Artane Dublin 5 - D05E7Y0",
+      "lat": 53.382993,
+      "lng": -6.205268,
+      "geoPrecision": "hint",
+      "totalBedspaces": 8,
+      "available": 0,
+      "onHold": 0,
+      "booked": 8,
+      "priceMin": 625,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€625–€750",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1xbd1Rub2AsZSKhykd8yWXKXxBzBu3uQ_?usp=sharing",
+        "images": []
+      },
+      "features": {
+        "summary": "A property situated in the highly sought-after Brookfield estate in the heart of Artane — a mature, safe, and well-established residential neighbourhood in Dublin's Northside, popular with families, professionals, and students alike. Surrounded by an excellent range of amenities including Artane Castle Shopping Centre (Tesco, Penneys, cafés, and restaurants), local shops along the - Malahide Road, Beaumont Hospital, and a wealth of green spaces including St. Anne's Park, Rockfield Park, and Dollymount Strand within easy reach. Superbly connected with DART stations at Killester and Harmonstown both approximately 10–15 mins walk away, providing fast access into Dublin City Centre in just 10 minutes. Numerous Dublin Bus routes (including 27, 27B, 42, 43, 104, and 128) serve the area, and the M50 motorway is easily accessible by car. Transport & Connectivity DART (Killester Station): ~10–12 min walk DART (Harmonstown Station): ~12–15 min walk Dublin City Centre (Connolly) via DART: ~10 mins Bus Routes: 27, 27B, 42, 43, 104, 128 — multiple stops within walking distance M50 Motorway: ~5 min drive Dublin Airport: ~15 min drive Travel Times to Universities DCU (Glasnevin) — ~20 mins via bus (104/N4 from Killester) DCU (All Hallows / St Patrick's) — ~25 mins via bus Trinity College Dublin (TCD) — ~20 mins via DART to Pearse Station TU Dublin (Grangegorman) — ~30 mins via DART + Luas/bus UCD Belfield — ~40 mins via DART + bus NCAD (Thomas Street) — ~35 mins via bus/DART + Luas",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "1",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 communal washroom",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "1",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "1",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "2",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "1a-brookfield-artane-dublin-5-d05-e7y0-2",
+      "name": "1a Brookfield Artane Dublin 5 · SELF-CONTAINED 2 BED FLAT APT",
+      "unitNote": "SELF-CONTAINED 2 BED FLAT APT",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D05 E7Y0",
+      "address": "1a Brookfield Artane Dublin 5 - D05E7Y0",
+      "lat": 53.382813,
+      "lng": -6.205268,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 0,
+      "onHold": 0,
+      "booked": 2,
+      "priceMin": 1000,
+      "priceMax": 1000,
+      "currency": "€",
+      "priceDisplay": "€1,000",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First months rent & last month rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": {
+        "summary": "A property situated in the highly sought-after Brookfield estate in the heart of Artane — a mature, safe, and well-established residential neighbourhood in Dublin's Northside, popular with families, professionals, and students alike. Surrounded by an excellent range of amenities including Artane Castle Shopping Centre (Tesco, Penneys, cafés, and restaurants), local shops along the - Malahide Road, Beaumont Hospital, and a wealth of green spaces including St. Anne's Park, Rockfield Park, and Dollymount Strand within easy reach. Superbly connected with DART stations at Killester and Harmonstown both approximately 10–15 mins walk away, providing fast access into Dublin City Centre in just 10 minutes. Numerous Dublin Bus routes (including 27, 27B, 42, 43, 104, and 128) serve the area, and the M50 motorway is easily accessible by car. Transport & Connectivity DART (Killester Station): ~10–12 min walk DART (Harmonstown Station): ~12–15 min walk Dublin City Centre (Connolly) via DART: ~10 mins Bus Routes: 27, 27B, 42, 43, 104, 128 — multiple stops within walking distance M50 Motorway: ~5 min drive Dublin Airport: ~15 min drive Travel Times to Universities DCU (Glasnevin) — ~20 mins via bus (104/N4 from Killester) DCU (All Hallows / St Patrick's) — ~25 mins via bus Trinity College Dublin (TCD) — ~20 mins via DART to Pearse Station TU Dublin (Grangegorman) — ~30 mins via DART + Luas/bus UCD Belfield — ~40 mins via DART + bus NCAD (Thomas Street) — ~35 mins via bus/DART + Luas",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Single non-ensuite",
+          "rawType": "Single Room",
+          "bedspaces": 1,
+          "washrooms": "1 common washroom",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Single non-ensuite",
+          "rawType": "Single Room",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        }
+      ],
+      "geoNudged": true
+    },
+    {
+      "id": "4-springfield-avenue-d6w-dk38",
+      "name": "4 Springfield Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D6W DK38",
+      "address": "4 SPRINGFIELD AVENUE D6W DK38",
+      "lat": 53.298581,
+      "lng": -6.298222,
+      "geoPrecision": "hint",
+      "totalBedspaces": 12,
+      "available": 0,
+      "onHold": 0,
+      "booked": 12,
+      "priceMin": 775,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€775–€800",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1AxggEKbSaXRGPXNjHDb3E8LTG8Er4fz2?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, one-bathroom apartment is located on Springfield Avenue in the heart of Templeogue, one of South Dublin's most established and sought-after residential suburbs. The property offers bright, comfortable living accommodation finished to a high standard throughout. The open-plan living and dining area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical, move-in-ready spaces ideal for student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Springfield Avenue is one of Templeogue's most desirable residential roads, known for its mature, tree-lined streetscape and friendly neighbourhood character. The property enjoys an enviable position bordering Templeogue, Terenure, and Rathfarnham three villages each offering an excellent selection of cafés, restaurants, shops, and everyday amenities. Rathfarnham Shopping Centre and Orwell Shopping Centre are both nearby. Bushy Park, a beautiful 20-hectare public park with walks along the River Dodder, sports pitches, and a playground, is just steps from the property ideal for fresh air and recreation on your doorstep."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Dublin Bus routes 15, 49, 54A, 65, and 150 all serve stops within walking distance",
+              "LUAS Green Line (Beechwood / Cowper): approximately 12–20 minutes' walk",
+              "M50 motorway: easily accessible by car"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 30–35 minutes by bus",
+              "UCD Belfield: 25–30 minutes by bus",
+              "Dublin City University (DCU): 50–55 minutes by bus",
+              "TU Dublin Grangegorman: 35–40 minutes by bus",
+              "TU Dublin Tallaght: 40–45 minutes by bus",
+              "RCSI St Stephen's Green: 30–35 minutes by bus",
+              "DBS / NCI (City Centre): 30–35 minutes by bus",
+              "Griffith College Dublin: 15–20 minutes by bus",
+              "NCAD Thomas Street: 25–30 minutes by bus",
+              "IADT Dún Laoghaire: 40–45 minutes by bus/LUAS"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "55-mountjoy-square-d01-dy79",
+      "name": "55 Mountjoy Square",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D01 DY79",
+      "address": "55 Mountjoy Square D01 DY79",
+      "lat": 53.356845,
+      "lng": -6.257068,
+      "geoPrecision": "address",
+      "totalBedspaces": 6,
+      "available": 0,
+      "onHold": 0,
+      "booked": 6,
+      "priceMin": 600,
+      "priceMax": 675,
+      "currency": "€",
+      "priceDisplay": "€600–€675",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/19eMv90W8SSvLsut6szAvLaHOUzzwCjEv",
+        "images": []
+      },
+      "features": {
+        "summary": "A character apartment located on the historic Mountjoy Square, one of Dublin's iconic Georgian squares in the heart of the north inner city. Beautifully positioned within minutes of O'Connell Street, the IFSC, Croke Park, and the Bord Gáis Energy Theatre. The area combines Georgian architecture with vibrant modern Dublin life, surrounded by cafés, restaurants, supermarkets (Aldi, Lidl, Dunnes), and excellent transport links. Walking distance to Trinity College, the National College of Ireland (NCI), and TU Dublin Bolton Street — making it an exceptional location for students at any of Dublin's central universities. Transport & Connectivity LUAS Green Line (Marlborough Stop): ~8 min walk LUAS Red Line (Connolly): ~10 min walk DART (Connolly Station): ~10 min walk Dublin Bus (multiple routes): ~2 min walk Dublin City Centre (O'Connell Street): ~6 min walk Dublin Airport: ~25 min drive Travel Times to Universities NCI (IFSC) — ~11 min walk (~900m) TU Dublin (Bolton Street) — ~12 min walk (~1 km) TCD (Trinity College Dublin) — ~13 min walk (~1.3 km) RCSI (St. Stephen's Green) — ~22 min walk / ~10 mins via LUAS Green DBS (Aungier Street) — ~19 min walk / ~12 mins via LUAS TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red TU Dublin (Aungier Street) — ~19 min walk Griffith College — ~25–30 mins via bus DCU — ~25–35 mins via bus",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 communal washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Quad non-ensuite",
+          "rawType": "Quad non ensuite",
+          "bedspaces": 4,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 4
+        }
+      ]
+    },
+    {
+      "id": "beechwood-court-stillorgan-a94-x1pr",
+      "name": "Beechwood Court Stillorgan",
+      "unitNote": "",
+      "area": "Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "A94 X1PR",
+      "address": "Beechwood Court Stillorgan, Dublin A94 X1PR",
+      "lat": 53.282292,
+      "lng": -6.19007,
+      "geoPrecision": "address",
+      "totalBedspaces": 10,
+      "available": 0,
+      "onHold": 0,
+      "booked": 10,
+      "priceMin": 600,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€600–€800",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026",
+        "5th January'27"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "3 Communal washrooms",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        }
+      ]
+    },
+    {
+      "id": "marshall-yards-east-road-north-wall-dublin-1-flat-2",
+      "name": "Marshall yards",
+      "unitNote": "",
+      "area": "East Road, North Wall, Dublin 1 (Flat 2)",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Marshall yards, East Road, North Wall, Dublin 1 (Flat 2)",
+      "lat": 53.349596,
+      "lng": -6.22699,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 1000,
+      "priceMax": 1000,
+      "currency": "€",
+      "priceDisplay": "€1,000",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1WqAYI11usWqWSngxBRX6EDpJKP2gGMZD",
+        "images": []
+      },
+      "features": {
+        "summary": "Property Description This fully furnished two-bedroom, two-bathroom apartment is located within a premium, professionally managed residential development in Dublin's North Docklands. Designed for modern student living, the apartment offers stylish, move-in-ready interiors alongside an exceptional range of amenities, creating a comfortable and convenient home away from home. Residents benefit from an extensive amenities package including a fully equipped gym, residents' lounge, co-working spaces with meeting pods, concierge service, landscaped rooftop terraces, dedicated pickleball courts, outdoor BBQ area, 24/7 parcel lockers, secure bike storage, high-speed internet, resident app, shared appliances and tools, electric scooters and a car club. The development is also pet-friendly, with additional lifestyle services available. Area & Student Lifestyle Situated in Dublin's North Docklands, the property places students in one of the city's most vibrant and well-connected neighbourhoods. The area is home to major technology, financial and business institutions while offering a growing selection of cafés, restaurants, bars, supermarkets and entertainment venues. Everyday essentials are close by, with East Road Café just 55m away, Lidl approximately 650m away and Aldi approximately 750m away. Students can also easily access 3Arena, Point Village, Odeon Cinema, EPIC and the Bord Gáis Energy Theatre. The surrounding Docklands is ideal for students who enjoy an active social lifestyle, with plenty of opportunities for dining, entertainment, cycling and exploring central Dublin. Transport & University Access The property benefits from excellent access to Dublin's public transport network: Spencer Dock LUAS: approximately 7 minutes' walk IFSC: approximately 10 minutes' walk Connolly Station: approximately 10 minutes by LUAS Point Village: approximately 5 minutes by LUAS Grand Canal Dock: approximately 20 minutes' walk O'Connell Street: approximately 5 minutes by bike Dublin Airport: approximately 10 minutes by car Approximate commute times to universities National College of Ireland (NCI): approximately 10–15 minutes Trinity College Dublin (TCD): approximately 15–20 minutes Dublin City University (DCU): approximately 15 minutes by public transport TU Dublin: approximately 20–30 minutes, depending on campus University College Dublin (UCD Belfield): approximately 35–45 minutes by public transport",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washrooms",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ],
+      "geoNudged": true
+    },
+    {
+      "id": "nicholas-house-d08-yc64",
+      "name": "Nicholas House",
+      "unitNote": "",
+      "area": "St patricks",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D08 YC64",
+      "address": "Nicholas House, St patricks, D08YC64",
+      "lat": 53.337524,
+      "lng": -6.278014,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 800,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€800",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1E7tD7126uCbJ-_uMojLBa6_Awe5e43Nd?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Property Description This is a 2-bed, 1-wash apt. Nicholas House offers a well-appointed standard of shared living accommodation in the heart of Dublin's historic Christchurch quarter. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise.",
+        "sections": [
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located in the Christchurch / Liberties quarter of Dublin 8, Nicholas House enjoys an unbeatable city-centre position steeped in character and history. Christ Church Cathedral, Dublin Castle, and Temple Bar are all within minutes on foot, while the vibrant streetscape of Francis Street, Thomas Street, and Meath Street offers an eclectic mix of cafés, restaurants, antique shops, and local markets. For everyday needs, a wide selection of supermarkets, pharmacies, and convenience stores are close at hand. St Patrick's Park and the surrounding green spaces provide a welcome retreat from city life right on the doorstep."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Dublin Bus routes serving Patrick Street, Dame Street, and Thomas Street provide extensive connectivity across the city",
+              "LUAS Red Line (Smithfield / Four Courts): 10–15 minutes' walk",
+              "LUAS Green Line accessible via city-centre interchange",
+              "Dublin city centre: less than 10 minutes on foot"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 15 minutes on foot",
+              "UCD Belfield: 35–40 minutes by bus",
+              "Dublin City University (DCU): 35–40 minutes by bus",
+              "TU Dublin Grangegorman: 15–20 minutes by bus or on foot",
+              "TU Dublin Tallaght: 45–50 minutes by bus",
+              "RCSI St Stephen's Green: 15 minutes on foot",
+              "NCI / DBS (City Centre): 10–15 minutes on foot",
+              "Griffith College Dublin: 10–15 minutes on foot",
+              "NCAD Thomas Street: 5–10 minutes on foot",
+              "IADT Dún Laoghaire: 45–50 minutes by bus/DART"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "tandys-drive-adamstown-lucan",
+      "name": "Tandys Drive · K78C5T10",
+      "unitNote": "",
+      "area": "Adamstown, Lucan",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Tandys Drive, Adamstown, Lucan K78C5T10",
+      "lat": 53.344714,
+      "lng": -6.452327,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 0,
+      "onHold": 2,
+      "booked": 0,
+      "priceMin": 625,
+      "priceMax": 625,
+      "currency": "€",
+      "priceDisplay": "€625",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": null,
+      "rooms": [
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 full bathroom + 1 downstairs WC",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "",
+          "available": 0,
+          "onHold": 2,
+          "booked": 0
+        }
+      ],
+      "geoNudged": true
+    },
+    {
+      "id": "tandys-drive-adamstown-lucan-2",
+      "name": "Tandys Drive · K78C5T11",
+      "unitNote": "",
+      "area": "Adamstown, Lucan",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Tandys Drive, Adamstown, Lucan K78C5T11",
+      "lat": 53.344534,
+      "lng": -6.452627,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 0,
+      "onHold": 2,
+      "booked": 0,
+      "priceMin": 625,
+      "priceMax": 625,
+      "currency": "€",
+      "priceDisplay": "€625",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": null,
+      "rooms": [
+        {
+          "room": "3",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "",
+          "available": 0,
+          "onHold": 2,
+          "booked": 0
+        }
+      ],
+      "geoNudged": true
+    },
+    {
+      "id": "tandys-drive-adamstown-lucan-3",
+      "name": "Tandys Drive · K78C5T12",
+      "unitNote": "",
+      "area": "Adamstown, Lucan",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Tandys Drive, Adamstown, Lucan K78C5T12",
+      "lat": 53.344714,
+      "lng": -6.452927,
+      "geoPrecision": "hint",
+      "totalBedspaces": 1,
+      "available": 0,
+      "onHold": 1,
+      "booked": 0,
+      "priceMin": 850,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€850",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": null,
+      "rooms": [
+        {
+          "room": "4",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "",
+          "available": 0,
+          "onHold": 1,
+          "booked": 0
+        }
+      ],
+      "geoNudged": true
+    },
+    {
+      "id": "tandys-drive-k78-c5t9",
+      "name": "Tandys Drive · K78C5T9",
+      "unitNote": "",
+      "area": "Adamstown, Lucan",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "K78 C5T9",
+      "address": "Tandys Drive, Adamstown, Lucan K78C5T9",
+      "lat": 53.344714,
+      "lng": -6.452627,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 0,
+      "onHold": 2,
+      "booked": 0,
+      "priceMin": 650,
+      "priceMax": 650,
+      "currency": "€",
+      "priceDisplay": "€650",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1p6ZsM82tbbFpxBDujwVTJB2cgSF5Yhh0",
+        "images": []
+      },
+      "features": {
+        "summary": "A modern, recently completed family home in the well-planned Adamstown development — a thoughtfully designed residential community in west Dublin with excellent infrastructure, green spaces, and family-friendly amenities. Featuring an A2 BER rating for outstanding energy efficiency (low utility bills for tenants), with a private garden, off-street parking, and fully furnished throughout. The property includes 4 bedrooms across the ground and first floors, with multiple bathrooms and a downstairs WC for convenience. Adamstown is one of Dublin's most accessible western suburbs, with a dedicated rail station offering direct services into Heuston Station and Grand Canal Dock. The Liffey Valley Shopping Centre, Adamstown Educate Together schools, SuperValu, cafés, and the Tesco Adamstown are all within walking distance. Transport & Connectivity Adamstown Rail Station: ~9 min walk Bus Stop (multiple routes): ~5 min walk Dublin City Centre (Heuston) via train: ~18 mins Grand Canal Dock via train: ~38 mins (direct) N4 / M50 Motorway: ~5 min drive Dublin Airport: ~30 min drive Travel Times to Universities TU Dublin (Tallaght) — ~25–35 mins via direct bus TU Dublin (Blanchardstown) — ~30–40 mins via direct bus Maynooth University — ~24 mins via direct train (Adamstown → Maynooth line) TU Dublin (Grangegorman) — ~40–50 mins via train + LUAS TCD (Trinity College Dublin) — ~40 mins via train to Grand Canal Dock + walk UCD Belfield — ~45–55 mins via direct bus (Route C3) NCI / DBS / RCSI — ~45 mins via train to Grand Canal Dock + walk/LUAS Griffith College — ~35 mins via train + bus",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 650,
+          "rentDisplay": "€650",
+          "demography": "",
+          "available": 0,
+          "onHold": 2,
+          "booked": 0
+        }
+      ]
+    },
+    {
+      "id": "asgard-v94-t4cw",
+      "name": "Asgard",
+      "unitNote": "",
+      "area": "New Westfields, North Circular Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 T4CW",
+      "address": "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW",
+      "lat": 52.665904,
+      "lng": -8.64789,
+      "geoPrecision": "hint",
+      "totalBedspaces": 11,
+      "available": 0,
+      "onHold": 0,
+      "booked": 11,
+      "priceMin": 550,
+      "priceMax": 900,
+      "currency": "€",
+      "priceDisplay": "€550–€900",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Located in the exclusive New Westfields enclave on the prestigious North Circular Road, this beautifully presented residence offers a high-end living experience just minutes from Limerick city centre. The property combines privacy and luxury with modern, light-filled interiors. Features a bespoke kitchen with state-of-the-art appliances, multiple reception rooms with high ceilings, and spacious bedrooms with quality finishes. Residents enjoy meticulously landscaped gardens, an expansive patio for outdoor entertaining, and a secluded setting in a peaceful cul-de-sac. Situated within walking distance of renowned schools like Ard Scoil Rís and Villiers, and close to the Limerick Lawn Tennis Club.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Limerick City Centre: 15 min walk / 5 min drive.",
+              "Bus Services: Local routes including the 302 (Caherdavin) and 306 (Edward Street) serve the nearby Shelbourne Road area.",
+              "Colbert Station (Bus/Rail): ~25 min walk / 8 min drive.",
+              "M7 Motorway: Direct access for seamless commuting to Dublin, Shannon, or Galway."
+            ]
+          },
+          {
+            "title": "Travel to Universities",
+            "items": [
+              "TUS Moylish (Limerick Institute of Technology): 15-20 min walk / 5 min cycle.",
+              "University of Limerick (UL): 15 min drive / 30 min via bus from city centre."
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (Single beds)",
+          "bedspaces": 3,
+          "washrooms": "1 Communal Washroom",
+          "rent": 550,
+          "rentDisplay": "€550",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (single bed)",
+          "bedspaces": 3,
+          "washrooms": "1 Communal Washroom",
+          "rent": 550,
+          "rentDisplay": "€550",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single Non ensuite",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 900,
+          "rentDisplay": "€900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "city-centre-ocurry-street-v94-n9wk",
+      "name": "City Centre / O’Curry Street",
+      "unitNote": "",
+      "area": "",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 N9WK",
+      "address": "City Centre / O’Curry Street - V94 N9WK",
+      "lat": 52.658843,
+      "lng": -8.635664,
+      "geoPrecision": "hint",
+      "totalBedspaces": 8,
+      "available": 0,
+      "onHold": 0,
+      "booked": 8,
+      "priceMin": 700,
+      "priceMax": 700,
+      "currency": "€",
+      "priceDisplay": "€700",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1A3PCQULNhT9ItDZf9Ne6HYwMdxC-RKeC",
+        "images": []
+      },
+      "features": {
+        "summary": "A spacious 4-bedroom house in Mountkennet, a quiet residential pocket of Limerick city's west end, just steps from the River Shannon and the historic Dock Road area. Each bedroom is en-suite, offering excellent privacy and independence for all tenants. Fully furnished throughout with modern fittings and energy-efficient utilities. Located within walking distance of Limerick's main shopping streets (William Street, O'Connell Street), the iconic Hunt Museum, King John's Castle, and the Crescent Shopping Centre. Excellent café and pub culture, with the Milk Market and Limerick Riverwalk just minutes away. Transport & Connectivity Limerick City Bus (multiple routes): ~3 min walk Colbert Station (rail/bus): ~15 min walk / ~5 min drive M7 / M20 Motorway: ~5 min drive Limerick City Centre (O'Connell Street): ~10 min walk Shannon Airport: ~25 min drive Travel Times to Universities TUS Moylish (Tech University of the Shannon) — ~12–15 mins via bus / ~10 min drive Mary Immaculate College — ~10 mins via bus / ~5 min walk for proximity LSAD / TUS Clare Street — ~15 mins via bus / ~10 min walk University of Limerick (Castletroy) — ~30–40 mins via direct bus (Routes 304, 304A)",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 ensuite washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "windmill-house-apt-603-v94-yk19",
+      "name": "Windmill House (Apt 603)",
+      "unitNote": "",
+      "area": "Dock Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 YK19",
+      "address": "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19",
+      "lat": 52.649212,
+      "lng": -8.663941,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 725,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€725–€750",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Limerick Bus Éireann and City Link services operate from the city centre",
+              "Limerick Colbert Railway Station: 10–15 minutes' walk",
+              "Well-connected to the M7 and N18 motorway network"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities and colleges",
+            "items": [
+              "University of Limerick (UL): 25–30 minutes by bus",
+              "Mary Immaculate College (MIC): 10–15 minutes on foot",
+              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
+              "Limerick College of Further Education: 10 minutes on foot"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    }
+  ]
+}

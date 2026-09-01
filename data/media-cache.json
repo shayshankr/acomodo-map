@@ -1,0 +1,18 @@
+{
+  "_comment": "Curated images per property, keyed by the Property Name exactly as in the sheet. Written by scripts/sync_from_google.py (service account, lists the Drive folders in full). This checked-in copy is a seed so galleries work before the automated sync runs; the sync overwrites it. Each image is a Drive file id — the front end builds the thumbnail URL from it.",
+  "generatedAt": "2026-09-01T00:00:00Z",
+  "source": "seed (Drive connector, partial)",
+  "properties": {
+    "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657": {
+      "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl",
+      "images": [
+        { "id": "1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB", "name": "Exterior" },
+        { "id": "1lh5MnwPqk-9aZk0CjfcpCpcwNn_g8n5K", "name": "Ground floor double" },
+        { "id": "1vuIcowBU3A_tspwJidffuuvXTwnCZvSN", "name": "Dining area" },
+        { "id": "1cTC4jwNyUCr1y7Y02lUG9d2nc1-gaXn4", "name": "Backyard" },
+        { "id": "1GMqqtv_v2HQTlkw5dTBV3wba_GAJ0omo", "name": "Garden" },
+        { "id": "1F7KY7Pwy6AwqEKoNAXgDvyLHhJ9820Vy", "name": "Dining" }
+      ]
+    }
+  }
+}

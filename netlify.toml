@@ -1,0 +1,9 @@
+# Netlify: drag-and-drop the "public" folder, or connect the repo and use these.
+[build]
+  publish = "public"
+  command = ""   # nothing to build — the site is prebuilt static files
+
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
