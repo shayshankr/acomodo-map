@@ -8,6 +8,8 @@
 
 const CONFIG = {
   contactEmail: "bookings@acomodo.in",
+  // WhatsApp number in international format, digits only (country code + number).
+  whatsapp: "919875835669",
   brand: "Availability Map",
   // Drive image endpoints. `w` is the requested pixel width; Drive resizes.
   driveThumb: (id, w) => `https://drive.google.com/thumbnail?id=${id}&sz=w${w}`,
@@ -20,6 +22,11 @@ const CONFIG = {
   attribution:
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 };
+
+// Inline WhatsApp glyph so the button reads at a glance and needs no external asset.
+const WHATSAPP_ICON =
+  '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">' +
+  '<path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.45-.15-.64.14-.19.29-.74.93-.9 1.12-.17.19-.33.21-.62.07-.29-.15-1.22-.45-2.33-1.44-.86-.77-1.44-1.72-1.61-2-.17-.29-.02-.45.13-.59.13-.13.29-.34.43-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.64-1.55-.88-2.12-.23-.55-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36-.26.29-1 .98-1 2.38s1.02 2.76 1.17 2.95c.14.19 2.01 3.06 4.87 4.29.68.29 1.21.47 1.62.6.68.22 1.3.19 1.79.12.55-.08 1.7-.7 1.94-1.37.24-.67.24-1.25.17-1.37-.07-.12-.26-.19-.55-.34zM12.05 21.5h-.01c-1.67 0-3.31-.45-4.74-1.29l-.34-.2-3.52.92.94-3.43-.22-.35a9.4 9.4 0 01-1.44-5.02c0-5.2 4.24-9.44 9.45-9.44 2.52 0 4.89.98 6.67 2.77a9.36 9.36 0 012.76 6.68c-.01 5.2-4.24 9.44-9.44 9.44zM20.52 3.48A11.78 11.78 0 0012.05.99C5.55.99.28 6.26.28 12.74c0 2.07.54 4.1 1.57 5.88L.18 24l5.53-1.45a11.8 11.8 0 005.64 1.44h.01c6.5 0 11.78-5.27 11.78-11.75 0-3.14-1.22-6.09-3.44-8.31z"/></svg>';
 
 const $ = (id) => document.getElementById(id);
 const els = {
@@ -146,10 +153,11 @@ async function loadData() {
     month: "short",
   })}, ${stamp.toLocaleTimeString("en-IE", { hour: "2-digit", minute: "2-digit" })}`;
 
-  const mailto = `mailto:${CONFIG.contactEmail}?subject=${encodeURIComponent(
-    "Area request"
-  )}&body=${encodeURIComponent("Hi — I am looking for a room near:\n\nMove-in date:\nBudget:\n")}`;
-  $("request-area").href = mailto;
+  const areaText = "Hi Acomodo, I'm looking for student accommodation. My area, budget and move-in date:";
+  const areaLink = $("request-area");
+  areaLink.href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(areaText)}`;
+  areaLink.target = "_blank";
+  areaLink.rel = "noopener";
 }
 
 /* --- controls ------------------------------------------------------------ */
@@ -592,11 +600,10 @@ function closeLightbox() {
 }
 
 function openDrawer(property) {
-  const subject = `Enquiry — ${property.name}`;
-  const body = `Hi,\n\nI would like to enquire about ${property.name} (${property.address}).\n\nMove-in date:\nLength of stay:\nRoom type:\n\nThanks`;
-  const mailto = `mailto:${CONFIG.contactEmail}?subject=${encodeURIComponent(
-    subject
-  )}&body=${encodeURIComponent(body)}`;
+  const waText = `Hi, I'm interested in ${property.name}${
+    property.area ? ` (${property.area})` : ""
+  } — is it still available?`;
+  const whatsapp = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(waText)}`;
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${property.lat},${property.lng}`;
 
   const nearest = state.universities
@@ -651,7 +658,9 @@ function openDrawer(property) {
     ${featureMarkup(property.features)}
 
     <div class="d-actions">
-      <a class="btn btn-primary" href="${mailto}">Enquire</a>
+      <a class="btn btn-whatsapp" href="${whatsapp}" target="_blank" rel="noopener">
+        ${WHATSAPP_ICON} Enquire on WhatsApp
+      </a>
       <a class="btn btn-quiet" href="${directions}" target="_blank" rel="noopener">Directions</a>
     </div>
     ${

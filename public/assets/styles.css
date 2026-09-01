@@ -593,6 +593,9 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
 .btn-primary { background: var(--accent); color: var(--bg); }
 :root[data-theme="dark"] .btn-primary { color: #0d1a16; }
 .btn-primary:hover { filter: brightness(1.06); }
+.btn-whatsapp { background: #25d366; color: #06281a; gap: 8px; }
+.btn-whatsapp:hover { filter: brightness(1.05); }
+.btn-whatsapp svg { flex: none; }
 .btn-quiet { background: var(--surface-2); border-color: var(--line); color: var(--ink); }
 .btn-quiet:hover { border-color: var(--line-strong); }
 
