@@ -69,6 +69,13 @@
     "precision": "address",
     "query": "41 Ballinteer Crescent,Ballinteer, Dublin 16, Dublin"
   },
+  "42 Disraeli Rd E7 9JP": {
+    "lat": 51.544356,
+    "lng": 0.021521,
+    "matched": "E7 9JP, London Borough of Newham, Greater London, England, United Kingdom",
+    "precision": "postcode",
+    "query": "E7 9JP, London"
+  },
   "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279": {
     "lat": 53.27856,
     "lng": -6.445587,
@@ -124,6 +131,34 @@
     "matched": "O'Curry Street, Dock A, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
     "precision": "hint",
     "query": "O'Curry Street, Limerick"
+  },
+  "Clifton Court, St John's Wood NW8 8HT": {
+    "lat": 51.525539,
+    "lng": -0.177348,
+    "matched": "NW8 8HT, City of Westminster, Greater London, England, United Kingdom",
+    "precision": "postcode",
+    "query": "NW8 8HT, London"
+  },
+  "E15 1LZ, Chobham Rd, London": {
+    "lat": 51.549646,
+    "lng": -0.000211,
+    "matched": "E15 1LZ, London Borough of Newham, Greater London, England, United Kingdom",
+    "precision": "postcode",
+    "query": "E15 1LZ, London"
+  },
+  "E16 3LL, MacGregor Rd, London": {
+    "lat": 51.517582,
+    "lng": 0.037351,
+    "matched": "E16 3LL, London Borough of Newham, Greater London, England, United Kingdom",
+    "precision": "postcode",
+    "query": "E16 3LL, London"
+  },
+  "E7 8PF, Shaftsbury Rd, London": {
+    "lat": 51.539906,
+    "lng": 0.037843,
+    "matched": "E7 8PF, London Borough of Newham, Greater London, England, United Kingdom",
+    "precision": "postcode",
+    "query": "E7 8PF, London"
   },
   "Flat 5 - Ardhu Apartments, Roses Avenue V94 1X64": {
     "lat": 52.66502,

@@ -118,6 +118,76 @@
       "city": "Limerick",
       "lat": 52.653155,
       "lng": -8.635472
+    },
+    {
+      "id": "queen-mary-university",
+      "name": "Queen Mary University",
+      "city": "London",
+      "lat": 51.52474,
+      "lng": -0.039314
+    },
+    {
+      "id": "university-of-east-london",
+      "name": "University of East London",
+      "city": "London",
+      "lat": 51.507368,
+      "lng": 0.065662
+    },
+    {
+      "id": "ucl",
+      "name": "UCL",
+      "city": "London",
+      "lat": 51.524203,
+      "lng": -0.133001
+    },
+    {
+      "id": "king-s-college-london",
+      "name": "King's College London",
+      "city": "London",
+      "lat": 51.511475,
+      "lng": -0.116109
+    },
+    {
+      "id": "imperial-college",
+      "name": "Imperial College",
+      "city": "London",
+      "lat": 51.498959,
+      "lng": -0.175641
+    },
+    {
+      "id": "lse",
+      "name": "LSE",
+      "city": "London",
+      "lat": 51.514606,
+      "lng": -0.116451
+    },
+    {
+      "id": "city-university-of-london",
+      "name": "City, University of London",
+      "city": "London",
+      "lat": 51.527657,
+      "lng": -0.103605
+    },
+    {
+      "id": "university-of-westminster",
+      "name": "University of Westminster",
+      "city": "London",
+      "lat": 51.516899,
+      "lng": -0.143305
+    },
+    {
+      "id": "london-metropolitan",
+      "name": "London Metropolitan",
+      "city": "London",
+      "lat": 51.552203,
+      "lng": -0.111195
+    },
+    {
+      "id": "university-of-greenwich",
+      "name": "University of Greenwich",
+      "city": "London",
+      "lat": 51.482542,
+      "lng": -0.006653
     }
   ]
 }

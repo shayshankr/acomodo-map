@@ -1,20 +1,206 @@
 {
-  "generatedAt": "2026-09-02T04:10:06+00:00",
+  "generatedAt": "2026-09-02T04:22:25+00:00",
   "source": "portfolio.csv",
   "stats": {
-    "properties": 26,
+    "properties": 31,
     "cities": [
       "Dublin",
-      "Limerick"
+      "Limerick",
+      "London"
     ],
-    "bedspaces": 152,
-    "available": 19,
-    "onHold": 8,
-    "booked": 125,
-    "withPhotos": 15,
-    "withFolder": 22
+    "bedspaces": 216,
+    "available": 29,
+    "onHold": 9,
+    "booked": 178,
+    "withPhotos": 20,
+    "withFolder": 27
   },
   "properties": [
+    {
+      "id": "shaftsbury-rd-e7-8pf",
+      "name": "Shaftsbury Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E7 8PF",
+      "address": "E7 8PF, Shaftsbury Rd, London",
+      "lat": 51.539906,
+      "lng": 0.037843,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 12,
+      "available": 8,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 500,
+      "priceMax": 750,
+      "currency": "£",
+      "priceDisplay": "£500–£750",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1_OA6shdHgcz9imQN8BEYtBT-adznFHbb?usp=drive_link",
+        "images": [
+          {
+            "name": "Kitchen A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/01.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/01_t.jpg"
+          },
+          {
+            "name": "Kitchen B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/02.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/02_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/03.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/03_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/04.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/04_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/05.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/05_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/06.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/06_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living C",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/07.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/07_t.jpg"
+          },
+          {
+            "name": "Kitchen A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/08.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/08_t.jpg"
+          },
+          {
+            "name": "Kitchen B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/09.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/09_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/10.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/10_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/11.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/11_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/12.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/12_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly re-furbhished & furnished property 10 mins walk away from the high street and close to all amenities essential for students. Every room is furnished with a double bed and ample storage space. There are 2 washrooms in the property and 1 Ensuite washroom in the loft room. The kitchen and hall is newly furnished with all white good available 8 mins walk to the nearest tube station & 5 mins walk to the closest bus station. Below is the travel time to prominent universities QMUL Mile End - 34 mins UEL Stratford - 24 mins UEL Dockland - 37 mins Ravensbourne - 36 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 500,
+          "rentDisplay": "£500",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 500,
+          "rentDisplay": "£500",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "6",
+          "floor": "Loft",
+          "type": "Double ensuite",
+          "rawType": "Big Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "£750",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        }
+      ]
+    },
     {
       "id": "1-waterfall-avenue-d03-da24",
       "name": "1 Waterfall Avenue",
@@ -1334,6 +1520,440 @@
           "available": 1,
           "onHold": 0,
           "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "42-disraeli-rd-e7-9jp",
+      "name": "42 Disraeli Rd",
+      "unitNote": "",
+      "area": "",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E7 9JP",
+      "address": "42 Disraeli Rd E7 9JP",
+      "lat": 51.544356,
+      "lng": 0.021521,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 16,
+      "available": 1,
+      "onHold": 0,
+      "booked": 15,
+      "priceMin": 475,
+      "priceMax": 900,
+      "currency": "£",
+      "priceDisplay": "£475–£900",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
+        "images": [
+          {
+            "name": "Copy of hollway",
+            "full": "photos/42-disraeli-rd-e7-9jp/01.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/01_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0782",
+            "full": "photos/42-disraeli-rd-e7-9jp/02.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/02_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0783",
+            "full": "photos/42-disraeli-rd-e7-9jp/03.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/03_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0787",
+            "full": "photos/42-disraeli-rd-e7-9jp/04.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/04_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0788",
+            "full": "photos/42-disraeli-rd-e7-9jp/05.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/05_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0792",
+            "full": "photos/42-disraeli-rd-e7-9jp/06.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/06_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0801",
+            "full": "photos/42-disraeli-rd-e7-9jp/07.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/07_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0808",
+            "full": "photos/42-disraeli-rd-e7-9jp/08.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/08_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0811",
+            "full": "photos/42-disraeli-rd-e7-9jp/09.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/09_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0813",
+            "full": "photos/42-disraeli-rd-e7-9jp/10.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/10_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0814",
+            "full": "photos/42-disraeli-rd-e7-9jp/11.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/11_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0815",
+            "full": "photos/42-disraeli-rd-e7-9jp/12.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/12_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
+        "sections": [
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "QMUL Mile End — 30 mins",
+              "UEL Stratford — 22 mins",
+              "UEL Docklands — 30 mins",
+              "University of Greenwich — 40 mins",
+              "Ravensbourne — 38 mins",
+              "Bayes Business School — 32 mins",
+              "University of Law (Moorgate) — 28 mins",
+              "University of Law (Bloomsbury) — 38 mins",
+              "KCL Strand Campus — 40 mins",
+              "KCL Guy's Campus — 42 mins",
+              "UCL Bloomsbury — 40 mins",
+              "UCL East (Stratford) — 18 mins",
+              "Coventry University London — 25 mins",
+              "CU London Dagenham — 30 mins",
+              "ARU London (Charterhouse St) — 32 mins",
+              "UWS London (East India Dock) — 28 mins"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Big double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal washroom",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "",
+          "available": 1,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 625,
+          "rentDisplay": "£625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "9",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "10",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "macgregor-rd-e16-3ll",
+      "name": "MacGregor Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E16 3LL",
+      "address": "E16 3LL, MacGregor Rd, London",
+      "lat": 51.517582,
+      "lng": 0.037351,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 9,
+      "available": 1,
+      "onHold": 1,
+      "booked": 7,
+      "priceMin": 450,
+      "priceMax": 600,
+      "currency": "£",
+      "priceDisplay": "£450–£600",
+      "utilities": "Included all Bills",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "Deposit + 1 Month",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+        "images": [
+          {
+            "name": "Cover photo",
+            "full": "photos/e16-3ll-macgregor-rd-london/01.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/01_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.31 AM",
+            "full": "photos/e16-3ll-macgregor-rd-london/02.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/02_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (10)",
+            "full": "photos/e16-3ll-macgregor-rd-london/03.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/03_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/04.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/04_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
+            "full": "photos/e16-3ll-macgregor-rd-london/05.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/05_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
+            "full": "photos/e16-3ll-macgregor-rd-london/06.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/06_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (2)",
+            "full": "photos/e16-3ll-macgregor-rd-london/07.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/07_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (3)",
+            "full": "photos/e16-3ll-macgregor-rd-london/08.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/08_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
+            "full": "photos/e16-3ll-macgregor-rd-london/09.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/09_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (5)",
+            "full": "photos/e16-3ll-macgregor-rd-london/10.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/10_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (6)",
+            "full": "photos/e16-3ll-macgregor-rd-london/11.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/11_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (7)",
+            "full": "photos/e16-3ll-macgregor-rd-london/12.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/12_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Compact Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 450,
+          "rentDisplay": "£450",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "",
+          "available": 1,
+          "onHold": 1,
+          "booked": 0
         }
       ]
     },
@@ -3338,6 +3958,386 @@
           "rent": 725,
           "rentDisplay": "€725",
           "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "chobham-rd-e15-1lz",
+      "name": "Chobham Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E15 1LZ",
+      "address": "E15 1LZ, Chobham Rd, London",
+      "lat": 51.549646,
+      "lng": -0.000211,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 17,
+      "available": 0,
+      "onHold": 0,
+      "booked": 17,
+      "priceMin": 500,
+      "priceMax": 750,
+      "currency": "£",
+      "priceDisplay": "£500–£750",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "4 Months minimum Tenancy"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1E53KS3KaqRRBW1EjyN-S73ELJ35X_fmd",
+        "images": [
+          {
+            "name": "Copy of Kitchen and iving 2",
+            "full": "photos/e15-1lz-chobham-rd-london/01.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/01_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 1",
+            "full": "photos/e15-1lz-chobham-rd-london/02.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/02_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 3",
+            "full": "photos/e15-1lz-chobham-rd-london/03.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/03_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 4",
+            "full": "photos/e15-1lz-chobham-rd-london/04.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/04_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 5",
+            "full": "photos/e15-1lz-chobham-rd-london/05.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/05_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 6",
+            "full": "photos/e15-1lz-chobham-rd-london/06.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/06_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 6",
+            "full": "photos/e15-1lz-chobham-rd-london/07.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/07_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 7",
+            "full": "photos/e15-1lz-chobham-rd-london/08.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/08_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen and living 9",
+            "full": "photos/e15-1lz-chobham-rd-london/09.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/09_t.jpg"
+          },
+          {
+            "name": "Copy of Kithcen and living 8",
+            "full": "photos/e15-1lz-chobham-rd-london/10.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/10_t.jpg"
+          },
+          {
+            "name": "Copy of Backyard 1",
+            "full": "photos/e15-1lz-chobham-rd-london/11.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/11_t.jpg"
+          },
+          {
+            "name": "Copy of Backyard 2",
+            "full": "photos/e15-1lz-chobham-rd-london/12.jpg",
+            "thumb": "photos/e15-1lz-chobham-rd-london/12_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A grand property with an all-en-suite setup and a big backyard. The property is very close to the high street, with 7-minute walk to Leyton Tube station and 8-minute walk to Maryland Tube station The property has 7 ensuite rooms and 2 extra washrooms, a fully furnished big kitchen/ living space. Single Beds in all rooms. Great for Female students/groups Below is the travel time to prominent universities QMUL Mile End - 34 mins UEL Stratford - 18 mins walk UEL Dockland - 36 mins Ravensbourne - 31 mins University of Greenwich - 47 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Big Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "£750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 700,
+          "rentDisplay": "£700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Big Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "£750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 700,
+          "rentDisplay": "£700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "Ground",
+          "type": "Triple ensuite",
+          "rawType": "Triple ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 500,
+          "rentDisplay": "£500",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Triple ensuite",
+          "rawType": "Triple ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Triple ensuite",
+          "rawType": "Triple ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        }
+      ]
+    },
+    {
+      "id": "clifton-court-nw8-8ht",
+      "name": "Clifton Court",
+      "unitNote": "",
+      "area": "St John's Wood",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "NW8 8HT",
+      "address": "Clifton Court, St John's Wood NW8 8HT",
+      "lat": 51.525539,
+      "lng": -0.177348,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 10,
+      "available": 0,
+      "onHold": 0,
+      "booked": 10,
+      "priceMin": 825,
+      "priceMax": 900,
+      "currency": "£",
+      "priceDisplay": "£825–£900",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1sfpq9PfY-nkb45iHO7ksVhR-GCuFmxgn?usp=drive_link",
+        "images": [
+          {
+            "name": "1 cover photo",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/01.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/01_t.jpg"
+          },
+          {
+            "name": "10 bathroom",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/02.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/02_t.jpg"
+          },
+          {
+            "name": "11 bathroom",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/03.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/03_t.jpg"
+          },
+          {
+            "name": "2 living room",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/04.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/04_t.jpg"
+          },
+          {
+            "name": "3",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/05.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/05_t.jpg"
+          },
+          {
+            "name": "4 kitchen",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/06.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/06_t.jpg"
+          },
+          {
+            "name": "5 room",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/07.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/07_t.jpg"
+          },
+          {
+            "name": "6 room",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/08.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/08_t.jpg"
+          },
+          {
+            "name": "8 room",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/09.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/09_t.jpg"
+          },
+          {
+            "name": "9 room",
+            "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/10.jpg",
+            "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/10_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "This newly refurbished apartment features spacious bedrooms with built-in wardrobes, a sleek minimalist kitchen with integrated appliances, and designer marble-effect bathrooms. Residents benefit from a porter, lift access, and beautiful communal gardens. Perfectly positioned between St John's Wood and Little Venice, steps from Regent’s Canal and Lord’s Cricket Ground.",
+        "sections": [
+          {
+            "title": "Distance to Top universities",
+            "items": [
+              "UCL: 19 min",
+              "KCL - 40 mins",
+              "LBS: 23 mins walk",
+              "University of Westminster: 24 mins",
+              "Bayes Business School: 34 mins"
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Warwick Avenue Station (Bakerloo): 8 min walk",
+              "Maida Vale Station (Bakerloo): 10 min walk",
+              "St John’s Wood Station (Jubilee): 15 min walk",
+              "Paddington Station (Elizabeth Line/National Rail): 12 min via bus/walk"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Three",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal Washrooms",
+          "rent": 825,
+          "rentDisplay": "£825",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Three",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 825,
+          "rentDisplay": "£825",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "Three",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 825,
+          "rentDisplay": "£825",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "Three",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 825,
+          "rentDisplay": "£825",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "Three",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Female",
           "available": 0,
           "onHold": 0,
           "booked": 2

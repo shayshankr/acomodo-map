@@ -1,4 +1,9 @@
 {
+  "City University of London, Northampton Square, London": {
+    "lat": 51.527657,
+    "lng": -0.103605,
+    "matched": "City St George’s, University of London, Northampton Square, St Luke's, Angel, Clerkenwell, London Borough of Islington, "
+  },
   "Dublin Business School, Aungier Street, Dublin": {
     "lat": 53.340516,
     "lng": -6.265439,
@@ -24,15 +29,35 @@
     "lng": -6.151751,
     "matched": "Institute of Art, Design + Technology, Kill Avenue, Dun Laoghaire Sallynoggin West DED 1986, Dún Laoghaire, Dún Laoghair"
   },
+  "Imperial College London, South Kensington, London": {
+    "lat": 51.498959,
+    "lng": -0.175641,
+    "matched": "Imperial College London, Exhibition Road, Brompton, City of Westminster, Greater London, England, SW7 2AZ, United Kingdo"
+  },
   "Institute of Technology Tallaght, Dublin": {
     "lat": 53.290989,
     "lng": -6.363056,
     "matched": "TU Dublin Tallaght, Old Blessington Road, Tallaght-Kingswood DED 1986, Tallaght, South Dublin, County Dublin, Leinster, "
   },
+  "King's College London, Strand, London": {
+    "lat": 51.511475,
+    "lng": -0.116109,
+    "matched": "King's College London, Strand Campus, Strand, St Clement Danes, Covent Garden, City of Westminster, Greater London, Engl"
+  },
   "Limerick Institute of Technology, Limerick": {
     "lat": 52.674307,
     "lng": -8.647092,
     "matched": "TUS Moylish Campus, Moylish Park, Limerick (set by hand)"
+  },
+  "London Metropolitan University, Holloway Road, London": {
+    "lat": 51.552203,
+    "lng": -0.111195,
+    "matched": "The Junction, 166-220, Holloway Road, Lower Holloway, Holloway, London Borough of Islington, Greater London, England, N7"
+  },
+  "London School of Economics, Houghton Street, London": {
+    "lat": 51.514606,
+    "lng": -0.116451,
+    "matched": "London School of Economics and Political Science, Houghton Street, St Clement Danes, Covent Garden, City of Westminster,"
   },
   "Mary Immaculate College, South Circular Road, Limerick": {
     "lat": 52.652627,
@@ -53,6 +78,11 @@
     "lat": 52.653155,
     "lng": -8.635472,
     "matched": "O'Connell Avenue, Dock C, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland"
+  },
+  "Queen Mary University of London, Mile End Road, London": {
+    "lat": 51.52474,
+    "lng": -0.039314,
+    "matched": "Queen Mary University of London, 327, Mile End Road, Mile End, London Borough of Tower Hamlets, Greater London, England,"
   },
   "Royal College of Surgeons in Ireland, St Stephen's Green, Dublin": {
     "lat": 53.339156,
@@ -79,9 +109,29 @@
     "lng": -6.227041,
     "matched": "UCD Clubhouse Bar, Set Down Area, Roebuck, Clonskeagh-Belfield DED 1986, Dublin, Dún Laoghaire-Rathdown, County Dublin, "
   },
+  "University College London, London": {
+    "lat": 51.524203,
+    "lng": -0.133001,
+    "matched": "University College London, Hallam Street, East Marylebone, Marylebone, City of Westminster, Greater London, England, W1W"
+  },
+  "University of East London, University Way, London": {
+    "lat": 51.507368,
+    "lng": 0.065662,
+    "matched": "University of East London, University Way, Cyprus, London Borough of Newham, Greater London, England, E16 2RD, United Ki"
+  },
+  "University of Greenwich, Park Row, London": {
+    "lat": 51.482542,
+    "lng": -0.006653,
+    "matched": "University of Greenwich, Park Row, Greenwich Town Centre, East Greenwich, Royal Borough of Greenwich, Greater London, En"
+  },
   "University of Limerick, Castletroy, Limerick": {
     "lat": 52.673258,
     "lng": -8.56981,
     "matched": "University of Limerick, Plassey Village, Castletroy, Ballysimon ED, The Metropolitan District of Limerick City, Limerick"
+  },
+  "University of Westminster, Regent Street, London": {
+    "lat": 51.516899,
+    "lng": -0.143305,
+    "matched": "University of Westminster, 309, Regent Street, East Marylebone, Mayfair, City of Westminster, Greater London, England, W"
   }
 }

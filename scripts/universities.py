@@ -44,6 +44,17 @@ CAMPUSES = [
     ("TUS Moylish", "Limerick Institute of Technology, Limerick", "Limerick", "ie"),
     ("Mary Immaculate College", "Mary Immaculate College, South Circular Road, Limerick", "Limerick", "ie"),
     ("Griffith College Limerick", "O'Connell Avenue, Limerick", "Limerick", "ie"),
+    # London
+    ("Queen Mary University", "Queen Mary University of London, Mile End Road, London", "London", "gb"),
+    ("University of East London", "University of East London, University Way, London", "London", "gb"),
+    ("UCL", "University College London, London", "London", "gb"),
+    ("King's College London", "King's College London, Strand, London", "London", "gb"),
+    ("Imperial College", "Imperial College London, South Kensington, London", "London", "gb"),
+    ("LSE", "London School of Economics, Houghton Street, London", "London", "gb"),
+    ("City, University of London", "City University of London, Northampton Square, London", "London", "gb"),
+    ("University of Westminster", "University of Westminster, Regent Street, London", "London", "gb"),
+    ("London Metropolitan", "London Metropolitan University, Holloway Road, London", "London", "gb"),
+    ("University of Greenwich", "University of Greenwich, Park Row, London", "London", "gb"),
 ]
 
 

@@ -26,6 +26,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "portfolio.csv"
+LONDON_CSV_PATH = ROOT / "data" / "portfolio-london.csv"
 GEO_PATH = ROOT / "data" / "geocode-cache.json"
 OVERRIDE_PATH = ROOT / "data" / "overrides.json"
 MEDIA_PATH = ROOT / "data" / "media-cache.json"
@@ -36,6 +37,8 @@ OUT_PATH = ROOT / "public" / "data" / "properties.json"
 EIRCODE_RE = re.compile(r"\b([A-Z]\d[\dW])\s?([A-Z0-9]{4})\b", re.I)
 # The sheet also carries invented eircode-ish suffixes (K78C5T10) on sibling units.
 PSEUDO_EIRCODE_RE = re.compile(r"\b[A-Z]\d[\dW][A-Z0-9]{3,6}\b", re.I)
+# UK postcodes for the London tab, e.g. "E7 8PF", "NW8 8HT".
+UK_POSTCODE_RE = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?)\s*(\d[A-Z]{2})\b", re.I)
 MONEY_RE = re.compile(r"([€£])\s?([\d,]+)")
 
 # Bed-cell vocabulary used in the sheet.
@@ -124,12 +127,21 @@ def split_name(raw):
         note = upper_tail.group(1).strip()
         full = full[: upper_tail.start()].strip()
 
+    # Postcode: an Irish eircode, or (London tab) a UK postcode.
     eircode = ""
     match = EIRCODE_RE.search(full)
     if match:
         eircode = f"{match.group(1).upper()} {match.group(2).upper()}"
+    else:
+        uk = UK_POSTCODE_RE.search(full)
+        if uk:
+            eircode = f"{uk.group(1).upper()} {uk.group(2).upper()}"
 
-    parts = [p.strip(" -,") for p in full.split(",") if p.strip(" -,")]
+    def strip_postcodes(text):
+        return UK_POSTCODE_RE.sub("", PSEUDO_EIRCODE_RE.sub("", EIRCODE_RE.sub("", text))).strip(" -,")
+
+    # Drop chunks that are only a postcode (London addresses lead with one).
+    parts = [p.strip(" -,") for p in full.split(",") if strip_postcodes(p)]
     name = parts[0] if parts else full
     rest = parts[1:]
 
@@ -139,13 +151,12 @@ def split_name(raw):
         name, rest = rest[0], rest[1:]
         name = f"{name} (Apt {unit.group(1)})"
 
-    # Trim a trailing eircode or bare routing key glued onto the name.
-    name = PSEUDO_EIRCODE_RE.sub("", EIRCODE_RE.sub("", name)).strip(" -,")
+    # Trim a trailing eircode/postcode or bare routing key glued onto the name.
+    name = strip_postcodes(name)
     if " " in name:
         name = re.sub(r"\s+[A-Z]\d[\dW]?$", "", name).strip(" -,")
 
-    area = ", ".join(rest)
-    area = PSEUDO_EIRCODE_RE.sub("", EIRCODE_RE.sub("", area)).strip(" -,")
+    area = strip_postcodes(", ".join(rest))
     area = re.sub(r"\s+,", ",", area)
     if area.isupper():
         area = area.title()
@@ -201,13 +212,21 @@ def main():
     folder_links = {clean(k): v for k, v in load_json(MEDIA_LINKS_PATH, {}).items()}
 
     with CSV_PATH.open(encoding="utf-8", newline="") as handle:
-        rows = list(csv.reader(handle))
+        data_rows = list(csv.reader(handle))[1:]
+
+    # The London tab (portfolio-london.csv) is mapped to the same columns by
+    # scripts/london_to_csv.py; append it so both cities build in one pass.
+    if LONDON_CSV_PATH.exists():
+        with LONDON_CSV_PATH.open(encoding="utf-8", newline="") as handle:
+            london_rows = list(csv.reader(handle))[1:]
+        data_rows = data_rows + [[]] + london_rows
 
     grouped = OrderedDict()
     current_key = None
     current_city = ""
-    for row in rows[1:]:
+    for row in data_rows:
         if not any(cell.strip() for cell in row):
+            current_key = None  # a blank row ends the current property block
             continue
         row = row + [""] * (21 - len(row))
         if clean(row[0]):

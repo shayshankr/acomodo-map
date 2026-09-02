@@ -70,10 +70,14 @@ def strip_noise(address):
     return chunks
 
 
+UK_POSTCODE_RE = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?)\s*(\d[A-Z]{2})\b", re.I)
+
+
 def lookup(address, city, hint=None):
     """Try the most specific form first, then widen. Returns dict or None."""
     country = "gb" if city.lower() == "london" else "ie"
     eircode = EIRCODE_RE.search(address)
+    uk_pc = UK_POSTCODE_RE.search(address)
 
     attempts = []
     if hint:
@@ -82,6 +86,10 @@ def lookup(address, city, hint=None):
         attempts.append(
             (f"{eircode.group(1).upper()} {eircode.group(2).upper()}", "eircode")
         )
+    # A full UK postcode pins a London address far better than its (often
+    # duplicated) street name, so try it before the street forms.
+    if uk_pc:
+        attempts.append((f"{uk_pc.group(1).upper()} {uk_pc.group(2).upper()}, {city}", "postcode"))
     chunks = strip_noise(address) or [address]
     attempts.append((f"{', '.join(chunks)}, {city}", "address"))
     # Peel off the leading house name/number: the street alone is often what OSM knows.
@@ -111,20 +119,24 @@ def lookup(address, city, hint=None):
 
 
 def addresses_from_csv():
-    with CSV_PATH.open(encoding="utf-8", newline="") as handle:
-        rows = list(csv.reader(handle))
     seen = {}
-    key = None
-    city = ""
-    for row in rows[1:]:
-        if not any(cell.strip() for cell in row):
+    for path in (CSV_PATH, CSV_PATH.parent / "portfolio-london.csv"):
+        if not path.exists():
             continue
-        if clean(row[0]):
-            key = clean(row[0])
-        if len(row) > 1 and clean(row[1]):
-            city = clean(row[1])
-        if key and key not in seen:
-            seen[key] = city or "Dublin"
+        with path.open(encoding="utf-8", newline="") as handle:
+            rows = list(csv.reader(handle))
+        key = None
+        city = ""
+        for row in rows[1:]:
+            if not any(cell.strip() for cell in row):
+                key = None
+                continue
+            if clean(row[0]):
+                key = clean(row[0])
+            if len(row) > 1 and clean(row[1]):
+                city = clean(row[1])
+            if key and key not in seen:
+                seen[key] = city or "Dublin"
     return seen
 
 
