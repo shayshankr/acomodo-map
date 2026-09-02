@@ -314,20 +314,12 @@ function updateStats() {
   $("stat-props").textContent = scope.length;
 }
 
-// The city with the most free beds right now — used as the default landing so
-// visitors open where there's the most to see, not the sparse all-cities view.
-function bestCity() {
-  const free = {};
-  for (const p of state.properties) free[p.city] = (free[p.city] || 0) + p.available;
-  let best = "all";
-  let max = 0;
-  for (const [city, beds] of Object.entries(free)) {
-    if (beds > max) {
-      max = beds;
-      best = city;
-    }
-  }
-  return best;
+// The default landing city (logo / first visit). Fixed to Dublin — the main
+// market — so people always open there, not the sparse all-cities view. Falls
+// back to "all" only if the data somehow has no Dublin properties.
+const HOME_CITY = "Dublin";
+function defaultCity() {
+  return state.properties.some((p) => p.city === HOME_CITY) ? HOME_CITY : "all";
 }
 
 function setSegUI(city) {
@@ -979,7 +971,7 @@ function resetToHome() {
   resetFilters();
   // Land on the busiest city (its map + its stats) rather than the sparse
   // all-cities view. "All" is still one tap away on the segment.
-  state.city = bestCity();
+  state.city = defaultCity();
   setSegUI(state.city);
   applyFilters();
   els.results.scrollTop = 0;
@@ -1282,7 +1274,7 @@ async function main() {
     ["city", "near", "q", "p", "saved", "sort", "type", "max", "all", "bills", "ensuite", "short"].includes(k)
   );
   if (pristine) {
-    state.city = bestCity();
+    state.city = defaultCity();
     setSegUI(state.city);
   }
 
