@@ -130,6 +130,11 @@ python scripts/fetch_photos.py          # re-pull everything
 python scripts/refresh.py               # photos + data in one go
 ```
 
+Photos also refresh **automatically**: `.github/workflows/photos.yml` runs the
+fetch daily (and on demand) with no credentials — because the folders are public
+— and commits any changes, which redeploys the site. So photos staff add to the
+existing Drive folders appear on the map on their own.
+
 A property whose folder is empty simply shows a "Photos on Google Drive" link
 instead of a gallery, and fills in on the next fetch once photos are added.
 

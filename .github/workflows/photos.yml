@@ -1,0 +1,45 @@
+name: Refresh photos
+
+# Re-pulls each property's photos from its (public) Drive folder and rebuilds
+# the data. Credential-free — it uses Google's public embeddedfolderview, so it
+# needs no secrets and runs independently of the availability sync. New photos
+# staff drop into the existing Drive folders appear on the site on the next run.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"     # daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photos
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch photos and rebuild
+        run: |
+          python scripts/fetch_photos.py --limit 12
+          python scripts/build_data.py
+
+      - name: Commit if photos changed
+        run: |
+          git config user.name  "acomodo-map bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/media-cache.json public/photos/ public/data/
+          if git diff --cached --quiet; then
+            echo "No photo changes."
+          else
+            git commit -m "chore: refresh property photos"
+            git push
+          fi
