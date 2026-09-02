@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:02:07+00:00",
+  "generatedAt": "2026-09-02T04:10:06+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 26,
@@ -11,7 +11,7 @@
     "available": 19,
     "onHold": 8,
     "booked": 125,
-    "withPhotos": 1,
+    "withPhotos": 15,
     "withFolder": 22
   },
   "properties": [
@@ -47,7 +47,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/01.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/01_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/02.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/02_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/03.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/03_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/04.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/04_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.28 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/05.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/05_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.28 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/06.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/06_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/07.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/07_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM (2)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/08.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/08_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/09.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/09_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM (2)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/11.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/11_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/12.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "",
@@ -338,7 +399,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
-        "images": []
+        "images": [
+          {
+            "name": "10 saggart exterior",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/01.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/01_t.jpg"
+          },
+          {
+            "name": "6 kitchen",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/02.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/02_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/03.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/03_t.jpg"
+          },
+          {
+            "name": "living",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/04.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/04_t.jpg"
+          },
+          {
+            "name": "Living and dining",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/05.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/05_t.jpg"
+          },
+          {
+            "name": "9 backyard",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/06.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/06_t.jpg"
+          },
+          {
+            "name": "Washroom 1",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/07.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/07_t.jpg"
+          },
+          {
+            "name": "ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/08.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/08_t.jpg"
+          },
+          {
+            "name": "Ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/09.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/09_t.jpg"
+          },
+          {
+            "name": "non ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/10.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/10_t.jpg"
+          },
+          {
+            "name": "non ensuite room 2",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11_t.jpg"
+          },
+          {
+            "name": "11 floor plan",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/12.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "",
@@ -665,31 +787,67 @@
       ],
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
-        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl",
+        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl?usp=drive_link",
         "images": [
           {
-            "id": "1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB",
-            "name": "Exterior"
+            "name": "14 Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/01.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/01_t.jpg"
           },
           {
-            "id": "1lh5MnwPqk-9aZk0CjfcpCpcwNn_g8n5K",
-            "name": "Ground floor double"
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/02.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/02_t.jpg"
           },
           {
-            "id": "1vuIcowBU3A_tspwJidffuuvXTwnCZvSN",
-            "name": "Dining area"
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/03.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/03_t.jpg"
           },
           {
-            "id": "1cTC4jwNyUCr1y7Y02lUG9d2nc1-gaXn4",
-            "name": "Backyard"
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/04.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/04_t.jpg"
           },
           {
-            "id": "1GMqqtv_v2HQTlkw5dTBV3wba_GAJ0omo",
-            "name": "Garden"
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/05.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/05_t.jpg"
           },
           {
-            "id": "1F7KY7Pwy6AwqEKoNAXgDvyLHhJ9820Vy",
-            "name": "Dining"
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/06.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/06_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/07.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/07_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/08.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/08_t.jpg"
+          },
+          {
+            "name": "4 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/09.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/09_t.jpg"
+          },
+          {
+            "name": "6 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10_t.jpg"
+          },
+          {
+            "name": "7 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/11.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/11_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/12.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/12_t.jpg"
           }
         ]
       },
@@ -856,7 +1014,38 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "1 living room",
+            "full": "photos/charles-street-great-dublin-1/01.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/01_t.jpg"
+          },
+          {
+            "name": "2 kitchen",
+            "full": "photos/charles-street-great-dublin-1/02.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/02_t.jpg"
+          },
+          {
+            "name": "3 Room 1 - Dual Occupancy Non-Ensuite",
+            "full": "photos/charles-street-great-dublin-1/03.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/03_t.jpg"
+          },
+          {
+            "name": "4 Room 2 - Triple occupancy",
+            "full": "photos/charles-street-great-dublin-1/04.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/04_t.jpg"
+          },
+          {
+            "name": "5 Wash+Shower",
+            "full": "photos/charles-street-great-dublin-1/05.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/05_t.jpg"
+          },
+          {
+            "name": "6 Laundry space",
+            "full": "photos/charles-street-great-dublin-1/06.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/06_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",
@@ -952,7 +1141,58 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "1",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/01.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/01_t.jpg"
+          },
+          {
+            "name": "10",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/02.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/02_t.jpg"
+          },
+          {
+            "name": "2",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/03.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/03_t.jpg"
+          },
+          {
+            "name": "3",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/04.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/04_t.jpg"
+          },
+          {
+            "name": "4",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/05.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/05_t.jpg"
+          },
+          {
+            "name": "5",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/06.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/06_t.jpg"
+          },
+          {
+            "name": "6",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/07.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/07_t.jpg"
+          },
+          {
+            "name": "7",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/08.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/08_t.jpg"
+          },
+          {
+            "name": "8",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/09.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/09_t.jpg"
+          },
+          {
+            "name": "9",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/10.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/10_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Property Description This fully furnished two-bedroom, two-bathroom apartment is located within a premium, professionally managed residential development in Dublin's North Docklands. Designed for modern student living, the apartment offers stylish, move-in-ready interiors alongside an exceptional range of amenities, creating a comfortable and convenient home away from home. Residents benefit from an extensive amenities package including a fully equipped gym, residents' lounge, co-working spaces with meeting pods, concierge service, landscaped rooftop terraces, dedicated pickleball courts, outdoor BBQ area, 24/7 parcel lockers, secure bike storage, high-speed internet, resident app, shared appliances and tools, electric scooters and a car club. The development is also pet-friendly, with additional lifestyle services available. Area & Student Lifestyle Situated in Dublin's North Docklands, the property places students in one of the city's most vibrant and well-connected neighbourhoods. The area is home to major technology, financial and business institutions while offering a growing selection of cafés, restaurants, bars, supermarkets and entertainment venues. Everyday essentials are close by, with East Road Café just 55m away, Lidl approximately 650m away and Aldi approximately 750m away. Students can also easily access 3Arena, Point Village, Odeon Cinema, EPIC and the Bord Gáis Energy Theatre. The surrounding Docklands is ideal for students who enjoy an active social lifestyle, with plenty of opportunities for dining, entertainment, cycling and exploring central Dublin. Transport & University Access The property benefits from excellent access to Dublin's public transport network: Spencer Dock LUAS: approximately 7 minutes' walk IFSC: approximately 10 minutes' walk Connolly Station: approximately 10 minutes by LUAS Point Village: approximately 5 minutes by LUAS Grand Canal Dock: approximately 20 minutes' walk O'Connell Street: approximately 5 minutes by bike Dublin Airport: approximately 10 minutes by car Approximate commute times to universities National College of Ireland (NCI): approximately 10–15 minutes Trinity College Dublin (TCD): approximately 15–20 minutes Dublin City University (DCU): approximately 15 minutes by public transport TU Dublin: approximately 20–30 minutes, depending on campus University College Dublin (UCD Belfield): approximately 35–45 minutes by public transport",
@@ -1129,7 +1369,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1vDT_rBDgE-X589c_k_OyQqzDqEPIhWAW?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "2 kitchen",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/01.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/01_t.jpg"
+          },
+          {
+            "name": "3 kitchen",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/02.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/02_t.jpg"
+          },
+          {
+            "name": "4 kitchen",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/03.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/03_t.jpg"
+          },
+          {
+            "name": "5 kitchen",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/04.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/04_t.jpg"
+          },
+          {
+            "name": "6 kitchen",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/05.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/05_t.jpg"
+          },
+          {
+            "name": "10 room",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/06.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/06_t.jpg"
+          },
+          {
+            "name": "11 room",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/07.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/07_t.jpg"
+          },
+          {
+            "name": "7 room",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/08.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/08_t.jpg"
+          },
+          {
+            "name": "9 room",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/09.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/09_t.jpg"
+          },
+          {
+            "name": "1 entrance",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/10.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/10_t.jpg"
+          },
+          {
+            "name": "13",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/11.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/11_t.jpg"
+          },
+          {
+            "name": "14",
+            "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/12.jpg",
+            "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "",
@@ -1234,7 +1535,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1aIrSl8vTCLyhrGiy5w-ngXMUeQqVpgN-?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "16 Outside",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/01.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/01_t.jpg"
+          },
+          {
+            "name": "11 kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/02.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/02_t.jpg"
+          },
+          {
+            "name": "13 Kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/03.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/03_t.jpg"
+          },
+          {
+            "name": "4 Kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/04.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/04_t.jpg"
+          },
+          {
+            "name": "6 Kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/05.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/05_t.jpg"
+          },
+          {
+            "name": "1 living area",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/06.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/06_t.jpg"
+          },
+          {
+            "name": "12 Living area",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/07.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/07_t.jpg"
+          },
+          {
+            "name": "3 Living area",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/08.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/08_t.jpg"
+          },
+          {
+            "name": "5 Dining",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/09.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/09_t.jpg"
+          },
+          {
+            "name": "10 Washroom",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/10.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/10_t.jpg"
+          },
+          {
+            "name": "14 Room",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/11.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/11_t.jpg"
+          },
+          {
+            "name": "7 Room 2",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/12.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "A well-presented apartment situated within the sought-after gated development of Emmet Court, nestled in the heart of Inchicore — one of Dublin's most vibrant and up-and-coming neighbourhoods, recently recognised by Time Out as one of the Coolest Neighbourhoods on the Planet. Set beside the scenic Grand Canal, with easy access to the Grand Canal towpath, the Irish War Memorial Gardens, Phoenix Park, and a thriving local scene of independent cafés, restaurants, and amenities in Inchicore Village — including Lidl and SuperValu within walking distance. A short stroll from the Drimnagh LUAS stop (Red Line), offering fast, direct connections into Dublin City Centre, Heuston Station, and beyond.",
@@ -1320,7 +1682,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1aoBNAWuh9UJwN-TpZrmJETnfe50jIb1w?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "1 cover photo",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/01.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/01_t.jpg"
+          },
+          {
+            "name": "10",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/02.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/02_t.jpg"
+          },
+          {
+            "name": "11",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/03.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/03_t.jpg"
+          },
+          {
+            "name": "12",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/04.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/04_t.jpg"
+          },
+          {
+            "name": "2",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/05.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/05_t.jpg"
+          },
+          {
+            "name": "3",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/06.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/06_t.jpg"
+          },
+          {
+            "name": "4",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/07.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/07_t.jpg"
+          },
+          {
+            "name": "5",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/08.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/08_t.jpg"
+          },
+          {
+            "name": "6",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/09.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/09_t.jpg"
+          },
+          {
+            "name": "7",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/10.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/10_t.jpg"
+          },
+          {
+            "name": "8",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/11.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/11_t.jpg"
+          },
+          {
+            "name": "9",
+            "full": "photos/195-barton-road-east-dundrum-d14n765/12.jpg",
+            "thumb": "photos/195-barton-road-east-dundrum-d14n765/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Property Description This charming, fully furnished granny flat offers a self-contained living space ideally suited for three friends looking to share. The unit comprises one double bedroom and one single bedroom, alongside a comfortable living room and all essential amenities. Compact, private, and move-in ready — perfect for students or young professionals seeking an affordable and convenient base in one of South Dublin's most desirable suburbs. Area & Lifestyle Dundrum is one of Dublin's most sought-after residential areas, combining leafy suburban charm with outstanding amenities. Dundrum Town Centre - one of Ireland's largest shopping destinations — is just moments away, offering supermarkets, restaurants, a cinema, and extensive retail. The beautiful grounds of Marlay Park and the Slang River walk are close by for those who enjoy green space and outdoor activities. Transport & University Access Dundrum LUAS Green Line: within walking distance, providing fast direct access across Dublin Dublin Bus routes including the 44, 75, and 116 serve the area Approximate commute times: UCD Belfield: 15-20 minutes by bus Trinity College Dublin: 35-40 minutes via LUAS DBS / NCI (City Centre): 40-45 minutes IADT Dún Laoghaire: 20 minutes",
@@ -1554,7 +1977,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1AxggEKbSaXRGPXNjHDb3E8LTG8Er4fz2?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "6 kitchen",
+            "full": "photos/4-springfield-avenue-d6w-dk38/01.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/01_t.jpg"
+          },
+          {
+            "name": "5 Living room",
+            "full": "photos/4-springfield-avenue-d6w-dk38/02.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/02_t.jpg"
+          },
+          {
+            "name": "1 cover photo",
+            "full": "photos/4-springfield-avenue-d6w-dk38/03.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/03_t.jpg"
+          },
+          {
+            "name": "2 entrance",
+            "full": "photos/4-springfield-avenue-d6w-dk38/04.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/04_t.jpg"
+          },
+          {
+            "name": "3 entrance",
+            "full": "photos/4-springfield-avenue-d6w-dk38/05.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/05_t.jpg"
+          },
+          {
+            "name": "4 entrance",
+            "full": "photos/4-springfield-avenue-d6w-dk38/06.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/06_t.jpg"
+          },
+          {
+            "name": "Graham 1",
+            "full": "photos/4-springfield-avenue-d6w-dk38/07.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/07_t.jpg"
+          },
+          {
+            "name": "Graham 10",
+            "full": "photos/4-springfield-avenue-d6w-dk38/08.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/08_t.jpg"
+          },
+          {
+            "name": "Graham 3",
+            "full": "photos/4-springfield-avenue-d6w-dk38/09.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/09_t.jpg"
+          },
+          {
+            "name": "Graham 4",
+            "full": "photos/4-springfield-avenue-d6w-dk38/10.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/10_t.jpg"
+          },
+          {
+            "name": "Graham 5",
+            "full": "photos/4-springfield-avenue-d6w-dk38/11.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/11_t.jpg"
+          },
+          {
+            "name": "Graham 6",
+            "full": "photos/4-springfield-avenue-d6w-dk38/12.jpg",
+            "thumb": "photos/4-springfield-avenue-d6w-dk38/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "",
@@ -1714,7 +2198,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/u/1/folders/19eMv90W8SSvLsut6szAvLaHOUzzwCjEv",
-        "images": []
+        "images": [
+          {
+            "name": "3 Kitchen",
+            "full": "photos/55-mountjoy-square-d01-dy79/01.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/01_t.jpg"
+          },
+          {
+            "name": "1 living room",
+            "full": "photos/55-mountjoy-square-d01-dy79/02.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/02_t.jpg"
+          },
+          {
+            "name": "2 Living area",
+            "full": "photos/55-mountjoy-square-d01-dy79/03.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/03_t.jpg"
+          },
+          {
+            "name": "7 Washroom",
+            "full": "photos/55-mountjoy-square-d01-dy79/04.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/04_t.jpg"
+          },
+          {
+            "name": "Dual sharing single bed rooms",
+            "full": "photos/55-mountjoy-square-d01-dy79/05.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/05_t.jpg"
+          },
+          {
+            "name": "4 Room 2 ",
+            "full": "photos/55-mountjoy-square-d01-dy79/06.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/06_t.jpg"
+          },
+          {
+            "name": "5 second room - bunks will be placed here",
+            "full": "photos/55-mountjoy-square-d01-dy79/07.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/07_t.jpg"
+          },
+          {
+            "name": "6 Bunk",
+            "full": "photos/55-mountjoy-square-d01-dy79/08.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/08_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-07-04 at 19.16.40 (1)",
+            "full": "photos/55-mountjoy-square-d01-dy79/09.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/09_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-07-04 at 19.16.40 (2)",
+            "full": "photos/55-mountjoy-square-d01-dy79/10.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/10_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-07-04 at 19.16.40",
+            "full": "photos/55-mountjoy-square-d01-dy79/11.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/11_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-07-04 at 19.16.41 (1)",
+            "full": "photos/55-mountjoy-square-d01-dy79/12.jpg",
+            "thumb": "photos/55-mountjoy-square-d01-dy79/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "A character apartment located on the historic Mountjoy Square, one of Dublin's iconic Georgian squares in the heart of the north inner city. Beautifully positioned within minutes of O'Connell Street, the IFSC, Croke Park, and the Bord Gáis Energy Theatre. The area combines Georgian architecture with vibrant modern Dublin life, surrounded by cafés, restaurants, supermarkets (Aldi, Lidl, Dunnes), and excellent transport links. Walking distance to Trinity College, the National College of Ireland (NCI), and TU Dublin Bolton Street — making it an exceptional location for students at any of Dublin's central universities. Transport & Connectivity LUAS Green Line (Marlborough Stop): ~8 min walk LUAS Red Line (Connolly): ~10 min walk DART (Connolly Station): ~10 min walk Dublin Bus (multiple routes): ~2 min walk Dublin City Centre (O'Connell Street): ~6 min walk Dublin Airport: ~25 min drive Travel Times to Universities NCI (IFSC) — ~11 min walk (~900m) TU Dublin (Bolton Street) — ~12 min walk (~1 km) TCD (Trinity College Dublin) — ~13 min walk (~1.3 km) RCSI (St. Stephen's Green) — ~22 min walk / ~10 mins via LUAS Green DBS (Aungier Street) — ~19 min walk / ~12 mins via LUAS TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red TU Dublin (Aungier Street) — ~19 min walk Griffith College — ~25–30 mins via bus DCU — ~25–35 mins via bus",
@@ -1783,7 +2328,53 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "1 cover photo area",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/01.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/01_t.jpg"
+          },
+          {
+            "name": "ameneties ",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/02.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/02_t.jpg"
+          },
+          {
+            "name": "bedroom",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/03.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/03_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/04.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/04_t.jpg"
+          },
+          {
+            "name": "room 1",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/05.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/05_t.jpg"
+          },
+          {
+            "name": "room 2",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/06.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/06_t.jpg"
+          },
+          {
+            "name": "room 3",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/07.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/07_t.jpg"
+          },
+          {
+            "name": "washroom ",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/08.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/08_t.jpg"
+          },
+          {
+            "name": "washroom 3",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/09.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/09_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
@@ -1880,7 +2471,58 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/u/1/folders/1WqAYI11usWqWSngxBRX6EDpJKP2gGMZD",
-        "images": []
+        "images": [
+          {
+            "name": "1",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/01.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/01_t.jpg"
+          },
+          {
+            "name": "10",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/02.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/02_t.jpg"
+          },
+          {
+            "name": "2",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/03.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/03_t.jpg"
+          },
+          {
+            "name": "3",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/04.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/04_t.jpg"
+          },
+          {
+            "name": "4",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/05.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/05_t.jpg"
+          },
+          {
+            "name": "5",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/06.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/06_t.jpg"
+          },
+          {
+            "name": "6",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/07.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/07_t.jpg"
+          },
+          {
+            "name": "7",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/08.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/08_t.jpg"
+          },
+          {
+            "name": "8",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/09.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/09_t.jpg"
+          },
+          {
+            "name": "9",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/10.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/10_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Property Description This fully furnished two-bedroom, two-bathroom apartment is located within a premium, professionally managed residential development in Dublin's North Docklands. Designed for modern student living, the apartment offers stylish, move-in-ready interiors alongside an exceptional range of amenities, creating a comfortable and convenient home away from home. Residents benefit from an extensive amenities package including a fully equipped gym, residents' lounge, co-working spaces with meeting pods, concierge service, landscaped rooftop terraces, dedicated pickleball courts, outdoor BBQ area, 24/7 parcel lockers, secure bike storage, high-speed internet, resident app, shared appliances and tools, electric scooters and a car club. The development is also pet-friendly, with additional lifestyle services available. Area & Student Lifestyle Situated in Dublin's North Docklands, the property places students in one of the city's most vibrant and well-connected neighbourhoods. The area is home to major technology, financial and business institutions while offering a growing selection of cafés, restaurants, bars, supermarkets and entertainment venues. Everyday essentials are close by, with East Road Café just 55m away, Lidl approximately 650m away and Aldi approximately 750m away. Students can also easily access 3Arena, Point Village, Odeon Cinema, EPIC and the Bord Gáis Energy Theatre. The surrounding Docklands is ideal for students who enjoy an active social lifestyle, with plenty of opportunities for dining, entertainment, cycling and exploring central Dublin. Transport & University Access The property benefits from excellent access to Dublin's public transport network: Spencer Dock LUAS: approximately 7 minutes' walk IFSC: approximately 10 minutes' walk Connolly Station: approximately 10 minutes by LUAS Point Village: approximately 5 minutes by LUAS Grand Canal Dock: approximately 20 minutes' walk O'Connell Street: approximately 5 minutes by bike Dublin Airport: approximately 10 minutes by car Approximate commute times to universities National College of Ireland (NCI): approximately 10–15 minutes Trinity College Dublin (TCD): approximately 15–20 minutes Dublin City University (DCU): approximately 15 minutes by public transport TU Dublin: approximately 20–30 minutes, depending on campus University College Dublin (UCD Belfield): approximately 35–45 minutes by public transport",
@@ -1950,7 +2592,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1E7tD7126uCbJ-_uMojLBa6_Awe5e43Nd?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "3 Kitchen",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/01.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/01_t.jpg"
+          },
+          {
+            "name": "Kitchen 2",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/02.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/02_t.jpg"
+          },
+          {
+            "name": "1 Living Room - Cover Photo",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/03.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/03_t.jpg"
+          },
+          {
+            "name": "2 Living room (full)",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/04.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/04_t.jpg"
+          },
+          {
+            "name": "5 Living Room (TV)",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/05.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/05_t.jpg"
+          },
+          {
+            "name": "6 Dining Area",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/06.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/06_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/07.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/07_t.jpg"
+          },
+          {
+            "name": "Bathroom - Shower",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/08.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/08_t.jpg"
+          },
+          {
+            "name": "10 Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/09.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/09_t.jpg"
+          },
+          {
+            "name": "4 Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/10.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/10_t.jpg"
+          },
+          {
+            "name": "Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/11.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/11_t.jpg"
+          },
+          {
+            "name": "Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/12.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Property Description This is a 2-bed, 1-wash apt. Nicholas House offers a well-appointed standard of shared living accommodation in the heart of Dublin's historic Christchurch quarter. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise.",
@@ -2209,7 +2912,33 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/u/1/folders/1p6ZsM82tbbFpxBDujwVTJB2cgSF5Yhh0",
-        "images": []
+        "images": [
+          {
+            "name": "Cover photo",
+            "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/01.jpg",
+            "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/01_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-06-18 at 11.55.37 (1)",
+            "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/02.jpg",
+            "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/02_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-06-18 at 11.55.38 (1)",
+            "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/03.jpg",
+            "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/03_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-06-18 at 11.55.38",
+            "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/04.jpg",
+            "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/04_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-06-19 at 06.55.38 (1)",
+            "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/05.jpg",
+            "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/05_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "A modern, recently completed family home in the well-planned Adamstown development — a thoughtfully designed residential community in west Dublin with excellent infrastructure, green spaces, and family-friendly amenities. Featuring an A2 BER rating for outstanding energy efficiency (low utility bills for tenants), with a private garden, off-street parking, and fully furnished throughout. The property includes 4 bedrooms across the ground and first floors, with multiple bathrooms and a downstairs WC for convenience. Adamstown is one of Dublin's most accessible western suburbs, with a dedicated rail station offering direct services into Heuston Station and Grand Canal Dock. The Liffey Valley Shopping Centre, Adamstown Educate Together schools, SuperValu, cafés, and the Tesco Adamstown are all within walking distance. Transport & Connectivity Adamstown Rail Station: ~9 min walk Bus Stop (multiple routes): ~5 min walk Dublin City Centre (Heuston) via train: ~18 mins Grand Canal Dock via train: ~38 mins (direct) N4 / M50 Motorway: ~5 min drive Dublin Airport: ~30 min drive Travel Times to Universities TU Dublin (Tallaght) — ~25–35 mins via direct bus TU Dublin (Blanchardstown) — ~30–40 mins via direct bus Maynooth University — ~24 mins via direct train (Adamstown → Maynooth line) TU Dublin (Grangegorman) — ~40–50 mins via train + LUAS TCD (Trinity College Dublin) — ~40 mins via train to Grand Canal Dock + walk UCD Belfield — ~45–55 mins via direct bus (Route C3) NCI / DBS / RCSI — ~45 mins via train to Grand Canal Dock + walk/LUAS Griffith College — ~35 mins via train + bus",
@@ -2263,7 +2992,68 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "2 living room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/01.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/01_t.jpg"
+          },
+          {
+            "name": "10 bathroom",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/02.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/02_t.jpg"
+          },
+          {
+            "name": "12 bathroom",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/03.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/03_t.jpg"
+          },
+          {
+            "name": "3 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/04.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/04_t.jpg"
+          },
+          {
+            "name": "4 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/05.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/05_t.jpg"
+          },
+          {
+            "name": "5 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/06.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/06_t.jpg"
+          },
+          {
+            "name": "6 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/07.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/07_t.jpg"
+          },
+          {
+            "name": "7 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/08.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/08_t.jpg"
+          },
+          {
+            "name": "8 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/09.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/09_t.jpg"
+          },
+          {
+            "name": "9 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/10.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/10_t.jpg"
+          },
+          {
+            "name": "11",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11_t.jpg"
+          },
+          {
+            "name": "13",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/12.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/12_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Located in the exclusive New Westfields enclave on the prestigious North Circular Road, this beautifully presented residence offers a high-end living experience just minutes from Limerick city centre. The property combines privacy and luxury with modern, light-filled interiors. Features a bespoke kitchen with state-of-the-art appliances, multiple reception rooms with high ceilings, and spacious bedrooms with quality finishes. Residents enjoy meticulously landscaped gardens, an expansive patio for outdoor entertaining, and a secluded setting in a peaceful cul-de-sac. Situated within walking distance of renowned schools like Ard Scoil Rís and Villiers, and close to the Limerick Lawn Tennis Club.",

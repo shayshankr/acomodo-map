@@ -234,11 +234,19 @@ def main():
 
         key = clean(raw_key)
         cache_entry = media.get(key, {})
-        gallery = [
-            {"id": img["id"], "name": img.get("name", "")}
-            for img in cache_entry.get("images", [])[:MAX_GALLERY]
-            if img.get("id")
-        ]
+        gallery = []
+        for img in cache_entry.get("images", [])[:MAX_GALLERY]:
+            # Self-hosted images carry full/thumb paths; older cache entries
+            # may still carry only a Drive file id — keep whichever is present.
+            entry = {"name": img.get("name", "")}
+            if img.get("full"):
+                entry["full"] = img["full"]
+                entry["thumb"] = img.get("thumb", img["full"])
+            elif img.get("id"):
+                entry["id"] = img["id"]
+            else:
+                continue
+            gallery.append(entry)
         media_info = {
             "folder": cache_entry.get("folder") or folder_links.get(key),
             "images": gallery,

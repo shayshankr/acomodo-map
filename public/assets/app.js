@@ -29,6 +29,12 @@ const WHATSAPP_ICON =
   '<path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.45-.15-.64.14-.19.29-.74.93-.9 1.12-.17.19-.33.21-.62.07-.29-.15-1.22-.45-2.33-1.44-.86-.77-1.44-1.72-1.61-2-.17-.29-.02-.45.13-.59.13-.13.29-.34.43-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.64-1.55-.88-2.12-.23-.55-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36-.26.29-1 .98-1 2.38s1.02 2.76 1.17 2.95c.14.19 2.01 3.06 4.87 4.29.68.29 1.21.47 1.62.6.68.22 1.3.19 1.79.12.55-.08 1.7-.7 1.94-1.37.24-.67.24-1.25.17-1.37-.07-.12-.26-.19-.55-.34zM12.05 21.5h-.01c-1.67 0-3.31-.45-4.74-1.29l-.34-.2-3.52.92.94-3.43-.22-.35a9.4 9.4 0 01-1.44-5.02c0-5.2 4.24-9.44 9.45-9.44 2.52 0 4.89.98 6.67 2.77a9.36 9.36 0 012.76 6.68c-.01 5.2-4.24 9.44-9.44 9.44zM20.52 3.48A11.78 11.78 0 0012.05.99C5.55.99.28 6.26.28 12.74c0 2.07.54 4.1 1.57 5.88L.18 24l5.53-1.45a11.8 11.8 0 005.64 1.44h.01c6.5 0 11.78-5.27 11.78-11.75 0-3.14-1.22-6.09-3.44-8.31z"/></svg>';
 
 const $ = (id) => document.getElementById(id);
+
+// Resolve a gallery image to a URL. Prefer the self-hosted copy under
+// public/photos/ (written by scripts/fetch_photos.py); fall back to Drive for
+// any entry that still only carries a Drive file id.
+const imgThumb = (img) => img.thumb || CONFIG.driveThumb(img.id, 480);
+const imgFull = (img) => img.full || CONFIG.driveFull(img.id, 1600);
 const els = {
   results: $("results"),
   count: $("result-count"),
@@ -529,14 +535,14 @@ function galleryMarkup(property) {
                 data-gallery="${index}" aria-label="Photo ${index + 1}${
           img.name ? ": " + esc(img.name) : ""
         }">
-          <img loading="lazy" src="${CONFIG.driveThumb(img.id, 300)}" alt="">
+          <img loading="lazy" src="${imgThumb(img)}" alt="">
         </button>`
       )
       .join("");
     return `
       <figure class="gallery" data-count="${images.length}">
         <button type="button" class="g-hero" data-gallery="0" aria-label="Open photo viewer">
-          <img id="g-hero-img" src="${CONFIG.driveThumb(hero.id, 1000)}"
+          <img id="g-hero-img" src="${imgFull(hero)}"
                alt="${esc(property.name)} — ${esc(hero.name || "photo")}">
           <span class="g-count">${images.length} photos</span>
         </button>
@@ -560,7 +566,7 @@ function setHero(property, index, thumbEl) {
   const img = property?.media?.images?.[index];
   if (!img) return;
   const hero = document.getElementById("g-hero-img");
-  if (hero) hero.src = CONFIG.driveThumb(img.id, 1000);
+  if (hero) hero.src = imgFull(img);
   const heroBtn = document.querySelector(".g-hero");
   if (heroBtn) heroBtn.dataset.gallery = String(index);
   for (const t of els.drawerInner.querySelectorAll(".g-thumb")) t.classList.remove("is-on");
@@ -582,7 +588,7 @@ function openLightbox(images, index) {
 function renderLightbox() {
   const img = lightbox.images[lightbox.index];
   const total = lightbox.images.length;
-  els.lightbox.querySelector(".lb-img").src = CONFIG.driveFull(img.id, 1600);
+  els.lightbox.querySelector(".lb-img").src = imgFull(img);
   els.lightbox.querySelector(".lb-img").alt = img.name || "";
   els.lightbox.querySelector(".lb-caption").textContent = img.name || "";
   els.lightbox.querySelector(".lb-index").textContent = `${lightbox.index + 1} / ${total}`;

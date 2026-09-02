@@ -19,6 +19,7 @@ acomodo-map/
 │   ├── geocode-cache.json    address → lat/lng (generated, hand-editable)
 │   └── campus-cache.json     campus → lat/lng (generated, hand-editable)
 ├── scripts/                  the pipeline (Python 3)
+│   ├── fetch_photos.py       download property photos from Drive → public/photos/
 │   ├── sync_from_google.py   ★ automatic: Sheet + Drive photos → data → build
 │   ├── setup_check.py        verify the service account can read Sheet + folders
 │   ├── extract_media.py      manual: pull photo-folder links out of an XLSX export
@@ -30,6 +31,7 @@ acomodo-map/
 └── public/                   ← this folder is the website; deploy it as-is
     ├── index.html
     ├── assets/{styles.css, app.js}
+    ├── photos/<property>/      self-hosted property images
     └── data/{properties.json, universities.json}
 ```
 
@@ -103,26 +105,36 @@ street level, so nothing is silently misplaced.
 
 ## Photos
 
-Each property's detail panel shows a gallery with a click-to-open lightbox. The
-images come from the Google Drive folder linked in the Sheet's **Media Link**
-column:
+Each property's detail panel has a gallery with a click-to-open lightbox, served
+from the site's own CDN — **not** hot-linked from Google Drive (Drive is slow,
+rate-limited, and its embed URLs break without notice).
 
-- The folder URL is read from the Sheet (it's a *hyperlink* behind the text
-  "Media Link", which is why the sync/XLSX path is needed — a CSV drops it).
-- `sync_from_google.py` walks each folder (and its room subfolders), picks a
-  curated spread of up to 12 photos, and records their Drive file ids.
-- The page embeds each one straight from Drive
-  (`https://drive.google.com/thumbnail?id=…`), so there's nothing else to host.
+The pipeline (`scripts/fetch_photos.py`, no credentials needed):
 
-**The photo folders must be shared "Anyone with the link → Viewer"** for the
-images to show on the public site (they already are — the current photos load).
-A property with a folder but no images yet shows a "Photos on Google Drive"
-link instead of an empty gallery, and fills in automatically once photos are
-added and the next sync runs.
+1. Reads each property's Drive folder URL from `data/media-links.json` (the
+   "Media Link" hyperlinks in the Sheet).
+2. Lists the folder — and its room subfolders — through Google's public
+   `embeddedfolderview` endpoint. This works because the folders are shared
+   "Anyone with the link", the same setting that lets the photos display.
+3. Downloads a curated spread (max 12/property) at two web sizes using Drive's
+   own resizer — a ~480px thumbnail and a ~1600px view image — into
+   `public/photos/<slug>/`.
+4. Records the local paths in `data/media-cache.json`; `build_data.py` attaches
+   them and the page loads them straight from `public/photos/`.
 
-> The checked-in `data/media-cache.json` is a small seed (one property) so the
-> galleries work before you wire up the service account. The first real sync
-> replaces it with the full set.
+So the images are **committed to the repo and served from GitHub Pages** —
+fast, reliable, versioned, and independent of Drive being up. Refresh them with:
+
+```bash
+python scripts/fetch_photos.py          # re-pull everything
+python scripts/refresh.py               # photos + data in one go
+```
+
+A property whose folder is empty simply shows a "Photos on Google Drive" link
+instead of a gallery, and fills in on the next fetch once photos are added.
+
+> The photo folders must stay shared "Anyone with the link → Viewer" for the
+> fetch to see them (they already are).
 
 ## How the sheet is read
 

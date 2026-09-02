@@ -1,17 +1,1223 @@
 {
-  "_comment": "Curated images per property, keyed by the Property Name exactly as in the sheet. Written by scripts/sync_from_google.py (service account, lists the Drive folders in full). This checked-in copy is a seed so galleries work before the automated sync runs; the sync overwrites it. Each image is a Drive file id — the front end builds the thumbnail URL from it.",
-  "generatedAt": "2026-09-01T00:00:00Z",
-  "source": "seed (Drive connector, partial)",
+  "generatedAt": "2026-09-02T04:09:18+00:00",
+  "source": "fetch_photos.py (public Drive folders)",
   "properties": {
-    "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657": {
-      "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl",
+    "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24": {
+      "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
       "images": [
-        { "id": "1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB", "name": "Exterior" },
-        { "id": "1lh5MnwPqk-9aZk0CjfcpCpcwNn_g8n5K", "name": "Ground floor double" },
-        { "id": "1vuIcowBU3A_tspwJidffuuvXTwnCZvSN", "name": "Dining area" },
-        { "id": "1cTC4jwNyUCr1y7Y02lUG9d2nc1-gaXn4", "name": "Backyard" },
-        { "id": "1GMqqtv_v2HQTlkw5dTBV3wba_GAJ0omo", "name": "Garden" },
-        { "id": "1F7KY7Pwy6AwqEKoNAXgDvyLHhJ9820Vy", "name": "Dining" }
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/01.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/01_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM (1)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/02.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/02_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/03.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/03_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM (1)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/04.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/04_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/05.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/05_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.28 PM (1)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/06.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/06_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.28 PM"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/07.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/07_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM (1)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/08.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/08_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM (2)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/09.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/09_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM (1)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/11.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/11_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM (2)"
+        },
+        {
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/12.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/12_t.jpg",
+          "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM"
+        }
+      ]
+    },
+    "13 Grangemore Drive, Dublin 13, D13 H9TX": {
+      "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
+      "images": []
+    },
+    "145 Cromwells Fort Road, Walkinstown, Dublin, D12 E4C9": {
+      "folder": "https://drive.google.com/drive/folders/1vDT_rBDgE-X589c_k_OyQqzDqEPIhWAW?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/01.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/01_t.jpg",
+          "name": "2 kitchen"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/02.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/02_t.jpg",
+          "name": "3 kitchen"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/03.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/03_t.jpg",
+          "name": "4 kitchen"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/04.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/04_t.jpg",
+          "name": "5 kitchen"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/05.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/05_t.jpg",
+          "name": "6 kitchen"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/06.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/06_t.jpg",
+          "name": "10 room"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/07.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/07_t.jpg",
+          "name": "11 room"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/08.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/08_t.jpg",
+          "name": "7 room"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/09.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/09_t.jpg",
+          "name": "9 room"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/10.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/10_t.jpg",
+          "name": "1 entrance"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/11.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/11_t.jpg",
+          "name": "13"
+        },
+        {
+          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/12.jpg",
+          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/12_t.jpg",
+          "name": "14"
+        }
+      ]
+    },
+    "16 Emmet Lodge, Emmet Court, Dublin 8 D08 EY83": {
+      "folder": "https://drive.google.com/drive/folders/1aIrSl8vTCLyhrGiy5w-ngXMUeQqVpgN-?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/01.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/01_t.jpg",
+          "name": "16 Outside"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/02.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/02_t.jpg",
+          "name": "11 kitchen"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/03.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/03_t.jpg",
+          "name": "13 Kitchen"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/04.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/04_t.jpg",
+          "name": "4 Kitchen"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/05.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/05_t.jpg",
+          "name": "6 Kitchen"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/06.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/06_t.jpg",
+          "name": "1 living area"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/07.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/07_t.jpg",
+          "name": "12 Living area"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/08.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/08_t.jpg",
+          "name": "3 Living area"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/09.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/09_t.jpg",
+          "name": "5 Dining"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/10.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/10_t.jpg",
+          "name": "10 Washroom"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/11.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/11_t.jpg",
+          "name": "14 Room"
+        },
+        {
+          "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/12.jpg",
+          "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/12_t.jpg",
+          "name": "7 Room 2"
+        }
+      ]
+    },
+    "195 Barton road east Dundrum - D14N765": {
+      "folder": "https://drive.google.com/drive/folders/1aoBNAWuh9UJwN-TpZrmJETnfe50jIb1w?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/01.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/01_t.jpg",
+          "name": "1 cover photo"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/02.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/02_t.jpg",
+          "name": "10"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/03.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/03_t.jpg",
+          "name": "11"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/04.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/04_t.jpg",
+          "name": "12"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/05.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/05_t.jpg",
+          "name": "2"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/06.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/06_t.jpg",
+          "name": "3"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/07.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/07_t.jpg",
+          "name": "4"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/08.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/08_t.jpg",
+          "name": "5"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/09.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/09_t.jpg",
+          "name": "6"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/10.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/10_t.jpg",
+          "name": "7"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/11.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/11_t.jpg",
+          "name": "8"
+        },
+        {
+          "full": "photos/195-barton-road-east-dundrum-d14n765/12.jpg",
+          "thumb": "photos/195-barton-road-east-dundrum-d14n765/12_t.jpg",
+          "name": "9"
+        }
+      ]
+    },
+    "1a Brookfield Artane Dublin 5 - D05E7Y0": {
+      "folder": "https://drive.google.com/drive/folders/1xbd1Rub2AsZSKhykd8yWXKXxBzBu3uQ_?usp=sharing",
+      "images": []
+    },
+    "23 Belveder Avenue D01": {
+      "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
+      "images": []
+    },
+    "4 SPRINGFIELD AVENUE D6W DK38": {
+      "folder": "https://drive.google.com/drive/folders/1AxggEKbSaXRGPXNjHDb3E8LTG8Er4fz2?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/01.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/01_t.jpg",
+          "name": "6 kitchen"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/02.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/02_t.jpg",
+          "name": "5 Living room"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/03.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/03_t.jpg",
+          "name": "1 cover photo"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/04.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/04_t.jpg",
+          "name": "2 entrance"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/05.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/05_t.jpg",
+          "name": "3 entrance"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/06.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/06_t.jpg",
+          "name": "4 entrance"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/07.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/07_t.jpg",
+          "name": "Graham 1"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/08.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/08_t.jpg",
+          "name": "Graham 10"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/09.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/09_t.jpg",
+          "name": "Graham 3"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/10.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/10_t.jpg",
+          "name": "Graham 4"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/11.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/11_t.jpg",
+          "name": "Graham 5"
+        },
+        {
+          "full": "photos/4-springfield-avenue-d6w-dk38/12.jpg",
+          "thumb": "photos/4-springfield-avenue-d6w-dk38/12_t.jpg",
+          "name": "Graham 6"
+        }
+      ]
+    },
+    "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657": {
+      "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/01.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/01_t.jpg",
+          "name": "14 Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/02.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/02_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/03.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/03_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/04.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/04_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/05.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/05_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/06.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/06_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/07.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/07_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/08.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/08_t.jpg",
+          "name": "Copy of Exterior"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/09.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/09_t.jpg",
+          "name": "4 Kitchen"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10_t.jpg",
+          "name": "6 Kitchen"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/11.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/11_t.jpg",
+          "name": "7 Kitchen"
+        },
+        {
+          "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/12.jpg",
+          "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/12_t.jpg",
+          "name": "Copy of Kitchen"
+        }
+      ]
+    },
+    "42 Disraeli Rd E7 9JP": {
+      "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/01.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/01_t.jpg",
+          "name": "Copy of hollway"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/02.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/02_t.jpg",
+          "name": "Copy of IMG_0782"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/03.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/03_t.jpg",
+          "name": "Copy of IMG_0783"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/04.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/04_t.jpg",
+          "name": "Copy of IMG_0787"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/05.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/05_t.jpg",
+          "name": "Copy of IMG_0788"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/06.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/06_t.jpg",
+          "name": "Copy of IMG_0792"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/07.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/07_t.jpg",
+          "name": "Copy of IMG_0801"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/08.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/08_t.jpg",
+          "name": "Copy of IMG_0808"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/09.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/09_t.jpg",
+          "name": "Copy of IMG_0811"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/10.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/10_t.jpg",
+          "name": "Copy of IMG_0813"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/11.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/11_t.jpg",
+          "name": "Copy of IMG_0814"
+        },
+        {
+          "full": "photos/42-disraeli-rd-e7-9jp/12.jpg",
+          "thumb": "photos/42-disraeli-rd-e7-9jp/12_t.jpg",
+          "name": "Copy of IMG_0815"
+        }
+      ]
+    },
+    "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279": {
+      "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
+      "images": [
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/01.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/01_t.jpg",
+          "name": "10 saggart exterior"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/02.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/02_t.jpg",
+          "name": "6 kitchen"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/03.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/03_t.jpg",
+          "name": "kitchen"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/04.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/04_t.jpg",
+          "name": "living"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/05.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/05_t.jpg",
+          "name": "Living and dining"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/06.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/06_t.jpg",
+          "name": "9 backyard"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/07.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/07_t.jpg",
+          "name": "Washroom 1"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/08.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/08_t.jpg",
+          "name": "ensuite room"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/09.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/09_t.jpg",
+          "name": "Ensuite room"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/10.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/10_t.jpg",
+          "name": "non ensuite room"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11_t.jpg",
+          "name": "non ensuite room 2"
+        },
+        {
+          "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/12.jpg",
+          "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/12_t.jpg",
+          "name": "11 floor plan"
+        }
+      ]
+    },
+    "55 Mountjoy Square D01 DY79": {
+      "folder": "https://drive.google.com/drive/u/1/folders/19eMv90W8SSvLsut6szAvLaHOUzzwCjEv",
+      "images": [
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/01.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/01_t.jpg",
+          "name": "3 Kitchen"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/02.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/02_t.jpg",
+          "name": "1 living room"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/03.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/03_t.jpg",
+          "name": "2 Living area"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/04.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/04_t.jpg",
+          "name": "7 Washroom"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/05.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/05_t.jpg",
+          "name": "Dual sharing single bed rooms"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/06.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/06_t.jpg",
+          "name": "4 Room 2 "
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/07.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/07_t.jpg",
+          "name": "5 second room - bunks will be placed here"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/08.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/08_t.jpg",
+          "name": "6 Bunk"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/09.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/09_t.jpg",
+          "name": "WhatsApp Image 2026-07-04 at 19.16.40 (1)"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/10.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/10_t.jpg",
+          "name": "WhatsApp Image 2026-07-04 at 19.16.40 (2)"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/11.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/11_t.jpg",
+          "name": "WhatsApp Image 2026-07-04 at 19.16.40"
+        },
+        {
+          "full": "photos/55-mountjoy-square-d01-dy79/12.jpg",
+          "thumb": "photos/55-mountjoy-square-d01-dy79/12_t.jpg",
+          "name": "WhatsApp Image 2026-07-04 at 19.16.41 (1)"
+        }
+      ]
+    },
+    "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW": {
+      "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/01.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/01_t.jpg",
+          "name": "2 living room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/02.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/02_t.jpg",
+          "name": "10 bathroom"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/03.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/03_t.jpg",
+          "name": "12 bathroom"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/04.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/04_t.jpg",
+          "name": "3 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/05.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/05_t.jpg",
+          "name": "4 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/06.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/06_t.jpg",
+          "name": "5 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/07.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/07_t.jpg",
+          "name": "6 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/08.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/08_t.jpg",
+          "name": "7 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/09.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/09_t.jpg",
+          "name": "8 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/10.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/10_t.jpg",
+          "name": "9 room"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11_t.jpg",
+          "name": "11"
+        },
+        {
+          "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/12.jpg",
+          "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/12_t.jpg",
+          "name": "13"
+        }
+      ]
+    },
+    "Apartment 602, Windmill House, Dock Road, Limerick, V94 YK19": {
+      "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+      "images": []
+    },
+    "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19": {
+      "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+      "images": []
+    },
+    "Beechwood Court\nStillorgan, Dublin A94 X1PR": {
+      "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/01.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/01_t.jpg",
+          "name": "1 cover photo area"
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/02.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/02_t.jpg",
+          "name": "ameneties "
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/03.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/03_t.jpg",
+          "name": "bedroom"
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/04.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/04_t.jpg",
+          "name": "kitchen"
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/05.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/05_t.jpg",
+          "name": "room 1"
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/06.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/06_t.jpg",
+          "name": "room 2"
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/07.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/07_t.jpg",
+          "name": "room 3"
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/08.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/08_t.jpg",
+          "name": "washroom "
+        },
+        {
+          "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/09.jpg",
+          "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/09_t.jpg",
+          "name": "washroom 3"
+        }
+      ]
+    },
+    "Charles Street, Great, Dublin 1": {
+      "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/charles-street-great-dublin-1/01.jpg",
+          "thumb": "photos/charles-street-great-dublin-1/01_t.jpg",
+          "name": "1 living room"
+        },
+        {
+          "full": "photos/charles-street-great-dublin-1/02.jpg",
+          "thumb": "photos/charles-street-great-dublin-1/02_t.jpg",
+          "name": "2 kitchen"
+        },
+        {
+          "full": "photos/charles-street-great-dublin-1/03.jpg",
+          "thumb": "photos/charles-street-great-dublin-1/03_t.jpg",
+          "name": "3 Room 1 - Dual Occupancy Non-Ensuite"
+        },
+        {
+          "full": "photos/charles-street-great-dublin-1/04.jpg",
+          "thumb": "photos/charles-street-great-dublin-1/04_t.jpg",
+          "name": "4 Room 2 - Triple occupancy"
+        },
+        {
+          "full": "photos/charles-street-great-dublin-1/05.jpg",
+          "thumb": "photos/charles-street-great-dublin-1/05_t.jpg",
+          "name": "5 Wash+Shower"
+        },
+        {
+          "full": "photos/charles-street-great-dublin-1/06.jpg",
+          "thumb": "photos/charles-street-great-dublin-1/06_t.jpg",
+          "name": "6 Laundry space"
+        }
+      ]
+    },
+    "City Centre / O’Curry Street - V94 N9WK": {
+      "folder": "https://drive.google.com/drive/u/1/folders/1A3PCQULNhT9ItDZf9Ne6HYwMdxC-RKeC",
+      "images": []
+    },
+    "Clifton Court, St John's Wood NW8 8HT": {
+      "folder": "https://drive.google.com/drive/folders/1sfpq9PfY-nkb45iHO7ksVhR-GCuFmxgn?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/01.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/01_t.jpg",
+          "name": "1 cover photo"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/02.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/02_t.jpg",
+          "name": "10 bathroom"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/03.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/03_t.jpg",
+          "name": "11 bathroom"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/04.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/04_t.jpg",
+          "name": "2 living room"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/05.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/05_t.jpg",
+          "name": "3"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/06.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/06_t.jpg",
+          "name": "4 kitchen"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/07.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/07_t.jpg",
+          "name": "5 room"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/08.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/08_t.jpg",
+          "name": "6 room"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/09.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/09_t.jpg",
+          "name": "8 room"
+        },
+        {
+          "full": "photos/clifton-court-st-john-s-wood-nw8-8ht/10.jpg",
+          "thumb": "photos/clifton-court-st-john-s-wood-nw8-8ht/10_t.jpg",
+          "name": "9 room"
+        }
+      ]
+    },
+    "E15 1LZ, Chobham Rd, London": {
+      "folder": "https://drive.google.com/drive/u/1/folders/1E53KS3KaqRRBW1EjyN-S73ELJ35X_fmd",
+      "images": [
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/01.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/01_t.jpg",
+          "name": "Copy of Kitchen and iving 2"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/02.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/02_t.jpg",
+          "name": "Copy of Kitchen and living 1"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/03.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/03_t.jpg",
+          "name": "Copy of Kitchen and living 3"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/04.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/04_t.jpg",
+          "name": "Copy of Kitchen and living 4"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/05.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/05_t.jpg",
+          "name": "Copy of Kitchen and living 5"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/06.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/06_t.jpg",
+          "name": "Copy of Kitchen and living 6"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/07.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/07_t.jpg",
+          "name": "Copy of Kitchen and living 6"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/08.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/08_t.jpg",
+          "name": "Copy of Kitchen and living 7"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/09.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/09_t.jpg",
+          "name": "Copy of Kitchen and living 9"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/10.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/10_t.jpg",
+          "name": "Copy of Kithcen and living 8"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/11.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/11_t.jpg",
+          "name": "Copy of Backyard 1"
+        },
+        {
+          "full": "photos/e15-1lz-chobham-rd-london/12.jpg",
+          "thumb": "photos/e15-1lz-chobham-rd-london/12_t.jpg",
+          "name": "Copy of Backyard 2"
+        }
+      ]
+    },
+    "E16 3LL, MacGregor Rd, London": {
+      "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/01.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/01_t.jpg",
+          "name": "Cover photo"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/02.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/02_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.31 AM"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/03.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/03_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (10)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/04.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/04_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/05.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/05_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/06.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/06_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/07.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/07_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (2)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/08.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/08_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (3)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/09.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/09_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/10.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/10_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (5)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/11.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/11_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (6)"
+        },
+        {
+          "full": "photos/e16-3ll-macgregor-rd-london/12.jpg",
+          "thumb": "photos/e16-3ll-macgregor-rd-london/12_t.jpg",
+          "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (7)"
+        }
+      ]
+    },
+    "E7 8PF, Shaftsbury Rd, London": {
+      "folder": "https://drive.google.com/drive/folders/1_OA6shdHgcz9imQN8BEYtBT-adznFHbb?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/01.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/01_t.jpg",
+          "name": "Kitchen A"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/02.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/02_t.jpg",
+          "name": "Kitchen B"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/03.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/03_t.jpg",
+          "name": "Kitchen_ Hall A"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/04.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/04_t.jpg",
+          "name": "Kitchen_ Hall B"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/05.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/05_t.jpg",
+          "name": "Kitchen_ Living A"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/06.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/06_t.jpg",
+          "name": "Kitchen_ Living B"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/07.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/07_t.jpg",
+          "name": "Kitchen_ Living C"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/08.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/08_t.jpg",
+          "name": "Kitchen A"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/09.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/09_t.jpg",
+          "name": "Kitchen B"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/10.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/10_t.jpg",
+          "name": "Kitchen_ Hall A"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/11.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/11_t.jpg",
+          "name": "Kitchen_ Hall B"
+        },
+        {
+          "full": "photos/e7-8pf-shaftsbury-rd-london/12.jpg",
+          "thumb": "photos/e7-8pf-shaftsbury-rd-london/12_t.jpg",
+          "name": "Kitchen_ Living A"
+        }
+      ]
+    },
+    "Flat 5 - Ardhu Apartments, Roses Avenue V94 1X64": {
+      "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
+      "images": []
+    },
+    "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)": {
+      "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/01.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/01_t.jpg",
+          "name": "1"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/02.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/02_t.jpg",
+          "name": "10"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/03.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/03_t.jpg",
+          "name": "2"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/04.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/04_t.jpg",
+          "name": "3"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/05.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/05_t.jpg",
+          "name": "4"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/06.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/06_t.jpg",
+          "name": "5"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/07.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/07_t.jpg",
+          "name": "6"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/08.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/08_t.jpg",
+          "name": "7"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/09.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/09_t.jpg",
+          "name": "8"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/10.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/10_t.jpg",
+          "name": "9"
+        }
+      ]
+    },
+    "Marshall yards, East Road, North Wall, Dublin 1 (Flat 2)": {
+      "folder": "https://drive.google.com/drive/u/1/folders/1WqAYI11usWqWSngxBRX6EDpJKP2gGMZD",
+      "images": [
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/01.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/01_t.jpg",
+          "name": "1"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/02.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/02_t.jpg",
+          "name": "10"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/03.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/03_t.jpg",
+          "name": "2"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/04.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/04_t.jpg",
+          "name": "3"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/05.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/05_t.jpg",
+          "name": "4"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/06.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/06_t.jpg",
+          "name": "5"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/07.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/07_t.jpg",
+          "name": "6"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/08.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/08_t.jpg",
+          "name": "7"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/09.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/09_t.jpg",
+          "name": "8"
+        },
+        {
+          "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/10.jpg",
+          "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-2/10_t.jpg",
+          "name": "9"
+        }
+      ]
+    },
+    "Nicholas House, St patricks, D08YC64": {
+      "folder": "https://drive.google.com/drive/folders/1E7tD7126uCbJ-_uMojLBa6_Awe5e43Nd?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/01.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/01_t.jpg",
+          "name": "3 Kitchen"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/02.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/02_t.jpg",
+          "name": "Kitchen 2"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/03.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/03_t.jpg",
+          "name": "1 Living Room - Cover Photo"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/04.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/04_t.jpg",
+          "name": "2 Living room (full)"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/05.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/05_t.jpg",
+          "name": "5 Living Room (TV)"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/06.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/06_t.jpg",
+          "name": "6 Dining Area"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/07.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/07_t.jpg",
+          "name": "Bathroom"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/08.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/08_t.jpg",
+          "name": "Bathroom - Shower"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/09.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/09_t.jpg",
+          "name": "10 Room"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/10.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/10_t.jpg",
+          "name": "4 Room"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/11.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/11_t.jpg",
+          "name": "Room"
+        },
+        {
+          "full": "photos/nicholas-house-st-patricks-d08yc64/12.jpg",
+          "thumb": "photos/nicholas-house-st-patricks-d08yc64/12_t.jpg",
+          "name": "Room"
+        }
+      ]
+    },
+    "Tandys Drive, Adamstown, Lucan K78C5T9": {
+      "folder": "https://drive.google.com/drive/u/1/folders/1p6ZsM82tbbFpxBDujwVTJB2cgSF5Yhh0",
+      "images": [
+        {
+          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/01.jpg",
+          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/01_t.jpg",
+          "name": "Cover photo"
+        },
+        {
+          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/02.jpg",
+          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/02_t.jpg",
+          "name": "WhatsApp Image 2026-06-18 at 11.55.37 (1)"
+        },
+        {
+          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/03.jpg",
+          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/03_t.jpg",
+          "name": "WhatsApp Image 2026-06-18 at 11.55.38 (1)"
+        },
+        {
+          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/04.jpg",
+          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/04_t.jpg",
+          "name": "WhatsApp Image 2026-06-18 at 11.55.38"
+        },
+        {
+          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/05.jpg",
+          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/05_t.jpg",
+          "name": "WhatsApp Image 2026-06-19 at 06.55.38 (1)"
+        }
       ]
     }
   }

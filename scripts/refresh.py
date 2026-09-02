@@ -26,12 +26,17 @@ def run(script):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-geo", action="store_true", help="do not hit the geocoder")
+    parser.add_argument("--skip-photos", action="store_true", help="do not re-download photos")
     args = parser.parse_args()
 
     # Refresh photo folder links if a fresh XLSX export is present.
     if (ROOT.parent / "data" / "portfolio.xlsx").exists():
         sys.argv = ["extract_media.py"]
         run("extract_media.py")
+
+    if not args.skip_photos and (ROOT.parent / "data" / "media-links.json").exists():
+        sys.argv = ["fetch_photos.py"]
+        run("fetch_photos.py")
 
     if not args.skip_geo:
         sys.argv = ["geocode.py"]
