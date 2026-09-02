@@ -1,5 +1,4 @@
-# Only needed for the automated sync (scripts/sync_from_google.py) and CI.
-# The build scripts themselves (geocode/universities/build_data) use the stdlib.
-google-api-python-client>=2.100
-google-auth>=2.23
-openpyxl>=3.1          # scripts/extract_media.py (manual XLSX path)
+# The sync reads the Sheet's public export — no Google API client or auth needed.
+# openpyxl parses the downloaded workbook (values + the Media Link hyperlinks).
+# The build scripts (geocode/universities/build_data/fetch_photos) use the stdlib.
+openpyxl>=3.1

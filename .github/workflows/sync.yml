@@ -1,9 +1,9 @@
-name: Sync availability & photos
+name: Sync availability
 
-# Pulls the Sheet + Drive photos and rebuilds the site data on a schedule.
-# Staff just edit the Google Sheet and drop photos into the Drive folders;
-# this keeps public/data/*.json in step, and the connected host redeploys on
-# the commit it pushes back.
+# Reads the PUBLIC Google Sheet and rebuilds the site data on a schedule — no
+# credentials, because the Sheet is shared "anyone with the link → Viewer".
+# Staff just edit the Sheet; this keeps public/data/*.json in step and the
+# commit it pushes triggers a redeploy. (Photos refresh via photos.yml.)
 
 on:
   schedule:
@@ -29,18 +29,10 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Pull Sheet + Drive, rebuild data
+      - name: Read the public Sheet and rebuild data
         env:
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          SHEET_ID: ${{ secrets.SHEET_ID }}
-          SHEET_TABS: ${{ vars.SHEET_TABS }}   # optional, e.g. "Ireland Sept26 Portfolio detail"
-        run: |
-          if [ -z "$GOOGLE_SERVICE_ACCOUNT_JSON" ]; then
-            echo "No GOOGLE_SERVICE_ACCOUNT_JSON secret set — availability sync not configured yet, skipping."
-            echo "(Photos still refresh via the separate photos.yml workflow.)"
-            exit 0
-          fi
-          python scripts/sync_from_google.py
+          SHEET_ID: ${{ vars.SHEET_ID || secrets.SHEET_ID }}   # optional; the script has a default
+        run: python scripts/sync_from_google.py
 
       - name: Commit if anything changed
         run: |
@@ -50,6 +42,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: sync availability & photos"
+            git commit -m "chore: sync availability"
             git push
           fi

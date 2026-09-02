@@ -47,37 +47,28 @@ property's Google Drive folder. The map picks both up automatically once the
 scheduled sync is switched on (below). Prefer that; the manual path is a
 fallback.
 
-### Automatic sync (recommended — set up once)
+### Automatic sync (no setup, no credentials)
 
-`scripts/sync_from_google.py` reads the Sheet **and** the Drive folders directly
-through a Google service account, rebuilds the data, and (in CI) commits it back
-so the connected host redeploys. `.github/workflows/sync.yml` runs it every 30
-minutes and on demand.
+The Sheet is shared **"Anyone with the link → Viewer"**, so
+`scripts/sync_from_google.py` just reads its **public** export — no service
+account, no login, no secrets. It maps both tabs onto the canonical columns,
+refreshes `data/media-links.json` from the cell hyperlinks, rebuilds the data,
+and (in CI) commits it back so Pages redeploys. `.github/workflows/sync.yml`
+runs it every 30 minutes and on demand; `photos.yml` refreshes photos daily
+(also credential-free).
 
-One-time setup:
+Nothing to configure. To confirm the Sheet is still link-readable:
 
-1. **Create a service account.** In Google Cloud Console → a project → *APIs &
-   Services*: enable the **Google Sheets API**, then *Credentials → Create
-   credentials → Service account*. Give it a key (*Keys → Add key → JSON*) and
-   download the JSON. (Drive API is **not** needed — photos come from the public
-   folders via `photos.yml`.)
-2. **Share the Sheet with it.** Copy the service account's email
-   (`…@….iam.gserviceaccount.com`) and share **the Sheet** with it as *Viewer*.
-3. **Add the secrets** to the GitHub repo → *Settings → Secrets and variables →
-   Actions*:
-   - secret `GOOGLE_SERVICE_ACCOUNT_JSON` = the whole key JSON,
-   - secret `SHEET_ID` = `1nbjTFLmm3rkWBO-RRdsSrm5_ZvOv4aV9Q7VlJvavODM`.
-   - Leave `SHEET_TABS` unset so it reads **both** the Ireland and London tabs.
-4. **Verify** before scheduling:
+```bash
+pip install -r requirements.txt
+python scripts/setup_check.py
+```
 
-   ```bash
-   pip install -r requirements.txt
-   GOOGLE_SERVICE_ACCOUNT_JSON=key.json SHEET_ID=… python scripts/setup_check.py
-   ```
-
-That's it — edits to the Sheet (either tab) flow to the map on the next run, and
-new photos flow via the separate photo job. The service account only ever reads,
-and only the Sheet.
+The only requirement is that the Sheet stays shared *Anyone with the link →
+Viewer* (read-only). If it's ever set back to private, the sync fails with a
+clear message and you re-share it. To point at a different Sheet, set the
+`SHEET_ID` repo **variable** (Settings → Secrets and variables → Actions →
+Variables); otherwise it uses the id baked into the script.
 
 ### Manual rebuild (no credentials)
 

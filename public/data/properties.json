@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T04:49:31+00:00",
+  "generatedAt": "2026-09-02T09:39:34+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 216,
-    "available": 29,
+    "available": 28,
     "onHold": 9,
-    "booked": 178,
+    "booked": 179,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -939,233 +939,6 @@
           "available": 1,
           "onHold": 1,
           "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "41-ballinteer-crescent-d16-e657",
-      "name": "41 Ballinteer Crescent",
-      "unitNote": "",
-      "area": "Ballinteer, Dublin 16",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D16 E657",
-      "address": "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657",
-      "lat": 53.276803,
-      "lng": -6.254025,
-      "geoPrecision": "address",
-      "totalBedspaces": 12,
-      "available": 1,
-      "onHold": 0,
-      "booked": 11,
-      "priceMin": 700,
-      "priceMax": 850,
-      "currency": "€",
-      "priceDisplay": "€700–€850",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "4 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl?usp=drive_link",
-        "images": [
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY_t.jpg"
-          },
-          {
-            "name": "14 Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F_t.jpg"
-          },
-          {
-            "name": "Copy of Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam_t.jpg"
-          },
-          {
-            "name": "Copy of Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b_t.jpg"
-          },
-          {
-            "name": "6 Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe_t.jpg"
-          },
-          {
-            "name": "4 Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Situated in the mature and sought-after suburb of Ballinteer, this expansive semi-detached home offers modern, light-filled living in a quiet residential setting. The property features a stylish interior with generous room proportions, ideal for students or professionals.",
-        "sections": [
-          {
-            "title": "Interior & Facilities",
-            "items": [
-              "A high-end, contemporary grey kitchen featuring a large central island with seating, marble-effect floor tiles, and skylights that bathe the space in natural light.",
-              "A spacious open-plan reception room with polished wood flooring, a modern wall-mounted fireplace, and elegant furnishings.",
-              "Six well-appointed bedrooms including double and single options, featuring bespoke built-in wardrobes and large windows.",
-              "A beautiful sheltered patio area leading to a meticulously maintained private lawned garden.",
-              "Multiple sleek bathrooms finished with contemporary tiling and high-quality fixtures."
-            ]
-          },
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "Bus Routes: Highly accessible via the 14, 16, 116, and 161 routes, providing direct access to Dublin City Centre.",
-              "LUAS (Green Line): Balally and Dundrum stops are approximately a 15–20 min walk away.",
-              "M50 Motorway: Just a 5-minute drive away, offering easy access to all major national routes."
-            ]
-          },
-          {
-            "title": "Universities",
-            "items": [
-              "University College Dublin (UCD): ~15 min by bus / 10 min drive.",
-              "Trinity College Dublin: ~35 min via bus or LUAS.",
-              "TU Dublin (Tallaght): ~20 min drive via M50"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "",
-          "available": 1,
-          "onHold": 0,
-          "booked": 0
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Ensuite Double",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6",
-          "floor": "Second",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Toilet",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "7",
-          "floor": "Second",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
         }
       ]
     },
@@ -2784,6 +2557,233 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "41-ballinteer-crescent-d16-e657",
+      "name": "41 Ballinteer Crescent",
+      "unitNote": "",
+      "area": "Ballinteer, Dublin 16",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D16 E657",
+      "address": "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657",
+      "lat": 53.276803,
+      "lng": -6.254025,
+      "geoPrecision": "address",
+      "totalBedspaces": 12,
+      "available": 0,
+      "onHold": 0,
+      "booked": 12,
+      "priceMin": 700,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€700–€850",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "4 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl?usp=drive_link",
+        "images": [
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY_t.jpg"
+          },
+          {
+            "name": "14 Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b_t.jpg"
+          },
+          {
+            "name": "6 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe_t.jpg"
+          },
+          {
+            "name": "4 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Situated in the mature and sought-after suburb of Ballinteer, this expansive semi-detached home offers modern, light-filled living in a quiet residential setting. The property features a stylish interior with generous room proportions, ideal for students or professionals.",
+        "sections": [
+          {
+            "title": "Interior & Facilities",
+            "items": [
+              "A high-end, contemporary grey kitchen featuring a large central island with seating, marble-effect floor tiles, and skylights that bathe the space in natural light.",
+              "A spacious open-plan reception room with polished wood flooring, a modern wall-mounted fireplace, and elegant furnishings.",
+              "Six well-appointed bedrooms including double and single options, featuring bespoke built-in wardrobes and large windows.",
+              "A beautiful sheltered patio area leading to a meticulously maintained private lawned garden.",
+              "Multiple sleek bathrooms finished with contemporary tiling and high-quality fixtures."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Bus Routes: Highly accessible via the 14, 16, 116, and 161 routes, providing direct access to Dublin City Centre.",
+              "LUAS (Green Line): Balally and Dundrum stops are approximately a 15–20 min walk away.",
+              "M50 Motorway: Just a 5-minute drive away, offering easy access to all major national routes."
+            ]
+          },
+          {
+            "title": "Universities",
+            "items": [
+              "University College Dublin (UCD): ~15 min by bus / 10 min drive.",
+              "Trinity College Dublin: ~35 min via bus or LUAS.",
+              "TU Dublin (Tallaght): ~20 min drive via M50"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "Second",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Toilet",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "7",
+          "floor": "Second",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },

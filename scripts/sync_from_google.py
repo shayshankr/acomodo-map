@@ -1,45 +1,51 @@
 #!/usr/bin/env python3
-"""Pull availability straight from the Google Sheet — no manual exports.
+"""Credential-free availability sync — reads the *public* Google Sheet.
 
     python scripts/sync_from_google.py
+    SHEET_ID=… python scripts/sync_from_google.py
 
-The hands-off availability path: a scheduled job (.github/workflows/sync.yml)
-runs it and staff just edit the Sheet. It:
+The Sheet is shared "anyone with the link → Viewer", so this needs **no login,
+service account, or secret** — it just downloads the public workbook. It:
 
-  1. reads every tab of the Sheet via the Sheets API — both the *formatted*
-     values (so "€700"/"£550" keep their symbol) and the cell hyperlinks (the
-     Drive folder behind each "Media Link");
+  1. fetches the workbook (public XLSX export) — which carries every tab's
+     values *and* the "Media Link" cell hyperlinks;
   2. maps each tab onto the canonical columns build_data.py reads (by header
-     name, so the Ireland and London layouts both work), writing
-     data/portfolio.csv (Ireland/Limerick) + data/portfolio-london.csv (London)
+     name, so the Ireland and London layouts both parse), injecting the £/€
+     symbol per city, and writes data/portfolio.csv + data/portfolio-london.csv
      + data/media-links.json;
-  3. runs fetch_photos → geocode → universities → build to refresh
-     public/data/*.json. Photos come from the *public* folders via
-     fetch_photos.py, so the service account only needs the Sheet.
+  3. runs geocode → universities → build to refresh public/data/*.json.
 
-Configure via env:
-    GOOGLE_SERVICE_ACCOUNT_JSON   the service-account key, as JSON (or a path)
-    SHEET_ID                      the spreadsheet id
-    SHEET_TABS                    optional, comma-separated tab titles (default: all)
+This is the *availability* path — it stays fast so it can run often. Photos are
+refreshed separately by .github/workflows/photos.yml (also credential-free);
+the media-links.json this writes is what that job reads. For a manual full
+refresh including photos, use scripts/refresh.py.
 
-Deps (CI installs them): google-api-python-client, google-auth. Share the Sheet
-with the service account's email (Viewer). scripts/setup_check.py verifies access.
+If the Sheet ever stops being link-readable this will fail; re-share it as
+"Anyone with the link → Viewer" (read-only) and it works again.
 """
 
 import csv
-import json
 import os
 import re
 import runpy
 import sys
 import unicodedata
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.request import Request, urlopen
+
+try:
+    import openpyxl
+except ImportError:
+    sys.exit("Needs openpyxl:  pip install -r requirements.txt")
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+
+DEFAULT_SHEET_ID = "1nbjTFLmm3rkWBO-RRdsSrm5_ZvOv4aV9Q7VlJvavODM"
+XLSX_URL = "https://docs.google.com/spreadsheets/d/{}/export?format=xlsx"
 
 # Canonical column -> ordered candidate header names (matched against each tab's
 # own header, most specific first). None-producing columns are left blank.
@@ -69,36 +75,17 @@ CANONICAL = [
 CANON_HEADERS = [c[0] for c in CANONICAL]
 RENT_COL = CANON_HEADERS.index("Monthly Rent\n(Per Bedspace)")
 NAME_COL = 0
-CITY_COL = 1
 MEDIA_COL = CANON_HEADERS.index("Media Link")
-
-
-def clean(value):
-    text = unicodedata.normalize("NFKC", str(value) if value is not None else "")
-    return re.sub(r"\s+", " ", text.replace("\r", " ").replace("\n", " ")).strip()
 
 
 def norm(text):
     return re.sub(r"\s+", " ", str(text or "")).strip().lower()
 
 
-def credentials():
-    from google.oauth2 import service_account
-
-    raw = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
-    if not raw:
-        sys.exit("Set GOOGLE_SERVICE_ACCOUNT_JSON (the service-account key JSON or a path to it).")
-    info = json.loads(Path(raw).read_text(encoding="utf-8")) if Path(raw).exists() else json.loads(raw)
-    return service_account.Credentials.from_service_account_info(
-        info, scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
-    )
-
-
 def resolve_columns(header):
     """Map each canonical column to a source index in this tab's header."""
     normed = [norm(h) for h in header]
-    used = set()
-    resolved = []
+    used, resolved = set(), []
     for _, candidates in CANONICAL:
         idx = None
         for cand in candidates:  # exact match first
@@ -122,51 +109,75 @@ def resolve_columns(header):
     return resolved
 
 
+def tidy(value):
+    """openpyxl hands back bare numbers / datetimes; render them like the sheet."""
+    if value is None:
+        return ""
+    if isinstance(value, (datetime, date)):
+        return value.strftime("%-d %b %Y") if sys.platform != "win32" else value.strftime("%#d %b %Y")
+    text = str(value)
+    if re.fullmatch(r"-?\d+\.0", text):  # "1.0" -> "1"
+        text = text[:-2]
+    return text
+
+
 def money_fix(value, currency):
-    """The API usually formats rent as "€700"; if a tab stores a bare number,
-    add the right symbol so build_data can parse it."""
-    v = clean(value)
+    v = tidy(value)
     if v and not v.startswith(("€", "£")) and re.fullmatch(r"[\d,]+(\.\d+)?", v):
         return f"{currency}{v.split('.')[0]}"
     return v
 
 
-def pull_tab(sheet):
-    """One tab -> (canonical_rows, media_links, is_london)."""
-    grid = sheet.get("data", [{}])[0].get("rowData", [])
-    rows = [r.get("values", []) for r in grid]
-    # first non-empty row is the header
-    header_idx = next((i for i, r in enumerate(rows) if any(clean(c.get("formattedValue")) for c in r)), None)
+def download_xlsx(sheet_id):
+    url = XLSX_URL.format(sheet_id)
+    req = Request(url, headers={"User-Agent": "Mozilla/5.0 (acomodo-map sync)"})
+    with urlopen(req, timeout=60) as resp:
+        data = resp.read()
+    if data[:2] != b"PK":  # a real .xlsx is a zip; HTML means "not public"
+        sys.exit(
+            "The Sheet did not return a workbook — it is probably not link-readable.\n"
+            "Share it as 'Anyone with the link → Viewer' (read-only) and retry."
+        )
+    (DATA / "portfolio.xlsx").write_bytes(data)
+    return DATA / "portfolio.xlsx"
+
+
+def pull_tab(ws):
+    """One worksheet -> (canonical rows, media links, is_london)."""
+    rows = list(ws.iter_rows())
+    header_idx = next(
+        (i for i, r in enumerate(rows) if any(str(c.value).strip() for c in r if c.value is not None)),
+        None,
+    )
     if header_idx is None:
         return [], {}, False
-    header = [clean(c.get("formattedValue")) for c in rows[header_idx]]
+    header = [tidy(c.value) for c in rows[header_idx]]
     cols = resolve_columns(header)
-    title = sheet["properties"]["title"].lower()
-    is_london = "london" in title
+    is_london = "london" in ws.title.lower()
 
     out_rows, links, current_name = [], {}, None
     for r in rows[header_idx + 1:]:
-        cells = r.get("values", [])
-        vals = [clean(c.get("formattedValue")) for c in cells]
-        if not any(vals):
+        cells = list(r)
+        vals = [c.value for c in cells]
+        if not any(str(v).strip() for v in vals if v is not None):
             out_rows.append([])
             current_name = None
             continue
         line = []
         for ci, src in enumerate(cols):
-            val = clean(cells[src].get("formattedValue")) if src is not None and src < len(cells) else ""
-            if ci == RENT_COL:
-                val = money_fix(val, "£" if is_london else "€")
-            line.append(val)
+            raw = cells[src].value if src is not None and src < len(cells) else None
+            line.append(money_fix(raw, "£" if is_london else "€") if ci == RENT_COL else tidy(raw))
         out_rows.append(line)
 
         if line[NAME_COL]:
             current_name = line[NAME_COL]
-        media_src = cols[MEDIA_COL]
-        if current_name and media_src is not None and media_src < len(cells):
-            link = cells[media_src].get("hyperlink")
-            if link and "drive.google" in link and current_name not in links:
-                links[current_name] = link
+        # Any hyperlinked cell on this property's rows pointing at Drive is its folder.
+        if current_name and current_name not in links:
+            for cell in cells:
+                link = cell.hyperlink.target if cell.hyperlink else None
+                if link and "drive.google" in link:
+                    links[current_name] = link
+                    break
     return out_rows, links, is_london
 
 
@@ -185,47 +196,32 @@ def run(script, *argv):
 
 
 def main():
-    from googleapiclient.discovery import build
+    sheet_id = os.environ.get("SHEET_ID", DEFAULT_SHEET_ID)
+    print(f"Downloading the public workbook ({sheet_id})…")
+    xlsx = download_xlsx(sheet_id)
 
-    sheet_id = os.environ.get("SHEET_ID")
-    if not sheet_id:
-        sys.exit("Set SHEET_ID to the spreadsheet id.")
-    wanted = {t.strip() for t in os.environ.get("SHEET_TABS", "").split(",") if t.strip()}
+    import json
 
-    creds = credentials()
-    sheets = build("sheets", "v4", credentials=creds, cache_discovery=False)
-
-    print("Reading the Sheet…")
-    meta = sheets.spreadsheets().get(
-        spreadsheetId=sheet_id,
-        includeGridData=True,
-        fields="sheets(properties(title),data(rowData(values(formattedValue,hyperlink))))",
-    ).execute()
-
-    ireland_rows, london_rows, links = [], [], {}
-    for sheet in meta.get("sheets", []):
-        title = sheet["properties"]["title"]
-        if wanted and title not in wanted:
-            continue
-        rows, tab_links, is_london = pull_tab(sheet)
-        (london_rows if is_london else ireland_rows).extend(rows + [[]])
+    wb = openpyxl.load_workbook(xlsx, data_only=True)
+    ireland, london, links = [], [], {}
+    for ws in wb.worksheets:
+        rows, tab_links, is_london = pull_tab(ws)
+        (london if is_london else ireland).extend(rows + [[]])
         links.update(tab_links)
-        print(f"  tab '{title}': {sum(1 for r in rows if r)} rows{' (London)' if is_london else ''}")
+        print(f"  tab '{ws.title}': {sum(1 for r in rows if r)} rows{' (London)' if is_london else ''}")
 
-    write_csv(DATA / "portfolio.csv", ireland_rows)
-    if london_rows:
-        write_csv(DATA / "portfolio-london.csv", london_rows)
+    write_csv(DATA / "portfolio.csv", ireland)
+    if london:
+        write_csv(DATA / "portfolio-london.csv", london)
     (DATA / "media-links.json").write_text(
         json.dumps(links, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
     )
     print(f"  {len(links)} properties link a Drive photo folder")
 
-    # Photos come from the public folders (no credentials); then build.
-    run("fetch_photos.py", "--limit", "12")
-    run("geocode.py")
-    run("universities.py")
+    run("geocode.py")        # only hits the network for addresses not yet cached
+    run("universities.py")   # cached campuses; a no-op once built
     run("build_data.py")
-    print("\nSync complete. Deploy public/.")
+    print("\nSync complete. Deploy public/. (Photos refresh via photos.yml.)")
 
 
 if __name__ == "__main__":
