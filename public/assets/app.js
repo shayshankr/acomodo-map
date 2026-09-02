@@ -621,10 +621,10 @@ function renderCampusMarkers() {
 
 /* --- selection & drawer -------------------------------------------------- */
 
-function selectProperty(id, { pan = true } = {}) {
-  state.selectedId = id;
+function selectProperty(id, { pan = true, push = true } = {}) {
   const property = state.properties.find((p) => p.id === id);
   if (!property) return;
+  state.selectedId = id;
 
   for (const card of els.results.querySelectorAll(".card")) {
     card.classList.toggle("is-active", card.dataset.id === id);
@@ -647,7 +647,19 @@ function selectProperty(id, { pan = true } = {}) {
     }
     marker.openPopup();
   }
-  syncUrl();
+
+  // Give the drawer its own history entry so the browser/Android Back button
+  // closes it instead of leaving the whole app.
+  const url = buildUrl();
+  const priorView = history.state && history.state.view;
+  const nextState = { p: id, ...(priorView ? { view: priorView } : {}) };
+  if (!push) {
+    history.replaceState(nextState, "", url);
+  } else if (history.state && history.state.p) {
+    history.replaceState(nextState, "", url); // switching property in an open drawer
+  } else {
+    history.pushState(nextState, "", url);
+  }
 }
 
 function roomRow(room) {
@@ -877,18 +889,48 @@ function openDrawer(property) {
   $("d-close").focus();
 }
 
-function closeDrawer() {
+// DOM-only close, used both by the close button and by the popstate handler
+// (Back button). Does not touch history itself.
+function closeDrawerUI() {
   els.drawer.classList.remove("is-open");
   els.drawer.setAttribute("aria-hidden", "true");
   els.scrim.hidden = true;
   state.selectedId = null;
   for (const card of els.results.querySelectorAll(".card")) card.classList.remove("is-active");
-  syncUrl();
+  state.markers.get(state.selectedId)?.closePopup?.();
+  state.map?.closePopup();
+}
+
+// User-initiated close (× / scrim). If the drawer owns a history entry, step
+// back so the URL and history stay consistent; popstate then closes the UI.
+function closeDrawer() {
+  if (history.state && history.state.p) {
+    history.back();
+  } else {
+    closeDrawerUI();
+    syncUrl();
+  }
+}
+
+// Mobile only: swap between the list overlay and the map. `push` adds a history
+// entry so the Back button returns to the map from the list.
+function setMobileView(view, { push = true } = {}) {
+  const toMap = view === "map";
+  document.body.classList.toggle("map-view", toMap);
+  els.viewToggle.textContent = toMap ? "List" : "Map";
+  if (toMap) state.map?.invalidateSize();
+  if (!push) return;
+  if (view === "list" && !(history.state && history.state.view === "list")) {
+    const carry = history.state && history.state.p ? { p: history.state.p } : {};
+    history.pushState({ view: "list", ...carry }, "", buildUrl());
+  } else if (view === "map" && history.state && history.state.view === "list") {
+    history.back();
+  }
 }
 
 /* --- url state ----------------------------------------------------------- */
 
-function syncUrl() {
+function buildUrl() {
   const params = new URLSearchParams();
   if (state.city !== "all") params.set("city", state.city);
   if (state.campus) params.set("near", state.campus.id);
@@ -902,9 +944,15 @@ function syncUrl() {
   if (els.savedOnly.checked) params.set("saved", "1");
   if (state.sort !== "availability") params.set("sort", state.sort);
   if (state.selectedId) params.set("p", state.selectedId);
-
   const query = params.toString();
-  history.replaceState(null, "", query ? `?${query}` : location.pathname);
+  return query ? `?${query}` : location.pathname;
+}
+
+// Filter/sort changes just rewrite the current entry (keeping whatever history
+// state — drawer or not — is active) so the URL stays shareable without adding
+// back-button steps.
+function syncUrl() {
+  history.replaceState(history.state, "", buildUrl());
 }
 
 function readUrl() {
@@ -1126,9 +1174,22 @@ function wireEvents() {
   });
 
   els.viewToggle.addEventListener("click", () => {
-    document.body.classList.toggle("map-view");
-    els.viewToggle.textContent = document.body.classList.contains("map-view") ? "List" : "Map";
-    if (document.body.classList.contains("map-view")) state.map.invalidateSize();
+    // In map-view the button says "List" (go to list); otherwise "Map".
+    setMobileView(document.body.classList.contains("map-view") ? "list" : "map");
+  });
+
+  // Browser / Android Back button: reconcile the UI to the history entry we
+  // return to, rather than leaving the app.
+  window.addEventListener("popstate", (event) => {
+    const st = event.state || {};
+    if (window.matchMedia("(max-width: 860px)").matches) {
+      setMobileView(st.view === "list" ? "list" : "map", { push: false });
+    }
+    if (st.p) {
+      if (state.selectedId !== st.p) selectProperty(st.p, { push: false, pan: false });
+    } else if (els.drawer.classList.contains("is-open")) {
+      closeDrawerUI();
+    }
   });
 
   window.addEventListener("resize", () => state.map?.invalidateSize());
@@ -1162,13 +1223,14 @@ async function main() {
     runPlaceSearch(q);
   }
 
-  if (preselect) selectProperty(preselect);
-
   // Mobile opens on the map; the toggle label always names the other view.
   if (window.matchMedia("(max-width: 860px)").matches) {
-    document.body.classList.add("map-view");
-    els.viewToggle.textContent = "List";
+    setMobileView("map", { push: false });
   }
+
+  // Seed a history entry so the Back button has something to return to.
+  history.replaceState(preselect ? { p: preselect } : {}, "", buildUrl());
+  if (preselect) selectProperty(preselect, { push: false });
 }
 
 main();
