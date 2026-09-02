@@ -913,6 +913,39 @@ function closeDrawer() {
   }
 }
 
+// Clear every filter, search and sort back to the default landing state.
+function resetFilters() {
+  els.q.value = "";
+  els.roomtype.value = "";
+  els.campus.value = "";
+  els.price.value = els.price.max;
+  els.priceOut.textContent = "any";
+  els.onlyAvailable.checked = true;
+  els.billsInc.checked = els.ensuite.checked = els.shortStay.checked = false;
+  els.savedOnly.checked = false;
+  els.sort.value = "availability";
+  els.sortDistance.hidden = true;
+  state.city = "all";
+  state.campus = null;
+  state.maxPrice = Infinity;
+  state.sort = "availability";
+  clearPlaceSearch({ refit: false });
+  for (const button of els.seg.querySelectorAll(".seg-btn")) {
+    button.classList.toggle("is-on", button.dataset.city === "all");
+  }
+  applyFilters();
+}
+
+// Logo click → the full "home" reset: close any open property, drop filters,
+// clean the URL, refit the map, and (on mobile) return to the map view.
+function resetToHome() {
+  closeDrawerUI();
+  history.replaceState({}, "", location.pathname);
+  if (window.matchMedia("(max-width: 860px)").matches) setMobileView("map", { push: false });
+  resetFilters();
+  els.results.scrollTop = 0;
+}
+
 // Mobile only: swap between the list overlay and the map. `push` adds a history
 // entry so the Back button returns to the map from the list.
 function setMobileView(view, { push = true } = {}) {
@@ -1085,26 +1118,15 @@ function wireEvents() {
     applyFilters({ fit: false });
   });
 
-  els.reset.addEventListener("click", () => {
-    els.q.value = "";
-    els.roomtype.value = "";
-    els.campus.value = "";
-    els.price.value = els.price.max;
-    els.priceOut.textContent = "any";
-    els.onlyAvailable.checked = true;
-    els.billsInc.checked = els.ensuite.checked = els.shortStay.checked = false;
-    els.savedOnly.checked = false;
-    els.sort.value = "availability";
-    els.sortDistance.hidden = true;
-    state.city = "all";
-    state.campus = null;
-    state.maxPrice = Infinity;
-    state.sort = "availability";
-    clearPlaceSearch({ refit: false });
-    for (const button of els.seg.querySelectorAll(".seg-btn")) {
-      button.classList.toggle("is-on", button.dataset.city === "all");
-    }
-    applyFilters();
+  els.reset.addEventListener("click", () => resetFilters());
+
+  // Clicking the logo goes "home": clear everything and show all properties.
+  // It stays a real link (href="./") so open-in-new-tab / no-JS still work; a
+  // plain left-click does the smooth in-app reset instead of reloading.
+  $("brand-home").addEventListener("click", (event) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+    event.preventDefault();
+    resetToHome();
   });
 
   els.results.addEventListener("click", (event) => {
