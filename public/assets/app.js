@@ -287,7 +287,8 @@ async function loadData() {
   $("stat-available").textContent = properties.stats.available;
   $("stat-hold").textContent = properties.stats.onHold;
   $("stat-props").textContent = properties.stats.properties;
-  $("brand-sub").textContent = `Managed student rooms · ${properties.stats.cities.join(" & ")}`;
+  // Keep Acomodo's tagline; the city list lives in the property counts instead.
+  $("brand-sub").textContent = "We manage every property ourselves";
 
   const stamp = new Date(properties.generatedAt);
   $("updated").textContent = `Updated ${stamp.toLocaleDateString("en-IE", {

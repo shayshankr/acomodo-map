@@ -29,6 +29,10 @@
   --full-soft:     #eceae7;
   --uni:           #3f5bd9;
 
+  /* Acomodo brand — the header is always this crimson, in both themes. */
+  --brand:         #c6324b;
+  --brand-2:       #ab2942;
+
   --radius:        14px;
   --radius-sm:     10px;
   --shadow:        0 1px 2px rgba(28,26,23,.06), 0 8px 24px rgba(28,26,23,.07);
@@ -105,45 +109,41 @@ body {
   align-items: center;
   gap: 24px;
   padding: 0 20px;
-  background: var(--surface);
-  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--brand), var(--brand-2));
+  color: #fff;
   z-index: 900;
 }
 
 .brand { display: flex; align-items: center; gap: 11px; min-width: 0; }
+.brand-mark { display: none; } /* Acomodo's mark is the wordmark itself */
 
-.brand-mark {
-  width: 26px; height: 26px; flex: none;
-  border-radius: 8px;
-  background:
-    radial-gradient(circle at 50% 38%, var(--surface) 0 22%, transparent 23%),
-    linear-gradient(150deg, var(--accent), color-mix(in srgb, var(--accent) 55%, var(--uni)));
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; min-width: 0; }
+.wordmark {
+  font-family: "Outfit", var(--sans);
+  font-size: 25px; font-weight: 700; letter-spacing: -.02em;
+  text-transform: lowercase; color: #fff;
 }
-
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
-.brand-text strong { font-family: var(--display); font-size: 17px; font-weight: 600; letter-spacing: -.01em; }
-.brand-text small { color: var(--ink-3); font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand-text small { color: rgba(255,255,255,.82); font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .tally { display: flex; gap: 22px; margin: 0 auto 0 8px; }
 .tally div { display: flex; flex-direction: column; }
-.tally dt { color: var(--ink-3); font-size: 10.5px; text-transform: uppercase; letter-spacing: .08em; }
-.tally dd { margin: 0; font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; line-height: 1.2; }
-.tally div:first-child dd { color: var(--free); }
+.tally dt { color: rgba(255,255,255,.72); font-size: 10.5px; text-transform: uppercase; letter-spacing: .08em; }
+.tally dd { margin: 0; font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.2; color: #fff; }
 
 .topbar-actions { display: flex; align-items: center; gap: 12px; margin-left: auto; }
-.updated { color: var(--ink-3); font-size: 11.5px; white-space: nowrap; }
+.updated { color: rgba(255,255,255,.75); font-size: 11.5px; white-space: nowrap; }
 
 .ghost-btn {
   width: 34px; height: 34px;
   display: grid; place-items: center;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255,255,255,.35);
   border-radius: 9px;
-  background: var(--surface-2);
-  color: var(--ink-2);
+  background: rgba(255,255,255,.14);
+  color: #fff;
   font-size: 15px;
   cursor: pointer;
 }
-.ghost-btn:hover { border-color: var(--line-strong); color: var(--ink); }
+.ghost-btn:hover { background: rgba(255,255,255,.24); border-color: rgba(255,255,255,.6); }
 
 /* --- layout ------------------------------------------------------------- */
 
