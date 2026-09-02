@@ -63,6 +63,9 @@ const els = {
   sortDistance: $("sort-distance"),
   savedOnly: $("saved-only"),
   savedCount: $("saved-count"),
+  placeNote: $("place-note"),
+  placeNoteText: $("place-note-text"),
+  placeClear: $("place-clear"),
 };
 
 const state = {
@@ -79,7 +82,71 @@ const state = {
   maxPrice: Infinity,
   sort: "availability",
   saved: new Set(),
+  searchPlace: null, // {lat,lng,label} when a place (not a property) was searched
+  searchMarker: null,
+  placeMode: false, // true when the query matched no property and we flew to a place
+  lastGeocoded: "",
 };
+
+/* --- place search (type any area → fly the map there) -------------------- */
+
+async function geocodePlace(query) {
+  const cc = state.city === "London" ? "gb" : state.city === "all" ? "ie,gb" : "ie";
+  const url =
+    "https://nominatim.openstreetmap.org/search?format=json&limit=1" +
+    `&countrycodes=${cc}&q=${encodeURIComponent(query)}`;
+  try {
+    const res = await fetch(url, { headers: { Accept: "application/json" } });
+    const hits = await res.json();
+    if (!hits.length) return null;
+    return {
+      lat: parseFloat(hits[0].lat),
+      lng: parseFloat(hits[0].lon),
+      label: hits[0].display_name.split(",").slice(0, 2).join(", ").trim(),
+    };
+  } catch {
+    return null; // offline / blocked — just skip the fly-to
+  }
+}
+
+function showSearchMarker(place) {
+  if (state.searchMarker) state.searchMarker.remove();
+  state.searchMarker = L.marker([place.lat, place.lng], {
+    icon: L.divIcon({ className: "", html: '<div class="search-pin"></div>', iconSize: [20, 20], iconAnchor: [10, 10] }),
+    zIndexOffset: 1000,
+    interactive: false,
+  }).addTo(state.map);
+}
+
+async function runPlaceSearch(query, { fly = true } = {}) {
+  const place = await geocodePlace(query);
+  if (!place) {
+    state.placeMode = false;
+    return false;
+  }
+  state.searchPlace = place;
+  state.placeMode = true;
+  showSearchMarker(place);
+  els.placeNoteText.textContent = `Rooms nearest ${place.label}`;
+  els.placeNote.hidden = false;
+  // setView with an explicit zoom is safe even before the map has a size
+  // (unlike fitBounds); tiles fill in once the container is measured.
+  if (fly) state.map.setView([place.lat, place.lng], 14, { animate: false });
+  applyFilters({ fit: false });
+  return true;
+}
+
+function clearPlaceSearch({ refit = true } = {}) {
+  state.searchPlace = null;
+  state.placeMode = false;
+  state.lastGeocoded = "";
+  els.placeNote.hidden = true;
+  if (state.searchMarker) {
+    state.searchMarker.remove();
+    state.searchMarker = null;
+  }
+  if (refit) applyFilters();
+}
 
 /* --- shortlist (saved properties, kept in the browser) ------------------- */
 
@@ -288,10 +355,11 @@ function sortList(list) {
   const byPrice = (dir) => (a, b) =>
     ((a.priceMin ?? 9e9) - (b.priceMin ?? 9e9)) * dir || a.name.localeCompare(b.name);
 
-  // Nearest-campus sort only makes sense when a campus is selected; otherwise
-  // fall back to availability.
+  // A place search ranks by proximity by default; an explicit sort still wins.
   let sort = state.sort;
-  if (sort === "distance" && !state.campus) sort = "availability";
+  if (state.searchPlace && sort === "availability") sort = "distance";
+  const anchored = state.campus || state.searchPlace;
+  if (sort === "distance" && !anchored) sort = "availability";
 
   if (sort === "distance") list.sort((a, b) => (a._km ?? 9e9) - (b._km ?? 9e9));
   else if (sort === "price-asc") list.sort(byPrice(1));
@@ -321,7 +389,9 @@ function currentFilters() {
 
     if (els.savedOnly.checked && !state.saved.has(property.id)) return false;
 
-    if (query) {
+    // In place mode the query named an area, not a property, so don't text-filter
+    // it away — every property is shown, ranked by distance to that place.
+    if (query && !state.placeMode) {
       const haystack = [
         property.name,
         property.area,
@@ -343,12 +413,12 @@ function applyFilters({ fit = true } = {}) {
   const predicate = currentFilters();
   let list = state.properties.filter(predicate);
 
-  // Distance is available only when a campus is chosen; compute it either way
-  // so the "Nearest campus" sort can use it.
-  if (state.campus) {
-    const origin = [state.campus.lat, state.campus.lng];
+  // Distance anchor: a chosen campus, or a searched place. Compute _km to it so
+  // the list can be ranked by proximity.
+  const anchor = state.campus || state.searchPlace;
+  if (anchor) {
     for (const property of list) {
-      property._km = distanceKm(origin, [property.lat, property.lng]);
+      property._km = distanceKm([anchor.lat, anchor.lng], [property.lat, property.lng]);
     }
   } else {
     for (const property of state.properties) delete property._km;
@@ -357,7 +427,8 @@ function applyFilters({ fit = true } = {}) {
 
   state.filtered = list;
   renderList();
-  renderMarkers({ fit });
+  // A place search flies to its own view; don't yank the map back to fit bounds.
+  renderMarkers({ fit: fit && !state.searchPlace });
   syncUrl();
 }
 
@@ -367,11 +438,12 @@ function cardMarkup(property) {
   const status = statusOf(property);
   const total = Math.max(property.totalBedspaces, 1);
   const pct = (n) => `${(n / total) * 100}%`;
+  // Distance label points at whichever anchor set _km: a campus or a searched place.
+  const anchor = state.campus || state.searchPlace;
+  const anchorName = anchor ? anchor.name || anchor.label || "" : "";
   const near =
-    property._km != null
-      ? `<span class="sep">·</span><span>${property._km.toFixed(1)} km to ${esc(
-          state.campus.name
-        )}</span>`
+    property._km != null && anchor
+      ? `<span class="sep">·</span><span>${property._km.toFixed(1)} km to ${esc(anchorName)}</span>`
       : "";
 
   return `
@@ -444,7 +516,9 @@ function initMap() {
     if (!state.fittedOnce && state.map.getSize().x > 0) {
       state.fittedOnce = true;
       const picked = state.selectedId && state.properties.find((p) => p.id === state.selectedId);
-      if (picked) {
+      if (state.searchPlace) {
+        state.map.setView([state.searchPlace.lat, state.searchPlace.lng], 14, { animate: false });
+      } else if (picked) {
         state.map.setView([picked.lat, picked.lng], 14, { animate: false });
         state.markers.get(picked.id)?.openPopup();
       } else {
@@ -858,6 +932,7 @@ function wireEvents() {
       state.campus = null;
       els.campus.value = "";
     }
+    if (state.searchPlace) clearPlaceSearch({ refit: false });
     applyFilters();
   });
 
@@ -890,9 +965,42 @@ function wireEvents() {
   });
 
   let searchTimer;
+  const handleSearch = async () => {
+    const query = els.q.value.trim();
+    if (!query) {
+      clearPlaceSearch();
+      return;
+    }
+    state.placeMode = false; // try a plain property text-match first
+    applyFilters({ fit: !state.searchPlace });
+    if (state.filtered.length > 0) {
+      if (state.searchPlace) {
+        clearPlaceSearch({ refit: false });
+        applyFilters();
+      }
+      return;
+    }
+    // No property matched the text — treat it as a place and fly there.
+    if (query.length >= 3 && query !== state.lastGeocoded) {
+      state.lastGeocoded = query;
+      await runPlaceSearch(query);
+    }
+  };
   els.q.addEventListener("input", () => {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => applyFilters(), 180);
+    searchTimer = setTimeout(handleSearch, 350);
+  });
+  els.q.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      clearTimeout(searchTimer);
+      handleSearch();
+    }
+  });
+  els.placeClear.addEventListener("click", () => {
+    els.q.value = "";
+    els.q.focus();
+    clearPlaceSearch();
   });
 
   for (const box of [els.onlyAvailable, els.billsInc, els.ensuite, els.shortStay, els.roomtype, els.savedOnly]) {
@@ -919,6 +1027,7 @@ function wireEvents() {
     state.campus = null;
     state.maxPrice = Infinity;
     state.sort = "availability";
+    clearPlaceSearch({ refit: false });
     for (const button of els.seg.querySelectorAll(".seg-btn")) {
       button.classList.toggle("is-on", button.dataset.city === "all");
     }
@@ -1021,6 +1130,13 @@ async function main() {
   wireEvents();
   applyFilters();
   updateSavedUI();
+
+  // A shared link like ?q=sandymount with no property match should fly there.
+  const q = els.q.value.trim();
+  if (!preselect && q && state.filtered.length === 0 && q.length >= 3) {
+    state.lastGeocoded = q;
+    runPlaceSearch(q);
+  }
 
   if (preselect) selectProperty(preselect);
 

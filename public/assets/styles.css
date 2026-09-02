@@ -200,6 +200,32 @@ input[type="search"]:focus-visible, select:focus-visible, .seg-btn:focus-visible
 
 input[type="range"] { width: 100%; accent-color: var(--accent); }
 
+.place-note {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: -2px;
+  padding: 6px 10px;
+  border: 1px solid color-mix(in srgb, var(--uni) 40%, var(--line));
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--uni) 12%, var(--surface));
+  color: var(--ink-2); font-size: 12px;
+}
+.place-note[hidden] { display: none; }
+.place-note span { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.place-note button {
+  flex: none; width: 20px; height: 20px; padding: 0;
+  border: 0; border-radius: 50%;
+  background: color-mix(in srgb, var(--uni) 18%, transparent); color: var(--ink);
+  font-size: 11px; cursor: pointer;
+}
+.place-note button:hover { background: color-mix(in srgb, var(--uni) 30%, transparent); }
+
+.search-pin {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--uni);
+  border: 3px solid var(--surface);
+  box-shadow: 0 0 0 2px var(--uni), var(--shadow);
+}
+
 .seg { display: flex; gap: 4px; padding: 3px; background: var(--bg-sunk); border-radius: var(--radius-sm); }
 .seg-btn {
   flex: 1;
