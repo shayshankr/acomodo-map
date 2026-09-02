@@ -57,18 +57,17 @@ minutes and on demand.
 One-time setup:
 
 1. **Create a service account.** In Google Cloud Console → a project → *APIs &
-   Services*: enable the **Google Sheets API** and **Google Drive API**, then
-   *Credentials → Create credentials → Service account*. Give it a key
-   (*Keys → Add key → JSON*) and download the JSON.
-2. **Share read access with it.** Copy the service account's email
-   (`…@….iam.gserviceaccount.com`) and, in Drive, share **the Sheet** and **the
-   photo folders** with it as *Viewer*. (Sharing a parent folder covers the
-   folders inside it.)
+   Services*: enable the **Google Sheets API**, then *Credentials → Create
+   credentials → Service account*. Give it a key (*Keys → Add key → JSON*) and
+   download the JSON. (Drive API is **not** needed — photos come from the public
+   folders via `photos.yml`.)
+2. **Share the Sheet with it.** Copy the service account's email
+   (`…@….iam.gserviceaccount.com`) and share **the Sheet** with it as *Viewer*.
 3. **Add the secrets** to the GitHub repo → *Settings → Secrets and variables →
    Actions*:
    - secret `GOOGLE_SERVICE_ACCOUNT_JSON` = the whole key JSON,
-   - secret `SHEET_ID` = `1nbjTFLmm3rkWBO-RRdsSrm5_ZvOv4aV9Q7VlJvavODM`,
-   - (optional) variable `SHEET_TABS` = the tab title(s) to read.
+   - secret `SHEET_ID` = `1nbjTFLmm3rkWBO-RRdsSrm5_ZvOv4aV9Q7VlJvavODM`.
+   - Leave `SHEET_TABS` unset so it reads **both** the Ireland and London tabs.
 4. **Verify** before scheduling:
 
    ```bash
@@ -76,8 +75,9 @@ One-time setup:
    GOOGLE_SERVICE_ACCOUNT_JSON=key.json SHEET_ID=… python scripts/setup_check.py
    ```
 
-That's it — edits to the Sheet and new photos in the folders flow to the map on
-the next run. The service account only ever reads.
+That's it — edits to the Sheet (either tab) flow to the map on the next run, and
+new photos flow via the separate photo job. The service account only ever reads,
+and only the Sheet.
 
 ### Manual rebuild (no credentials)
 
