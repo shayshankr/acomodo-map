@@ -284,9 +284,7 @@ async function loadData() {
   state.properties = properties.properties.filter((p) => p.lat != null && p.lng != null);
   state.universities = universities.universities || [];
 
-  $("stat-available").textContent = properties.stats.available;
-  $("stat-hold").textContent = properties.stats.onHold;
-  $("stat-props").textContent = properties.stats.properties;
+  updateStats(); // header numbers reflect the selected city (see below)
   // Keep Acomodo's tagline; the city list lives in the property counts instead.
   $("brand-sub").textContent = "We manage every property ourselves";
 
@@ -301,6 +299,41 @@ async function loadData() {
   areaLink.href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(areaText)}`;
   areaLink.target = "_blank";
   areaLink.rel = "noopener";
+}
+
+// Header counts reflect the selected city (All = the whole portfolio). They
+// count every property in scope, independent of the price/room-type filters,
+// so they read as "what Acomodo has here".
+function updateStats() {
+  const scope =
+    state.city === "all"
+      ? state.properties
+      : state.properties.filter((p) => p.city === state.city);
+  $("stat-available").textContent = scope.reduce((n, p) => n + p.available, 0);
+  $("stat-hold").textContent = scope.reduce((n, p) => n + p.onHold, 0);
+  $("stat-props").textContent = scope.length;
+}
+
+// The city with the most free beds right now — used as the default landing so
+// visitors open where there's the most to see, not the sparse all-cities view.
+function bestCity() {
+  const free = {};
+  for (const p of state.properties) free[p.city] = (free[p.city] || 0) + p.available;
+  let best = "all";
+  let max = 0;
+  for (const [city, beds] of Object.entries(free)) {
+    if (beds > max) {
+      max = beds;
+      best = city;
+    }
+  }
+  return best;
+}
+
+function setSegUI(city) {
+  for (const button of els.seg.querySelectorAll(".seg-btn")) {
+    button.classList.toggle("is-on", button.dataset.city === city);
+  }
 }
 
 /* --- controls ------------------------------------------------------------ */
@@ -427,6 +460,7 @@ function applyFilters({ fit = true } = {}) {
   sortList(list);
 
   state.filtered = list;
+  updateStats();
   renderList();
   // A place search flies to its own view; don't yank the map back to fit bounds.
   renderMarkers({ fit: fit && !state.searchPlace });
@@ -943,6 +977,11 @@ function resetToHome() {
   history.replaceState({}, "", location.pathname);
   if (window.matchMedia("(max-width: 860px)").matches) setMobileView("map", { push: false });
   resetFilters();
+  // Land on the busiest city (its map + its stats) rather than the sparse
+  // all-cities view. "All" is still one tap away on the segment.
+  state.city = bestCity();
+  setSegUI(state.city);
+  applyFilters();
   els.results.scrollTop = 0;
 }
 
@@ -1235,6 +1274,18 @@ async function main() {
   buildControls();
   initMap();
   const preselect = readUrl();
+
+  // A first visit with nothing pre-selected opens on the busiest city, so the
+  // map lands somewhere useful instead of the sparse all-cities/ocean view.
+  const params = new URLSearchParams(location.search);
+  const pristine = ![...params.keys()].some((k) =>
+    ["city", "near", "q", "p", "saved", "sort", "type", "max", "all", "bills", "ensuite", "short"].includes(k)
+  );
+  if (pristine) {
+    state.city = bestCity();
+    setSegUI(state.city);
+  }
+
   wireEvents();
   applyFilters();
   updateSavedUI();
