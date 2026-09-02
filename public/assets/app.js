@@ -35,6 +35,10 @@ const $ = (id) => document.getElementById(id);
 // any entry that still only carries a Drive file id.
 const imgThumb = (img) => img.thumb || CONFIG.driveThumb(img.id, 480);
 const imgFull = (img) => img.full || CONFIG.driveFull(img.id, 1600);
+
+// Only let http(s) links from the sheet become clickable hrefs — a stray
+// javascript:/data: URL in a "Media Link" cell must not become an XSS vector.
+const safeUrl = (url) => (/^https?:\/\//i.test(String(url || "").trim()) ? String(url).trim() : "#");
 const els = {
   results: $("results"),
   count: $("result-count"),
@@ -535,14 +539,14 @@ function galleryMarkup(property) {
                 data-gallery="${index}" aria-label="Photo ${index + 1}${
           img.name ? ": " + esc(img.name) : ""
         }">
-          <img loading="lazy" src="${imgThumb(img)}" alt="">
+          <img loading="lazy" src="${esc(imgThumb(img))}" alt="">
         </button>`
       )
       .join("");
     return `
       <figure class="gallery" data-count="${images.length}">
         <button type="button" class="g-hero" data-gallery="0" aria-label="Open photo viewer">
-          <img id="g-hero-img" src="${imgFull(hero)}"
+          <img id="g-hero-img" src="${esc(imgFull(hero))}"
                alt="${esc(property.name)} — ${esc(hero.name || "photo")}">
           <span class="g-count">${images.length} photos</span>
         </button>
@@ -553,7 +557,7 @@ function galleryMarkup(property) {
   // No cached images yet, but staff have linked a Drive folder — offer it.
   if (media.folder) {
     return `
-      <a class="gallery-empty" href="${esc(media.folder)}" target="_blank" rel="noopener">
+      <a class="gallery-empty" href="${esc(safeUrl(media.folder))}" target="_blank" rel="noopener">
         <span class="ge-icon" aria-hidden="true">▦</span>
         <span>Photos on Google Drive<small>Opens the property's photo folder</small></span>
         <span class="ge-arrow" aria-hidden="true">↗</span>

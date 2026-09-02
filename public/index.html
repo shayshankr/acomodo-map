@@ -3,6 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Content-Security-Policy: whitelists exactly the hosts this page uses.
+     script-src has no 'unsafe-inline', so injected inline scripts cannot run. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' https://unpkg.com;
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com;
+  font-src https://fonts.gstatic.com;
+  img-src 'self' data: https://drive.google.com https://lh3.googleusercontent.com https://*.tile.openstreetmap.org https://unpkg.com;
+  connect-src 'self';
+  base-uri 'self';
+  form-action 'self';
+  object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Live Availability Map · Student rooms in Dublin &amp; Limerick</title>
 <meta name="description" content="Every managed bedspace in Dublin and Limerick on one map. Filter by campus, price, room type and move-in date, and see what is actually free right now.">
 <meta name="robots" content="noindex, nofollow">

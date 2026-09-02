@@ -34,7 +34,13 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
           SHEET_TABS: ${{ vars.SHEET_TABS }}   # optional, e.g. "Ireland Sept26 Portfolio detail"
-        run: python scripts/sync_from_google.py
+        run: |
+          if [ -z "$GOOGLE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "No GOOGLE_SERVICE_ACCOUNT_JSON secret set — availability sync not configured yet, skipping."
+            echo "(Photos still refresh via the separate photos.yml workflow.)"
+            exit 0
+          fi
+          python scripts/sync_from_google.py
 
       - name: Commit if anything changed
         run: |
