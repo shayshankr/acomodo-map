@@ -118,7 +118,9 @@ def curate(images, limit):
                 return i
         return len(PRIORITY)
 
-    return sorted(unique, key=rank)[:limit]
+    # Break rank ties by id so the chosen set and its order are the same every
+    # run — otherwise Drive's varying listing order would churn the repo.
+    return sorted(unique, key=lambda img: (rank(img), img["id"]))[:limit]
 
 
 def download_image(fid, width, dest):
@@ -150,27 +152,34 @@ def main():
 
         dest_dir = PHOTO_DIR / slug
         dest_dir.mkdir(parents=True, exist_ok=True)
-        # clear stale files so removals in Drive don't linger
-        for old in dest_dir.glob("*.jpg"):
-            old.unlink()
 
+        # Files are named by the stable Drive id, so a re-run only downloads
+        # genuinely new photos and leaves existing ones byte-for-byte untouched
+        # (no repo churn). Anything no longer in the folder is pruned.
         saved = []
-        for i, img in enumerate(images, 1):
-            full = dest_dir / f"{i:02d}.jpg"
-            thumb = dest_dir / f"{i:02d}_t.jpg"
-            try:
-                fb = download_image(img["id"], FULL_W, full)
-                tb = download_image(img["id"], THUMB_W, thumb)
-            except Exception as error:
-                print(f"  ! {img['name'][:30]}: {error}")
-                continue
+        keep = set()
+        for img in images:
+            fid = re.sub(r"[^A-Za-z0-9_-]", "", img["id"])
+            full = dest_dir / f"{fid}.jpg"
+            thumb = dest_dir / f"{fid}_t.jpg"
+            if not full.exists() or not thumb.exists():
+                try:
+                    download_image(img["id"], FULL_W, full)
+                    download_image(img["id"], THUMB_W, thumb)
+                    total_files += 2
+                    time.sleep(0.25)  # be gentle with Drive
+                except Exception as error:
+                    print(f"  ! {img['name'][:30]}: {error}")
+                    continue
+            keep.update({full.name, thumb.name})
             saved.append({
                 "full": f"photos/{slug}/{full.name}",
                 "thumb": f"photos/{slug}/{thumb.name}",
                 "name": img["name"],
             })
-            total_files += 2
-            time.sleep(0.25)  # be gentle with Drive
+        for old in dest_dir.glob("*.jpg"):
+            if old.name not in keep:
+                old.unlink()
         print(f"  {len(saved)} photos")
         props[name] = {"folder": url, "images": saved}
 

@@ -237,9 +237,38 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
 .chip:has(input:checked)::before { background: var(--accent); }
 
 .panel-meta {
-  display: flex; align-items: baseline; justify-content: space-between;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 8px;
   color: var(--ink-3); font-size: 12px;
 }
+.meta-right { display: flex; align-items: center; gap: 10px; }
+.sort-field select {
+  padding: 4px 8px;
+  border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface-2); color: var(--ink);
+  font: inherit; font-size: 12px;
+}
+.chip-saved:has(input:checked) {
+  border-color: color-mix(in srgb, #e0a92e 55%, var(--line));
+  background: color-mix(in srgb, #e0a92e 16%, var(--surface));
+  color: var(--ink);
+}
+.chip-saved b { color: var(--ink-3); font-weight: 600; }
+
+/* Save (shortlist) star on cards and in the drawer. */
+.save-btn {
+  flex: none;
+  width: 26px; height: 26px; padding: 0;
+  border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface-2); color: var(--ink-3);
+  font-size: 14px; line-height: 1; cursor: pointer;
+  transition: color .12s, border-color .12s, background .12s;
+}
+.save-btn:hover { color: #e0a92e; border-color: color-mix(in srgb, #e0a92e 50%, var(--line)); }
+.save-btn.is-on { color: #e0a92e; border-color: color-mix(in srgb, #e0a92e 55%, var(--line)); background: color-mix(in srgb, #e0a92e 15%, var(--surface)); }
+.d-actions-sub { margin-top: 8px; }
+.d-actions-sub .save-btn { width: auto; height: auto; padding: 10px 14px; font-size: 13.5px; display: inline-flex; align-items: center; gap: 6px; }
+.d-actions-sub .save-btn.is-on .save-star { color: #e0a92e; }
 .link-btn {
   border: 0; background: none; padding: 0;
   color: var(--ink-2); font: inherit; font-size: 12px;

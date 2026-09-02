@@ -59,6 +59,10 @@ const els = {
   viewToggle: $("view-toggle"),
   themeToggle: $("theme-toggle"),
   lightbox: $("lightbox"),
+  sort: $("sort"),
+  sortDistance: $("sort-distance"),
+  savedOnly: $("saved-only"),
+  savedCount: $("saved-count"),
 };
 
 const state = {
@@ -73,7 +77,68 @@ const state = {
   map: null,
   tileLayer: null,
   maxPrice: Infinity,
+  sort: "availability",
+  saved: new Set(),
 };
+
+/* --- shortlist (saved properties, kept in the browser) ------------------- */
+
+const SAVED_KEY = "map-saved";
+
+function loadSaved() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(SAVED_KEY) || "[]");
+    state.saved = new Set(Array.isArray(raw) ? raw : []);
+  } catch {
+    state.saved = new Set();
+  }
+}
+
+function persistSaved() {
+  try {
+    localStorage.setItem(SAVED_KEY, JSON.stringify([...state.saved]));
+  } catch {
+    /* private window: shortlist just won't persist */
+  }
+}
+
+function toggleSaved(id) {
+  if (state.saved.has(id)) state.saved.delete(id);
+  else state.saved.add(id);
+  persistSaved();
+  updateSavedUI();
+}
+
+function updateSavedUI() {
+  const count = state.saved.size;
+  els.savedCount.textContent = count ? `(${count})` : "";
+  for (const btn of document.querySelectorAll(".save-btn")) {
+    const on = state.saved.has(btn.dataset.save);
+    btn.classList.toggle("is-on", on);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.title = on ? "Saved — click to remove" : "Save to shortlist";
+    const label = btn.querySelector(".save-label");
+    if (label) label.textContent = on ? "Saved" : "Save";
+  }
+  // If the Saved filter is on, re-filter as items are toggled.
+  if (els.savedOnly.checked) applyFilters({ fit: false });
+}
+
+function shareProperty(id, btn) {
+  const url = location.href; // syncUrl keeps this pointing at the open property + filters
+  const flash = (msg) => {
+    const original = btn.textContent;
+    btn.textContent = msg;
+    setTimeout(() => (btn.textContent = original), 1600);
+  };
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(url).then(() => flash("Link copied ✓")).catch(() => flash("Copy failed"));
+  } else if (navigator.share) {
+    navigator.share({ url }).catch(() => {});
+  } else {
+    window.prompt("Copy this link:", url);
+  }
+}
 
 /* --- helpers ------------------------------------------------------------- */
 
@@ -215,6 +280,25 @@ function buildControls() {
 
 /* --- filtering ----------------------------------------------------------- */
 
+function sortList(list) {
+  const byAvailability = (a, b) =>
+    b.available - a.available ||
+    (a.priceMin ?? 9e9) - (b.priceMin ?? 9e9) ||
+    a.name.localeCompare(b.name);
+  const byPrice = (dir) => (a, b) =>
+    ((a.priceMin ?? 9e9) - (b.priceMin ?? 9e9)) * dir || a.name.localeCompare(b.name);
+
+  // Nearest-campus sort only makes sense when a campus is selected; otherwise
+  // fall back to availability.
+  let sort = state.sort;
+  if (sort === "distance" && !state.campus) sort = "availability";
+
+  if (sort === "distance") list.sort((a, b) => (a._km ?? 9e9) - (b._km ?? 9e9));
+  else if (sort === "price-asc") list.sort(byPrice(1));
+  else if (sort === "price-desc") list.sort(byPrice(-1));
+  else list.sort(byAvailability);
+}
+
 function currentFilters() {
   const query = els.q.value.trim().toLowerCase();
   const campus = state.campus;
@@ -234,6 +318,8 @@ function currentFilters() {
 
     const type = els.roomtype.value;
     if (type && !property.rooms.some((r) => r.type === type)) return false;
+
+    if (els.savedOnly.checked && !state.saved.has(property.id)) return false;
 
     if (query) {
       const haystack = [
@@ -257,21 +343,17 @@ function applyFilters({ fit = true } = {}) {
   const predicate = currentFilters();
   let list = state.properties.filter(predicate);
 
+  // Distance is available only when a campus is chosen; compute it either way
+  // so the "Nearest campus" sort can use it.
   if (state.campus) {
     const origin = [state.campus.lat, state.campus.lng];
     for (const property of list) {
       property._km = distanceKm(origin, [property.lat, property.lng]);
     }
-    list.sort((a, b) => a._km - b._km);
   } else {
     for (const property of state.properties) delete property._km;
-    list.sort(
-      (a, b) =>
-        b.available - a.available ||
-        (a.priceMin ?? 9e9) - (b.priceMin ?? 9e9) ||
-        a.name.localeCompare(b.name)
-    );
   }
+  sortList(list);
 
   state.filtered = list;
   renderList();
@@ -302,6 +384,9 @@ function cardMarkup(property) {
             <p>${esc([property.area, property.eircode].filter(Boolean).join(" · "))}</p>
           </div>
           <span class="pill pill-${status}">${esc(statusLabel(property))}</span>
+          <button type="button" class="save-btn${state.saved.has(property.id) ? " is-on" : ""}"
+                  data-save="${esc(property.id)}" aria-pressed="${state.saved.has(property.id)}"
+                  title="Save to shortlist" aria-label="Save ${esc(property.name)} to shortlist">★</button>
         </div>
         <div class="card-facts">
           <span><b>${esc(property.priceDisplay)}</b> /bed</span>
@@ -673,6 +758,13 @@ function openDrawer(property) {
       </a>
       <a class="btn btn-quiet" href="${directions}" target="_blank" rel="noopener">Directions</a>
     </div>
+    <div class="d-actions d-actions-sub">
+      <button type="button" class="btn btn-quiet save-btn${state.saved.has(property.id) ? " is-on" : ""}"
+              data-save="${esc(property.id)}" aria-pressed="${state.saved.has(property.id)}">
+        <span class="save-star">★</span> <span class="save-label">${state.saved.has(property.id) ? "Saved" : "Save"}</span>
+      </button>
+      <button type="button" class="btn btn-quiet share-btn" data-share="${esc(property.id)}">Share</button>
+    </div>
     ${
       property.geoPrecision && property.geoPrecision !== "address"
         ? `<p class="geo-note">Pin is approximate — placed at ${esc(
@@ -709,6 +801,8 @@ function syncUrl() {
   if (els.billsInc.checked) params.set("bills", "1");
   if (els.ensuite.checked) params.set("ensuite", "1");
   if (els.shortStay.checked) params.set("short", "1");
+  if (els.savedOnly.checked) params.set("saved", "1");
+  if (state.sort !== "availability") params.set("sort", state.sort);
   if (state.selectedId) params.set("p", state.selectedId);
 
   const query = params.toString();
@@ -729,14 +823,20 @@ function readUrl() {
   els.billsInc.checked = params.has("bills");
   els.ensuite.checked = params.has("ensuite");
   els.shortStay.checked = params.has("short");
+  els.savedOnly.checked = params.has("saved");
 
   if (params.has("near")) {
     const uni = state.universities.find((u) => u.id === params.get("near"));
     if (uni) {
       state.campus = uni;
       els.campus.value = uni.id;
+      els.sortDistance.hidden = false;
       if (!params.has("city")) state.city = uni.city; // keep the segment in sync
     }
+  }
+  if (params.has("sort")) {
+    state.sort = params.get("sort");
+    els.sort.value = state.sort;
   }
   for (const button of els.seg.querySelectorAll(".seg-btn")) {
     button.classList.toggle("is-on", button.dataset.city === state.city);
@@ -768,6 +868,16 @@ function wireEvents() {
       for (const button of els.seg.querySelectorAll(".seg-btn")) {
         button.classList.toggle("is-on", button.dataset.city === state.city);
       }
+      // Picking a campus makes "nearest" available and the natural default.
+      els.sortDistance.hidden = false;
+      state.sort = "distance";
+      els.sort.value = "distance";
+    } else {
+      els.sortDistance.hidden = true;
+      if (state.sort === "distance") {
+        state.sort = "availability";
+        els.sort.value = "availability";
+      }
     }
     applyFilters();
   });
@@ -785,9 +895,14 @@ function wireEvents() {
     searchTimer = setTimeout(() => applyFilters(), 180);
   });
 
-  for (const box of [els.onlyAvailable, els.billsInc, els.ensuite, els.shortStay, els.roomtype]) {
+  for (const box of [els.onlyAvailable, els.billsInc, els.ensuite, els.shortStay, els.roomtype, els.savedOnly]) {
     box.addEventListener("change", () => applyFilters());
   }
+
+  els.sort.addEventListener("change", () => {
+    state.sort = els.sort.value;
+    applyFilters({ fit: false });
+  });
 
   els.reset.addEventListener("click", () => {
     els.q.value = "";
@@ -797,9 +912,13 @@ function wireEvents() {
     els.priceOut.textContent = "any";
     els.onlyAvailable.checked = true;
     els.billsInc.checked = els.ensuite.checked = els.shortStay.checked = false;
+    els.savedOnly.checked = false;
+    els.sort.value = "availability";
+    els.sortDistance.hidden = true;
     state.city = "all";
     state.campus = null;
     state.maxPrice = Infinity;
+    state.sort = "availability";
     for (const button of els.seg.querySelectorAll(".seg-btn")) {
       button.classList.toggle("is-on", button.dataset.city === "all");
     }
@@ -807,6 +926,12 @@ function wireEvents() {
   });
 
   els.results.addEventListener("click", (event) => {
+    const save = event.target.closest(".save-btn");
+    if (save) {
+      event.stopPropagation();
+      toggleSaved(save.dataset.save);
+      return;
+    }
     const card = event.target.closest(".card");
     if (card) selectProperty(card.dataset.id);
   });
@@ -822,6 +947,18 @@ function wireEvents() {
     const open = event.target.closest("[data-open]");
     if (open) selectProperty(open.dataset.open, { pan: false });
     if (event.target.id === "d-close") closeDrawer();
+
+    // Save / Share buttons inside the drawer.
+    const save = event.target.closest(".drawer .save-btn");
+    if (save) {
+      toggleSaved(save.dataset.save);
+      return;
+    }
+    const share = event.target.closest(".share-btn");
+    if (share) {
+      shareProperty(share.dataset.share, share);
+      return;
+    }
 
     const thumb = event.target.closest("[data-gallery]");
     if (thumb) {
@@ -877,11 +1014,13 @@ async function main() {
     return;
   }
 
+  loadSaved();
   buildControls();
   initMap();
   const preselect = readUrl();
   wireEvents();
   applyFilters();
+  updateSavedUI();
 
   if (preselect) selectProperty(preselect);
 

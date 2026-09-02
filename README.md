@@ -5,6 +5,11 @@ A live-availability map for managed student accommodation — the same idea as
 out: filter by campus, price, room type and move-in date, and see exactly which
 beds are free right now.
 
+Visitors can filter by city, campus, price, room type and move-in; sort by
+availability, price or nearest campus; **shortlist** properties (saved in the
+browser); **share** a deep link to any listing; and enquire in one tap over
+WhatsApp.
+
 Everything is **static**. There is no server and no database — a Python script
 turns the spreadsheet into JSON, and the front end is plain HTML/CSS/JS using
 Leaflet. That means it hosts for free almost anywhere (see **Hosting** below).

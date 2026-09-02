@@ -10,7 +10,7 @@
   script-src 'self' https://unpkg.com;
   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com;
   font-src https://fonts.gstatic.com;
-  img-src 'self' data: https://drive.google.com https://lh3.googleusercontent.com https://*.tile.openstreetmap.org https://unpkg.com;
+  img-src 'self' data: https://drive.google.com https://lh3.googleusercontent.com https://tile.openstreetmap.org https://*.tile.openstreetmap.org https://unpkg.com;
   connect-src 'self';
   base-uri 'self';
   form-action 'self';
@@ -91,11 +91,23 @@
         <label class="chip"><input type="checkbox" id="bills-inc"><span>Bills included</span></label>
         <label class="chip"><input type="checkbox" id="ensuite"><span>Ensuite</span></label>
         <label class="chip"><input type="checkbox" id="short-stay"><span>Short stay</span></label>
+        <label class="chip chip-saved"><input type="checkbox" id="saved-only"><span>★ Saved <b id="saved-count"></b></span></label>
       </div>
 
       <div class="panel-meta">
         <span id="result-count">—</span>
-        <button type="button" class="link-btn" id="reset">Reset</button>
+        <div class="meta-right">
+          <label class="sort-field">
+            <span class="sr-only">Sort by</span>
+            <select id="sort" aria-label="Sort results">
+              <option value="availability">Most available</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="distance" id="sort-distance" hidden>Nearest campus</option>
+            </select>
+          </label>
+          <button type="button" class="link-btn" id="reset">Reset</button>
+        </div>
       </div>
     </div>
 
