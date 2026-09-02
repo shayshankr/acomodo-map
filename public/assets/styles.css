@@ -385,11 +385,21 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
 
 .panel-foot {
   flex: none; margin: 0;
-  padding: 11px 16px;
+  padding: 10px 16px;
   border-top: 1px solid var(--line);
   color: var(--ink-3); font-size: 12px;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
 }
-.panel-foot a { color: var(--accent); }
+.req-btn {
+  flex: none;
+  display: inline-flex; align-items: center;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--brand); color: #fff;
+  font-size: 12.5px; font-weight: 600;
+  text-decoration: none; white-space: nowrap;
+}
+.req-btn:hover { background: var(--brand-2); }
 
 /* --- map ---------------------------------------------------------------- */
 
@@ -671,8 +681,8 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
 .btn-primary { background: var(--accent); color: var(--bg); }
 :root[data-theme="dark"] .btn-primary { color: #0d1a16; }
 .btn-primary:hover { filter: brightness(1.06); }
-.btn-whatsapp { background: #25d366; color: #06281a; gap: 8px; }
-.btn-whatsapp:hover { filter: brightness(1.05); }
+.btn-whatsapp { background: var(--brand); color: #fff; gap: 8px; }
+.btn-whatsapp:hover { background: var(--brand-2); }
 .btn-whatsapp svg { flex: none; }
 .btn-quiet { background: var(--surface-2); border-color: var(--line); color: var(--ink); }
 .btn-quiet:hover { border-color: var(--line-strong); }
