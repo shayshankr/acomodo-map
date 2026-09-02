@@ -775,11 +775,20 @@ function openDrawer(property) {
   const whatsapp = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(waText)}`;
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${property.lat},${property.lng}`;
 
+  // Live public-transport directions from this property, opened in Google Maps
+  // (always current — no timetable to maintain). `dest` may be a place name or
+  // be left blank for the visitor to type their own.
+  const origin = `${property.lat},${property.lng}`;
+  const commuteUrl = (dest) =>
+    `https://www.google.com/maps/dir/?api=1&origin=${origin}` +
+    (dest ? `&destination=${encodeURIComponent(dest)}` : "") +
+    `&travelmode=transit`;
+
   const nearest = state.universities
     .filter((u) => u.city === property.city)
     .map((u) => ({ ...u, km: distanceKm([property.lat, property.lng], [u.lat, u.lng]) }))
     .sort((a, b) => a.km - b.km)
-    .slice(0, 3);
+    .slice(0, 4);
 
   els.drawerInner.innerHTML = `
     <button type="button" class="d-close" id="d-close" aria-label="Close">×</button>
@@ -814,15 +823,30 @@ function openDrawer(property) {
       </table>
     </div>
 
-    ${
-      nearest.length
-        ? `<div class="d-section"><h4>Campuses nearby</h4>
-             <dl class="facts">${nearest
-               .map((u) => `<dt>${esc(u.name)}</dt><dd>${u.km.toFixed(1)} km</dd>`)
-               .join("")}</dl>
-           </div>`
-        : ""
-    }
+    <div class="d-section">
+      <h4>Plan your commute</h4>
+      ${
+        nearest.length
+          ? `<ul class="commute">${nearest
+              .map(
+                (u) => `
+        <li>
+          <span class="commute-name">${esc(u.name)}</span>
+          <span class="commute-km">${u.km.toFixed(1)} km</span>
+          <a class="commute-go" href="${commuteUrl(`${u.name}, ${u.city}`)}"
+             target="_blank" rel="noopener" aria-label="Transit directions to ${esc(u.name)}">
+            Route&nbsp;↗
+          </a>
+        </li>`
+              )
+              .join("")}</ul>`
+          : ""
+      }
+      <a class="commute-any" href="${commuteUrl("")}" target="_blank" rel="noopener">
+        Plan a route to any place ↗
+      </a>
+      <p class="commute-hint">Live public-transport times, opened in Google Maps.</p>
+    </div>
 
     ${featureMarkup(property.features)}
 
