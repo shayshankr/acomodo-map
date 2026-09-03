@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T10:50:36+00:00",
+  "generatedAt": "2026-09-03T10:50:53+00:00",
   "source": "fetch_photos.py (public Drive folders)",
   "properties": {
     "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24": {
@@ -73,68 +73,7 @@
     },
     "145 Cromwells Fort Road, Walkinstown, Dublin, D12 E4C9 ": {
       "folder": "https://drive.google.com/drive/folders/1vDT_rBDgE-X589c_k_OyQqzDqEPIhWAW?usp=drive_link",
-      "images": [
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/11PH28KCiSxOJ1m9DgTkpHSCiuHULzghV.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/11PH28KCiSxOJ1m9DgTkpHSCiuHULzghV_t.jpg",
-          "name": "6 kitchen"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/19Br8lXCU3wUGgpjYJE1s5dcshtF2ViwL.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/19Br8lXCU3wUGgpjYJE1s5dcshtF2ViwL_t.jpg",
-          "name": "2 kitchen"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1CSSrJWKRqMge1SAMwewkHVNYzGgvpQoy.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1CSSrJWKRqMge1SAMwewkHVNYzGgvpQoy_t.jpg",
-          "name": "5 kitchen"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1Lf1080uacJzXQi3riB5XaQZWgX7BTziO.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1Lf1080uacJzXQi3riB5XaQZWgX7BTziO_t.jpg",
-          "name": "4 kitchen"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1jxWDCaicQ0ZXb9q9stcZvISWItGCiXjC.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1jxWDCaicQ0ZXb9q9stcZvISWItGCiXjC_t.jpg",
-          "name": "3 kitchen"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/17cjW8TBd1Yc_qAqMD0fxLIajX2DxWbVy.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/17cjW8TBd1Yc_qAqMD0fxLIajX2DxWbVy_t.jpg",
-          "name": "9 room"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1A8sQaaOgwAMCV4GZEXXZ4sBiOiyU_Cpj.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1A8sQaaOgwAMCV4GZEXXZ4sBiOiyU_Cpj_t.jpg",
-          "name": "10 room"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1jFsp3bxBgAjP6VoS9zg799upDW7NqRwF.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1jFsp3bxBgAjP6VoS9zg799upDW7NqRwF_t.jpg",
-          "name": "11 room"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1qzDX5R1THNOy4HuP_8WPc7lVLlSovZyb.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1qzDX5R1THNOy4HuP_8WPc7lVLlSovZyb_t.jpg",
-          "name": "7 room"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1CL87WJCfq73kcudXntd0KJ3Wy9gfuqut.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1CL87WJCfq73kcudXntd0KJ3Wy9gfuqut_t.jpg",
-          "name": "13"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1Gx8rSgi20tI-y8ZLKW2Sxj-HJvUkKUdo.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1Gx8rSgi20tI-y8ZLKW2Sxj-HJvUkKUdo_t.jpg",
-          "name": "18"
-        },
-        {
-          "full": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1OHOCbd6QH2yA1oDI6S_bDcbSoARNA7oD.jpg",
-          "thumb": "photos/145-cromwells-fort-road-walkinstown-dublin-d12-e4c9/1OHOCbd6QH2yA1oDI6S_bDcbSoARNA7oD_t.jpg",
-          "name": "19"
-        }
-      ]
+      "images": []
     },
     "16 Emmet Lodge, Emmet Court, Dublin 8 D08 EY83": {
       "folder": "https://drive.google.com/drive/folders/1aIrSl8vTCLyhrGiy5w-ngXMUeQqVpgN-?usp=drive_link",
@@ -1192,33 +1131,7 @@
     },
     "Tandys Drive, Adamstown, Lucan K78C5T9": {
       "folder": "https://drive.google.com/drive/u/1/folders/1p6ZsM82tbbFpxBDujwVTJB2cgSF5Yhh0",
-      "images": [
-        {
-          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/1cFicnN7Qh6sCZ-9y_59r4Y85RuDhAP-z.jpg",
-          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/1cFicnN7Qh6sCZ-9y_59r4Y85RuDhAP-z_t.jpg",
-          "name": "Cover photo"
-        },
-        {
-          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/1sfov5KnASXz2CGYboOSPkCIU1295fkdz.jpg",
-          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/1sfov5KnASXz2CGYboOSPkCIU1295fkdz_t.jpg",
-          "name": "WhatsApp Image 2026-06-18 at 11.55.37 (1)"
-        },
-        {
-          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/10IhWHo9_MhF0vaVYrrlphVZA2-YQIe-r.jpg",
-          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/10IhWHo9_MhF0vaVYrrlphVZA2-YQIe-r_t.jpg",
-          "name": "WhatsApp Image 2026-06-18 at 11.55.38 (1)"
-        },
-        {
-          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/1fdCZOr8ke8bA5qCMSLJ37Bhuj9aU8kPM.jpg",
-          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/1fdCZOr8ke8bA5qCMSLJ37Bhuj9aU8kPM_t.jpg",
-          "name": "WhatsApp Image 2026-06-18 at 11.55.38"
-        },
-        {
-          "full": "photos/tandys-drive-adamstown-lucan-k78c5t9/1Z5y78eNNfAPf5QLjSJTntFXKnZdYdGKL.jpg",
-          "thumb": "photos/tandys-drive-adamstown-lucan-k78c5t9/1Z5y78eNNfAPf5QLjSJTntFXKnZdYdGKL_t.jpg",
-          "name": "WhatsApp Image 2026-06-19 at 06.55.38 (1)"
-        }
-      ]
+      "images": []
     }
   }
 }
