@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T22:45:07+00:00",
+  "generatedAt": "2026-09-03T00:54:31+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,8 +9,8 @@
       "London"
     ],
     "bedspaces": 216,
-    "available": 27,
-    "onHold": 9,
+    "available": 28,
+    "onHold": 8,
     "booked": 180,
     "withPhotos": 20,
     "withFolder": 27
@@ -160,7 +160,7 @@
           "type": "Double bunk non-ensuite",
           "rawType": "Double Bunk",
           "bedspaces": 2,
-          "washrooms": "5 Common Washrooms + 2 WC's",
+          "washrooms": "5 Common Washrooms + 1 WC",
           "rent": 675,
           "rentDisplay": "€675",
           "demography": "",
@@ -711,6 +711,177 @@
           "available": 2,
           "onHold": 0,
           "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "macgregor-rd-e16-3ll",
+      "name": "MacGregor Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E16 3LL",
+      "address": "E16 3LL, MacGregor Rd, London",
+      "lat": 51.517582,
+      "lng": 0.037351,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 9,
+      "available": 2,
+      "onHold": 0,
+      "booked": 7,
+      "priceMin": 450,
+      "priceMax": 600,
+      "currency": "£",
+      "priceDisplay": "£450–£600",
+      "utilities": "Included all Bills",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "Deposit + 1 Month",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
+            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
+            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
+            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
+            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Compact Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 450,
+          "rentDisplay": "£450",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
         }
       ]
     },
@@ -1630,177 +1801,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "macgregor-rd-e16-3ll",
-      "name": "MacGregor Rd",
-      "unitNote": "",
-      "area": "London",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E16 3LL",
-      "address": "E16 3LL, MacGregor Rd, London",
-      "lat": 51.517582,
-      "lng": 0.037351,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 9,
-      "available": 1,
-      "onHold": 1,
-      "booked": 7,
-      "priceMin": 450,
-      "priceMax": 600,
-      "currency": "£",
-      "priceDisplay": "£450–£600",
-      "utilities": "Included all Bills",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "Deposit + 1 Month",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
-        "images": [
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
-            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
-            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
-            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
-            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "2 Communal washrooms",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Compact Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 450,
-          "rentDisplay": "£450",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "",
-          "available": 1,
-          "onHold": 1,
-          "booked": 0
         }
       ]
     },
