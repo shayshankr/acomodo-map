@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T10:50:53+00:00",
+  "generatedAt": "2026-09-03T14:19:49+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,265 +9,13 @@
       "London"
     ],
     "bedspaces": 216,
-    "available": 28,
+    "available": 27,
     "onHold": 8,
-    "booked": 180,
+    "booked": 181,
     "withPhotos": 18,
     "withFolder": 27
   },
   "properties": [
-    {
-      "id": "1-waterfall-avenue-d03-da24",
-      "name": "1 Waterfall Avenue",
-      "unitNote": "",
-      "area": "Drumcondra, Dublin 3",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D03 DA24",
-      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
-      "lat": 53.366153,
-      "lng": -6.247865,
-      "geoPrecision": "address",
-      "totalBedspaces": 13,
-      "available": 7,
-      "onHold": 0,
-      "booked": 6,
-      "priceMin": 675,
-      "priceMax": 950,
-      "currency": "€",
-      "priceDisplay": "€675–€950",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
-        "images": [
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.31 PM (1)",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/106NruvHMh8occ844uWItrvW0sY46L1br.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/106NruvHMh8occ844uWItrvW0sY46L1br_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10Dou-L3yh8iTz8FcOm16HdLx72pUip2w.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10Dou-L3yh8iTz8FcOm16HdLx72pUip2w_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10uymic-LII5EtqjYLrMrGVNyXWPCb96I.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10uymic-LII5EtqjYLrMrGVNyXWPCb96I_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.32 PM (1)",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/16uARmT4Y4wNW7lJLdlqy0l71owE7HM9l.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/16uARmT4Y4wNW7lJLdlqy0l71owE7HM9l_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM (1)",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/18l59Ph6oro5W3B-7-gUQ9JTldSKhHFMN.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/18l59Ph6oro5W3B-7-gUQ9JTldSKhHFMN_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM (2)",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Bhx6fVmAbO7p9kaCFvbGmnj3d14-Dcpp.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Bhx6fVmAbO7p9kaCFvbGmnj3d14-Dcpp_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.32 PM",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1EYLiBvkiiehkx1mFVDrO2wNH5y6Emdsd.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1EYLiBvkiiehkx1mFVDrO2wNH5y6Emdsd_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1KzNqQF4GB_9Tm1yRTQQn-Rds6IGKulyA.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1KzNqQF4GB_9Tm1yRTQQn-Rds6IGKulyA_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM (2)",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P1hMjJuZIBFfsfvTtbUgzhk3FZYjpngQ.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P1hMjJuZIBFfsfvTtbUgzhk3FZYjpngQ_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM (1)",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1_BZMCirqv8MQKrCHnoVwbSN6NOZucTfC.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1_BZMCirqv8MQKrCHnoVwbSN6NOZucTfC_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.28 PM",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1a_9q48B-Tdua3y8E4PA4APM-u5k86SPN.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1a_9q48B-Tdua3y8E4PA4APM-u5k86SPN_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1apesOgqsxs0v5qOpqYaa6f6LL0mgvJ4L.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1apesOgqsxs0v5qOpqYaa6f6LL0mgvJ4L_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
-              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
-            ]
-          },
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
-              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
-              "Dublin city centre: 15 minutes on foot",
-              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities",
-            "items": [
-              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
-              "Dublin City University (DCU): 15 to 20 minutes by bus",
-              "UCD Belfield: 40 to 45 minutes by bus",
-              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
-              "TU Dublin Tallaght: 50 to 55 minutes by bus",
-              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
-              "NCI / DBS (City Centre): 20 minutes by bus",
-              "Griffith College Dublin: 25 to 30 minutes by bus",
-              "NCAD Thomas Street: 25 to 30 minutes by bus",
-              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double bunk non-ensuite",
-          "rawType": "Double Bunk",
-          "bedspaces": 2,
-          "washrooms": "5 Common Washrooms + 1 WC",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        },
-        {
-          "room": "3",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "",
-          "type": "Double bunk non-ensuite",
-          "rawType": "Double Bunk",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "6A",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "",
-          "available": 1,
-          "onHold": 0,
-          "booked": 0
-        },
-        {
-          "room": "6B",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "",
-          "available": 1,
-          "onHold": 0,
-          "booked": 0
-        },
-        {
-          "room": "7",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "8",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
     {
       "id": "shaftsbury-rd-e7-8pf",
       "name": "Shaftsbury Rd",
@@ -450,6 +198,258 @@
           "available": 2,
           "onHold": 0,
           "booked": 0
+        }
+      ]
+    },
+    {
+      "id": "1-waterfall-avenue-d03-da24",
+      "name": "1 Waterfall Avenue",
+      "unitNote": "",
+      "area": "Drumcondra, Dublin 3",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D03 DA24",
+      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
+      "lat": 53.366153,
+      "lng": -6.247865,
+      "geoPrecision": "address",
+      "totalBedspaces": 13,
+      "available": 6,
+      "onHold": 0,
+      "booked": 7,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.31 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/106NruvHMh8occ844uWItrvW0sY46L1br.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/106NruvHMh8occ844uWItrvW0sY46L1br_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10Dou-L3yh8iTz8FcOm16HdLx72pUip2w.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10Dou-L3yh8iTz8FcOm16HdLx72pUip2w_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10uymic-LII5EtqjYLrMrGVNyXWPCb96I.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/10uymic-LII5EtqjYLrMrGVNyXWPCb96I_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.32 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/16uARmT4Y4wNW7lJLdlqy0l71owE7HM9l.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/16uARmT4Y4wNW7lJLdlqy0l71owE7HM9l_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.26 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/18l59Ph6oro5W3B-7-gUQ9JTldSKhHFMN.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/18l59Ph6oro5W3B-7-gUQ9JTldSKhHFMN_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.29 PM (2)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Bhx6fVmAbO7p9kaCFvbGmnj3d14-Dcpp.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Bhx6fVmAbO7p9kaCFvbGmnj3d14-Dcpp_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.32 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1EYLiBvkiiehkx1mFVDrO2wNH5y6Emdsd.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1EYLiBvkiiehkx1mFVDrO2wNH5y6Emdsd_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1KzNqQF4GB_9Tm1yRTQQn-Rds6IGKulyA.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1KzNqQF4GB_9Tm1yRTQQn-Rds6IGKulyA_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM (2)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P1hMjJuZIBFfsfvTtbUgzhk3FZYjpngQ.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P1hMjJuZIBFfsfvTtbUgzhk3FZYjpngQ_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.27 PM (1)",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1_BZMCirqv8MQKrCHnoVwbSN6NOZucTfC.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1_BZMCirqv8MQKrCHnoVwbSN6NOZucTfC_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.28 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1a_9q48B-Tdua3y8E4PA4APM-u5k86SPN.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1a_9q48B-Tdua3y8E4PA4APM-u5k86SPN_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-08-21 at 5.42.30 PM",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1apesOgqsxs0v5qOpqYaa6f6LL0mgvJ4L.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1apesOgqsxs0v5qOpqYaa6f6LL0mgvJ4L_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
+              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
+              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
+              "Dublin city centre: 15 minutes on foot",
+              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
+              "Dublin City University (DCU): 15 to 20 minutes by bus",
+              "UCD Belfield: 40 to 45 minutes by bus",
+              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
+              "TU Dublin Tallaght: 50 to 55 minutes by bus",
+              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
+              "NCI / DBS (City Centre): 20 minutes by bus",
+              "Griffith College Dublin: 25 to 30 minutes by bus",
+              "NCAD Thomas Street: 25 to 30 minutes by bus",
+              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "5 Common Washrooms + 1 WC",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "3",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6A",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "",
+          "available": 1,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "6B",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "",
+          "available": 1,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "7",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
