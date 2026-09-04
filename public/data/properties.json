@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T00:43:33+00:00",
+  "generatedAt": "2026-09-04T05:22:07+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 216,
-    "available": 27,
+    "available": 28,
     "onHold": 7,
-    "booked": 182,
+    "booked": 181,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -1535,6 +1535,105 @@
           "rent": 850,
           "rentDisplay": "€850",
           "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "windmill-house-apt-603-v94-yk19",
+      "name": "Windmill House (Apt 603)",
+      "unitNote": "",
+      "area": "Dock Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 YK19",
+      "address": "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19",
+      "lat": 52.649212,
+      "lng": -8.663941,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 725,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€725–€750",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Limerick Bus Éireann and City Link services operate from the city centre",
+              "Limerick Colbert Railway Station: 10–15 minutes' walk",
+              "Well-connected to the M7 and N18 motorway network"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities and colleges",
+            "items": [
+              "University of Limerick (UL): 25–30 minutes by bus",
+              "Mary Immaculate College (MIC): 10–15 minutes on foot",
+              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
+              "Limerick College of Further Education: 10 minutes on foot"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
           "available": 1,
           "onHold": 0,
           "booked": 1
@@ -3771,105 +3870,6 @@
           "washrooms": "1 ensuite washroom",
           "rent": 700,
           "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "windmill-house-apt-603-v94-yk19",
-      "name": "Windmill House (Apt 603)",
-      "unitNote": "",
-      "area": "Dock Road, Limerick",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 YK19",
-      "address": "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19",
-      "lat": 52.649212,
-      "lng": -8.663941,
-      "geoPrecision": "hint",
-      "totalBedspaces": 4,
-      "available": 0,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 725,
-      "priceMax": 750,
-      "currency": "€",
-      "priceDisplay": "€725–€750",
-      "utilities": "Bills included",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
-            ]
-          },
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Limerick Bus Éireann and City Link services operate from the city centre",
-              "Limerick Colbert Railway Station: 10–15 minutes' walk",
-              "Well-connected to the M7 and N18 motorway network"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities and colleges",
-            "items": [
-              "University of Limerick (UL): 25–30 minutes by bus",
-              "Mary Immaculate College (MIC): 10–15 minutes on foot",
-              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
-              "Limerick College of Further Education: 10 minutes on foot"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
           "demography": "Male",
           "available": 0,
           "onHold": 0,
