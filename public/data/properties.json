@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T10:49:40+00:00",
+  "generatedAt": "2026-09-04T13:56:14+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 216,
-    "available": 26,
-    "onHold": 8,
-    "booked": 182,
+    "available": 23,
+    "onHold": 10,
+    "booked": 183,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -790,177 +790,6 @@
       "geoNudged": true
     },
     {
-      "id": "macgregor-rd-e16-3ll",
-      "name": "MacGregor Rd",
-      "unitNote": "",
-      "area": "London",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E16 3LL",
-      "address": "E16 3LL, MacGregor Rd, London",
-      "lat": 51.517582,
-      "lng": 0.037351,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 9,
-      "available": 2,
-      "onHold": 0,
-      "booked": 7,
-      "priceMin": 450,
-      "priceMax": 600,
-      "currency": "£",
-      "priceDisplay": "£450–£600",
-      "utilities": "Included all Bills",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "Deposit + 1 Month",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
-        "images": [
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
-            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
-            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
-            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
-            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "2 Communal washrooms",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Compact Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 450,
-          "rentDisplay": "£450",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        }
-      ]
-    },
-    {
       "id": "41-ballinteer-crescent-d16-e657",
       "name": "41 Ballinteer Crescent",
       "unitNote": "",
@@ -974,8 +803,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 12,
       "available": 1,
-      "onHold": 1,
-      "booked": 10,
+      "onHold": 0,
+      "booked": 11,
       "priceMin": 700,
       "priceMax": 850,
       "currency": "€",
@@ -1180,136 +1009,10 @@
           "washrooms": "",
           "rent": 850,
           "rentDisplay": "€850",
-          "demography": "",
-          "available": 0,
-          "onHold": 1,
-          "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "charles-street-great-dublin-1",
-      "name": "Charles Street",
-      "unitNote": "",
-      "area": "Great, Dublin 1",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "",
-      "address": "Charles Street, Great, Dublin 1",
-      "lat": 53.356597,
-      "lng": -6.255245,
-      "geoPrecision": "address",
-      "totalBedspaces": 5,
-      "available": 1,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 700,
-      "priceMax": 850,
-      "currency": "€",
-      "priceDisplay": "€700–€850",
-      "utilities": "Bills included",
-      "furnished": true,
-      "moveIn": [
-        "15th Aug 2026"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
-        "images": [
-          {
-            "name": "1 living room",
-            "full": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ_t.jpg"
-          },
-          {
-            "name": "2 kitchen",
-            "full": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31_t.jpg"
-          },
-          {
-            "name": "3 Room 1 - Dual Occupancy Non-Ensuite",
-            "full": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG_t.jpg"
-          },
-          {
-            "name": "4 Room 2 - Triple occupancy",
-            "full": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V_t.jpg"
-          },
-          {
-            "name": "5 Wash+Shower",
-            "full": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E_t.jpg"
-          },
-          {
-            "name": "6 Laundry space",
-            "full": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",
-        "sections": [
-          {
-            "title": "Interior & Facilities",
-            "items": [
-              "A cozy common room with leather seating and wood-effect flooring.",
-              "Fully fitted with a tiled splashback, integrated oven, hob, and washing machine.",
-              "Fully furnished bedrooms (Single, Double, and Triple options) featuring built-in wardrobes and ample natural light.",
-              "High-speed Wi-Fi, central heating, and inclusive utility bills for easy living."
-            ]
-          },
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "Bus Stops: Multiple routes within a short walking distance.",
-              "LUAS (Tram): A short stroll to nearby green and red line stops.",
-              "Connolly Station: 13-minute walk for DART and National Rail services.",
-              "Dublin Airport: Approximately 8 km away, accessible via airport coach hubs nearby."
-            ]
-          },
-          {
-            "title": "Universities",
-            "items": [
-              "Trinity College Dublin: 15-minute walk / 5-minute cycle.",
-              "Dublin City University (DCU): Easily accessible via local bus routes.",
-              "TU Dublin (Technological University): Within comfortable traveling distance"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double (Single beds)",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple (Single beds)",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
           "demography": "Female",
-          "available": 1,
+          "available": 0,
           "onHold": 0,
-          "booked": 2
+          "booked": 1
         }
       ]
     },
@@ -2978,6 +2681,132 @@
       ]
     },
     {
+      "id": "charles-street-great-dublin-1",
+      "name": "Charles Street",
+      "unitNote": "",
+      "area": "Great, Dublin 1",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Charles Street, Great, Dublin 1",
+      "lat": 53.356597,
+      "lng": -6.255245,
+      "geoPrecision": "address",
+      "totalBedspaces": 5,
+      "available": 0,
+      "onHold": 1,
+      "booked": 4,
+      "priceMin": 700,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€700–€850",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "15th Aug 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
+        "images": [
+          {
+            "name": "1 living room",
+            "full": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ_t.jpg"
+          },
+          {
+            "name": "2 kitchen",
+            "full": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31_t.jpg"
+          },
+          {
+            "name": "3 Room 1 - Dual Occupancy Non-Ensuite",
+            "full": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG_t.jpg"
+          },
+          {
+            "name": "4 Room 2 - Triple occupancy",
+            "full": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V_t.jpg"
+          },
+          {
+            "name": "5 Wash+Shower",
+            "full": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E_t.jpg"
+          },
+          {
+            "name": "6 Laundry space",
+            "full": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9.jpg",
+            "thumb": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",
+        "sections": [
+          {
+            "title": "Interior & Facilities",
+            "items": [
+              "A cozy common room with leather seating and wood-effect flooring.",
+              "Fully fitted with a tiled splashback, integrated oven, hob, and washing machine.",
+              "Fully furnished bedrooms (Single, Double, and Triple options) featuring built-in wardrobes and ample natural light.",
+              "High-speed Wi-Fi, central heating, and inclusive utility bills for easy living."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Bus Stops: Multiple routes within a short walking distance.",
+              "LUAS (Tram): A short stroll to nearby green and red line stops.",
+              "Connolly Station: 13-minute walk for DART and National Rail services.",
+              "Dublin Airport: Approximately 8 km away, accessible via airport coach hubs nearby."
+            ]
+          },
+          {
+            "title": "Universities",
+            "items": [
+              "Trinity College Dublin: 15-minute walk / 5-minute cycle.",
+              "Dublin City University (DCU): Easily accessible via local bus routes.",
+              "TU Dublin (Technological University): Within comfortable traveling distance"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double (Single beds)",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (Single beds)",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 1,
+          "booked": 2
+        }
+      ]
+    },
+    {
       "id": "marshall-yards-east-road-north-wall-dublin-1-flat-1",
       "name": "Marshall yards",
       "unitNote": "",
@@ -4254,6 +4083,177 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "macgregor-rd-e16-3ll",
+      "name": "MacGregor Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E16 3LL",
+      "address": "E16 3LL, MacGregor Rd, London",
+      "lat": 51.517582,
+      "lng": 0.037351,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 9,
+      "available": 0,
+      "onHold": 2,
+      "booked": 7,
+      "priceMin": 450,
+      "priceMax": 600,
+      "currency": "£",
+      "priceDisplay": "£450–£600",
+      "utilities": "Included all Bills",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "Deposit + 1 Month",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
+            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
+            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
+            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
+            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Compact Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 450,
+          "rentDisplay": "£450",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "",
+          "available": 0,
+          "onHold": 2,
+          "booked": 0
         }
       ]
     }
