@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T19:45:55+00:00",
+  "generatedAt": "2026-09-04T22:01:31+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 23,
+    "available": 22,
     "onHold": 8,
-    "booked": 186,
+    "booked": 187,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -1220,269 +1220,6 @@
           "available": 1,
           "onHold": 0,
           "booked": 1
-        }
-      ]
-    },
-    {
-      "id": "42-disraeli-rd-e7-9jp",
-      "name": "42 Disraeli Rd",
-      "unitNote": "",
-      "area": "",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E7 9JP",
-      "address": "42 Disraeli Rd E7 9JP",
-      "lat": 51.544356,
-      "lng": 0.021521,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 16,
-      "available": 1,
-      "onHold": 0,
-      "booked": 15,
-      "priceMin": 475,
-      "priceMax": 900,
-      "currency": "£",
-      "priceDisplay": "£475–£900",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
-        "images": [
-          {
-            "name": "Copy of hollway",
-            "full": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12_.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12__t.jpg"
-          },
-          {
-            "name": "Copy of 9 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0813",
-            "full": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0783",
-            "full": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0_t.jpg"
-          },
-          {
-            "name": "Copy of 9.1",
-            "full": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW_t.jpg"
-          },
-          {
-            "name": "Copy of 4 main",
-            "full": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj_t.jpg"
-          },
-          {
-            "name": "Copy of 4 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A_t.jpg"
-          },
-          {
-            "name": "Copy of 5",
-            "full": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O_t.jpg"
-          },
-          {
-            "name": "Copy of 1 (1)",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0814",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe_t.jpg"
-          },
-          {
-            "name": "Copy of 10",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY_t.jpg"
-          },
-          {
-            "name": "Copy of 2 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
-        "sections": [
-          {
-            "title": "Travel Times to Universities",
-            "items": [
-              "QMUL Mile End — 30 mins",
-              "UEL Stratford — 22 mins",
-              "UEL Docklands — 30 mins",
-              "University of Greenwich — 40 mins",
-              "Ravensbourne — 38 mins",
-              "Bayes Business School — 32 mins",
-              "University of Law (Moorgate) — 28 mins",
-              "University of Law (Bloomsbury) — 38 mins",
-              "KCL Strand Campus — 40 mins",
-              "KCL Guy's Campus — 42 mins",
-              "UCL Bloomsbury — 40 mins",
-              "UCL East (Stratford) — 18 mins",
-              "Coventry University London — 25 mins",
-              "CU London Dagenham — 30 mins",
-              "ARU London (Charterhouse St) — 32 mins",
-              "UWS London (East India Dock) — 28 mins"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Big double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal washroom",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single ensuite",
-          "rawType": "Single ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 900,
-          "rentDisplay": "£900",
-          "demography": "",
-          "available": 1,
-          "onHold": 0,
-          "booked": 0
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Single ensuite",
-          "rawType": "Single ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 900,
-          "rentDisplay": "£900",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "1 Communal washroom",
-          "rent": 625,
-          "rentDisplay": "£625",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "1 Communal washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "8",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "9",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "10",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
         }
       ]
     },
@@ -3700,6 +3437,269 @@
           "rent": 700,
           "rentDisplay": "€700",
           "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "42-disraeli-rd-e7-9jp",
+      "name": "42 Disraeli Rd",
+      "unitNote": "",
+      "area": "",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E7 9JP",
+      "address": "42 Disraeli Rd E7 9JP",
+      "lat": 51.544356,
+      "lng": 0.021521,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 16,
+      "available": 0,
+      "onHold": 0,
+      "booked": 16,
+      "priceMin": 475,
+      "priceMax": 900,
+      "currency": "£",
+      "priceDisplay": "£475–£900",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
+        "images": [
+          {
+            "name": "Copy of hollway",
+            "full": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12_.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12__t.jpg"
+          },
+          {
+            "name": "Copy of 9 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0813",
+            "full": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0783",
+            "full": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0_t.jpg"
+          },
+          {
+            "name": "Copy of 9.1",
+            "full": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW_t.jpg"
+          },
+          {
+            "name": "Copy of 4 main",
+            "full": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj_t.jpg"
+          },
+          {
+            "name": "Copy of 4 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A_t.jpg"
+          },
+          {
+            "name": "Copy of 5",
+            "full": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O_t.jpg"
+          },
+          {
+            "name": "Copy of 1 (1)",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0814",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe_t.jpg"
+          },
+          {
+            "name": "Copy of 10",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY_t.jpg"
+          },
+          {
+            "name": "Copy of 2 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
+        "sections": [
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "QMUL Mile End — 30 mins",
+              "UEL Stratford — 22 mins",
+              "UEL Docklands — 30 mins",
+              "University of Greenwich — 40 mins",
+              "Ravensbourne — 38 mins",
+              "Bayes Business School — 32 mins",
+              "University of Law (Moorgate) — 28 mins",
+              "University of Law (Bloomsbury) — 38 mins",
+              "KCL Strand Campus — 40 mins",
+              "KCL Guy's Campus — 42 mins",
+              "UCL Bloomsbury — 40 mins",
+              "UCL East (Stratford) — 18 mins",
+              "Coventry University London — 25 mins",
+              "CU London Dagenham — 30 mins",
+              "ARU London (Charterhouse St) — 32 mins",
+              "UWS London (East India Dock) — 28 mins"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Big double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal washroom",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 625,
+          "rentDisplay": "£625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "9",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "10",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
           "available": 0,
           "onHold": 0,
           "booked": 2
