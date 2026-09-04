@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T17:21:49+00:00",
+  "generatedAt": "2026-09-04T19:45:55+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -8,10 +8,10 @@
       "Limerick",
       "London"
     ],
-    "bedspaces": 216,
+    "bedspaces": 217,
     "available": 23,
-    "onHold": 10,
-    "booked": 183,
+    "onHold": 8,
+    "booked": 186,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -4098,10 +4098,10 @@
       "lat": 51.517582,
       "lng": 0.037351,
       "geoPrecision": "postcode",
-      "totalBedspaces": 9,
+      "totalBedspaces": 10,
       "available": 0,
-      "onHold": 2,
-      "booked": 7,
+      "onHold": 0,
+      "booked": 10,
       "priceMin": 450,
       "priceMax": 600,
       "currency": "£",
@@ -4194,7 +4194,7 @@
           "washrooms": "2 Communal washrooms",
           "rent": 475,
           "rentDisplay": "£475",
-          "demography": "Male",
+          "demography": "",
           "available": 0,
           "onHold": 0,
           "booked": 2
@@ -4208,7 +4208,7 @@
           "washrooms": "",
           "rent": 475,
           "rentDisplay": "£475",
-          "demography": "Male",
+          "demography": "",
           "available": 0,
           "onHold": 0,
           "booked": 2
@@ -4222,10 +4222,10 @@
           "washrooms": "",
           "rent": 600,
           "rentDisplay": "£600",
-          "demography": "Male",
+          "demography": "",
           "available": 0,
           "onHold": 0,
-          "booked": 1
+          "booked": 2
         },
         {
           "room": "4",
@@ -4236,7 +4236,7 @@
           "washrooms": "",
           "rent": 450,
           "rentDisplay": "£450",
-          "demography": "Female",
+          "demography": "",
           "available": 0,
           "onHold": 0,
           "booked": 2
@@ -4252,8 +4252,8 @@
           "rentDisplay": "£475",
           "demography": "",
           "available": 0,
-          "onHold": 2,
-          "booked": 0
+          "onHold": 0,
+          "booked": 2
         }
       ]
     }
