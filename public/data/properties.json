@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T17:26:29+00:00",
+  "generatedAt": "2026-09-05T19:14:18+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 21,
+    "available": 20,
     "onHold": 10,
-    "booked": 186,
+    "booked": 187,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -529,167 +529,6 @@
       ]
     },
     {
-      "id": "53-slade-castle-avenue-d24-n279",
-      "name": "53 Slade Castle Avenue",
-      "unitNote": "",
-      "area": "Saggart, Co. Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D24 N279",
-      "address": "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279",
-      "lat": 53.27856,
-      "lng": -6.445587,
-      "geoPrecision": "address",
-      "totalBedspaces": 5,
-      "available": 2,
-      "onHold": 0,
-      "booked": 3,
-      "priceMin": 600,
-      "priceMax": 675,
-      "currency": "€",
-      "priceDisplay": "€600–€675",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "4 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
-        "images": [
-          {
-            "name": "10 saggart exterior",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z_t.jpg"
-          },
-          {
-            "name": "kitchen",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor_t.jpg"
-          },
-          {
-            "name": "6 kitchen",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz_t.jpg"
-          },
-          {
-            "name": "living",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29_t.jpg"
-          },
-          {
-            "name": "Living and dining",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn_t.jpg"
-          },
-          {
-            "name": "9 backyard",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c_t.jpg"
-          },
-          {
-            "name": "Washroom 1",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE_t.jpg"
-          },
-          {
-            "name": "non ensuite room",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc_t.jpg"
-          },
-          {
-            "name": "non ensuite room 2",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR_t.jpg"
-          },
-          {
-            "name": "ensuite room",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq_t.jpg"
-          },
-          {
-            "name": "Ensuite room",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS_t.jpg"
-          },
-          {
-            "name": "11 floor plan",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "53 Slade Castle Avenue, Saggart, Co. Dublin — D24 N279",
-            "items": [
-              "A well-presented property situated in the sought-after Slade Castle development, right in the heart of Saggart Village — a charming and rapidly growing community offering a fantastic blend of village atmosphere and modern convenience.",
-              "A short stroll from a wide range of local amenities including shops, cafés, bars, restaurants, creches, and schools. The nearby Citywest Shopping Centre and Citywest Business Campus add further convenience, while recreational facilities including golf clubs, gyms, Rathcoole Park, and scenic walking trails are all easily accessible.",
-              "Outstanding transport connectivity with the Saggart Luas stop (Red Line) just minutes away, offering regular, direct tram services into Dublin City Centre. For drivers, the N7, N81, and M50 road networks are right on the doorstep."
-            ]
-          },
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "LUAS Red Line (Saggart Stop): ~5 min walk",
-              "Dublin City Centre (Abbey Street) via LUAS: ~38–42 mins",
-              "Heuston Station via LUAS: ~30 mins",
-              "Citywest & Fortunestown (adjacent stops): 1–2 mins by tram",
-              "Bus Routes: multiple services along the N7 corridor",
-              "M50 / N7 Motorway: ~5 min drive",
-              "Dublin Airport: ~20 min drive"
-            ]
-          },
-          {
-            "title": "Travel Times to Universities",
-            "items": [
-              "TU Dublin (Tallaght Campus) — ~10 mins via LUAS (Cookstown stop)",
-              "TU Dublin (Grangegorman) — ~45 mins via LUAS to Smithfield",
-              "UCD Belfield — ~35 min drive / ~55 mins via LUAS + bus",
-              "TCD (Trinity College Dublin) — ~45 mins via LUAS to city centre + walk",
-              "NCAD (Thomas Street) — ~40 mins via LUAS to James's stop"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double ensuite",
-          "rawType": "Double - Ensuite",
-          "bedspaces": 2,
-          "washrooms": "2 Washroom",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Male",
-          "available": 2,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
-    {
       "id": "windmill-house-apt-602-v94-yk19",
       "name": "Windmill House (Apt 602)",
       "unitNote": "",
@@ -1188,6 +1027,167 @@
       ]
     },
     {
+      "id": "53-slade-castle-avenue-d24-n279",
+      "name": "53 Slade Castle Avenue",
+      "unitNote": "",
+      "area": "Saggart, Co. Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D24 N279",
+      "address": "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279",
+      "lat": 53.27856,
+      "lng": -6.445587,
+      "geoPrecision": "address",
+      "totalBedspaces": 5,
+      "available": 1,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 600,
+      "priceMax": 675,
+      "currency": "€",
+      "priceDisplay": "€600–€675",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "4 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
+        "images": [
+          {
+            "name": "10 saggart exterior",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor_t.jpg"
+          },
+          {
+            "name": "6 kitchen",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz_t.jpg"
+          },
+          {
+            "name": "living",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29_t.jpg"
+          },
+          {
+            "name": "Living and dining",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn_t.jpg"
+          },
+          {
+            "name": "9 backyard",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c_t.jpg"
+          },
+          {
+            "name": "Washroom 1",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE_t.jpg"
+          },
+          {
+            "name": "non ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc_t.jpg"
+          },
+          {
+            "name": "non ensuite room 2",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR_t.jpg"
+          },
+          {
+            "name": "ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq_t.jpg"
+          },
+          {
+            "name": "Ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS_t.jpg"
+          },
+          {
+            "name": "11 floor plan",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "53 Slade Castle Avenue, Saggart, Co. Dublin — D24 N279",
+            "items": [
+              "A well-presented property situated in the sought-after Slade Castle development, right in the heart of Saggart Village — a charming and rapidly growing community offering a fantastic blend of village atmosphere and modern convenience.",
+              "A short stroll from a wide range of local amenities including shops, cafés, bars, restaurants, creches, and schools. The nearby Citywest Shopping Centre and Citywest Business Campus add further convenience, while recreational facilities including golf clubs, gyms, Rathcoole Park, and scenic walking trails are all easily accessible.",
+              "Outstanding transport connectivity with the Saggart Luas stop (Red Line) just minutes away, offering regular, direct tram services into Dublin City Centre. For drivers, the N7, N81, and M50 road networks are right on the doorstep."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Red Line (Saggart Stop): ~5 min walk",
+              "Dublin City Centre (Abbey Street) via LUAS: ~38–42 mins",
+              "Heuston Station via LUAS: ~30 mins",
+              "Citywest & Fortunestown (adjacent stops): 1–2 mins by tram",
+              "Bus Routes: multiple services along the N7 corridor",
+              "M50 / N7 Motorway: ~5 min drive",
+              "Dublin Airport: ~20 min drive"
+            ]
+          },
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "TU Dublin (Tallaght Campus) — ~10 mins via LUAS (Cookstown stop)",
+              "TU Dublin (Grangegorman) — ~45 mins via LUAS to Smithfield",
+              "UCD Belfield — ~35 min drive / ~55 mins via LUAS + bus",
+              "TCD (Trinity College Dublin) — ~45 mins via LUAS to city centre + walk",
+              "NCAD (Thomas Street) — ~40 mins via LUAS to James's stop"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double - Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
       "id": "flat-5-ardhu-apartments-v94-1x64",
       "name": "Flat 5 - Ardhu Apartments",
       "unitNote": "",
@@ -1374,9 +1374,9 @@
           "rent": 750,
           "rentDisplay": "€750",
           "demography": "Male",
-          "available": 0,
+          "available": 1,
           "onHold": 0,
-          "booked": 2
+          "booked": 1
         },
         {
           "room": "2",
@@ -1388,9 +1388,9 @@
           "rent": 725,
           "rentDisplay": "€725",
           "demography": "Male",
-          "available": 1,
+          "available": 0,
           "onHold": 0,
-          "booked": 1
+          "booked": 2
         }
       ]
     },
