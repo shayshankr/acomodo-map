@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T01:10:01+00:00",
+  "generatedAt": "2026-09-06T06:13:13+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -10,8 +10,8 @@
     ],
     "bedspaces": 217,
     "available": 20,
-    "onHold": 10,
-    "booked": 187,
+    "onHold": 9,
+    "booked": 188,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -215,8 +215,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 13,
       "available": 3,
-      "onHold": 2,
-      "booked": 8,
+      "onHold": 1,
+      "booked": 9,
       "priceMin": 675,
       "priceMax": 950,
       "currency": "€",
@@ -406,8 +406,8 @@
           "rentDisplay": "€950",
           "demography": "",
           "available": 0,
-          "onHold": 1,
-          "booked": 0
+          "onHold": 0,
+          "booked": 1
         },
         {
           "room": "6B",
