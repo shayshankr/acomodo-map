@@ -160,6 +160,13 @@
     "precision": "postcode",
     "query": "E7 8PF, London"
   },
+  "Flat 2, 31 Charles Street Great, Dublin 1, D01NW80": {
+    "lat": 53.357541,
+    "lng": -6.252583,
+    "matched": "31, Great Charles Street, Mountjoy Square, Mountjoy B Ward 1986, Dublin, County Dublin, Leinster, Ireland",
+    "precision": "address",
+    "query": "31 Charles Street Great, Dublin 1, Dublin"
+  },
   "Flat 5 - Ardhu Apartments, Roses Avenue V94 1X64": {
     "lat": 52.66502,
     "lng": -8.648591,

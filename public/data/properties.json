@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T12:52:19+00:00",
+  "generatedAt": "2026-09-07T18:02:42+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -9,10 +9,10 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 20,
-    "onHold": 8,
-    "booked": 189,
-    "withPhotos": 18,
+    "available": 17,
+    "onHold": 9,
+    "booked": 191,
+    "withPhotos": 17,
     "withFolder": 27
   },
   "properties": [
@@ -198,258 +198,6 @@
           "available": 2,
           "onHold": 0,
           "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "1-waterfall-avenue-d03-da24",
-      "name": "1 Waterfall Avenue",
-      "unitNote": "",
-      "area": "Drumcondra, Dublin 3",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D03 DA24",
-      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
-      "lat": 53.366153,
-      "lng": -6.247865,
-      "geoPrecision": "address",
-      "totalBedspaces": 13,
-      "available": 2,
-      "onHold": 1,
-      "booked": 10,
-      "priceMin": 675,
-      "priceMax": 950,
-      "currency": "€",
-      "priceDisplay": "€675–€950",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
-        "images": [
-          {
-            "name": "Kitchen bins cabinets",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz_t.jpg"
-          },
-          {
-            "name": "Kitchen",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF_t.jpg"
-          },
-          {
-            "name": "Kitchen",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66_t.jpg"
-          },
-          {
-            "name": "Bunk double",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL_t.jpg"
-          },
-          {
-            "name": "Bunk Double",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8_t.jpg"
-          },
-          {
-            "name": "Room 6",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI_t.jpg"
-          },
-          {
-            "name": "Twin Sharing room",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp_t.jpg"
-          },
-          {
-            "name": "Room 6B",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG_t.jpg"
-          },
-          {
-            "name": "Twin sharing room",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
-              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
-            ]
-          },
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
-              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
-              "Dublin city centre: 15 minutes on foot",
-              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities",
-            "items": [
-              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
-              "Dublin City University (DCU): 15 to 20 minutes by bus",
-              "UCD Belfield: 40 to 45 minutes by bus",
-              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
-              "TU Dublin Tallaght: 50 to 55 minutes by bus",
-              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
-              "NCI / DBS (City Centre): 20 minutes by bus",
-              "Griffith College Dublin: 25 to 30 minutes by bus",
-              "NCAD Thomas Street: 25 to 30 minutes by bus",
-              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double bunk non-ensuite",
-          "rawType": "Double Bunk",
-          "bedspaces": 2,
-          "washrooms": "5 Common Washrooms + 1 WC",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "",
-          "available": 1,
-          "onHold": 1,
-          "booked": 0
-        },
-        {
-          "room": "3",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "",
-          "type": "Double bunk non-ensuite",
-          "rawType": "Double Bunk",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6A",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "6B",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "8",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
         }
       ]
     },
@@ -800,6 +548,353 @@
       ]
     },
     {
+      "id": "1-waterfall-avenue-d03-da24",
+      "name": "1 Waterfall Avenue",
+      "unitNote": "",
+      "area": "Drumcondra, Dublin 3",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D03 DA24",
+      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
+      "lat": 53.366153,
+      "lng": -6.247865,
+      "geoPrecision": "address",
+      "totalBedspaces": 13,
+      "available": 1,
+      "onHold": 2,
+      "booked": 10,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
+        "images": [
+          {
+            "name": "Kitchen bins cabinets",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz_t.jpg"
+          },
+          {
+            "name": "Kitchen",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF_t.jpg"
+          },
+          {
+            "name": "Kitchen",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66_t.jpg"
+          },
+          {
+            "name": "Bunk double",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL_t.jpg"
+          },
+          {
+            "name": "Bunk Double",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8_t.jpg"
+          },
+          {
+            "name": "Room 6",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI_t.jpg"
+          },
+          {
+            "name": "Twin Sharing room",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp_t.jpg"
+          },
+          {
+            "name": "Room 6B",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG_t.jpg"
+          },
+          {
+            "name": "Twin sharing room",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
+              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
+              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
+              "Dublin city centre: 15 minutes on foot",
+              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
+              "Dublin City University (DCU): 15 to 20 minutes by bus",
+              "UCD Belfield: 40 to 45 minutes by bus",
+              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
+              "TU Dublin Tallaght: 50 to 55 minutes by bus",
+              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
+              "NCI / DBS (City Centre): 20 minutes by bus",
+              "Griffith College Dublin: 25 to 30 minutes by bus",
+              "NCAD Thomas Street: 25 to 30 minutes by bus",
+              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "5 Common Washrooms + 1 WC",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "",
+          "available": 1,
+          "onHold": 1,
+          "booked": 0
+        },
+        {
+          "room": "3",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 1,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6A",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "6B",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "31-charles-street-great-apt-2-d01-nw80",
+      "name": "31 Charles Street Great (Apt 2)",
+      "unitNote": "",
+      "area": "Dublin 1",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D01 NW80",
+      "address": "Flat 2, 31 Charles Street Great, Dublin 1, D01NW80",
+      "lat": 53.357541,
+      "lng": -6.252583,
+      "geoPrecision": "address",
+      "totalBedspaces": 5,
+      "available": 1,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 700,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€700–€850",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "15th Aug 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",
+        "sections": [
+          {
+            "title": "Interior & Facilities",
+            "items": [
+              "A cozy common room with leather seating and wood-effect flooring.",
+              "Fully fitted with a tiled splashback, integrated oven, hob, and washing machine.",
+              "Fully furnished bedrooms (Single, Double, and Triple options) featuring built-in wardrobes and ample natural light.",
+              "High-speed Wi-Fi, central heating, and inclusive utility bills for easy living."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Bus Stops: Multiple routes within a short walking distance.",
+              "LUAS (Tram): A short stroll to nearby green and red line stops.",
+              "Connolly Station: 13-minute walk for DART and National Rail services.",
+              "Dublin Airport: Approximately 8 km away, accessible via airport coach hubs nearby."
+            ]
+          },
+          {
+            "title": "Universities",
+            "items": [
+              "Trinity College Dublin: 15-minute walk / 5-minute cycle.",
+              "Dublin City University (DCU): Easily accessible via local bus routes.",
+              "TU Dublin (Technological University): Within comfortable traveling distance"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double (Single beds)",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (Single beds)",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
       "id": "41-ballinteer-crescent-d16-e657",
       "name": "41 Ballinteer Crescent",
       "unitNote": "",
@@ -1027,293 +1122,6 @@
       ]
     },
     {
-      "id": "53-slade-castle-avenue-d24-n279",
-      "name": "53 Slade Castle Avenue",
-      "unitNote": "",
-      "area": "Saggart, Co. Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D24 N279",
-      "address": "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279",
-      "lat": 53.27856,
-      "lng": -6.445587,
-      "geoPrecision": "address",
-      "totalBedspaces": 5,
-      "available": 1,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 600,
-      "priceMax": 675,
-      "currency": "€",
-      "priceDisplay": "€600–€675",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "4 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
-        "images": [
-          {
-            "name": "10 saggart exterior",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z_t.jpg"
-          },
-          {
-            "name": "kitchen",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor_t.jpg"
-          },
-          {
-            "name": "6 kitchen",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz_t.jpg"
-          },
-          {
-            "name": "living",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29_t.jpg"
-          },
-          {
-            "name": "Living and dining",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn_t.jpg"
-          },
-          {
-            "name": "9 backyard",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c_t.jpg"
-          },
-          {
-            "name": "Washroom 1",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE_t.jpg"
-          },
-          {
-            "name": "non ensuite room",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc_t.jpg"
-          },
-          {
-            "name": "non ensuite room 2",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR_t.jpg"
-          },
-          {
-            "name": "ensuite room",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq_t.jpg"
-          },
-          {
-            "name": "Ensuite room",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS_t.jpg"
-          },
-          {
-            "name": "11 floor plan",
-            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2.jpg",
-            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "53 Slade Castle Avenue, Saggart, Co. Dublin — D24 N279",
-            "items": [
-              "A well-presented property situated in the sought-after Slade Castle development, right in the heart of Saggart Village — a charming and rapidly growing community offering a fantastic blend of village atmosphere and modern convenience.",
-              "A short stroll from a wide range of local amenities including shops, cafés, bars, restaurants, creches, and schools. The nearby Citywest Shopping Centre and Citywest Business Campus add further convenience, while recreational facilities including golf clubs, gyms, Rathcoole Park, and scenic walking trails are all easily accessible.",
-              "Outstanding transport connectivity with the Saggart Luas stop (Red Line) just minutes away, offering regular, direct tram services into Dublin City Centre. For drivers, the N7, N81, and M50 road networks are right on the doorstep."
-            ]
-          },
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "LUAS Red Line (Saggart Stop): ~5 min walk",
-              "Dublin City Centre (Abbey Street) via LUAS: ~38–42 mins",
-              "Heuston Station via LUAS: ~30 mins",
-              "Citywest & Fortunestown (adjacent stops): 1–2 mins by tram",
-              "Bus Routes: multiple services along the N7 corridor",
-              "M50 / N7 Motorway: ~5 min drive",
-              "Dublin Airport: ~20 min drive"
-            ]
-          },
-          {
-            "title": "Travel Times to Universities",
-            "items": [
-              "TU Dublin (Tallaght Campus) — ~10 mins via LUAS (Cookstown stop)",
-              "TU Dublin (Grangegorman) — ~45 mins via LUAS to Smithfield",
-              "UCD Belfield — ~35 min drive / ~55 mins via LUAS + bus",
-              "TCD (Trinity College Dublin) — ~45 mins via LUAS to city centre + walk",
-              "NCAD (Thomas Street) — ~40 mins via LUAS to James's stop"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double ensuite",
-          "rawType": "Double - Ensuite",
-          "bedspaces": 2,
-          "washrooms": "2 Washroom",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "charles-street-great-dublin-1",
-      "name": "Charles Street",
-      "unitNote": "",
-      "area": "Great, Dublin 1",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "",
-      "address": "Charles Street, Great, Dublin 1",
-      "lat": 53.356597,
-      "lng": -6.255245,
-      "geoPrecision": "address",
-      "totalBedspaces": 5,
-      "available": 1,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 700,
-      "priceMax": 850,
-      "currency": "€",
-      "priceDisplay": "€700–€850",
-      "utilities": "Bills included",
-      "furnished": true,
-      "moveIn": [
-        "15th Aug 2026"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
-        "images": [
-          {
-            "name": "1 living room",
-            "full": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ_t.jpg"
-          },
-          {
-            "name": "2 kitchen",
-            "full": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31_t.jpg"
-          },
-          {
-            "name": "3 Room 1 - Dual Occupancy Non-Ensuite",
-            "full": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG_t.jpg"
-          },
-          {
-            "name": "4 Room 2 - Triple occupancy",
-            "full": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V_t.jpg"
-          },
-          {
-            "name": "5 Wash+Shower",
-            "full": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E_t.jpg"
-          },
-          {
-            "name": "6 Laundry space",
-            "full": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9.jpg",
-            "thumb": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",
-        "sections": [
-          {
-            "title": "Interior & Facilities",
-            "items": [
-              "A cozy common room with leather seating and wood-effect flooring.",
-              "Fully fitted with a tiled splashback, integrated oven, hob, and washing machine.",
-              "Fully furnished bedrooms (Single, Double, and Triple options) featuring built-in wardrobes and ample natural light.",
-              "High-speed Wi-Fi, central heating, and inclusive utility bills for easy living."
-            ]
-          },
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "Bus Stops: Multiple routes within a short walking distance.",
-              "LUAS (Tram): A short stroll to nearby green and red line stops.",
-              "Connolly Station: 13-minute walk for DART and National Rail services.",
-              "Dublin Airport: Approximately 8 km away, accessible via airport coach hubs nearby."
-            ]
-          },
-          {
-            "title": "Universities",
-            "items": [
-              "Trinity College Dublin: 15-minute walk / 5-minute cycle.",
-              "Dublin City University (DCU): Easily accessible via local bus routes.",
-              "TU Dublin (Technological University): Within comfortable traveling distance"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double (Single beds)",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple (Single beds)",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
-    },
-    {
       "id": "flat-5-ardhu-apartments-v94-1x64",
       "name": "Flat 5 - Ardhu Apartments",
       "unitNote": "",
@@ -1418,105 +1226,6 @@
           "available": 1,
           "onHold": 0,
           "booked": 1
-        }
-      ]
-    },
-    {
-      "id": "windmill-house-apt-603-v94-yk19",
-      "name": "Windmill House (Apt 603)",
-      "unitNote": "",
-      "area": "Dock Road, Limerick",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 YK19",
-      "address": "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19",
-      "lat": 52.649212,
-      "lng": -8.663941,
-      "geoPrecision": "hint",
-      "totalBedspaces": 4,
-      "available": 1,
-      "onHold": 0,
-      "booked": 3,
-      "priceMin": 725,
-      "priceMax": 750,
-      "currency": "€",
-      "priceDisplay": "€725–€750",
-      "utilities": "Bills included",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
-            ]
-          },
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Limerick Bus Éireann and City Link services operate from the city centre",
-              "Limerick Colbert Railway Station: 10–15 minutes' walk",
-              "Well-connected to the M7 and N18 motorway network"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities and colleges",
-            "items": [
-              "University of Limerick (UL): 25–30 minutes by bus",
-              "Mary Immaculate College (MIC): 10–15 minutes on foot",
-              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
-              "Limerick College of Further Education: 10 minutes on foot"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
         }
       ]
     },
@@ -2439,6 +2148,167 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "53-slade-castle-avenue-d24-n279",
+      "name": "53 Slade Castle Avenue",
+      "unitNote": "",
+      "area": "Saggart, Co. Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D24 N279",
+      "address": "53 Slade Castle Avenue, Saggart, Co. Dublin - D24 N279",
+      "lat": 53.27856,
+      "lng": -6.445587,
+      "geoPrecision": "address",
+      "totalBedspaces": 5,
+      "available": 0,
+      "onHold": 0,
+      "booked": 5,
+      "priceMin": 600,
+      "priceMax": 675,
+      "currency": "€",
+      "priceDisplay": "€600–€675",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "4 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1zVM6Z3xuAwdZqVoYH_r1aMSKqeahzHYw",
+        "images": [
+          {
+            "name": "10 saggart exterior",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1WLCMPTXPslr782HLzlMsAz_hWbCAR70Z_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/11d7w2YXuK0tAHvGtUke0BWl0qCfFJCor_t.jpg"
+          },
+          {
+            "name": "6 kitchen",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1W4054OM1NPlyPPJcN5JMwm2kDFbuHTmz_t.jpg"
+          },
+          {
+            "name": "living",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/15Jyd83y-ZIdiE9F3Q5YYdsJCPomRUs29_t.jpg"
+          },
+          {
+            "name": "Living and dining",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1C_kYOWhjP4Y5Uhsgs2ot4jxz-D-exovn_t.jpg"
+          },
+          {
+            "name": "9 backyard",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1NVAkgpFEPv57UPyx1zBnpjkHQoqNzi2c_t.jpg"
+          },
+          {
+            "name": "Washroom 1",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1tU1NfRKPW0d19yyjrtbnw842ZzqMl-SE_t.jpg"
+          },
+          {
+            "name": "non ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1CTbbbJj3YdFv9kKxoPsd6iUGbYULJirc_t.jpg"
+          },
+          {
+            "name": "non ensuite room 2",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1SeCCZZvlNZJptIuTjjbonA89JGTMx5vR_t.jpg"
+          },
+          {
+            "name": "ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1VdD0oL5rYEM16nyjYjxRmsHfnS_05HAq_t.jpg"
+          },
+          {
+            "name": "Ensuite room",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1zbRojJPVd9yEfiPqBdm8zxUxhm8Q0BNS_t.jpg"
+          },
+          {
+            "name": "11 floor plan",
+            "full": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2.jpg",
+            "thumb": "photos/53-slade-castle-avenue-saggart-co-dublin-d24-n279/1FqMwiQNNPPpIy4CL_Fd5oyzqxXZ0IAS2_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "53 Slade Castle Avenue, Saggart, Co. Dublin — D24 N279",
+            "items": [
+              "A well-presented property situated in the sought-after Slade Castle development, right in the heart of Saggart Village — a charming and rapidly growing community offering a fantastic blend of village atmosphere and modern convenience.",
+              "A short stroll from a wide range of local amenities including shops, cafés, bars, restaurants, creches, and schools. The nearby Citywest Shopping Centre and Citywest Business Campus add further convenience, while recreational facilities including golf clubs, gyms, Rathcoole Park, and scenic walking trails are all easily accessible.",
+              "Outstanding transport connectivity with the Saggart Luas stop (Red Line) just minutes away, offering regular, direct tram services into Dublin City Centre. For drivers, the N7, N81, and M50 road networks are right on the doorstep."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Red Line (Saggart Stop): ~5 min walk",
+              "Dublin City Centre (Abbey Street) via LUAS: ~38–42 mins",
+              "Heuston Station via LUAS: ~30 mins",
+              "Citywest & Fortunestown (adjacent stops): 1–2 mins by tram",
+              "Bus Routes: multiple services along the N7 corridor",
+              "M50 / N7 Motorway: ~5 min drive",
+              "Dublin Airport: ~20 min drive"
+            ]
+          },
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "TU Dublin (Tallaght Campus) — ~10 mins via LUAS (Cookstown stop)",
+              "TU Dublin (Grangegorman) — ~45 mins via LUAS to Smithfield",
+              "UCD Belfield — ~35 min drive / ~55 mins via LUAS + bus",
+              "TCD (Trinity College Dublin) — ~45 mins via LUAS to city centre + walk",
+              "NCAD (Thomas Street) — ~40 mins via LUAS to James's stop"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double - Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
         }
       ]
     },
@@ -3607,6 +3477,105 @@
           "washrooms": "1 ensuite washroom",
           "rent": 700,
           "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "windmill-house-apt-603-v94-yk19",
+      "name": "Windmill House (Apt 603)",
+      "unitNote": "",
+      "area": "Dock Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 YK19",
+      "address": "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19",
+      "lat": 52.649212,
+      "lng": -8.663941,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 725,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€725–€750",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Limerick Bus Éireann and City Link services operate from the city centre",
+              "Limerick Colbert Railway Station: 10–15 minutes' walk",
+              "Well-connected to the M7 and N18 motorway network"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities and colleges",
+            "items": [
+              "University of Limerick (UL): 25–30 minutes by bus",
+              "Mary Immaculate College (MIC): 10–15 minutes on foot",
+              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
+              "Limerick College of Further Education: 10 minutes on foot"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
           "demography": "Male",
           "available": 0,
           "onHold": 0,
