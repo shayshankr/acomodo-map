@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T07:43:28+00:00",
+  "generatedAt": "2026-09-08T10:48:38+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -12,7 +12,7 @@
     "available": 15,
     "onHold": 11,
     "booked": 191,
-    "withPhotos": 17,
+    "withPhotos": 18,
     "withFolder": 27
   },
   "properties": [
@@ -659,7 +659,38 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "1 living room",
+            "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ.jpg",
+            "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ_t.jpg"
+          },
+          {
+            "name": "2 kitchen",
+            "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/17fEWJbshXx4ymhkkdH41yak6ns6NiM31.jpg",
+            "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/17fEWJbshXx4ymhkkdH41yak6ns6NiM31_t.jpg"
+          },
+          {
+            "name": "3 Room 1 - Dual Occupancy Non-Ensuite",
+            "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG.jpg",
+            "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG_t.jpg"
+          },
+          {
+            "name": "4 Room 2 - Triple occupancy",
+            "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V.jpg",
+            "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V_t.jpg"
+          },
+          {
+            "name": "5 Wash+Shower",
+            "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E.jpg",
+            "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E_t.jpg"
+          },
+          {
+            "name": "6 Laundry space",
+            "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9.jpg",
+            "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "Located in the heart of Dublin 1, this property offers a newly refurbished living experience. Just minutes from O’Connell Street, it places residents at the center of the city’s major transport and business hubs.",

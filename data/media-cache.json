@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T11:51:22+00:00",
+  "generatedAt": "2026-09-08T10:48:38+00:00",
   "source": "fetch_photos.py (public Drive folders)",
   "properties": {
     "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24": {
@@ -661,41 +661,6 @@
         }
       ]
     },
-    "Charles Street, Great, Dublin 1": {
-      "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
-      "images": [
-        {
-          "full": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ.jpg",
-          "thumb": "photos/charles-street-great-dublin-1/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ_t.jpg",
-          "name": "1 living room"
-        },
-        {
-          "full": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31.jpg",
-          "thumb": "photos/charles-street-great-dublin-1/17fEWJbshXx4ymhkkdH41yak6ns6NiM31_t.jpg",
-          "name": "2 kitchen"
-        },
-        {
-          "full": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG.jpg",
-          "thumb": "photos/charles-street-great-dublin-1/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG_t.jpg",
-          "name": "3 Room 1 - Dual Occupancy Non-Ensuite"
-        },
-        {
-          "full": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V.jpg",
-          "thumb": "photos/charles-street-great-dublin-1/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V_t.jpg",
-          "name": "4 Room 2 - Triple occupancy"
-        },
-        {
-          "full": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E.jpg",
-          "thumb": "photos/charles-street-great-dublin-1/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E_t.jpg",
-          "name": "5 Wash+Shower"
-        },
-        {
-          "full": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9.jpg",
-          "thumb": "photos/charles-street-great-dublin-1/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9_t.jpg",
-          "name": "6 Laundry space"
-        }
-      ]
-    },
     "City Centre / O’Curry Street - V94 N9WK": {
       "folder": "https://drive.google.com/drive/u/1/folders/1A3PCQULNhT9ItDZf9Ne6HYwMdxC-RKeC",
       "images": []
@@ -947,6 +912,41 @@
           "full": "photos/e7-8pf-shaftsbury-rd-london/1A1S7bDw5ZXgBmwCHfJsfxK5U_qjoToWP.jpg",
           "thumb": "photos/e7-8pf-shaftsbury-rd-london/1A1S7bDw5ZXgBmwCHfJsfxK5U_qjoToWP_t.jpg",
           "name": "Kitchen B"
+        }
+      ]
+    },
+    "Flat 2, 31 Charles Street Great, Dublin 1, D01NW80": {
+      "folder": "https://drive.google.com/drive/folders/14I8cDFSCw2T081_6QEcc1sj_YDQirFev?usp=drive_link",
+      "images": [
+        {
+          "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ.jpg",
+          "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1LPL8hLUM-JQfJUfP6ZwWrxTmi_5xbBuQ_t.jpg",
+          "name": "1 living room"
+        },
+        {
+          "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/17fEWJbshXx4ymhkkdH41yak6ns6NiM31.jpg",
+          "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/17fEWJbshXx4ymhkkdH41yak6ns6NiM31_t.jpg",
+          "name": "2 kitchen"
+        },
+        {
+          "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG.jpg",
+          "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1dcFLD_Ib-knJYiA4a0gDnLtHPHdv5dsG_t.jpg",
+          "name": "3 Room 1 - Dual Occupancy Non-Ensuite"
+        },
+        {
+          "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V.jpg",
+          "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1a-2KxmU2RAV-vRDEgajHfx95Jl379M1V_t.jpg",
+          "name": "4 Room 2 - Triple occupancy"
+        },
+        {
+          "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E.jpg",
+          "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1qSrbNq21lARchpa8j00RQDVUo0Ejr9-E_t.jpg",
+          "name": "5 Wash+Shower"
+        },
+        {
+          "full": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9.jpg",
+          "thumb": "photos/flat-2-31-charles-street-great-dublin-1-d01nw80/1FWDN9BtoFg0yoU0L3KluXslmAsGFuVw9_t.jpg",
+          "name": "6 Laundry space"
         }
       ]
     },
