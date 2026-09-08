@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T12:32:29+00:00",
+  "generatedAt": "2026-09-08T17:00:22+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 31,
@@ -10,8 +10,8 @@
     ],
     "bedspaces": 217,
     "available": 14,
-    "onHold": 11,
-    "booked": 192,
+    "onHold": 10,
+    "booked": 193,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -290,8 +290,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 13,
       "available": 1,
-      "onHold": 2,
-      "booked": 10,
+      "onHold": 1,
+      "booked": 11,
       "priceMin": 675,
       "priceMax": 950,
       "currency": "€",
@@ -453,8 +453,8 @@
           "rentDisplay": "€675",
           "demography": "Male",
           "available": 0,
-          "onHold": 1,
-          "booked": 1
+          "onHold": 0,
+          "booked": 2
         },
         {
           "room": "5",
@@ -882,14 +882,14 @@
       ]
     },
     {
-      "id": "flat-5-ardhu-apartments-v94-1x64",
+      "id": "flat-5-ardhu-apartments-v94-372t",
       "name": "Flat 5 - Ardhu Apartments",
       "unitNote": "",
       "area": "Roses Avenue",
       "city": "Limerick",
       "country": "Ireland",
-      "eircode": "V94 1X64",
-      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 1X64",
+      "eircode": "V94 372T",
+      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T",
       "lat": 52.66502,
       "lng": -8.648591,
       "geoPrecision": "area",

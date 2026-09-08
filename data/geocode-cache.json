@@ -174,6 +174,13 @@
     "precision": "area",
     "query": "Roses Avenue, Limerick"
   },
+  "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T": {
+    "lat": 52.66502,
+    "lng": -8.648591,
+    "matched": "Roses Avenue, Castle C, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "area",
+    "query": "Roses Avenue, Limerick"
+  },
   "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)": {
     "lat": 53.349776,
     "lng": -6.22699,
