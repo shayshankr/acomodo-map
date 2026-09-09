@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T00:59:03+00:00",
+  "generatedAt": "2026-09-09T05:49:23+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 33,
@@ -9,8 +9,8 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 16,
-    "onHold": 9,
+    "available": 15,
+    "onHold": 10,
     "booked": 192,
     "withPhotos": 18,
     "withFolder": 27
@@ -29,8 +29,8 @@
       "lng": 0.037843,
       "geoPrecision": "postcode",
       "totalBedspaces": 12,
-      "available": 7,
-      "onHold": 0,
+      "available": 6,
+      "onHold": 1,
       "booked": 5,
       "priceMin": 500,
       "priceMax": 750,
@@ -153,8 +153,8 @@
           "rent": 550,
           "rentDisplay": "£550",
           "demography": "Male",
-          "available": 1,
-          "onHold": 0,
+          "available": 0,
+          "onHold": 1,
           "booked": 1
         },
         {
