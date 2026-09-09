@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-08T22:50:31+00:00",
+  "generatedAt": "2026-09-09T00:59:03+00:00",
   "source": "portfolio.csv",
   "stats": {
-    "properties": 31,
+    "properties": 33,
     "cities": [
       "Dublin",
       "Limerick",
       "London"
     ],
     "bedspaces": 217,
-    "available": 15,
-    "onHold": 10,
+    "available": 16,
+    "onHold": 9,
     "booked": 192,
     "withPhotos": 18,
     "withFolder": 27
@@ -202,81 +202,6 @@
       ]
     },
     {
-      "id": "23-belveder-avenue-dublin",
-      "name": "23 Belveder Avenue",
-      "unitNote": "",
-      "area": "",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "",
-      "address": "23 Belveder Avenue D01",
-      "lat": 53.359525,
-      "lng": -6.257373,
-      "geoPrecision": "hint",
-      "totalBedspaces": 2,
-      "available": 2,
-      "onHold": 0,
-      "booked": 0,
-      "priceMin": 1200,
-      "priceMax": 1200,
-      "currency": "€",
-      "priceDisplay": "€1,200",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
-        "images": []
-      },
-      "features": {
-        "summary": "A bright, well-positioned apartment on Belvedere Avenue in the heart of Dublin's historic north inner city, just off Mountjoy Square. Sitting in one of Dublin's most central student catchments with exceptional walkability to the city centre. The unit is being offered as a premium twin-share with a private bedroom for two sharers and a fully separate living/kitchen space — a real, residential apartment rather than a converted bedsit. Fully furnished and ready to move in. Surrounded by independent cafés, restaurants, traditional Dublin pubs, and supermarkets. Walking distance to Croke Park, the GPO Museum, the Spire on O'Connell Street, and the IFSC corporate district. Strong choice for international postgraduate students at NCI, Trinity, TU Bolton Street, or TU Aungier Street who want a genuine residential setup over a PBSA or hostel environment.",
-        "sections": [
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "LUAS Green Line (Marlborough Stop): ~7 min walk",
-              "LUAS Red Line (Connolly): ~10 min walk",
-              "DART (Connolly Station): ~10 min walk",
-              "Dublin Bus (multiple routes): ~2 min walk",
-              "Dublin City Centre (O'Connell Street): ~7 min walk",
-              "Dublin Airport: ~25 min drive",
-              "Travel Times to Universities",
-              "NCI (IFSC) — ~11 min walk (~900m)",
-              "TU Dublin (Bolton Street) — ~12 min walk (~1 km)",
-              "Trinity College Dublin — ~15 min walk (~1.3 km)",
-              "TU Dublin (Aungier Street) — ~19 min walk",
-              "TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red",
-              "DBS (Aungier Street) — ~19 min walk",
-              "RCSI (St Stephen's Green) — ~22 min walk"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Shared apartment",
-          "rawType": "Shared apartment",
-          "bedspaces": 2,
-          "washrooms": "1 communal washroom",
-          "rent": 1200,
-          "rentDisplay": "€1,200",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        }
-      ]
-    },
-    {
       "id": "1-waterfall-avenue-d03-da24",
       "name": "1 Waterfall Avenue",
       "unitNote": "",
@@ -289,8 +214,8 @@
       "lng": -6.247865,
       "geoPrecision": "address",
       "totalBedspaces": 13,
-      "available": 1,
-      "onHold": 1,
+      "available": 2,
+      "onHold": 0,
       "booked": 11,
       "priceMin": 675,
       "priceMax": 950,
@@ -423,10 +348,10 @@
           "washrooms": "5 Common Washrooms + 1 WC",
           "rent": 675,
           "rentDisplay": "€675",
-          "demography": "",
+          "demography": "Male",
           "available": 1,
-          "onHold": 1,
-          "booked": 0
+          "onHold": 0,
+          "booked": 1
         },
         {
           "room": "3",
@@ -452,9 +377,9 @@
           "rent": 675,
           "rentDisplay": "€675",
           "demography": "Male",
-          "available": 0,
+          "available": 1,
           "onHold": 0,
-          "booked": 2
+          "booked": 1
         },
         {
           "room": "5",
@@ -525,6 +450,81 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "23-belveder-avenue-dublin",
+      "name": "23 Belveder Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "23 Belveder Avenue D01",
+      "lat": 53.359525,
+      "lng": -6.257373,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 2,
+      "onHold": 0,
+      "booked": 0,
+      "priceMin": 1200,
+      "priceMax": 1200,
+      "currency": "€",
+      "priceDisplay": "€1,200",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
+        "images": []
+      },
+      "features": {
+        "summary": "A bright, well-positioned apartment on Belvedere Avenue in the heart of Dublin's historic north inner city, just off Mountjoy Square. Sitting in one of Dublin's most central student catchments with exceptional walkability to the city centre. The unit is being offered as a premium twin-share with a private bedroom for two sharers and a fully separate living/kitchen space — a real, residential apartment rather than a converted bedsit. Fully furnished and ready to move in. Surrounded by independent cafés, restaurants, traditional Dublin pubs, and supermarkets. Walking distance to Croke Park, the GPO Museum, the Spire on O'Connell Street, and the IFSC corporate district. Strong choice for international postgraduate students at NCI, Trinity, TU Bolton Street, or TU Aungier Street who want a genuine residential setup over a PBSA or hostel environment.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Green Line (Marlborough Stop): ~7 min walk",
+              "LUAS Red Line (Connolly): ~10 min walk",
+              "DART (Connolly Station): ~10 min walk",
+              "Dublin Bus (multiple routes): ~2 min walk",
+              "Dublin City Centre (O'Connell Street): ~7 min walk",
+              "Dublin Airport: ~25 min drive",
+              "Travel Times to Universities",
+              "NCI (IFSC) — ~11 min walk (~900m)",
+              "TU Dublin (Bolton Street) — ~12 min walk (~1 km)",
+              "Trinity College Dublin — ~15 min walk (~1.3 km)",
+              "TU Dublin (Aungier Street) — ~19 min walk",
+              "TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red",
+              "DBS (Aungier Street) — ~19 min walk",
+              "RCSI (St Stephen's Green) — ~22 min walk"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Shared apartment",
+          "rawType": "Shared apartment",
+          "bedspaces": 2,
+          "washrooms": "1 communal washroom",
+          "rent": 1200,
+          "rentDisplay": "€1,200",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
         }
       ]
     },
@@ -1186,6 +1186,73 @@
       "geoNudged": true
     },
     {
+      "id": "10-springfield-avenue-d6w-dk38",
+      "name": "10 Springfield Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D6W DK38",
+      "address": "10 SPRINGFIELD AVENUE D6W DK38",
+      "lat": 53.34962,
+      "lng": -6.2603,
+      "geoPrecision": "city",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 800,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€800",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": null,
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ],
+      "geoNudged": true
+    },
+    {
       "id": "13-grangemore-drive-d13-h9tx",
       "name": "13 Grangemore Drive",
       "unitNote": "",
@@ -1801,14 +1868,14 @@
       "lat": 53.298581,
       "lng": -6.298222,
       "geoPrecision": "hint",
-      "totalBedspaces": 12,
+      "totalBedspaces": 4,
       "available": 0,
       "onHold": 0,
-      "booked": 12,
+      "booked": 4,
       "priceMin": 775,
-      "priceMax": 800,
+      "priceMax": 775,
       "currency": "€",
-      "priceDisplay": "€775–€800",
+      "priceDisplay": "€775",
       "utilities": "Bills excluded — +€50/bed for all-inclusive",
       "furnished": true,
       "moveIn": [
@@ -1949,62 +2016,6 @@
           "rent": 775,
           "rentDisplay": "€775",
           "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 775,
-          "rentDisplay": "€775",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 775,
-          "rentDisplay": "€775",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Female",
           "available": 0,
           "onHold": 0,
           "booked": 2
@@ -2298,6 +2309,72 @@
           "available": 0,
           "onHold": 0,
           "booked": 4
+        }
+      ]
+    },
+    {
+      "id": "6-springfield-avenue-d6w-dk38",
+      "name": "6 Springfield Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D6W DK38",
+      "address": "6 SPRINGFIELD AVENUE D6W DK38",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "geoPrecision": "city",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 775,
+      "priceMax": 775,
+      "currency": "€",
+      "priceDisplay": "€775",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": null,
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
         }
       ]
     },

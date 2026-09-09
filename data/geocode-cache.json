@@ -6,6 +6,13 @@
     "precision": "address",
     "query": "1 Waterfall Avenue, Drumcondra, Dublin 3, Dublin"
   },
+  "10 SPRINGFIELD AVENUE D6W DK38": {
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "matched": "Dublin, Ireland",
+    "precision": "city",
+    "query": "Dublin"
+  },
   "13 Grangemore Drive, Dublin 13, D13 H9TX": {
     "lat": 53.397698,
     "lng": -6.166175,
@@ -89,6 +96,13 @@
     "matched": "Mountjoy Square, Mountjoy B Ward 1986, Dublin, County Dublin, Leinster, Ireland",
     "precision": "address",
     "query": "55 Mountjoy Square, Dublin"
+  },
+  "6 SPRINGFIELD AVENUE D6W DK38": {
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "matched": "Dublin, Ireland",
+    "precision": "city",
+    "query": "Dublin"
   },
   "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW": {
     "lat": 52.665904,
