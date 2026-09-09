@@ -111,12 +111,26 @@
     "precision": "hint",
     "query": "North Circular Road, Limerick"
   },
+  "Apartment 602, Windmill House, Dock Road, Limerick, V94 E510": {
+    "lat": 52.649212,
+    "lng": -8.663941,
+    "matched": "Dock Road, Raheen, Ballycummin ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "area",
+    "query": "Dock Road, Limerick, Limerick"
+  },
   "Apartment 602, Windmill House, Dock Road, Limerick, V94 YK19": {
     "lat": 52.649212,
     "lng": -8.663941,
     "matched": "Dock Road, Raheen, Ballycummin ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
     "precision": "hint",
     "query": "Dock Road, Limerick"
+  },
+  "Apartment 603, Windmill House, Dock Road, Limerick, V94 W9R9": {
+    "lat": 52.649212,
+    "lng": -8.663941,
+    "matched": "Dock Road, Raheen, Ballycummin ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, Ireland",
+    "precision": "area",
+    "query": "Dock Road, Limerick, Limerick"
   },
   "Apartment 603, Windmill House, Dock Road, Limerick, V94 YK19": {
     "lat": 52.649212,
