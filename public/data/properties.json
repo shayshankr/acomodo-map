@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T18:53:07+00:00",
+  "generatedAt": "2026-09-10T21:20:09+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 33,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 10,
+    "available": 12,
     "onHold": 9,
-    "booked": 198,
+    "booked": 196,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -700,6 +700,302 @@
       ]
     },
     {
+      "id": "13-grangemore-drive-d13-h9tx",
+      "name": "13 Grangemore Drive",
+      "unitNote": "",
+      "area": "Dublin 13",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D13 H9TX",
+      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
+      "lat": 53.397698,
+      "lng": -6.166175,
+      "geoPrecision": "address",
+      "totalBedspaces": 16,
+      "available": 1,
+      "onHold": 0,
+      "booked": 15,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & last month rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Single ensuite",
+          "rawType": "Single Ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "Ground",
+          "type": "Triple ensuite",
+          "rawType": "Triple Ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "beechwood-court-stillorgan-a94-x1pr",
+      "name": "Beechwood Court Stillorgan",
+      "unitNote": "",
+      "area": "Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "A94 X1PR",
+      "address": "Beechwood Court Stillorgan, Dublin A94 X1PR",
+      "lat": 53.282292,
+      "lng": -6.19007,
+      "geoPrecision": "address",
+      "totalBedspaces": 10,
+      "available": 1,
+      "onHold": 0,
+      "booked": 9,
+      "priceMin": 600,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€600–€800",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026",
+        "5th January'27"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
+        "images": [
+          {
+            "name": "1 cover photo area",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
+          },
+          {
+            "name": "ameneties ",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
+          },
+          {
+            "name": "bedroom",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
+          },
+          {
+            "name": "room 1",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
+          },
+          {
+            "name": "room 2",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
+          },
+          {
+            "name": "room 3",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
+          },
+          {
+            "name": "washroom ",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
+          },
+          {
+            "name": "washroom 3",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "3 Communal washrooms",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        }
+      ]
+    },
+    {
       "id": "flat-5-ardhu-apartments-v94-372t",
       "name": "Flat 5 - Ardhu Apartments",
       "unitNote": "",
@@ -973,159 +1269,6 @@
         }
       ],
       "geoNudged": true
-    },
-    {
-      "id": "13-grangemore-drive-d13-h9tx",
-      "name": "13 Grangemore Drive",
-      "unitNote": "",
-      "area": "Dublin 13",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D13 H9TX",
-      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
-      "lat": 53.397698,
-      "lng": -6.166175,
-      "geoPrecision": "address",
-      "totalBedspaces": 16,
-      "available": 0,
-      "onHold": 0,
-      "booked": 16,
-      "priceMin": 675,
-      "priceMax": 950,
-      "currency": "€",
-      "priceDisplay": "€675–€950",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & last month rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Single ensuite",
-          "rawType": "Single Ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "3",
-          "floor": "Ground",
-          "type": "Triple ensuite",
-          "rawType": "Triple Ensuite",
-          "bedspaces": 3,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "7",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "8",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
     },
     {
       "id": "145-cromwells-fort-road-d12-e4c9",
@@ -2546,149 +2689,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "beechwood-court-stillorgan-a94-x1pr",
-      "name": "Beechwood Court Stillorgan",
-      "unitNote": "",
-      "area": "Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "A94 X1PR",
-      "address": "Beechwood Court Stillorgan, Dublin A94 X1PR",
-      "lat": 53.282292,
-      "lng": -6.19007,
-      "geoPrecision": "address",
-      "totalBedspaces": 10,
-      "available": 0,
-      "onHold": 0,
-      "booked": 10,
-      "priceMin": 600,
-      "priceMax": 800,
-      "currency": "€",
-      "priceDisplay": "€600–€800",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026",
-        "5th January'27"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
-        "images": [
-          {
-            "name": "1 cover photo area",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
-          },
-          {
-            "name": "ameneties ",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
-          },
-          {
-            "name": "bedroom",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
-          },
-          {
-            "name": "kitchen",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
-          },
-          {
-            "name": "room 1",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
-          },
-          {
-            "name": "room 2",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
-          },
-          {
-            "name": "room 3",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
-          },
-          {
-            "name": "washroom ",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
-          },
-          {
-            "name": "washroom 3",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non Ensuite",
-          "bedspaces": 2,
-          "washrooms": "3 Communal washrooms",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
         }
       ]
     },
