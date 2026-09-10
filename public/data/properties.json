@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T11:37:32+00:00",
+  "generatedAt": "2026-09-10T15:42:07+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 33,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 9,
-    "onHold": 12,
-    "booked": 196,
+    "available": 11,
+    "onHold": 8,
+    "booked": 198,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -30,8 +30,8 @@
       "geoPrecision": "postcode",
       "totalBedspaces": 12,
       "available": 3,
-      "onHold": 1,
-      "booked": 8,
+      "onHold": 0,
+      "booked": 9,
       "priceMin": 500,
       "priceMax": 750,
       "currency": "£",
@@ -182,8 +182,8 @@
           "rentDisplay": "£550",
           "demography": "Female",
           "available": 1,
-          "onHold": 1,
-          "booked": 0
+          "onHold": 0,
+          "booked": 1
         },
         {
           "room": "6",
@@ -529,114 +529,6 @@
       ]
     },
     {
-      "id": "flat-5-ardhu-apartments-v94-372t",
-      "name": "Flat 5 - Ardhu Apartments",
-      "unitNote": "",
-      "area": "Roses Avenue",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 372T",
-      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T",
-      "lat": 52.66502,
-      "lng": -8.648591,
-      "geoPrecision": "area",
-      "totalBedspaces": 4,
-      "available": 1,
-      "onHold": 0,
-      "booked": 3,
-      "priceMin": 850,
-      "priceMax": 850,
-      "currency": "€",
-      "priceDisplay": "€850",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "2 Sept 2026",
-        "3 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This fully furnished two-bedroom, two-bathroom apartment is located within Ardhú Apartments, a modern, professionally managed residential development on Roses Avenue, North Circular Road, Limerick. Designed with contemporary living in mind, the apartment offers bright open-plan living and dining space, a fully equipped modern kitchen, two well-appointed bedrooms with fitted wardrobe storage, and two modern bathrooms. Large windows provide plenty of natural light, while oak flooring and quality furnishings create a comfortable, move-in-ready home. High-speed fibre broadband is also available, making the apartment well suited to students for both study and everyday living.",
-              "Residents benefit from a secure and well-maintained development with private car and motorcycle parking, video intercom access and CCTV. The apartment also provides private outdoor space, while the development's residential setting offers a quieter environment away from the busier parts of the city."
-            ]
-          },
-          {
-            "title": "Area & Student Lifestyle",
-            "items": [
-              "Situated on the North Circular Road, Ardhú offers a peaceful, leafy residential setting while remaining close to Limerick city centre and the city's major educational institutions. The surrounding area provides convenient access to supermarkets, cafés, restaurants, pharmacies and other everyday essentials, while the city centre is approximately 2 km away.",
-              "Students can easily access Limerick's cafés, restaurants, shopping, nightlife and cultural attractions, as well as green spaces and sporting facilities around the city. The location is particularly convenient for students attending TUS Moylish, while University of Limerick and Mary Immaculate College are also accessible by public transport."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "The property benefits from access to several public transport services, with bus stops located within approximately 500m of the development and the closest stop only a short walk away.",
-              "Limerick City Centre: approximately 20 minutes' walk",
-              "TUS Moylish Campus: approximately 20–25 minutes' walk / shorter by bus or bicycle",
-              "Limerick Train & Bus Station: approximately 25–30 minutes' walk",
-              "Mary Immaculate College: approximately 15–25 minutes by public transport",
-              "University of Limerick: approximately 20–35 minutes by public transport",
-              "Limerick Airport: approximately 25–30 minutes by car",
-              "M7 Motorway: approximately 5 minutes by car"
-            ]
-          },
-          {
-            "title": "Everyday Convenience",
-            "items": [
-              "Lidl: approximately 10–15 minutes' walk",
-              "Limerick City Centre: approximately 20 minutes' walk",
-              "Local cafés, shops and services: within the surrounding North Circular Road area",
-              "Major supermarkets and shopping: easily accessible by bus, bicycle or car",
-              "Overall, Ardhú is a strong option for students looking for a premium, private apartment environment with the convenience of modern furnishings, two bathrooms, reliable internet and secure residential facilities, while remaining within easy reach of Limerick's universities, city centre and everyday amenities."
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "2 Washrooms",
-          "rent": null,
-          "rentDisplay": "",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
-    {
       "id": "macgregor-rd-e16-3ll",
       "name": "MacGregor Rd",
       "unitNote": "",
@@ -649,8 +541,8 @@
       "lng": 0.037351,
       "geoPrecision": "postcode",
       "totalBedspaces": 10,
-      "available": 1,
-      "onHold": 1,
+      "available": 2,
+      "onHold": 0,
       "booked": 8,
       "priceMin": 450,
       "priceMax": 600,
@@ -800,12 +692,220 @@
           "washrooms": "",
           "rent": 475,
           "rentDisplay": "£475",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 1,
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
           "booked": 0
         }
       ]
+    },
+    {
+      "id": "flat-5-ardhu-apartments-v94-372t",
+      "name": "Flat 5 - Ardhu Apartments",
+      "unitNote": "",
+      "area": "Roses Avenue",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 372T",
+      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T",
+      "lat": 52.66502,
+      "lng": -8.648591,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 850,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€850",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "2 Sept 2026",
+        "3 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, two-bathroom apartment is located within Ardhú Apartments, a modern, professionally managed residential development on Roses Avenue, North Circular Road, Limerick. Designed with contemporary living in mind, the apartment offers bright open-plan living and dining space, a fully equipped modern kitchen, two well-appointed bedrooms with fitted wardrobe storage, and two modern bathrooms. Large windows provide plenty of natural light, while oak flooring and quality furnishings create a comfortable, move-in-ready home. High-speed fibre broadband is also available, making the apartment well suited to students for both study and everyday living.",
+              "Residents benefit from a secure and well-maintained development with private car and motorcycle parking, video intercom access and CCTV. The apartment also provides private outdoor space, while the development's residential setting offers a quieter environment away from the busier parts of the city."
+            ]
+          },
+          {
+            "title": "Area & Student Lifestyle",
+            "items": [
+              "Situated on the North Circular Road, Ardhú offers a peaceful, leafy residential setting while remaining close to Limerick city centre and the city's major educational institutions. The surrounding area provides convenient access to supermarkets, cafés, restaurants, pharmacies and other everyday essentials, while the city centre is approximately 2 km away.",
+              "Students can easily access Limerick's cafés, restaurants, shopping, nightlife and cultural attractions, as well as green spaces and sporting facilities around the city. The location is particularly convenient for students attending TUS Moylish, while University of Limerick and Mary Immaculate College are also accessible by public transport."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "The property benefits from access to several public transport services, with bus stops located within approximately 500m of the development and the closest stop only a short walk away.",
+              "Limerick City Centre: approximately 20 minutes' walk",
+              "TUS Moylish Campus: approximately 20–25 minutes' walk / shorter by bus or bicycle",
+              "Limerick Train & Bus Station: approximately 25–30 minutes' walk",
+              "Mary Immaculate College: approximately 15–25 minutes by public transport",
+              "University of Limerick: approximately 20–35 minutes by public transport",
+              "Limerick Airport: approximately 25–30 minutes by car",
+              "M7 Motorway: approximately 5 minutes by car"
+            ]
+          },
+          {
+            "title": "Everyday Convenience",
+            "items": [
+              "Lidl: approximately 10–15 minutes' walk",
+              "Limerick City Centre: approximately 20 minutes' walk",
+              "Local cafés, shops and services: within the surrounding North Circular Road area",
+              "Major supermarkets and shopping: easily accessible by bus, bicycle or car",
+              "Overall, Ardhú is a strong option for students looking for a premium, private apartment environment with the convenience of modern furnishings, two bathrooms, reliable internet and secure residential facilities, while remaining within easy reach of Limerick's universities, city centre and everyday amenities."
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washrooms",
+          "rent": null,
+          "rentDisplay": "",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "windmill-house-apt-602-v94-e510",
+      "name": "Windmill House (Apt 602)",
+      "unitNote": "",
+      "area": "Dock Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 E510",
+      "address": "Apartment 602, Windmill House, Dock Road, Limerick, V94 E510",
+      "lat": 52.649032,
+      "lng": -8.663941,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 725,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€725–€750",
+      "utilities": "Bills included",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Limerick Bus Éireann and City Link services operate from the city centre",
+              "Limerick Colbert Railway Station: 10–15 minutes' walk",
+              "Well-connected to the M7 and N18 motorway network"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities and colleges",
+            "items": [
+              "University of Limerick (UL): 25–30 minutes by bus",
+              "Mary Immaculate College (MIC): 10–15 minutes on foot",
+              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
+              "Limerick College of Further Education: 10 minutes on foot"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ],
+      "geoNudged": true
     },
     {
       "id": "10-springfield-avenue-d6w-dk38",
@@ -1880,8 +1980,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 12,
       "available": 0,
-      "onHold": 1,
-      "booked": 11,
+      "onHold": 0,
+      "booked": 12,
       "priceMin": 700,
       "priceMax": 850,
       "currency": "€",
@@ -2074,8 +2174,8 @@
           "rentDisplay": "€700",
           "demography": "Male",
           "available": 0,
-          "onHold": 1,
-          "booked": 1
+          "onHold": 0,
+          "booked": 2
         },
         {
           "room": "7",
@@ -3491,106 +3591,6 @@
           "booked": 2
         }
       ]
-    },
-    {
-      "id": "windmill-house-apt-602-v94-e510",
-      "name": "Windmill House (Apt 602)",
-      "unitNote": "",
-      "area": "Dock Road, Limerick",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 E510",
-      "address": "Apartment 602, Windmill House, Dock Road, Limerick, V94 E510",
-      "lat": 52.649032,
-      "lng": -8.663941,
-      "geoPrecision": "area",
-      "totalBedspaces": 4,
-      "available": 0,
-      "onHold": 1,
-      "booked": 3,
-      "priceMin": 725,
-      "priceMax": 750,
-      "currency": "€",
-      "priceDisplay": "€725–€750",
-      "utilities": "Bills included",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This fully furnished two-bedroom, one-bathroom apartment offers comfortable, move-in-ready accommodation in the heart of Limerick city centre. The property features a spacious entrance hallway and a private balcony, adding a sense of openness rarely found in city-centre living. The bright living area provides a welcoming communal space, while the fitted kitchen comes equipped with essential integrated appliances including an oven, hob, microwave, fridge/freezer, and washing machine. Both bedrooms are well-proportioned with comfortable beds, quality mattresses, built-in wardrobe storage, and study desks — creating practical personal spaces suited to modern student life. The shared bathroom is modern and well-maintained. High-speed Wi-Fi is available throughout, and the property benefits from a full fire safety system including smoke alarms and emergency lighting."
-            ]
-          },
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Situated in the heart of Limerick city centre, this property enjoys an unbeatable location within walking distance of all major amenities. O'Connell Street, Cruises Street, and William Street offer a vibrant mix of shops, cafés, restaurants, and entertainment, while the Crescent Shopping Centre and Arthur's Quay Shopping Centre are close at hand. The scenic River Shannon walkways and the People's Park provide pleasant green spaces just minutes from the front door. The Milk Market, one of Limerick's most popular weekend destinations, is also nearby."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Limerick Bus Éireann and City Link services operate from the city centre",
-              "Limerick Colbert Railway Station: 10–15 minutes' walk",
-              "Well-connected to the M7 and N18 motorway network"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities and colleges",
-            "items": [
-              "University of Limerick (UL): 25–30 minutes by bus",
-              "Mary Immaculate College (MIC): 10–15 minutes on foot",
-              "Technological University of the Shannon (TUS Moylish): 15–20 minutes by bus",
-              "Limerick College of Further Education: 10 minutes on foot"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 1,
-          "booked": 1
-        }
-      ],
-      "geoNudged": true
     },
     {
       "id": "windmill-house-apt-603-v94-w9r9",
