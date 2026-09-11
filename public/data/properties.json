@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T10:47:18+00:00",
+  "generatedAt": "2026-09-11T11:38:51+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 33,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 12,
-    "onHold": 8,
-    "booked": 197,
+    "available": 11,
+    "onHold": 10,
+    "booked": 196,
     "withPhotos": 18,
     "withFolder": 27
   },
@@ -202,252 +202,6 @@
       ]
     },
     {
-      "id": "23-belveder-avenue-dublin",
-      "name": "23 Belveder Avenue",
-      "unitNote": "",
-      "area": "",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "",
-      "address": "23 Belveder Avenue D01",
-      "lat": 53.359525,
-      "lng": -6.257373,
-      "geoPrecision": "hint",
-      "totalBedspaces": 2,
-      "available": 2,
-      "onHold": 0,
-      "booked": 0,
-      "priceMin": 1200,
-      "priceMax": 1200,
-      "currency": "€",
-      "priceDisplay": "€1,200",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
-        "images": []
-      },
-      "features": {
-        "summary": "A bright, well-positioned apartment on Belvedere Avenue in the heart of Dublin's historic north inner city, just off Mountjoy Square. Sitting in one of Dublin's most central student catchments with exceptional walkability to the city centre. The unit is being offered as a premium twin-share with a private bedroom for two sharers and a fully separate living/kitchen space — a real, residential apartment rather than a converted bedsit. Fully furnished and ready to move in. Surrounded by independent cafés, restaurants, traditional Dublin pubs, and supermarkets. Walking distance to Croke Park, the GPO Museum, the Spire on O'Connell Street, and the IFSC corporate district. Strong choice for international postgraduate students at NCI, Trinity, TU Bolton Street, or TU Aungier Street who want a genuine residential setup over a PBSA or hostel environment.",
-        "sections": [
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "LUAS Green Line (Marlborough Stop): ~7 min walk",
-              "LUAS Red Line (Connolly): ~10 min walk",
-              "DART (Connolly Station): ~10 min walk",
-              "Dublin Bus (multiple routes): ~2 min walk",
-              "Dublin City Centre (O'Connell Street): ~7 min walk",
-              "Dublin Airport: ~25 min drive",
-              "Travel Times to Universities",
-              "NCI (IFSC) — ~11 min walk (~900m)",
-              "TU Dublin (Bolton Street) — ~12 min walk (~1 km)",
-              "Trinity College Dublin — ~15 min walk (~1.3 km)",
-              "TU Dublin (Aungier Street) — ~19 min walk",
-              "TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red",
-              "DBS (Aungier Street) — ~19 min walk",
-              "RCSI (St Stephen's Green) — ~22 min walk"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Shared apartment",
-          "rawType": "Shared apartment",
-          "bedspaces": 2,
-          "washrooms": "1 communal washroom",
-          "rent": 1200,
-          "rentDisplay": "€1,200",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "macgregor-rd-e16-3ll",
-      "name": "MacGregor Rd",
-      "unitNote": "",
-      "area": "London",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E16 3LL",
-      "address": "E16 3LL, MacGregor Rd, London",
-      "lat": 51.517582,
-      "lng": 0.037351,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 10,
-      "available": 2,
-      "onHold": 0,
-      "booked": 8,
-      "priceMin": 450,
-      "priceMax": 600,
-      "currency": "£",
-      "priceDisplay": "£450–£600",
-      "utilities": "Included all Bills",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
-        "images": [
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
-            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
-            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
-            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
-            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "2 Communal washrooms",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Compact Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 450,
-          "rentDisplay": "£450",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        }
-      ]
-    },
-    {
       "id": "1-waterfall-avenue-d03-da24",
       "name": "1 Waterfall Avenue",
       "unitNote": "",
@@ -460,9 +214,9 @@
       "lng": -6.247865,
       "geoPrecision": "address",
       "totalBedspaces": 13,
-      "available": 1,
+      "available": 2,
       "onHold": 1,
-      "booked": 11,
+      "booked": 10,
       "priceMin": 675,
       "priceMax": 950,
       "currency": "€",
@@ -623,9 +377,9 @@
           "rent": 675,
           "rentDisplay": "€675",
           "demography": "Male",
-          "available": 0,
+          "available": 1,
           "onHold": 1,
-          "booked": 1
+          "booked": 0
         },
         {
           "room": "5",
@@ -696,6 +450,81 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "23-belveder-avenue-dublin",
+      "name": "23 Belveder Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "23 Belveder Avenue D01",
+      "lat": 53.359525,
+      "lng": -6.257373,
+      "geoPrecision": "hint",
+      "totalBedspaces": 2,
+      "available": 2,
+      "onHold": 0,
+      "booked": 0,
+      "priceMin": 1200,
+      "priceMax": 1200,
+      "currency": "€",
+      "priceDisplay": "€1,200",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
+        "images": []
+      },
+      "features": {
+        "summary": "A bright, well-positioned apartment on Belvedere Avenue in the heart of Dublin's historic north inner city, just off Mountjoy Square. Sitting in one of Dublin's most central student catchments with exceptional walkability to the city centre. The unit is being offered as a premium twin-share with a private bedroom for two sharers and a fully separate living/kitchen space — a real, residential apartment rather than a converted bedsit. Fully furnished and ready to move in. Surrounded by independent cafés, restaurants, traditional Dublin pubs, and supermarkets. Walking distance to Croke Park, the GPO Museum, the Spire on O'Connell Street, and the IFSC corporate district. Strong choice for international postgraduate students at NCI, Trinity, TU Bolton Street, or TU Aungier Street who want a genuine residential setup over a PBSA or hostel environment.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Green Line (Marlborough Stop): ~7 min walk",
+              "LUAS Red Line (Connolly): ~10 min walk",
+              "DART (Connolly Station): ~10 min walk",
+              "Dublin Bus (multiple routes): ~2 min walk",
+              "Dublin City Centre (O'Connell Street): ~7 min walk",
+              "Dublin Airport: ~25 min drive",
+              "Travel Times to Universities",
+              "NCI (IFSC) — ~11 min walk (~900m)",
+              "TU Dublin (Bolton Street) — ~12 min walk (~1 km)",
+              "Trinity College Dublin — ~15 min walk (~1.3 km)",
+              "TU Dublin (Aungier Street) — ~19 min walk",
+              "TU Dublin (Grangegorman) — ~22 min walk / ~12 mins via LUAS Red",
+              "DBS (Aungier Street) — ~19 min walk",
+              "RCSI (St Stephen's Green) — ~22 min walk"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Shared apartment",
+          "rawType": "Shared apartment",
+          "bedspaces": 2,
+          "washrooms": "1 communal washroom",
+          "rent": 1200,
+          "rentDisplay": "€1,200",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
         }
       ]
     },
@@ -4331,6 +4160,177 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "macgregor-rd-e16-3ll",
+      "name": "MacGregor Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E16 3LL",
+      "address": "E16 3LL, MacGregor Rd, London",
+      "lat": 51.517582,
+      "lng": 0.037351,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 10,
+      "available": 0,
+      "onHold": 2,
+      "booked": 8,
+      "priceMin": 450,
+      "priceMax": 600,
+      "currency": "£",
+      "priceDisplay": "£450–£600",
+      "utilities": "Included all Bills",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
+            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
+            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
+            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
+            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Compact Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 450,
+          "rentDisplay": "£450",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "",
+          "available": 0,
+          "onHold": 2,
+          "booked": 0
         }
       ]
     }
