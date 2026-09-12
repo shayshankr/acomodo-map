@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:16:40+00:00",
+  "generatedAt": "2026-09-12T11:54:38+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 33,
@@ -9,13 +9,265 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 15,
-    "onHold": 8,
+    "available": 14,
+    "onHold": 9,
     "booked": 194,
     "withPhotos": 20,
     "withFolder": 27
   },
   "properties": [
+    {
+      "id": "1-waterfall-avenue-d03-da24",
+      "name": "1 Waterfall Avenue",
+      "unitNote": "",
+      "area": "Drumcondra, Dublin 3",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D03 DA24",
+      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
+      "lat": 53.366153,
+      "lng": -6.247865,
+      "geoPrecision": "address",
+      "totalBedspaces": 13,
+      "available": 3,
+      "onHold": 0,
+      "booked": 10,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
+        "images": [
+          {
+            "name": "Kitchen bins cabinets",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz_t.jpg"
+          },
+          {
+            "name": "Kitchen",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF_t.jpg"
+          },
+          {
+            "name": "Kitchen",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66_t.jpg"
+          },
+          {
+            "name": "Bunk double",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL_t.jpg"
+          },
+          {
+            "name": "Bunk Double",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8_t.jpg"
+          },
+          {
+            "name": "Room 6",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI_t.jpg"
+          },
+          {
+            "name": "Twin Sharing room",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp_t.jpg"
+          },
+          {
+            "name": "Room 6B",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG_t.jpg"
+          },
+          {
+            "name": "Twin sharing room",
+            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL.jpg",
+            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
+              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
+            ]
+          },
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
+              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
+              "Dublin city centre: 15 minutes on foot",
+              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
+              "Dublin City University (DCU): 15 to 20 minutes by bus",
+              "UCD Belfield: 40 to 45 minutes by bus",
+              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
+              "TU Dublin Tallaght: 50 to 55 minutes by bus",
+              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
+              "NCI / DBS (City Centre): 20 minutes by bus",
+              "Griffith College Dublin: 25 to 30 minutes by bus",
+              "NCAD Thomas Street: 25 to 30 minutes by bus",
+              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "5 Common Washrooms + 1 WC",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "",
+          "type": "Double bunk non-ensuite",
+          "rawType": "Double Bunk",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "5",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6A",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "6B",
+          "floor": "",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
+    },
     {
       "id": "macgregor-rd-e16-3ll",
       "name": "MacGregor Rd",
@@ -29,8 +281,8 @@
       "lng": 0.037351,
       "geoPrecision": "postcode",
       "totalBedspaces": 10,
-      "available": 4,
-      "onHold": 0,
+      "available": 3,
+      "onHold": 1,
       "booked": 6,
       "priceMin": 450,
       "priceMax": 600,
@@ -181,8 +433,8 @@
           "rent": 475,
           "rentDisplay": "£475",
           "demography": "",
-          "available": 2,
-          "onHold": 0,
+          "available": 1,
+          "onHold": 1,
           "booked": 0
         }
       ]
@@ -369,258 +621,6 @@
           "available": 2,
           "onHold": 0,
           "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "1-waterfall-avenue-d03-da24",
-      "name": "1 Waterfall Avenue",
-      "unitNote": "",
-      "area": "Drumcondra, Dublin 3",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D03 DA24",
-      "address": "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24",
-      "lat": 53.366153,
-      "lng": -6.247865,
-      "geoPrecision": "address",
-      "totalBedspaces": 13,
-      "available": 2,
-      "onHold": 1,
-      "booked": 10,
-      "priceMin": 675,
-      "priceMax": 950,
-      "currency": "€",
-      "priceDisplay": "€675–€950",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/12zrTW1A6QNOtrPEupplsSGOSGHUw2YCq?usp=drive_link",
-        "images": [
-          {
-            "name": "Kitchen bins cabinets",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HFzxTXwl43mzqLbqCljpisYRMs2ThyAz_t.jpg"
-          },
-          {
-            "name": "Kitchen",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1HdW3adaea03YyrX1cb8lPcmxFbJKbyWF_t.jpg"
-          },
-          {
-            "name": "Kitchen",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1oeDMWja4qVNbdhfbkX-NcYUILDWcZU89_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1O-ez-gQHz0ogEBp7KBtZ9Q2-DgB5LXRi_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1P5q_Kux0Xc8tkA_khV80UH5KAK8HmGLC_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UrDl7OX7D1E5YDIFe6CPu3cO-KDwFn66_t.jpg"
-          },
-          {
-            "name": "Bunk double",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1XM08G-4lpOX_w4akMAqCjeqNpOFfvmKL_t.jpg"
-          },
-          {
-            "name": "Bunk Double",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1c6ZcXq1LVZt-rEcj4ZfMjNoRvF2E8bC8_t.jpg"
-          },
-          {
-            "name": "Room 6",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1Re0Kwohm4Fr9qBBwIPluIzaLyIfSQROI_t.jpg"
-          },
-          {
-            "name": "Twin Sharing room",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp_t.jpg"
-          },
-          {
-            "name": "Room 6B",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fRvKg4onUF0sz5v7nNGNE306fflQwcXG_t.jpg"
-          },
-          {
-            "name": "Twin sharing room",
-            "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL.jpg",
-            "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1gjHnM0s1F1o7OdrUQAHYqcbbE1bejYzL_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This substantial eleven-bedroom property at 1 Waterfall Avenue offers a well-appointed standard of shared living accommodation, featuring five full bathrooms and a separate WC. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life.",
-              "The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise."
-            ]
-          },
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Located off Richmond Road on the border of Drumcondra and Fairview, Waterfall Avenue enjoys a peaceful, leafy setting whilst being just a 15-minute walk from Dublin city centre. Both Drumcondra and Fairview villages are on the doorstep, offering an excellent selection of cafés, restaurants, pubs, and everyday shops. Croke Park is nearby, while the beautiful Fairview Park, with its playing fields, walking paths, and open green spaces, is a short stroll away. The Mater Hospital, Beaumont Hospital, and Dublin Airport are all within easy reach."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Drumcondra Train Station: 10 minutes' walk, with regular Irish Rail services to the city centre and beyond",
-              "Dublin Bus routes including the 1, 11, 13, 16, 33, 41, and 44 serve the surrounding area",
-              "Dublin city centre: 15 minutes on foot",
-              "Dublin Airport: 10 to 15 minutes by car; M1 and M50 motorways easily accessible"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities",
-            "items": [
-              "Trinity College Dublin (TCD): 20 to 25 minutes by bus or on foot",
-              "Dublin City University (DCU): 15 to 20 minutes by bus",
-              "UCD Belfield: 40 to 45 minutes by bus",
-              "TU Dublin Grangegorman: 15 to 20 minutes by bus",
-              "TU Dublin Tallaght: 50 to 55 minutes by bus",
-              "RCSI St Stephen's Green: 20 to 25 minutes by bus",
-              "NCI / DBS (City Centre): 20 minutes by bus",
-              "Griffith College Dublin: 25 to 30 minutes by bus",
-              "NCAD Thomas Street: 25 to 30 minutes by bus",
-              "IADT Dún Laoghaire: 50 to 55 minutes by DART/bus"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double bunk non-ensuite",
-          "rawType": "Double Bunk",
-          "bedspaces": 2,
-          "washrooms": "5 Common Washrooms + 1 WC",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "3",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "",
-          "type": "Double bunk non-ensuite",
-          "rawType": "Double Bunk",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 1,
-          "booked": 0
-        },
-        {
-          "room": "5",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6A",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "6B",
-          "floor": "",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "8",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
         }
       ]
     },
@@ -992,130 +992,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 3
-        }
-      ]
-    },
-    {
-      "id": "flat-5-ardhu-apartments-v94-372t",
-      "name": "Flat 5 - Ardhu Apartments",
-      "unitNote": "",
-      "area": "Roses Avenue",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 372T",
-      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T",
-      "lat": 52.66502,
-      "lng": -8.648591,
-      "geoPrecision": "area",
-      "totalBedspaces": 4,
-      "available": 1,
-      "onHold": 0,
-      "booked": 3,
-      "priceMin": 850,
-      "priceMax": 850,
-      "currency": "€",
-      "priceDisplay": "€850",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "2 Sept 2026",
-        "3 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
-        "images": [
-          {
-            "name": "1 Study",
-            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u.jpg",
-            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u_t.jpg"
-          },
-          {
-            "name": "2 Kitchen",
-            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v.jpg",
-            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v_t.jpg"
-          },
-          {
-            "name": "3 Bedroom",
-            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS.jpg",
-            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "",
-        "sections": [
-          {
-            "title": "Property Description",
-            "items": [
-              "This fully furnished two-bedroom, two-bathroom apartment is located within Ardhú Apartments, a modern, professionally managed residential development on Roses Avenue, North Circular Road, Limerick. Designed with contemporary living in mind, the apartment offers bright open-plan living and dining space, a fully equipped modern kitchen, two well-appointed bedrooms with fitted wardrobe storage, and two modern bathrooms. Large windows provide plenty of natural light, while oak flooring and quality furnishings create a comfortable, move-in-ready home. High-speed fibre broadband is also available, making the apartment well suited to students for both study and everyday living.",
-              "Residents benefit from a secure and well-maintained development with private car and motorcycle parking, video intercom access and CCTV. The apartment also provides private outdoor space, while the development's residential setting offers a quieter environment away from the busier parts of the city."
-            ]
-          },
-          {
-            "title": "Area & Student Lifestyle",
-            "items": [
-              "Situated on the North Circular Road, Ardhú offers a peaceful, leafy residential setting while remaining close to Limerick city centre and the city's major educational institutions. The surrounding area provides convenient access to supermarkets, cafés, restaurants, pharmacies and other everyday essentials, while the city centre is approximately 2 km away.",
-              "Students can easily access Limerick's cafés, restaurants, shopping, nightlife and cultural attractions, as well as green spaces and sporting facilities around the city. The location is particularly convenient for students attending TUS Moylish, while University of Limerick and Mary Immaculate College are also accessible by public transport."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "The property benefits from access to several public transport services, with bus stops located within approximately 500m of the development and the closest stop only a short walk away.",
-              "Limerick City Centre: approximately 20 minutes' walk",
-              "TUS Moylish Campus: approximately 20–25 minutes' walk / shorter by bus or bicycle",
-              "Limerick Train & Bus Station: approximately 25–30 minutes' walk",
-              "Mary Immaculate College: approximately 15–25 minutes by public transport",
-              "University of Limerick: approximately 20–35 minutes by public transport",
-              "Limerick Airport: approximately 25–30 minutes by car",
-              "M7 Motorway: approximately 5 minutes by car"
-            ]
-          },
-          {
-            "title": "Everyday Convenience",
-            "items": [
-              "Lidl: approximately 10–15 minutes' walk",
-              "Limerick City Centre: approximately 20 minutes' walk",
-              "Local cafés, shops and services: within the surrounding North Circular Road area",
-              "Major supermarkets and shopping: easily accessible by bus, bicycle or car",
-              "Overall, Ardhú is a strong option for students looking for a premium, private apartment environment with the convenience of modern furnishings, two bathrooms, reliable internet and secure residential facilities, while remaining within easy reach of Limerick's universities, city centre and everyday amenities."
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "2 Washrooms",
-          "rent": null,
-          "rentDisplay": "",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
         }
       ]
     },
@@ -3631,6 +3507,130 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "flat-5-ardhu-apartments-v94-372t",
+      "name": "Flat 5 - Ardhu Apartments",
+      "unitNote": "",
+      "area": "Roses Avenue",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 372T",
+      "address": "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T",
+      "lat": 52.66502,
+      "lng": -8.648591,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 1,
+      "booked": 3,
+      "priceMin": 850,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€850",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "2 Sept 2026",
+        "3 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
+        "images": [
+          {
+            "name": "1 Study",
+            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u.jpg",
+            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u_t.jpg"
+          },
+          {
+            "name": "2 Kitchen",
+            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v.jpg",
+            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v_t.jpg"
+          },
+          {
+            "name": "3 Bedroom",
+            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS.jpg",
+            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "",
+        "sections": [
+          {
+            "title": "Property Description",
+            "items": [
+              "This fully furnished two-bedroom, two-bathroom apartment is located within Ardhú Apartments, a modern, professionally managed residential development on Roses Avenue, North Circular Road, Limerick. Designed with contemporary living in mind, the apartment offers bright open-plan living and dining space, a fully equipped modern kitchen, two well-appointed bedrooms with fitted wardrobe storage, and two modern bathrooms. Large windows provide plenty of natural light, while oak flooring and quality furnishings create a comfortable, move-in-ready home. High-speed fibre broadband is also available, making the apartment well suited to students for both study and everyday living.",
+              "Residents benefit from a secure and well-maintained development with private car and motorcycle parking, video intercom access and CCTV. The apartment also provides private outdoor space, while the development's residential setting offers a quieter environment away from the busier parts of the city."
+            ]
+          },
+          {
+            "title": "Area & Student Lifestyle",
+            "items": [
+              "Situated on the North Circular Road, Ardhú offers a peaceful, leafy residential setting while remaining close to Limerick city centre and the city's major educational institutions. The surrounding area provides convenient access to supermarkets, cafés, restaurants, pharmacies and other everyday essentials, while the city centre is approximately 2 km away.",
+              "Students can easily access Limerick's cafés, restaurants, shopping, nightlife and cultural attractions, as well as green spaces and sporting facilities around the city. The location is particularly convenient for students attending TUS Moylish, while University of Limerick and Mary Immaculate College are also accessible by public transport."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "The property benefits from access to several public transport services, with bus stops located within approximately 500m of the development and the closest stop only a short walk away.",
+              "Limerick City Centre: approximately 20 minutes' walk",
+              "TUS Moylish Campus: approximately 20–25 minutes' walk / shorter by bus or bicycle",
+              "Limerick Train & Bus Station: approximately 25–30 minutes' walk",
+              "Mary Immaculate College: approximately 15–25 minutes by public transport",
+              "University of Limerick: approximately 20–35 minutes by public transport",
+              "Limerick Airport: approximately 25–30 minutes by car",
+              "M7 Motorway: approximately 5 minutes by car"
+            ]
+          },
+          {
+            "title": "Everyday Convenience",
+            "items": [
+              "Lidl: approximately 10–15 minutes' walk",
+              "Limerick City Centre: approximately 20 minutes' walk",
+              "Local cafés, shops and services: within the surrounding North Circular Road area",
+              "Major supermarkets and shopping: easily accessible by bus, bicycle or car",
+              "Overall, Ardhú is a strong option for students looking for a premium, private apartment environment with the convenience of modern furnishings, two bathrooms, reliable internet and secure residential facilities, while remaining within easy reach of Limerick's universities, city centre and everyday amenities."
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washrooms",
+          "rent": null,
+          "rentDisplay": "",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 1,
+          "booked": 1
         }
       ]
     },
