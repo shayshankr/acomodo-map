@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T10:47:17+00:00",
+  "generatedAt": "2026-09-12T10:16:40+00:00",
   "source": "fetch_photos.py (public Drive folders)",
   "properties": {
     "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24": {
@@ -207,7 +207,33 @@
     },
     "1a Brookfield Artane Dublin 5 - D05E7Y0": {
       "folder": "https://drive.google.com/drive/folders/1xbd1Rub2AsZSKhykd8yWXKXxBzBu3uQ_?usp=sharing",
-      "images": []
+      "images": [
+        {
+          "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i.jpg",
+          "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i_t.jpg",
+          "name": "1 Living Room"
+        },
+        {
+          "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR.jpg",
+          "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR_t.jpg",
+          "name": "2 Kitchen"
+        },
+        {
+          "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N.jpg",
+          "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N_t.jpg",
+          "name": "3 Kitchen"
+        },
+        {
+          "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6.jpg",
+          "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6_t.jpg",
+          "name": "4 Backyard"
+        },
+        {
+          "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI.jpg",
+          "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI_t.jpg",
+          "name": "5 Common Area"
+        }
+      ]
     },
     "23 Belveder Avenue D01": {
       "folder": "https://drive.google.com/drive/u/1/folders/1qWNixoEFoKKES74llshtQI7WpxQe5yz9",
@@ -952,7 +978,23 @@
     },
     "Flat 5 - Ardhu Apartments, Roses Avenue V94 372T": {
       "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
-      "images": []
+      "images": [
+        {
+          "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u.jpg",
+          "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u_t.jpg",
+          "name": "1 Study"
+        },
+        {
+          "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v.jpg",
+          "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v_t.jpg",
+          "name": "2 Kitchen"
+        },
+        {
+          "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS.jpg",
+          "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS_t.jpg",
+          "name": "3 Bedroom"
+        }
+      ]
     },
     "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)": {
       "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",

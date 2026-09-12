@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:36:08+00:00",
+  "generatedAt": "2026-09-12T10:16:40+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 33,
@@ -12,7 +12,7 @@
     "available": 15,
     "onHold": 8,
     "booked": 194,
-    "withPhotos": 18,
+    "withPhotos": 20,
     "withFolder": 27
   },
   "properties": [
@@ -1028,7 +1028,23 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1cl4LPqOCtJroajZdDCIsgx3TXwPZeC4D?usp=drive_link",
-        "images": []
+        "images": [
+          {
+            "name": "1 Study",
+            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u.jpg",
+            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1cIuv1fTZQ-c0kutLhh3sj7nStzpXaq0u_t.jpg"
+          },
+          {
+            "name": "2 Kitchen",
+            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v.jpg",
+            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/1FmYsYssBe_9wOGGdLhxoSgVRVQjtYi0v_t.jpg"
+          },
+          {
+            "name": "3 Bedroom",
+            "full": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS.jpg",
+            "thumb": "photos/flat-5-ardhu-apartments-roses-avenue-v94-372t/16z_ctBs4PNdl7tivd2p1_Z-XgoIXqwtS_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "",
@@ -1683,7 +1699,33 @@
       "paymentTerms": "1 month rent as deposit + First & Last months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1xbd1Rub2AsZSKhykd8yWXKXxBzBu3uQ_?usp=sharing",
-        "images": []
+        "images": [
+          {
+            "name": "1 Living Room",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i_t.jpg"
+          },
+          {
+            "name": "2 Kitchen",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR_t.jpg"
+          },
+          {
+            "name": "3 Kitchen",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N_t.jpg"
+          },
+          {
+            "name": "4 Backyard",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6_t.jpg"
+          },
+          {
+            "name": "5 Common Area",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI_t.jpg"
+          }
+        ]
       },
       "features": {
         "summary": "A property situated in the highly sought-after Brookfield estate in the heart of Artane — a mature, safe, and well-established residential neighbourhood in Dublin's Northside, popular with families, professionals, and students alike. Surrounded by an excellent range of amenities including Artane Castle Shopping Centre (Tesco, Penneys, cafés, and restaurants), local shops along the - Malahide Road, Beaumont Hospital, and a wealth of green spaces including St. Anne's Park, Rockfield Park, and Dollymount Strand within easy reach. Superbly connected with DART stations at Killester and Harmonstown both approximately 10–15 mins walk away, providing fast access into Dublin City Centre in just 10 minutes. Numerous Dublin Bus routes (including 27, 27B, 42, 43, 104, and 128) serve the area, and the M50 motorway is easily accessible by car. Transport & Connectivity DART (Killester Station): ~10–12 min walk DART (Harmonstown Station): ~12–15 min walk Dublin City Centre (Connolly) via DART: ~10 mins Bus Routes: 27, 27B, 42, 43, 104, 128 — multiple stops within walking distance M50 Motorway: ~5 min drive Dublin Airport: ~15 min drive Travel Times to Universities DCU (Glasnevin) — ~20 mins via bus (104/N4 from Killester) DCU (All Hallows / St Patrick's) — ~25 mins via bus Trinity College Dublin (TCD) — ~20 mins via DART to Pearse Station TU Dublin (Grangegorman) — ~30 mins via DART + Luas/bus UCD Belfield — ~40 mins via DART + bus NCAD (Thomas Street) — ~35 mins via bus/DART + Luas",
