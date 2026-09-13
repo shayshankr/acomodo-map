@@ -58,7 +58,7 @@ acomodo-map/
 │
 ├── .github/workflows/
 │   ├── deploy.yml                publish public/ to GitHub Pages on every push
-│   ├── sync.yml                  read the public Sheet every 30 min, commit changes
+│   ├── sync.yml                  read the public Sheet every 5 min, commit changes
 │   └── photos.yml                refresh photos daily
 │
 └── public/                       ← this folder IS the website; deploy it as-is
@@ -189,7 +189,7 @@ All of these are reflected in the URL, so any filtered view is a shareable link.
 Three GitHub Actions run the whole thing with no servers and no secrets:
 
 - **`deploy.yml`** publishes `public/` to GitHub Pages on every push to `main`.
-- **`sync.yml`** runs every 30 minutes: it reads the **public** Sheet, rebuilds
+- **`sync.yml`** runs every 5 minutes: it reads the **public** Sheet, rebuilds
   the data, and commits any change (which triggers a redeploy). The Sheet is
   shared "Anyone with the link → Viewer", so this needs no login, service
   account, or secret.
@@ -224,7 +224,7 @@ day.
 ## 9. Common changes (recipes)
 
 **Change a property's availability, price, or details** — edit the Google Sheet.
-The sync picks it up within 30 minutes. Nothing else to do.
+The sync picks it up within ~5 minutes. Nothing else to do.
 
 **Add or move photos** — drop images into the property's Drive folder. `photos.yml`
 picks them up daily; or run `python scripts/fetch_photos.py` to pull them now.
@@ -273,7 +273,7 @@ handled, and in a few extra front-end capabilities.
 | Live map + list, city filters, search, shortlist | ✅ | Parity with the original. |
 | Photos | **Self-hosted & size-optimised**, served from the site's own CDN | The original hot-links Google Drive thumbnails, which are slower and break if Google changes the URL format. Here each photo is downloaded at two web sizes and committed, so the gallery is fast and stable. |
 | Data pipeline | **Open, documented, credential-free** | The Sheet → map path is a handful of readable scripts anyone can run; the automated sync needs no service account or secret. |
-| Automation | **Sheet sync every 30 min + daily photo refresh**, no secrets | Staff edits reach the map on their own. |
+| Automation | **Sheet sync every 5 min + daily photo refresh**, no secrets | Staff edits reach the map on their own. |
 | Plan-your-commute | ✅ live transit links per property → each nearby campus | Turns "which bus, how long" into one tap, always current. |
 | Place search | ✅ type any area, the map flies there and ranks by distance | Not limited to properties that literally contain the text. |
 | Per-city header stats | ✅ counts update with the selected city | |

@@ -54,7 +54,7 @@ The Sheet is shared **"Anyone with the link → Viewer"**, so
 account, no login, no secrets. It maps both tabs onto the canonical columns,
 refreshes `data/media-links.json` from the cell hyperlinks, rebuilds the data,
 and (in CI) commits it back so Pages redeploys. `.github/workflows/sync.yml`
-runs it every 30 minutes and on demand; `photos.yml` refreshes photos daily
+runs it every 5 minutes and on demand; `photos.yml` refreshes photos daily
 (also credential-free).
 
 Nothing to configure. To confirm the Sheet is still link-readable:
