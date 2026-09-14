@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T13:43:10+00:00",
+  "generatedAt": "2026-09-14T18:53:18+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 14,
+    "available": 15,
     "onHold": 10,
-    "booked": 193,
+    "booked": 192,
     "withPhotos": 20,
     "withFolder": 28
   },
@@ -992,6 +992,194 @@
           "available": 0,
           "onHold": 0,
           "booked": 3
+        }
+      ]
+    },
+    {
+      "id": "asgard-v94-t4cw",
+      "name": "Asgard",
+      "unitNote": "",
+      "area": "New Westfields, North Circular Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 T4CW",
+      "address": "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW",
+      "lat": 52.665904,
+      "lng": -8.64789,
+      "geoPrecision": "hint",
+      "totalBedspaces": 11,
+      "available": 1,
+      "onHold": 0,
+      "booked": 10,
+      "priceMin": 550,
+      "priceMax": 900,
+      "currency": "€",
+      "priceDisplay": "€550–€900",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
+        "images": [
+          {
+            "name": "2 living room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D_t.jpg"
+          },
+          {
+            "name": "10 bathroom",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D_t.jpg"
+          },
+          {
+            "name": "12 bathroom",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er_t.jpg"
+          },
+          {
+            "name": "3 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147_t.jpg"
+          },
+          {
+            "name": "9 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N_t.jpg"
+          },
+          {
+            "name": "7 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw_t.jpg"
+          },
+          {
+            "name": "4 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I_t.jpg"
+          },
+          {
+            "name": "6 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E_t.jpg"
+          },
+          {
+            "name": "8 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY_t.jpg"
+          },
+          {
+            "name": "5 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9_t.jpg"
+          },
+          {
+            "name": "13",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0_t.jpg"
+          },
+          {
+            "name": "Cover photo",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Located in the exclusive New Westfields enclave on the prestigious North Circular Road, this beautifully presented residence offers a high-end living experience just minutes from Limerick city centre. The property combines privacy and luxury with modern, light-filled interiors. Features a bespoke kitchen with state-of-the-art appliances, multiple reception rooms with high ceilings, and spacious bedrooms with quality finishes. Residents enjoy meticulously landscaped gardens, an expansive patio for outdoor entertaining, and a secluded setting in a peaceful cul-de-sac. Situated within walking distance of renowned schools like Ard Scoil Rís and Villiers, and close to the Limerick Lawn Tennis Club.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Limerick City Centre: 15 min walk / 5 min drive.",
+              "Bus Services: Local routes including the 302 (Caherdavin) and 306 (Edward Street) serve the nearby Shelbourne Road area.",
+              "Colbert Station (Bus/Rail): ~25 min walk / 8 min drive.",
+              "M7 Motorway: Direct access for seamless commuting to Dublin, Shannon, or Galway."
+            ]
+          },
+          {
+            "title": "Travel to Universities",
+            "items": [
+              "TUS Moylish (Limerick Institute of Technology): 15-20 min walk / 5 min cycle.",
+              "University of Limerick (UL): 15 min drive / 30 min via bus from city centre."
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (Single beds)",
+          "bedspaces": 3,
+          "washrooms": "1 Communal Washroom",
+          "rent": 550,
+          "rentDisplay": "€550",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (single bed)",
+          "bedspaces": 3,
+          "washrooms": "1 Communal Washroom",
+          "rent": 550,
+          "rentDisplay": "€550",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single Non ensuite",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 900,
+          "rentDisplay": "€900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
@@ -3176,194 +3364,6 @@
           "available": 0,
           "onHold": 2,
           "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "asgard-v94-t4cw",
-      "name": "Asgard",
-      "unitNote": "",
-      "area": "New Westfields, North Circular Road, Limerick",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 T4CW",
-      "address": "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW",
-      "lat": 52.665904,
-      "lng": -8.64789,
-      "geoPrecision": "hint",
-      "totalBedspaces": 11,
-      "available": 0,
-      "onHold": 0,
-      "booked": 11,
-      "priceMin": 550,
-      "priceMax": 900,
-      "currency": "€",
-      "priceDisplay": "€550–€900",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
-        "images": [
-          {
-            "name": "2 living room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D_t.jpg"
-          },
-          {
-            "name": "10 bathroom",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D_t.jpg"
-          },
-          {
-            "name": "12 bathroom",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er_t.jpg"
-          },
-          {
-            "name": "3 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147_t.jpg"
-          },
-          {
-            "name": "9 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N_t.jpg"
-          },
-          {
-            "name": "7 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw_t.jpg"
-          },
-          {
-            "name": "4 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I_t.jpg"
-          },
-          {
-            "name": "6 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E_t.jpg"
-          },
-          {
-            "name": "8 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY_t.jpg"
-          },
-          {
-            "name": "5 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9_t.jpg"
-          },
-          {
-            "name": "13",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0_t.jpg"
-          },
-          {
-            "name": "Cover photo",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Located in the exclusive New Westfields enclave on the prestigious North Circular Road, this beautifully presented residence offers a high-end living experience just minutes from Limerick city centre. The property combines privacy and luxury with modern, light-filled interiors. Features a bespoke kitchen with state-of-the-art appliances, multiple reception rooms with high ceilings, and spacious bedrooms with quality finishes. Residents enjoy meticulously landscaped gardens, an expansive patio for outdoor entertaining, and a secluded setting in a peaceful cul-de-sac. Situated within walking distance of renowned schools like Ard Scoil Rís and Villiers, and close to the Limerick Lawn Tennis Club.",
-        "sections": [
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "Limerick City Centre: 15 min walk / 5 min drive.",
-              "Bus Services: Local routes including the 302 (Caherdavin) and 306 (Edward Street) serve the nearby Shelbourne Road area.",
-              "Colbert Station (Bus/Rail): ~25 min walk / 8 min drive.",
-              "M7 Motorway: Direct access for seamless commuting to Dublin, Shannon, or Galway."
-            ]
-          },
-          {
-            "title": "Travel to Universities",
-            "items": [
-              "TUS Moylish (Limerick Institute of Technology): 15-20 min walk / 5 min cycle.",
-              "University of Limerick (UL): 15 min drive / 30 min via bus from city centre."
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple (Single beds)",
-          "bedspaces": 3,
-          "washrooms": "1 Communal Washroom",
-          "rent": 550,
-          "rentDisplay": "€550",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple (single bed)",
-          "bedspaces": 3,
-          "washrooms": "1 Communal Washroom",
-          "rent": 550,
-          "rentDisplay": "€550",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single Non ensuite",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 900,
-          "rentDisplay": "€900",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
         }
       ]
     },
