@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:02:46+00:00",
+  "generatedAt": "2026-09-16T20:01:54+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,8 +9,8 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 17,
-    "onHold": 10,
+    "available": 16,
+    "onHold": 11,
     "booked": 190,
     "withPhotos": 20,
     "withFolder": 27
@@ -696,159 +696,6 @@
           "available": 2,
           "onHold": 0,
           "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "13-grangemore-drive-d13-h9tx",
-      "name": "13 Grangemore Drive",
-      "unitNote": "",
-      "area": "Dublin 13",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D13 H9TX",
-      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
-      "lat": 53.397698,
-      "lng": -6.166175,
-      "geoPrecision": "address",
-      "totalBedspaces": 16,
-      "available": 1,
-      "onHold": 0,
-      "booked": 15,
-      "priceMin": 675,
-      "priceMax": 950,
-      "currency": "€",
-      "priceDisplay": "€675–€950",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & last month rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Single ensuite",
-          "rawType": "Single Ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "3",
-          "floor": "Ground",
-          "type": "Triple ensuite",
-          "rawType": "Triple Ensuite",
-          "bedspaces": 3,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "8",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
         }
       ]
     },
@@ -1870,6 +1717,159 @@
         }
       ],
       "geoNudged": true
+    },
+    {
+      "id": "13-grangemore-drive-d13-h9tx",
+      "name": "13 Grangemore Drive",
+      "unitNote": "",
+      "area": "Dublin 13",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D13 H9TX",
+      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
+      "lat": 53.397698,
+      "lng": -6.166175,
+      "geoPrecision": "address",
+      "totalBedspaces": 16,
+      "available": 0,
+      "onHold": 1,
+      "booked": 15,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & last month rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
+        "images": []
+      },
+      "features": {
+        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Single ensuite",
+          "rawType": "Single Ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 950,
+          "rentDisplay": "€950",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "Ground",
+          "type": "Triple ensuite",
+          "rawType": "Triple Ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 1,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        }
+      ]
     },
     {
       "id": "145-cromwells-fort-road-d12-e4c9",
