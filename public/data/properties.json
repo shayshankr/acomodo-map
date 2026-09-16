@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:45:59+00:00",
+  "generatedAt": "2026-09-16T06:51:24+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,184 +9,13 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 16,
-    "onHold": 9,
-    "booked": 192,
+    "available": 14,
+    "onHold": 12,
+    "booked": 191,
     "withPhotos": 20,
     "withFolder": 27
   },
   "properties": [
-    {
-      "id": "macgregor-rd-e16-3ll",
-      "name": "MacGregor Rd",
-      "unitNote": "",
-      "area": "London",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E16 3LL",
-      "address": "E16 3LL, MacGregor Rd, London",
-      "lat": 51.517582,
-      "lng": 0.037351,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 10,
-      "available": 3,
-      "onHold": 0,
-      "booked": 7,
-      "priceMin": 450,
-      "priceMax": 600,
-      "currency": "£",
-      "priceDisplay": "£450–£600",
-      "utilities": "Included all Bills",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
-        "images": [
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
-            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
-            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
-            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
-            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "2 Communal washrooms",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Compact Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 450,
-          "rentDisplay": "£450",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        }
-      ]
-    },
     {
       "id": "shaftsbury-rd-e7-8pf",
       "name": "Shaftsbury Rd",
@@ -700,6 +529,177 @@
       ]
     },
     {
+      "id": "macgregor-rd-e16-3ll",
+      "name": "MacGregor Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E16 3LL",
+      "address": "E16 3LL, MacGregor Rd, London",
+      "lat": 51.517582,
+      "lng": 0.037351,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 10,
+      "available": 2,
+      "onHold": 1,
+      "booked": 7,
+      "priceMin": 450,
+      "priceMax": 600,
+      "currency": "£",
+      "priceDisplay": "£450–£600",
+      "utilities": "Included all Bills",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
+            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
+            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
+            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
+            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Compact Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 450,
+          "rentDisplay": "£450",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 1,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        }
+      ]
+    },
+    {
       "id": "13-grangemore-drive-d13-h9tx",
       "name": "13 Grangemore Drive",
       "unitNote": "",
@@ -915,149 +915,6 @@
           "available": 1,
           "onHold": 0,
           "booked": 1
-        }
-      ]
-    },
-    {
-      "id": "beechwood-court-stillorgan-a94-x1pr",
-      "name": "Beechwood Court Stillorgan",
-      "unitNote": "",
-      "area": "Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "A94 X1PR",
-      "address": "Beechwood Court Stillorgan, Dublin A94 X1PR",
-      "lat": 53.282292,
-      "lng": -6.19007,
-      "geoPrecision": "address",
-      "totalBedspaces": 10,
-      "available": 1,
-      "onHold": 0,
-      "booked": 9,
-      "priceMin": 600,
-      "priceMax": 800,
-      "currency": "€",
-      "priceDisplay": "€600–€800",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026",
-        "5th January'27"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
-        "images": [
-          {
-            "name": "1 cover photo area",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
-          },
-          {
-            "name": "ameneties ",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
-          },
-          {
-            "name": "bedroom",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
-          },
-          {
-            "name": "kitchen",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
-          },
-          {
-            "name": "room 1",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
-          },
-          {
-            "name": "room 2",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
-          },
-          {
-            "name": "room 3",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
-          },
-          {
-            "name": "washroom ",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
-          },
-          {
-            "name": "washroom 3",
-            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
-            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non Ensuite",
-          "bedspaces": 2,
-          "washrooms": "3 Communal washrooms",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
         }
       ]
     },
@@ -2418,8 +2275,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 12,
       "available": 0,
-      "onHold": 0,
-      "booked": 12,
+      "onHold": 1,
+      "booked": 11,
       "priceMin": 700,
       "priceMax": 850,
       "currency": "€",
@@ -2612,8 +2469,8 @@
           "rentDisplay": "€700",
           "demography": "Male",
           "available": 0,
-          "onHold": 0,
-          "booked": 2
+          "onHold": 1,
+          "booked": 1
         },
         {
           "room": "7",
@@ -2918,6 +2775,149 @@
           "available": 0,
           "onHold": 0,
           "booked": 4
+        }
+      ]
+    },
+    {
+      "id": "beechwood-court-stillorgan-a94-x1pr",
+      "name": "Beechwood Court Stillorgan",
+      "unitNote": "",
+      "area": "Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "A94 X1PR",
+      "address": "Beechwood Court Stillorgan, Dublin A94 X1PR",
+      "lat": 53.282292,
+      "lng": -6.19007,
+      "geoPrecision": "address",
+      "totalBedspaces": 10,
+      "available": 0,
+      "onHold": 1,
+      "booked": 9,
+      "priceMin": 600,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€600–€800",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026",
+        "5th January'27"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
+        "images": [
+          {
+            "name": "1 cover photo area",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
+          },
+          {
+            "name": "ameneties ",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
+          },
+          {
+            "name": "bedroom",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
+          },
+          {
+            "name": "room 1",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
+          },
+          {
+            "name": "room 2",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
+          },
+          {
+            "name": "room 3",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
+          },
+          {
+            "name": "washroom ",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
+          },
+          {
+            "name": "washroom 3",
+            "full": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
+            "thumb": "photos/beechwood-court-stillorgan-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 1,
+          "booked": 1
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "3 Communal washrooms",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
         }
       ]
     },
