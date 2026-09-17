@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:11:59+00:00",
+  "generatedAt": "2026-09-17T15:15:34+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -529,114 +529,54 @@
       ]
     },
     {
-      "id": "macgregor-rd-e16-3ll",
-      "name": "MacGregor Rd",
+      "id": "13-grangemore-drive-d13-h9tx",
+      "name": "13 Grangemore Drive",
       "unitNote": "",
-      "area": "London",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E16 3LL",
-      "address": "E16 3LL, MacGregor Rd, London",
-      "lat": 51.517582,
-      "lng": 0.037351,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 10,
-      "available": 2,
+      "area": "Dublin 13",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D13 H9TX",
+      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
+      "lat": 53.397698,
+      "lng": -6.166175,
+      "geoPrecision": "address",
+      "totalBedspaces": 16,
+      "available": 1,
       "onHold": 0,
-      "booked": 8,
-      "priceMin": 450,
-      "priceMax": 600,
-      "currency": "£",
-      "priceDisplay": "£450–£600",
-      "utilities": "Included all Bills",
-      "furnished": false,
+      "booked": 15,
+      "priceMin": 675,
+      "priceMax": 950,
+      "currency": "€",
+      "priceDisplay": "€675–€950",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
       "moveIn": [
-        "1 Sep 2026"
+        "1 Sept 2026"
       ],
       "tenancies": [
-        "12 Months"
+        "12 months",
+        "Semester stays"
       ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "paymentTerms": "1 month rent as deposit + First & last month rent",
       "media": {
-        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
-        "images": [
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
-            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
-            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
-            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
-            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
-          },
-          {
-            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
-            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
-            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
-          }
-        ]
+        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
+        "images": []
       },
       "features": {
-        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
         "sections": []
       },
       "rooms": [
         {
           "room": "1",
           "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
           "bedspaces": 2,
-          "washrooms": "2 Communal washrooms",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
           "available": 0,
           "onHold": 0,
           "booked": 2
@@ -644,40 +584,40 @@
         {
           "room": "2",
           "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
+          "type": "Single ensuite",
+          "rawType": "Single Ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 950,
+          "rentDisplay": "€950",
           "demography": "Male",
           "available": 0,
           "onHold": 0,
-          "booked": 2
+          "booked": 1
         },
         {
           "room": "3",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "£600",
+          "floor": "Ground",
+          "type": "Triple ensuite",
+          "rawType": "Triple Ensuite",
+          "bedspaces": 3,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 675,
+          "rentDisplay": "€675",
           "demography": "Male",
           "available": 0,
           "onHold": 0,
-          "booked": 2
+          "booked": 3
         },
         {
           "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Compact Double",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
           "bedspaces": 2,
-          "washrooms": "",
-          "rent": 450,
-          "rentDisplay": "£450",
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
           "demography": "Female",
           "available": 0,
           "onHold": 0,
@@ -686,16 +626,58 @@
         {
           "room": "5",
           "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
           "bedspaces": 2,
-          "washrooms": "",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "",
-          "available": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
           "onHold": 0,
-          "booked": 0
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
         }
       ]
     },
@@ -1652,6 +1634,177 @@
       ]
     },
     {
+      "id": "macgregor-rd-e16-3ll",
+      "name": "MacGregor Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E16 3LL",
+      "address": "E16 3LL, MacGregor Rd, London",
+      "lat": 51.517582,
+      "lng": 0.037351,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 10,
+      "available": 1,
+      "onHold": 1,
+      "booked": 8,
+      "priceMin": 450,
+      "priceMax": 600,
+      "currency": "£",
+      "priceDisplay": "£450–£600",
+      "utilities": "Included all Bills",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
+        "images": [
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM",
+            "full": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/14iFn6xicUaWnoNE3_qBMPmSLbqzsEumB_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (8)",
+            "full": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/17Zhq1U2JUo7xYzUABuU2A42Y7tK3nySV_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (9)",
+            "full": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/18u8sLWPmc8VTO3-je3eNcLvN7WmsYlj4_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (20)",
+            "full": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/19xBOdiAAAiJVk83tVEY8AJaLcyaBNx_A_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (12)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1ArXxxWlHGK9B0hXvdtI0zN9pjEonBUjC_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (13)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1BTRne285O82RSuG4Xxyh0rMrpF5L2hQI_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1D03ZZhca8Zk81Kp5x3qmhzf1Bx347yS2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (4)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1E8a2uhbBTyIIEsRN_1bcbz_y3SHDBgNY_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (14)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EY4jSOiHk4reGlMnnQZ59eA3Tvk1v-ft_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.32 AM (11)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1EduOh--3GDMDFrmAgHwx6NLZtIihgXq2_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (21)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1FvJesXwrVoBQu4NzOoObxbR5JoJBXrla_t.jpg"
+          },
+          {
+            "name": "WhatsApp Image 2026-03-03 at 2.31.33 AM (5)",
+            "full": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5.jpg",
+            "thumb": "photos/e16-3ll-macgregor-rd-london/1HlIXLSL1S9YX4VdppatkX4JeNIYhoVw5_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly refurbished property with 5 double bed rooms and 2 communal washrooms Only 8 mins walk away to the closest bus station and 15 min away walk away to Custom House and Prince regent DLR station The property comes with everything new - Beds, mattresses, kitchen appliances etc. Below is the travel time to universities - QMUL - 39 mins UEL Stratford  - 34 mins UEL Dockland - 14 mins Ravensbourne - 40 mins University of Greenwich - 37 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Compact Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 450,
+          "rentDisplay": "£450",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "",
+          "available": 1,
+          "onHold": 1,
+          "booked": 0
+        }
+      ]
+    },
+    {
       "id": "10-springfield-avenue-d6w-dk38",
       "name": "10 Springfield Avenue",
       "unitNote": "",
@@ -1717,159 +1870,6 @@
         }
       ],
       "geoNudged": true
-    },
-    {
-      "id": "13-grangemore-drive-d13-h9tx",
-      "name": "13 Grangemore Drive",
-      "unitNote": "",
-      "area": "Dublin 13",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D13 H9TX",
-      "address": "13 Grangemore Drive, Dublin 13, D13 H9TX",
-      "lat": 53.397698,
-      "lng": -6.166175,
-      "geoPrecision": "address",
-      "totalBedspaces": 16,
-      "available": 0,
-      "onHold": 1,
-      "booked": 15,
-      "priceMin": 675,
-      "priceMax": 950,
-      "currency": "€",
-      "priceDisplay": "€675–€950",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & last month rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1p8abtQb28yXxwGcdXmH6er8VX1aPyaUG?usp=drive_link",
-        "images": []
-      },
-      "features": {
-        "summary": "This substantial eight-bedroom property offers an exceptional standard of shared living accommodation, featuring six dual occupancy rooms, one triple room, and one single room — all of which benefit from their own private ensuites. Each room is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating well-appointed personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen boasts a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a separate utility area houses a washing machine for residents' convenience. High-speed Wi-Fi is available throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the large communal living area, which provides a perfect space to relax and socialise. With its widescreen TV, comfortable seating, and dining area, it forms the social hub of the home. Ample bike storage and car parking are available on-site, with the extensive rear garden offering a pleasant green space for outdoor gatherings during the warmer months. Area & Lifestyle Located in the mature residential suburb of Donaghmede, Grangemore Drive benefits from a peaceful, friendly neighbourhood feel whilst remaining within easy reach of the city centre. An excellent selection of local amenities are just minutes away, including supermarkets, cafés, pharmacies, and Donaghmede Shopping Centre. Fr. Collins Park, a beautiful 52-acre public park with a promenade, sports pitches, and a skate park, is a short stroll from the property, offering green space and recreational facilities right on the doorstep. Transport & University Access Dublin Bus routes 15, 27, 27a, 27b, 42, 43 all serve stops within walking distance Clongriffin DART Station: 25-minute walk / 7-minute cycle Grange Road: 5-minute walk, major thoroughfare with multiple bus routes to city centre Approximate commute times to universities: Dublin City University (DCU): 40 minutes by bus Trinity College Dublin (TCD): 40 minutes by DART University College Dublin (UCD): 50-60 minutes by bus Technological University Dublin (TUD): 45 minutes by DART",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Single ensuite",
-          "rawType": "Single Ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 950,
-          "rentDisplay": "€950",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "3",
-          "floor": "Ground",
-          "type": "Triple ensuite",
-          "rawType": "Triple Ensuite",
-          "bedspaces": 3,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 675,
-          "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 1,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "8",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
     },
     {
       "id": "145-cromwells-fort-road-d12-e4c9",
