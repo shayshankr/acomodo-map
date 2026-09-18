@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:38:15+00:00",
+  "generatedAt": "2026-09-18T17:11:59+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,276 +9,13 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 22,
-    "onHold": 7,
-    "booked": 188,
+    "available": 20,
+    "onHold": 8,
+    "booked": 189,
     "withPhotos": 20,
     "withFolder": 27
   },
   "properties": [
-    {
-      "id": "42-disraeli-rd-e7-9jp",
-      "name": "42 Disraeli Rd",
-      "unitNote": "",
-      "area": "",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E7 9JP",
-      "address": "42 Disraeli Rd E7 9JP",
-      "lat": 51.544356,
-      "lng": 0.021521,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 16,
-      "available": 5,
-      "onHold": 0,
-      "booked": 11,
-      "priceMin": 475,
-      "priceMax": 900,
-      "currency": "£",
-      "priceDisplay": "£475–£900",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
-        "images": [
-          {
-            "name": "Copy of hollway",
-            "full": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12_.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12__t.jpg"
-          },
-          {
-            "name": "Copy of 9 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0813",
-            "full": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0783",
-            "full": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0_t.jpg"
-          },
-          {
-            "name": "Copy of 9.1",
-            "full": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW_t.jpg"
-          },
-          {
-            "name": "Copy of 4 main",
-            "full": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj_t.jpg"
-          },
-          {
-            "name": "Copy of 4 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A_t.jpg"
-          },
-          {
-            "name": "Copy of 5",
-            "full": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O_t.jpg"
-          },
-          {
-            "name": "Copy of 1 (1)",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0814",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe_t.jpg"
-          },
-          {
-            "name": "Copy of 10",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY_t.jpg"
-          },
-          {
-            "name": "Copy of 2 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
-        "sections": [
-          {
-            "title": "Travel Times to Universities",
-            "items": [
-              "QMUL Mile End — 30 mins",
-              "UEL Stratford — 22 mins",
-              "UEL Docklands — 30 mins",
-              "University of Greenwich — 40 mins",
-              "Ravensbourne — 38 mins",
-              "Bayes Business School — 32 mins",
-              "University of Law (Moorgate) — 28 mins",
-              "University of Law (Bloomsbury) — 38 mins",
-              "KCL Strand Campus — 40 mins",
-              "KCL Guy's Campus — 42 mins",
-              "UCL Bloomsbury — 40 mins",
-              "UCL East (Stratford) — 18 mins",
-              "Coventry University London — 25 mins",
-              "CU London Dagenham — 30 mins",
-              "ARU London (Charterhouse St) — 32 mins",
-              "UWS London (East India Dock) — 28 mins"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Big double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal washroom",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single ensuite",
-          "rawType": "Single ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 900,
-          "rentDisplay": "£900",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Single ensuite",
-          "rawType": "Single ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 900,
-          "rentDisplay": "£900",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        },
-        {
-          "room": "6",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "1 Communal washroom",
-          "rent": 625,
-          "rentDisplay": "£625",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "1 Communal washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "8",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "9",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "10",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "",
-          "available": 2,
-          "onHold": 0,
-          "booked": 0
-        }
-      ]
-    },
     {
       "id": "1-waterfall-avenue-d03-da24",
       "name": "1 Waterfall Avenue",
@@ -528,6 +265,269 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "42-disraeli-rd-e7-9jp",
+      "name": "42 Disraeli Rd",
+      "unitNote": "",
+      "area": "",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E7 9JP",
+      "address": "42 Disraeli Rd E7 9JP",
+      "lat": 51.544356,
+      "lng": 0.021521,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 16,
+      "available": 4,
+      "onHold": 1,
+      "booked": 11,
+      "priceMin": 475,
+      "priceMax": 900,
+      "currency": "£",
+      "priceDisplay": "£475–£900",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
+        "images": [
+          {
+            "name": "Copy of hollway",
+            "full": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12_.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12__t.jpg"
+          },
+          {
+            "name": "Copy of 9 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0813",
+            "full": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0783",
+            "full": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0_t.jpg"
+          },
+          {
+            "name": "Copy of 9.1",
+            "full": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW_t.jpg"
+          },
+          {
+            "name": "Copy of 4 main",
+            "full": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj_t.jpg"
+          },
+          {
+            "name": "Copy of 4 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A_t.jpg"
+          },
+          {
+            "name": "Copy of 5",
+            "full": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O_t.jpg"
+          },
+          {
+            "name": "Copy of 1 (1)",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0814",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe_t.jpg"
+          },
+          {
+            "name": "Copy of 10",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY_t.jpg"
+          },
+          {
+            "name": "Copy of 2 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
+        "sections": [
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "QMUL Mile End — 30 mins",
+              "UEL Stratford — 22 mins",
+              "UEL Docklands — 30 mins",
+              "University of Greenwich — 40 mins",
+              "Ravensbourne — 38 mins",
+              "Bayes Business School — 32 mins",
+              "University of Law (Moorgate) — 28 mins",
+              "University of Law (Bloomsbury) — 38 mins",
+              "KCL Strand Campus — 40 mins",
+              "KCL Guy's Campus — 42 mins",
+              "UCL Bloomsbury — 40 mins",
+              "UCL East (Stratford) — 18 mins",
+              "Coventry University London — 25 mins",
+              "CU London Dagenham — 30 mins",
+              "ARU London (Charterhouse St) — 32 mins",
+              "UWS London (East India Dock) — 28 mins"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Big double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 600,
+          "rentDisplay": "£600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal washroom",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "",
+          "available": 1,
+          "onHold": 1,
+          "booked": 0
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 625,
+          "rentDisplay": "£625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "9",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "10",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
         }
       ]
     },
@@ -1500,194 +1500,6 @@
           "rentDisplay": "€775",
           "demography": "Male",
           "available": 1,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
-    {
-      "id": "asgard-v94-t4cw",
-      "name": "Asgard",
-      "unitNote": "",
-      "area": "New Westfields, North Circular Road, Limerick",
-      "city": "Limerick",
-      "country": "Ireland",
-      "eircode": "V94 T4CW",
-      "address": "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW",
-      "lat": 52.665904,
-      "lng": -8.64789,
-      "geoPrecision": "hint",
-      "totalBedspaces": 11,
-      "available": 1,
-      "onHold": 0,
-      "booked": 10,
-      "priceMin": 550,
-      "priceMax": 900,
-      "currency": "€",
-      "priceDisplay": "€550–€900",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
-        "images": [
-          {
-            "name": "2 living room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D_t.jpg"
-          },
-          {
-            "name": "10 bathroom",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D_t.jpg"
-          },
-          {
-            "name": "12 bathroom",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er_t.jpg"
-          },
-          {
-            "name": "3 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147_t.jpg"
-          },
-          {
-            "name": "9 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N_t.jpg"
-          },
-          {
-            "name": "7 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw_t.jpg"
-          },
-          {
-            "name": "4 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I_t.jpg"
-          },
-          {
-            "name": "6 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E_t.jpg"
-          },
-          {
-            "name": "8 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY_t.jpg"
-          },
-          {
-            "name": "5 room",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9_t.jpg"
-          },
-          {
-            "name": "13",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0_t.jpg"
-          },
-          {
-            "name": "Cover photo",
-            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw.jpg",
-            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Located in the exclusive New Westfields enclave on the prestigious North Circular Road, this beautifully presented residence offers a high-end living experience just minutes from Limerick city centre. The property combines privacy and luxury with modern, light-filled interiors. Features a bespoke kitchen with state-of-the-art appliances, multiple reception rooms with high ceilings, and spacious bedrooms with quality finishes. Residents enjoy meticulously landscaped gardens, an expansive patio for outdoor entertaining, and a secluded setting in a peaceful cul-de-sac. Situated within walking distance of renowned schools like Ard Scoil Rís and Villiers, and close to the Limerick Lawn Tennis Club.",
-        "sections": [
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "Limerick City Centre: 15 min walk / 5 min drive.",
-              "Bus Services: Local routes including the 302 (Caherdavin) and 306 (Edward Street) serve the nearby Shelbourne Road area.",
-              "Colbert Station (Bus/Rail): ~25 min walk / 8 min drive.",
-              "M7 Motorway: Direct access for seamless commuting to Dublin, Shannon, or Galway."
-            ]
-          },
-          {
-            "title": "Travel to Universities",
-            "items": [
-              "TUS Moylish (Limerick Institute of Technology): 15-20 min walk / 5 min cycle.",
-              "University of Limerick (UL): 15 min drive / 30 min via bus from city centre."
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple (Single beds)",
-          "bedspaces": 3,
-          "washrooms": "1 Communal Washroom",
-          "rent": 550,
-          "rentDisplay": "€550",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple (single bed)",
-          "bedspaces": 3,
-          "washrooms": "1 Communal Washroom",
-          "rent": 550,
-          "rentDisplay": "€550",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 725,
-          "rentDisplay": "€725",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single Non ensuite",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 900,
-          "rentDisplay": "€900",
-          "demography": "Male",
-          "available": 0,
           "onHold": 0,
           "booked": 1
         }
@@ -3626,6 +3438,194 @@
           "available": 0,
           "onHold": 2,
           "booked": 0
+        }
+      ]
+    },
+    {
+      "id": "asgard-v94-t4cw",
+      "name": "Asgard",
+      "unitNote": "",
+      "area": "New Westfields, North Circular Road, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "eircode": "V94 T4CW",
+      "address": "ASGARD,NEW WESTFIELDS, NORTH CIRCULAR ROAD, LIMERICK, V94 T4CW",
+      "lat": 52.665904,
+      "lng": -8.64789,
+      "geoPrecision": "hint",
+      "totalBedspaces": 11,
+      "available": 0,
+      "onHold": 0,
+      "booked": 11,
+      "priceMin": 550,
+      "priceMax": 900,
+      "currency": "€",
+      "priceDisplay": "€550–€900",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1P1p3esnYncvEPWitsTjSyhO0Z_27sRIJ?usp=drive_link",
+        "images": [
+          {
+            "name": "2 living room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1sZiQxvb-LPumFIvgTbuZfd6w-q53us9D_t.jpg"
+          },
+          {
+            "name": "10 bathroom",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1-bpBWX77udd-itq9tqL0U1BjFwAYmK4D_t.jpg"
+          },
+          {
+            "name": "12 bathroom",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/11Abah0kRb4ZSyyfAUy7-iEq2XJrwR7er_t.jpg"
+          },
+          {
+            "name": "3 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1807SdSM3_yqkPVej3mI-zi6JTa5Q7147_t.jpg"
+          },
+          {
+            "name": "9 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1A1CaXkMngjD1zIPt9mRRqFiqOGexOa9N_t.jpg"
+          },
+          {
+            "name": "7 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1HZSbSjMzamtKgaVhDQnfzmuNk61DdrWw_t.jpg"
+          },
+          {
+            "name": "4 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1R1wuWx0TSyxBNr599e-xPhTlfmAq-p7I_t.jpg"
+          },
+          {
+            "name": "6 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1c8Zd2UlZHSw-UfO_RrFojsb2_SRxpc1E_t.jpg"
+          },
+          {
+            "name": "8 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1qNpRmCLkFO7LyFP_WWHkPtS37PKeI7DY_t.jpg"
+          },
+          {
+            "name": "5 room",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1udp0-GbotXoYKKNPDL2okXdBYTWB0iL9_t.jpg"
+          },
+          {
+            "name": "13",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1V-ZSh3TvA8zD71T07vLtHBRPP7RtvDJ0_t.jpg"
+          },
+          {
+            "name": "Cover photo",
+            "full": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw.jpg",
+            "thumb": "photos/asgard-new-westfields-north-circular-road-limerick-v94-t4cw/1chh7Cj6aq59CZlQhA64wSbziIZLzQCaw_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Located in the exclusive New Westfields enclave on the prestigious North Circular Road, this beautifully presented residence offers a high-end living experience just minutes from Limerick city centre. The property combines privacy and luxury with modern, light-filled interiors. Features a bespoke kitchen with state-of-the-art appliances, multiple reception rooms with high ceilings, and spacious bedrooms with quality finishes. Residents enjoy meticulously landscaped gardens, an expansive patio for outdoor entertaining, and a secluded setting in a peaceful cul-de-sac. Situated within walking distance of renowned schools like Ard Scoil Rís and Villiers, and close to the Limerick Lawn Tennis Club.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Limerick City Centre: 15 min walk / 5 min drive.",
+              "Bus Services: Local routes including the 302 (Caherdavin) and 306 (Edward Street) serve the nearby Shelbourne Road area.",
+              "Colbert Station (Bus/Rail): ~25 min walk / 8 min drive.",
+              "M7 Motorway: Direct access for seamless commuting to Dublin, Shannon, or Galway."
+            ]
+          },
+          {
+            "title": "Travel to Universities",
+            "items": [
+              "TUS Moylish (Limerick Institute of Technology): 15-20 min walk / 5 min cycle.",
+              "University of Limerick (UL): 15 min drive / 30 min via bus from city centre."
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (Single beds)",
+          "bedspaces": 3,
+          "washrooms": "1 Communal Washroom",
+          "rent": 550,
+          "rentDisplay": "€550",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple (single bed)",
+          "bedspaces": 3,
+          "washrooms": "1 Communal Washroom",
+          "rent": 550,
+          "rentDisplay": "€550",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 725,
+          "rentDisplay": "€725",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single Non ensuite",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 900,
+          "rentDisplay": "€900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
