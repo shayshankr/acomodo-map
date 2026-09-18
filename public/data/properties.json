@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:45:14+00:00",
+  "generatedAt": "2026-09-18T09:14:05+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,8 +9,8 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 17,
-    "onHold": 9,
+    "available": 18,
+    "onHold": 8,
     "booked": 191,
     "withPhotos": 20,
     "withFolder": 27
@@ -678,6 +678,152 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "16-emmet-lodge-d08-ey83",
+      "name": "16 Emmet Lodge",
+      "unitNote": "",
+      "area": "Emmet Court, Dublin 8",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D08 EY83",
+      "address": "16 Emmet Lodge, Emmet Court, Dublin 8 D08 EY83",
+      "lat": 53.335712,
+      "lng": -6.318525,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 750,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€750–€800",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1aIrSl8vTCLyhrGiy5w-ngXMUeQqVpgN-?usp=drive_link",
+        "images": [
+          {
+            "name": "16 Outside",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1fY7018Jf3WfkJj_OMZtP50NTlFEKRtZe.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1fY7018Jf3WfkJj_OMZtP50NTlFEKRtZe_t.jpg"
+          },
+          {
+            "name": "11 kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/14rO1tSO3_PLz87E-dxy9ynLUcqrUoEcO.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/14rO1tSO3_PLz87E-dxy9ynLUcqrUoEcO_t.jpg"
+          },
+          {
+            "name": "13 Kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1XOs4l8CT-BDYyn5NTGCsgBBXIO82Jfh3.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1XOs4l8CT-BDYyn5NTGCsgBBXIO82Jfh3_t.jpg"
+          },
+          {
+            "name": "4 Kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1dY10K3fSeQb4-naBX4NcDn88TiMzN2OB.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1dY10K3fSeQb4-naBX4NcDn88TiMzN2OB_t.jpg"
+          },
+          {
+            "name": "6 Kitchen",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1q1tp2PbLe8ukITrhRqpVyqqW2yDXDkXM.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1q1tp2PbLe8ukITrhRqpVyqqW2yDXDkXM_t.jpg"
+          },
+          {
+            "name": "3 Living area",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1DnSdG_7XUQxz9hFg0vGksESIndgp3Nco.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1DnSdG_7XUQxz9hFg0vGksESIndgp3Nco_t.jpg"
+          },
+          {
+            "name": "12 Living area",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1H1BFfpGfrw63d-J9HAdmNF1aikY9mQWg.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1H1BFfpGfrw63d-J9HAdmNF1aikY9mQWg_t.jpg"
+          },
+          {
+            "name": "1 living area",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1xg2dZ0rv_sP7BDbllREge1WJBhKLBzl-.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1xg2dZ0rv_sP7BDbllREge1WJBhKLBzl-_t.jpg"
+          },
+          {
+            "name": "5 Dining",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1g8mkJrFFvgFIbH1C1JPhtYhX-TrEwzec.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1g8mkJrFFvgFIbH1C1JPhtYhX-TrEwzec_t.jpg"
+          },
+          {
+            "name": "10 Washroom",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1YBc-vOdEChJK0iRGTJ3yRmUk4vU-lks3.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1YBc-vOdEChJK0iRGTJ3yRmUk4vU-lks3_t.jpg"
+          },
+          {
+            "name": "8 Room 2",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/13LVejGQoctgLXMEJCVIqtvfPHiENH-Tr.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/13LVejGQoctgLXMEJCVIqtvfPHiENH-Tr_t.jpg"
+          },
+          {
+            "name": "9 Room 1",
+            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1AHipaFtDyWbrz92e9Q1ac5ojrLMVrvt5.jpg",
+            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1AHipaFtDyWbrz92e9Q1ac5ojrLMVrvt5_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A well-presented apartment situated within the sought-after gated development of Emmet Court, nestled in the heart of Inchicore — one of Dublin's most vibrant and up-and-coming neighbourhoods, recently recognised by Time Out as one of the Coolest Neighbourhoods on the Planet. Set beside the scenic Grand Canal, with easy access to the Grand Canal towpath, the Irish War Memorial Gardens, Phoenix Park, and a thriving local scene of independent cafés, restaurants, and amenities in Inchicore Village — including Lidl and SuperValu within walking distance. A short stroll from the Drimnagh LUAS stop (Red Line), offering fast, direct connections into Dublin City Centre, Heuston Station, and beyond.",
+        "sections": [
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "LUAS Red Line (Drimnagh stop): ~2 min walk",
+              "Dublin City Centre (via LUAS): ~18–22 mins",
+              "Heuston Station (via LUAS): ~10 mins",
+              "Bus Routes: 13, 40, 51, 68, 69, 78, 79 — multiple stops within short walking distance",
+              "M50 Motorway: ~5 min drive",
+              "Travel Times to Universities",
+              "Trinity College Dublin (TCD) — ~25 mins via LUAS + walk",
+              "NCAD (Thomas Street) — ~15 mins via bus or 20 min walk",
+              "TU Dublin (City Campus, Grangegorman) — ~30 mins via LUAS + bus",
+              "TU Dublin (Tallaght) — ~25 min drive / ~40 mins via bus",
+              "UCD Belfield — ~35–40 mins via bus"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
@@ -1852,152 +1998,6 @@
       ]
     },
     {
-      "id": "16-emmet-lodge-d08-ey83",
-      "name": "16 Emmet Lodge",
-      "unitNote": "",
-      "area": "Emmet Court, Dublin 8",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D08 EY83",
-      "address": "16 Emmet Lodge, Emmet Court, Dublin 8 D08 EY83",
-      "lat": 53.335712,
-      "lng": -6.318525,
-      "geoPrecision": "area",
-      "totalBedspaces": 4,
-      "available": 0,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 750,
-      "priceMax": 800,
-      "currency": "€",
-      "priceDisplay": "€750–€800",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1aIrSl8vTCLyhrGiy5w-ngXMUeQqVpgN-?usp=drive_link",
-        "images": [
-          {
-            "name": "16 Outside",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1fY7018Jf3WfkJj_OMZtP50NTlFEKRtZe.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1fY7018Jf3WfkJj_OMZtP50NTlFEKRtZe_t.jpg"
-          },
-          {
-            "name": "11 kitchen",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/14rO1tSO3_PLz87E-dxy9ynLUcqrUoEcO.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/14rO1tSO3_PLz87E-dxy9ynLUcqrUoEcO_t.jpg"
-          },
-          {
-            "name": "13 Kitchen",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1XOs4l8CT-BDYyn5NTGCsgBBXIO82Jfh3.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1XOs4l8CT-BDYyn5NTGCsgBBXIO82Jfh3_t.jpg"
-          },
-          {
-            "name": "4 Kitchen",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1dY10K3fSeQb4-naBX4NcDn88TiMzN2OB.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1dY10K3fSeQb4-naBX4NcDn88TiMzN2OB_t.jpg"
-          },
-          {
-            "name": "6 Kitchen",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1q1tp2PbLe8ukITrhRqpVyqqW2yDXDkXM.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1q1tp2PbLe8ukITrhRqpVyqqW2yDXDkXM_t.jpg"
-          },
-          {
-            "name": "3 Living area",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1DnSdG_7XUQxz9hFg0vGksESIndgp3Nco.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1DnSdG_7XUQxz9hFg0vGksESIndgp3Nco_t.jpg"
-          },
-          {
-            "name": "12 Living area",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1H1BFfpGfrw63d-J9HAdmNF1aikY9mQWg.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1H1BFfpGfrw63d-J9HAdmNF1aikY9mQWg_t.jpg"
-          },
-          {
-            "name": "1 living area",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1xg2dZ0rv_sP7BDbllREge1WJBhKLBzl-.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1xg2dZ0rv_sP7BDbllREge1WJBhKLBzl-_t.jpg"
-          },
-          {
-            "name": "5 Dining",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1g8mkJrFFvgFIbH1C1JPhtYhX-TrEwzec.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1g8mkJrFFvgFIbH1C1JPhtYhX-TrEwzec_t.jpg"
-          },
-          {
-            "name": "10 Washroom",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1YBc-vOdEChJK0iRGTJ3yRmUk4vU-lks3.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1YBc-vOdEChJK0iRGTJ3yRmUk4vU-lks3_t.jpg"
-          },
-          {
-            "name": "8 Room 2",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/13LVejGQoctgLXMEJCVIqtvfPHiENH-Tr.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/13LVejGQoctgLXMEJCVIqtvfPHiENH-Tr_t.jpg"
-          },
-          {
-            "name": "9 Room 1",
-            "full": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1AHipaFtDyWbrz92e9Q1ac5ojrLMVrvt5.jpg",
-            "thumb": "photos/16-emmet-lodge-emmet-court-dublin-8-d08-ey83/1AHipaFtDyWbrz92e9Q1ac5ojrLMVrvt5_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A well-presented apartment situated within the sought-after gated development of Emmet Court, nestled in the heart of Inchicore — one of Dublin's most vibrant and up-and-coming neighbourhoods, recently recognised by Time Out as one of the Coolest Neighbourhoods on the Planet. Set beside the scenic Grand Canal, with easy access to the Grand Canal towpath, the Irish War Memorial Gardens, Phoenix Park, and a thriving local scene of independent cafés, restaurants, and amenities in Inchicore Village — including Lidl and SuperValu within walking distance. A short stroll from the Drimnagh LUAS stop (Red Line), offering fast, direct connections into Dublin City Centre, Heuston Station, and beyond.",
-        "sections": [
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "LUAS Red Line (Drimnagh stop): ~2 min walk",
-              "Dublin City Centre (via LUAS): ~18–22 mins",
-              "Heuston Station (via LUAS): ~10 mins",
-              "Bus Routes: 13, 40, 51, 68, 69, 78, 79 — multiple stops within short walking distance",
-              "M50 Motorway: ~5 min drive",
-              "Travel Times to Universities",
-              "Trinity College Dublin (TCD) — ~25 mins via LUAS + walk",
-              "NCAD (Thomas Street) — ~15 mins via bus or 20 min walk",
-              "TU Dublin (City Campus, Grangegorman) — ~30 mins via LUAS + bus",
-              "TU Dublin (Tallaght) — ~25 min drive / ~40 mins via bus",
-              "UCD Belfield — ~35–40 mins via bus"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double Non Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non Ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
-    },
-    {
       "id": "195-barton-road-east-dundrum-d14-n765",
       "name": "195 Barton road east Dundrum",
       "unitNote": "",
@@ -2792,8 +2792,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 10,
       "available": 0,
-      "onHold": 1,
-      "booked": 9,
+      "onHold": 0,
+      "booked": 10,
       "priceMin": 600,
       "priceMax": 800,
       "currency": "€",
@@ -2874,8 +2874,8 @@
           "rentDisplay": "€800",
           "demography": "Female",
           "available": 0,
-          "onHold": 1,
-          "booked": 1
+          "onHold": 0,
+          "booked": 2
         },
         {
           "room": "2",
