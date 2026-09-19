@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T11:29:22+00:00",
+  "generatedAt": "2026-09-19T14:42:57+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 20,
+    "available": 21,
     "onHold": 8,
-    "booked": 189,
+    "booked": 188,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -29,9 +29,9 @@
       "lng": 0.021521,
       "geoPrecision": "postcode",
       "totalBedspaces": 16,
-      "available": 5,
+      "available": 6,
       "onHold": 1,
-      "booked": 10,
+      "booked": 9,
       "priceMin": 475,
       "priceMax": 900,
       "currency": "£",
@@ -244,10 +244,10 @@
           "washrooms": "1 Ensuite Washroom",
           "rent": 525,
           "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 1,
+          "demography": "",
+          "available": 2,
           "onHold": 0,
-          "booked": 1
+          "booked": 0
         },
         {
           "room": "9",
@@ -292,9 +292,9 @@
       "lng": -6.247865,
       "geoPrecision": "address",
       "totalBedspaces": 13,
-      "available": 4,
+      "available": 5,
       "onHold": 0,
-      "booked": 9,
+      "booked": 8,
       "priceMin": 675,
       "priceMax": 950,
       "currency": "€",
@@ -426,10 +426,10 @@
           "washrooms": "5 Common Washrooms + 1 WC",
           "rent": 675,
           "rentDisplay": "€675",
-          "demography": "Male",
-          "available": 1,
+          "demography": "",
+          "available": 2,
           "onHold": 0,
-          "booked": 1
+          "booked": 0
         },
         {
           "room": "3",
@@ -1209,72 +1209,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "6-springfield-avenue-d6w-dk38",
-      "name": "6 Springfield Avenue",
-      "unitNote": "",
-      "area": "",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D6W DK38",
-      "address": "6 SPRINGFIELD AVENUE D6W DK38",
-      "lat": 53.3498,
-      "lng": -6.2603,
-      "geoPrecision": "city",
-      "totalBedspaces": 4,
-      "available": 1,
-      "onHold": 0,
-      "booked": 3,
-      "priceMin": 775,
-      "priceMax": 775,
-      "currency": "€",
-      "priceDisplay": "€775",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": null,
-        "images": []
-      },
-      "features": null,
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 775,
-          "rentDisplay": "€775",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 775,
-          "rentDisplay": "€775",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
         }
       ]
     },
@@ -2679,6 +2613,72 @@
           "available": 0,
           "onHold": 0,
           "booked": 4
+        }
+      ]
+    },
+    {
+      "id": "6-springfield-avenue-d6w-dk38",
+      "name": "6 Springfield Avenue",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D6W DK38",
+      "address": "6 SPRINGFIELD AVENUE D6W DK38",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "geoPrecision": "city",
+      "totalBedspaces": 4,
+      "available": 0,
+      "onHold": 0,
+      "booked": 4,
+      "priceMin": 775,
+      "priceMax": 775,
+      "currency": "€",
+      "priceDisplay": "€775",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": null,
+        "images": []
+      },
+      "features": null,
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 775,
+          "rentDisplay": "€775",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
         }
       ]
     },
