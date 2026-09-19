@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:27:38+00:00",
+  "generatedAt": "2026-09-19T19:30:07+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 20,
+    "available": 19,
     "onHold": 8,
-    "booked": 189,
+    "booked": 190,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -29,9 +29,9 @@
       "lng": 0.021521,
       "geoPrecision": "postcode",
       "totalBedspaces": 16,
-      "available": 6,
+      "available": 5,
       "onHold": 1,
-      "booked": 9,
+      "booked": 10,
       "priceMin": 475,
       "priceMax": 900,
       "currency": "£",
@@ -244,10 +244,10 @@
           "washrooms": "1 Ensuite Washroom",
           "rent": 525,
           "rentDisplay": "£525",
-          "demography": "",
-          "available": 2,
+          "demography": "Female",
+          "available": 1,
           "onHold": 0,
-          "booked": 0
+          "booked": 1
         },
         {
           "room": "9",
@@ -440,10 +440,10 @@
           "washrooms": "",
           "rent": 950,
           "rentDisplay": "€950",
-          "demography": "",
-          "available": 1,
+          "demography": "Female",
+          "available": 0,
           "onHold": 0,
-          "booked": 0
+          "booked": 1
         },
         {
           "room": "4",
@@ -482,10 +482,10 @@
           "washrooms": "",
           "rent": 950,
           "rentDisplay": "€950",
-          "demography": "Female",
-          "available": 0,
+          "demography": "",
+          "available": 1,
           "onHold": 0,
-          "booked": 1
+          "booked": 0
         },
         {
           "room": "6B",
