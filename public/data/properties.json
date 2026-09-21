@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T12:53:41+00:00",
+  "generatedAt": "2026-09-21T18:24:18+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 20,
+    "available": 21,
     "onHold": 7,
-    "booked": 190,
+    "booked": 189,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -1209,6 +1209,126 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "marshall-yards-east-road-north-wall-dublin-1-flat-1",
+      "name": "Marshall yards",
+      "unitNote": "",
+      "area": "East Road, North Wall, Dublin 1 (Flat 1)",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "",
+      "address": "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)",
+      "lat": 53.349776,
+      "lng": -6.22699,
+      "geoPrecision": "hint",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 1000,
+      "priceMax": 1000,
+      "currency": "€",
+      "priceDisplay": "€1,000",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",
+        "images": [
+          {
+            "name": "1",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E4lQL5GRFHY6XA68zHvMgFMUlRN9PnGt.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E4lQL5GRFHY6XA68zHvMgFMUlRN9PnGt_t.jpg"
+          },
+          {
+            "name": "10",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1dfQt3PTL46t84cSIgxUVyTq3vggtw6oO.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1dfQt3PTL46t84cSIgxUVyTq3vggtw6oO_t.jpg"
+          },
+          {
+            "name": "2",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1k8JrHOzKj2KOE1mFpSJYbMR0OZO5OLZ9.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1k8JrHOzKj2KOE1mFpSJYbMR0OZO5OLZ9_t.jpg"
+          },
+          {
+            "name": "3",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1yMrltTCOC97BBR2gsQg8pPGSpaiUP3Bp.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1yMrltTCOC97BBR2gsQg8pPGSpaiUP3Bp_t.jpg"
+          },
+          {
+            "name": "4",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1bV80S8izla8NMRbFNy3kNsKx1Y3gljIH.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1bV80S8izla8NMRbFNy3kNsKx1Y3gljIH_t.jpg"
+          },
+          {
+            "name": "5",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1pCzGW7YYjliDLSbnBqRN64Nv5ETZX2wv.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1pCzGW7YYjliDLSbnBqRN64Nv5ETZX2wv_t.jpg"
+          },
+          {
+            "name": "6",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/16w4iQubwBofV4Y5CS3fRMp6ewGxGsJrl.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/16w4iQubwBofV4Y5CS3fRMp6ewGxGsJrl_t.jpg"
+          },
+          {
+            "name": "7",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E5LTvo7p2DaYXtN3CVD_SxwJWHZ_eBH1.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E5LTvo7p2DaYXtN3CVD_SxwJWHZ_eBH1_t.jpg"
+          },
+          {
+            "name": "8",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1CJAHuMLt6poAsxTKfHRr5AIc9J3OU4pv.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1CJAHuMLt6poAsxTKfHRr5AIc9J3OU4pv_t.jpg"
+          },
+          {
+            "name": "9",
+            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1WeN2xsQuRxmpqbjHZ5bu0SkEzfJ-2peS.jpg",
+            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1WeN2xsQuRxmpqbjHZ5bu0SkEzfJ-2peS_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Property Description This fully furnished two-bedroom, two-bathroom apartment is located within a premium, professionally managed residential development in Dublin's North Docklands. Designed for modern student living, the apartment offers stylish, move-in-ready interiors alongside an exceptional range of amenities, creating a comfortable and convenient home away from home. Residents benefit from an extensive amenities package including a fully equipped gym, residents' lounge, co-working spaces with meeting pods, concierge service, landscaped rooftop terraces, dedicated pickleball courts, outdoor BBQ area, 24/7 parcel lockers, secure bike storage, high-speed internet, resident app, shared appliances and tools, electric scooters and a car club. The development is also pet-friendly, with additional lifestyle services available. Area & Student Lifestyle Situated in Dublin's North Docklands, the property places students in one of the city's most vibrant and well-connected neighbourhoods. The area is home to major technology, financial and business institutions while offering a growing selection of cafés, restaurants, bars, supermarkets and entertainment venues. Everyday essentials are close by, with East Road Café just 55m away, Lidl approximately 650m away and Aldi approximately 750m away. Students can also easily access 3Arena, Point Village, Odeon Cinema, EPIC and the Bord Gáis Energy Theatre. The surrounding Docklands is ideal for students who enjoy an active social lifestyle, with plenty of opportunities for dining, entertainment, cycling and exploring central Dublin. Transport & University Access The property benefits from excellent access to Dublin's public transport network: Spencer Dock LUAS: approximately 7 minutes' walk IFSC: approximately 10 minutes' walk Connolly Station: approximately 10 minutes by LUAS Point Village: approximately 5 minutes by LUAS Grand Canal Dock: approximately 20 minutes' walk O'Connell Street: approximately 5 minutes by bike Dublin Airport: approximately 10 minutes by car Approximate commute times to universities National College of Ireland (NCI): approximately 10–15 minutes Trinity College Dublin (TCD): approximately 15–20 minutes Dublin City University (DCU): approximately 15 minutes by public transport TU Dublin: approximately 20–30 minutes, depending on campus University College Dublin (UCD Belfield): approximately 35–45 minutes by public transport",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 Washrooms",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 1000,
+          "rentDisplay": "€1,000",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
@@ -2822,126 +2942,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 3
-        }
-      ]
-    },
-    {
-      "id": "marshall-yards-east-road-north-wall-dublin-1-flat-1",
-      "name": "Marshall yards",
-      "unitNote": "",
-      "area": "East Road, North Wall, Dublin 1 (Flat 1)",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "",
-      "address": "Marshall yards, East Road, North Wall, Dublin 1 (Flat 1)",
-      "lat": 53.349776,
-      "lng": -6.22699,
-      "geoPrecision": "hint",
-      "totalBedspaces": 4,
-      "available": 0,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 1000,
-      "priceMax": 1000,
-      "currency": "€",
-      "priceDisplay": "€1,000",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",
-        "images": [
-          {
-            "name": "1",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E4lQL5GRFHY6XA68zHvMgFMUlRN9PnGt.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E4lQL5GRFHY6XA68zHvMgFMUlRN9PnGt_t.jpg"
-          },
-          {
-            "name": "10",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1dfQt3PTL46t84cSIgxUVyTq3vggtw6oO.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1dfQt3PTL46t84cSIgxUVyTq3vggtw6oO_t.jpg"
-          },
-          {
-            "name": "2",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1k8JrHOzKj2KOE1mFpSJYbMR0OZO5OLZ9.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1k8JrHOzKj2KOE1mFpSJYbMR0OZO5OLZ9_t.jpg"
-          },
-          {
-            "name": "3",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1yMrltTCOC97BBR2gsQg8pPGSpaiUP3Bp.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1yMrltTCOC97BBR2gsQg8pPGSpaiUP3Bp_t.jpg"
-          },
-          {
-            "name": "4",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1bV80S8izla8NMRbFNy3kNsKx1Y3gljIH.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1bV80S8izla8NMRbFNy3kNsKx1Y3gljIH_t.jpg"
-          },
-          {
-            "name": "5",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1pCzGW7YYjliDLSbnBqRN64Nv5ETZX2wv.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1pCzGW7YYjliDLSbnBqRN64Nv5ETZX2wv_t.jpg"
-          },
-          {
-            "name": "6",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/16w4iQubwBofV4Y5CS3fRMp6ewGxGsJrl.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/16w4iQubwBofV4Y5CS3fRMp6ewGxGsJrl_t.jpg"
-          },
-          {
-            "name": "7",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E5LTvo7p2DaYXtN3CVD_SxwJWHZ_eBH1.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1E5LTvo7p2DaYXtN3CVD_SxwJWHZ_eBH1_t.jpg"
-          },
-          {
-            "name": "8",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1CJAHuMLt6poAsxTKfHRr5AIc9J3OU4pv.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1CJAHuMLt6poAsxTKfHRr5AIc9J3OU4pv_t.jpg"
-          },
-          {
-            "name": "9",
-            "full": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1WeN2xsQuRxmpqbjHZ5bu0SkEzfJ-2peS.jpg",
-            "thumb": "photos/marshall-yards-east-road-north-wall-dublin-1-flat-1/1WeN2xsQuRxmpqbjHZ5bu0SkEzfJ-2peS_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Property Description This fully furnished two-bedroom, two-bathroom apartment is located within a premium, professionally managed residential development in Dublin's North Docklands. Designed for modern student living, the apartment offers stylish, move-in-ready interiors alongside an exceptional range of amenities, creating a comfortable and convenient home away from home. Residents benefit from an extensive amenities package including a fully equipped gym, residents' lounge, co-working spaces with meeting pods, concierge service, landscaped rooftop terraces, dedicated pickleball courts, outdoor BBQ area, 24/7 parcel lockers, secure bike storage, high-speed internet, resident app, shared appliances and tools, electric scooters and a car club. The development is also pet-friendly, with additional lifestyle services available. Area & Student Lifestyle Situated in Dublin's North Docklands, the property places students in one of the city's most vibrant and well-connected neighbourhoods. The area is home to major technology, financial and business institutions while offering a growing selection of cafés, restaurants, bars, supermarkets and entertainment venues. Everyday essentials are close by, with East Road Café just 55m away, Lidl approximately 650m away and Aldi approximately 750m away. Students can also easily access 3Arena, Point Village, Odeon Cinema, EPIC and the Bord Gáis Energy Theatre. The surrounding Docklands is ideal for students who enjoy an active social lifestyle, with plenty of opportunities for dining, entertainment, cycling and exploring central Dublin. Transport & University Access The property benefits from excellent access to Dublin's public transport network: Spencer Dock LUAS: approximately 7 minutes' walk IFSC: approximately 10 minutes' walk Connolly Station: approximately 10 minutes by LUAS Point Village: approximately 5 minutes by LUAS Grand Canal Dock: approximately 20 minutes' walk O'Connell Street: approximately 5 minutes by bike Dublin Airport: approximately 10 minutes by car Approximate commute times to universities National College of Ireland (NCI): approximately 10–15 minutes Trinity College Dublin (TCD): approximately 15–20 minutes Dublin City University (DCU): approximately 15 minutes by public transport TU Dublin: approximately 20–30 minutes, depending on campus University College Dublin (UCD Belfield): approximately 35–45 minutes by public transport",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "2 Washrooms",
-          "rent": 1000,
-          "rentDisplay": "€1,000",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 1000,
-          "rentDisplay": "€1,000",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
         }
       ]
     },
