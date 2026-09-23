@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T01:51:33+00:00",
+  "generatedAt": "2026-09-23T06:49:15+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 20,
+    "available": 21,
     "onHold": 7,
-    "booked": 190,
+    "booked": 189,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -1207,6 +1207,167 @@
           "available": 1,
           "onHold": 0,
           "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "nicholas-house-d08-yc64",
+      "name": "Nicholas House",
+      "unitNote": "",
+      "area": "St patricks",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D08 YC64",
+      "address": "Nicholas House, St patricks, D08YC64",
+      "lat": 53.337524,
+      "lng": -6.278014,
+      "geoPrecision": "area",
+      "totalBedspaces": 4,
+      "available": 1,
+      "onHold": 0,
+      "booked": 3,
+      "priceMin": 800,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€800",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "Semester stays"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1E7tD7126uCbJ-_uMojLBa6_Awe5e43Nd?usp=drive_link",
+        "images": [
+          {
+            "name": "3 Kitchen",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1Qcpw1IRAQ3zo_2FDA5ofiB3fzyBDPDtC.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1Qcpw1IRAQ3zo_2FDA5ofiB3fzyBDPDtC_t.jpg"
+          },
+          {
+            "name": "Kitchen 2",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1ilN0awTnx0t2J6GBJQ72mLoFjJ736ERG.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1ilN0awTnx0t2J6GBJQ72mLoFjJ736ERG_t.jpg"
+          },
+          {
+            "name": "5 Living Room (TV)",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1Fk2wGAAd2N1RUZjdOX2OBRFZ4Is88hf2.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1Fk2wGAAd2N1RUZjdOX2OBRFZ4Is88hf2_t.jpg"
+          },
+          {
+            "name": "1 Living Room - Cover Photo",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1YH9bn1g00PlFJRC24blt4GDJ1vfhwU75.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1YH9bn1g00PlFJRC24blt4GDJ1vfhwU75_t.jpg"
+          },
+          {
+            "name": "2 Living room (full)",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1vWwLYzTC-sAw8QlM1pSTtMt63-0sJpWv.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1vWwLYzTC-sAw8QlM1pSTtMt63-0sJpWv_t.jpg"
+          },
+          {
+            "name": "6 Dining Area",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1WsZlYLC7eLBCD62vgY5r4emjkZSdZL69.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1WsZlYLC7eLBCD62vgY5r4emjkZSdZL69_t.jpg"
+          },
+          {
+            "name": "Bathroom",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1Eo1GpgrTxCIjOcp0dOKB-ekHl3mDcEP2.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1Eo1GpgrTxCIjOcp0dOKB-ekHl3mDcEP2_t.jpg"
+          },
+          {
+            "name": "Bathroom - Shower",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1iCWU2iRQ0g1Y9t3SrcW2uQvx--qo1kp6.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1iCWU2iRQ0g1Y9t3SrcW2uQvx--qo1kp6_t.jpg"
+          },
+          {
+            "name": "10 Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1UzGCjZS_ptZEL08QYYWPNzujpA9tSoVN.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1UzGCjZS_ptZEL08QYYWPNzujpA9tSoVN_t.jpg"
+          },
+          {
+            "name": "Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1VbrIlqFSaigD299SAwsBw8E4JNfcm6ny.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1VbrIlqFSaigD299SAwsBw8E4JNfcm6ny_t.jpg"
+          },
+          {
+            "name": "4 Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1raKRDdiI2qYrVr61SU8QdpARKjnMs0zk.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1raKRDdiI2qYrVr61SU8QdpARKjnMs0zk_t.jpg"
+          },
+          {
+            "name": "Room",
+            "full": "photos/nicholas-house-st-patricks-d08yc64/1xCV1lepQ3U0dzfa3wVx9Tek-rqDV3zIO.jpg",
+            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1xCV1lepQ3U0dzfa3wVx9Tek-rqDV3zIO_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Property Description This is a 2-bed, 1-wash apt. Nicholas House offers a well-appointed standard of shared living accommodation in the heart of Dublin's historic Christchurch quarter. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise.",
+        "sections": [
+          {
+            "title": "Area & Lifestyle",
+            "items": [
+              "Located in the Christchurch / Liberties quarter of Dublin 8, Nicholas House enjoys an unbeatable city-centre position steeped in character and history. Christ Church Cathedral, Dublin Castle, and Temple Bar are all within minutes on foot, while the vibrant streetscape of Francis Street, Thomas Street, and Meath Street offers an eclectic mix of cafés, restaurants, antique shops, and local markets. For everyday needs, a wide selection of supermarkets, pharmacies, and convenience stores are close at hand. St Patrick's Park and the surrounding green spaces provide a welcome retreat from city life right on the doorstep."
+            ]
+          },
+          {
+            "title": "Transport & University Access",
+            "items": [
+              "Dublin Bus routes serving Patrick Street, Dame Street, and Thomas Street provide extensive connectivity across the city",
+              "LUAS Red Line (Smithfield / Four Courts): 10–15 minutes' walk",
+              "LUAS Green Line accessible via city-centre interchange",
+              "Dublin city centre: less than 10 minutes on foot"
+            ]
+          },
+          {
+            "title": "Approximate commute times to universities",
+            "items": [
+              "Trinity College Dublin (TCD): 15 minutes on foot",
+              "UCD Belfield: 35–40 minutes by bus",
+              "Dublin City University (DCU): 35–40 minutes by bus",
+              "TU Dublin Grangegorman: 15–20 minutes by bus or on foot",
+              "TU Dublin Tallaght: 45–50 minutes by bus",
+              "RCSI St Stephen's Green: 15 minutes on foot",
+              "NCI / DBS (City Centre): 10–15 minutes on foot",
+              "Griffith College Dublin: 10–15 minutes on foot",
+              "NCAD Thomas Street: 5–10 minutes on foot",
+              "IADT Dún Laoghaire: 45–50 minutes by bus/DART"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "2",
+          "floor": "",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
         }
       ]
     },
@@ -3065,167 +3226,6 @@
         }
       ],
       "geoNudged": true
-    },
-    {
-      "id": "nicholas-house-d08-yc64",
-      "name": "Nicholas House",
-      "unitNote": "",
-      "area": "St patricks",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D08 YC64",
-      "address": "Nicholas House, St patricks, D08YC64",
-      "lat": 53.337524,
-      "lng": -6.278014,
-      "geoPrecision": "area",
-      "totalBedspaces": 4,
-      "available": 0,
-      "onHold": 0,
-      "booked": 4,
-      "priceMin": 800,
-      "priceMax": 800,
-      "currency": "€",
-      "priceDisplay": "€800",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "Semester stays"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1E7tD7126uCbJ-_uMojLBa6_Awe5e43Nd?usp=drive_link",
-        "images": [
-          {
-            "name": "3 Kitchen",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1Qcpw1IRAQ3zo_2FDA5ofiB3fzyBDPDtC.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1Qcpw1IRAQ3zo_2FDA5ofiB3fzyBDPDtC_t.jpg"
-          },
-          {
-            "name": "Kitchen 2",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1ilN0awTnx0t2J6GBJQ72mLoFjJ736ERG.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1ilN0awTnx0t2J6GBJQ72mLoFjJ736ERG_t.jpg"
-          },
-          {
-            "name": "5 Living Room (TV)",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1Fk2wGAAd2N1RUZjdOX2OBRFZ4Is88hf2.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1Fk2wGAAd2N1RUZjdOX2OBRFZ4Is88hf2_t.jpg"
-          },
-          {
-            "name": "1 Living Room - Cover Photo",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1YH9bn1g00PlFJRC24blt4GDJ1vfhwU75.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1YH9bn1g00PlFJRC24blt4GDJ1vfhwU75_t.jpg"
-          },
-          {
-            "name": "2 Living room (full)",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1vWwLYzTC-sAw8QlM1pSTtMt63-0sJpWv.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1vWwLYzTC-sAw8QlM1pSTtMt63-0sJpWv_t.jpg"
-          },
-          {
-            "name": "6 Dining Area",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1WsZlYLC7eLBCD62vgY5r4emjkZSdZL69.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1WsZlYLC7eLBCD62vgY5r4emjkZSdZL69_t.jpg"
-          },
-          {
-            "name": "Bathroom",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1Eo1GpgrTxCIjOcp0dOKB-ekHl3mDcEP2.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1Eo1GpgrTxCIjOcp0dOKB-ekHl3mDcEP2_t.jpg"
-          },
-          {
-            "name": "Bathroom - Shower",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1iCWU2iRQ0g1Y9t3SrcW2uQvx--qo1kp6.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1iCWU2iRQ0g1Y9t3SrcW2uQvx--qo1kp6_t.jpg"
-          },
-          {
-            "name": "10 Room",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1UzGCjZS_ptZEL08QYYWPNzujpA9tSoVN.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1UzGCjZS_ptZEL08QYYWPNzujpA9tSoVN_t.jpg"
-          },
-          {
-            "name": "Room",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1VbrIlqFSaigD299SAwsBw8E4JNfcm6ny.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1VbrIlqFSaigD299SAwsBw8E4JNfcm6ny_t.jpg"
-          },
-          {
-            "name": "4 Room",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1raKRDdiI2qYrVr61SU8QdpARKjnMs0zk.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1raKRDdiI2qYrVr61SU8QdpARKjnMs0zk_t.jpg"
-          },
-          {
-            "name": "Room",
-            "full": "photos/nicholas-house-st-patricks-d08yc64/1xCV1lepQ3U0dzfa3wVx9Tek-rqDV3zIO.jpg",
-            "thumb": "photos/nicholas-house-st-patricks-d08yc64/1xCV1lepQ3U0dzfa3wVx9Tek-rqDV3zIO_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Property Description This is a 2-bed, 1-wash apt. Nicholas House offers a well-appointed standard of shared living accommodation in the heart of Dublin's historic Christchurch quarter. Each bedroom is thoughtfully furnished with comfortable beds, quality mattresses, ample wardrobe storage, and study desks, creating practical personal spaces designed around the needs of modern student life. The property is fully equipped with all the essentials for comfortable day-to-day living. The kitchen features a full suite of integrated appliances including an oven, hob, microwave, dishwasher, and fridge/freezer, while a washing machine is available for residents' convenience. High-speed Wi-Fi is provided throughout, with multi-point routers ensuring a strong and reliable signal in every room. For peace of mind, the property is fitted with a full fire safety system including smoke alarms and emergency lighting. Residents can enjoy the communal living area, which provides a comfortable space to relax and socialise.",
-        "sections": [
-          {
-            "title": "Area & Lifestyle",
-            "items": [
-              "Located in the Christchurch / Liberties quarter of Dublin 8, Nicholas House enjoys an unbeatable city-centre position steeped in character and history. Christ Church Cathedral, Dublin Castle, and Temple Bar are all within minutes on foot, while the vibrant streetscape of Francis Street, Thomas Street, and Meath Street offers an eclectic mix of cafés, restaurants, antique shops, and local markets. For everyday needs, a wide selection of supermarkets, pharmacies, and convenience stores are close at hand. St Patrick's Park and the surrounding green spaces provide a welcome retreat from city life right on the doorstep."
-            ]
-          },
-          {
-            "title": "Transport & University Access",
-            "items": [
-              "Dublin Bus routes serving Patrick Street, Dame Street, and Thomas Street provide extensive connectivity across the city",
-              "LUAS Red Line (Smithfield / Four Courts): 10–15 minutes' walk",
-              "LUAS Green Line accessible via city-centre interchange",
-              "Dublin city centre: less than 10 minutes on foot"
-            ]
-          },
-          {
-            "title": "Approximate commute times to universities",
-            "items": [
-              "Trinity College Dublin (TCD): 15 minutes on foot",
-              "UCD Belfield: 35–40 minutes by bus",
-              "Dublin City University (DCU): 35–40 minutes by bus",
-              "TU Dublin Grangegorman: 15–20 minutes by bus or on foot",
-              "TU Dublin Tallaght: 45–50 minutes by bus",
-              "RCSI St Stephen's Green: 15 minutes on foot",
-              "NCI / DBS (City Centre): 10–15 minutes on foot",
-              "Griffith College Dublin: 10–15 minutes on foot",
-              "NCAD Thomas Street: 5–10 minutes on foot",
-              "IADT Dún Laoghaire: 45–50 minutes by bus/DART"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        }
-      ]
     },
     {
       "id": "tandys-drive-adamstown-lucan",
