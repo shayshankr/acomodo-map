@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:15:06+00:00",
+  "generatedAt": "2026-09-27T17:47:54+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 34,
@@ -230,7 +230,7 @@
           "washrooms": "1 Communal washroom",
           "rent": 525,
           "rentDisplay": "£525",
-          "demography": "Female",
+          "demography": "",
           "available": 1,
           "onHold": 0,
           "booked": 0
