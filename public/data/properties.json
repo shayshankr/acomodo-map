@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T02:46:40+00:00",
+  "generatedAt": "2026-10-08T09:32:18+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -10,8 +10,8 @@
     ],
     "bedspaces": 217,
     "available": 22,
-    "onHold": 9,
-    "booked": 186,
+    "onHold": 8,
+    "booked": 187,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -30,8 +30,8 @@
       "geoPrecision": "postcode",
       "totalBedspaces": 16,
       "available": 5,
-      "onHold": 1,
-      "booked": 10,
+      "onHold": 0,
+      "booked": 11,
       "priceMin": 475,
       "priceMax": 900,
       "currency": "£",
@@ -232,8 +232,8 @@
           "rentDisplay": "£525",
           "demography": "",
           "available": 0,
-          "onHold": 1,
-          "booked": 0
+          "onHold": 0,
+          "booked": 1
         },
         {
           "room": "8",
