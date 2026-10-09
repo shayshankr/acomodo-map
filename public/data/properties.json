@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:41:23+00:00",
+  "generatedAt": "2026-10-09T19:47:33+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -10,8 +10,8 @@
     ],
     "bedspaces": 217,
     "available": 22,
-    "onHold": 8,
-    "booked": 187,
+    "onHold": 7,
+    "booked": 188,
     "withPhotos": 20,
     "withFolder": 27
   },
@@ -293,8 +293,8 @@
       "geoPrecision": "address",
       "totalBedspaces": 13,
       "available": 2,
-      "onHold": 1,
-      "booked": 10,
+      "onHold": 0,
+      "booked": 11,
       "priceMin": 675,
       "priceMax": 950,
       "currency": "€",
@@ -482,10 +482,10 @@
           "washrooms": "",
           "rent": 950,
           "rentDisplay": "€950",
-          "demography": "",
+          "demography": "Male",
           "available": 0,
-          "onHold": 1,
-          "booked": 0
+          "onHold": 0,
+          "booked": 1
         },
         {
           "room": "6B",
