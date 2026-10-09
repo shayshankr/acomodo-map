@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:46:07+00:00",
+  "generatedAt": "2026-10-09T14:41:23+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -427,8 +427,8 @@
           "rent": 675,
           "rentDisplay": "€675",
           "demography": "",
-          "available": 1,
-          "onHold": 1,
+          "available": 2,
+          "onHold": 0,
           "booked": 0
         },
         {
@@ -483,8 +483,8 @@
           "rent": 950,
           "rentDisplay": "€950",
           "demography": "",
-          "available": 1,
-          "onHold": 0,
+          "available": 0,
+          "onHold": 1,
           "booked": 0
         },
         {
