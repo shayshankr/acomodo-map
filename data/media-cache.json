@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:46:07+00:00",
+  "generatedAt": "2026-10-10T12:05:10+00:00",
   "source": "fetch_photos.py (public Drive folders)",
   "properties": {
     "1 Waterfall Avenue, Drumcondra, Dublin 3, D03 DA24": {
@@ -61,9 +61,9 @@
           "name": "Room 6"
         },
         {
-          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp.jpg",
-          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1fF5WAQrDLluvEPYxmnJxD5ZAG6mE-7Yp_t.jpg",
-          "name": "Twin Sharing room"
+          "full": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UOT-EQvYBdvpvC7wi7t9_OT2i_qu2lsv.jpg",
+          "thumb": "photos/1-waterfall-avenue-drumcondra-dublin-3-d03-da24/1UOT-EQvYBdvpvC7wi7t9_OT2i_qu2lsv_t.jpg",
+          "name": "Room 3 - 2"
         }
       ]
     },
@@ -836,11 +836,133 @@
     },
     "Apartment 602, Windmill House, Dock Road, Limerick, V94 E510": {
       "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
-      "images": []
+      "images": [
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1PSE48vK1cNI21qYHTh8rPHGkPFoY5-bt.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1PSE48vK1cNI21qYHTh8rPHGkPFoY5-bt_t.jpg",
+          "name": "Kitchen"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1nTM8WMYRTbefYwshZL4XQ6Iw68Cd9nPe.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1nTM8WMYRTbefYwshZL4XQ6Iw68Cd9nPe_t.jpg",
+          "name": "Kitchen amenities"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1Az8HXwNfIwn3qJOIHA26hRkeQ74MNQ77.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1Az8HXwNfIwn3qJOIHA26hRkeQ74MNQ77_t.jpg",
+          "name": "Living Room"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1VBm-nSTsoUKFFTlItZ3ulzQV9jz3zjs_.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1VBm-nSTsoUKFFTlItZ3ulzQV9jz3zjs__t.jpg",
+          "name": "Dining Area"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/16wY2IUpMJzPvbuBQ-mONBLK8fdmxsI6K.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/16wY2IUpMJzPvbuBQ-mONBLK8fdmxsI6K_t.jpg",
+          "name": "Washroom - 3"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1VsvsiZkmg_drhl1f-XnmIMmHE78Ku9Or.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1VsvsiZkmg_drhl1f-XnmIMmHE78Ku9Or_t.jpg",
+          "name": "Washroom - 4"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1eelHeGO98JzGNy8HAdDRn4kzWd9cGOFf.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1eelHeGO98JzGNy8HAdDRn4kzWd9cGOFf_t.jpg",
+          "name": "Washroom - 1"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1yDkT7cYnuR3WP_H0haNPA-I4YgT1Ddz3.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1yDkT7cYnuR3WP_H0haNPA-I4YgT1Ddz3_t.jpg",
+          "name": "Washroom - 2"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/15eERfryFpNGRnp0SQLB8Df5GMG-hIjXy.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/15eERfryFpNGRnp0SQLB8Df5GMG-hIjXy_t.jpg",
+          "name": "Room 1 -2"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/15l1Z3sSTo7KcoohZpR_Nvt3whqkoff_u.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/15l1Z3sSTo7KcoohZpR_Nvt3whqkoff_u_t.jpg",
+          "name": "Room 2"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/17jipirL3mZF2yc75b5CVo4u6ND6EDY5K.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/17jipirL3mZF2yc75b5CVo4u6ND6EDY5K_t.jpg",
+          "name": "Cupboard Room 2 - 1"
+        },
+        {
+          "full": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1H5b3gFG_NIWlVtEqS3gRn5hJqcSt4ayZ.jpg",
+          "thumb": "photos/apartment-602-windmill-house-dock-road-limerick-v94-e510/1H5b3gFG_NIWlVtEqS3gRn5hJqcSt4ayZ_t.jpg",
+          "name": "Cupboard Room 1 -2"
+        }
+      ]
     },
     "Apartment 603, Windmill House, Dock Road, Limerick, V94 W9R9": {
       "folder": "https://drive.google.com/drive/folders/1NiEUahN7WrQXYlYtzg0LY72ogqeHLPHf?usp=drive_link",
-      "images": []
+      "images": [
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1PSE48vK1cNI21qYHTh8rPHGkPFoY5-bt.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1PSE48vK1cNI21qYHTh8rPHGkPFoY5-bt_t.jpg",
+          "name": "Kitchen"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1nTM8WMYRTbefYwshZL4XQ6Iw68Cd9nPe.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1nTM8WMYRTbefYwshZL4XQ6Iw68Cd9nPe_t.jpg",
+          "name": "Kitchen amenities"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1Az8HXwNfIwn3qJOIHA26hRkeQ74MNQ77.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1Az8HXwNfIwn3qJOIHA26hRkeQ74MNQ77_t.jpg",
+          "name": "Living Room"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1VBm-nSTsoUKFFTlItZ3ulzQV9jz3zjs_.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1VBm-nSTsoUKFFTlItZ3ulzQV9jz3zjs__t.jpg",
+          "name": "Dining Area"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/16wY2IUpMJzPvbuBQ-mONBLK8fdmxsI6K.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/16wY2IUpMJzPvbuBQ-mONBLK8fdmxsI6K_t.jpg",
+          "name": "Washroom - 3"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1VsvsiZkmg_drhl1f-XnmIMmHE78Ku9Or.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1VsvsiZkmg_drhl1f-XnmIMmHE78Ku9Or_t.jpg",
+          "name": "Washroom - 4"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1eelHeGO98JzGNy8HAdDRn4kzWd9cGOFf.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1eelHeGO98JzGNy8HAdDRn4kzWd9cGOFf_t.jpg",
+          "name": "Washroom - 1"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1yDkT7cYnuR3WP_H0haNPA-I4YgT1Ddz3.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1yDkT7cYnuR3WP_H0haNPA-I4YgT1Ddz3_t.jpg",
+          "name": "Washroom - 2"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/15eERfryFpNGRnp0SQLB8Df5GMG-hIjXy.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/15eERfryFpNGRnp0SQLB8Df5GMG-hIjXy_t.jpg",
+          "name": "Room 1 -2"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/15l1Z3sSTo7KcoohZpR_Nvt3whqkoff_u.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/15l1Z3sSTo7KcoohZpR_Nvt3whqkoff_u_t.jpg",
+          "name": "Room 2"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/17jipirL3mZF2yc75b5CVo4u6ND6EDY5K.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/17jipirL3mZF2yc75b5CVo4u6ND6EDY5K_t.jpg",
+          "name": "Cupboard Room 2 - 1"
+        },
+        {
+          "full": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1H5b3gFG_NIWlVtEqS3gRn5hJqcSt4ayZ.jpg",
+          "thumb": "photos/apartment-603-windmill-house-dock-road-limerick-v94-w9r9/1H5b3gFG_NIWlVtEqS3gRn5hJqcSt4ayZ_t.jpg",
+          "name": "Cupboard Room 1 -2"
+        }
+      ]
     },
     "Apartment 8, The Sidings, Marshall Yards, East Road, Dublin 3, D03 T1D0": {
       "folder": "https://drive.google.com/drive/folders/1Vr1EsxlSvpSiKfPWAKzRSh3eiPAoWv_P?usp=drive_link",
