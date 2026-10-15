@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T11:00:48+00:00",
+  "generatedAt": "2026-10-15T12:01:04+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 22,
+    "available": 23,
     "onHold": 7,
-    "booked": 188,
+    "booked": 187,
     "withPhotos": 22,
     "withFolder": 27
   },
@@ -276,6 +276,191 @@
           "available": 2,
           "onHold": 0,
           "booked": 0
+        }
+      ]
+    },
+    {
+      "id": "shaftsbury-rd-e7-8pf",
+      "name": "Shaftsbury Rd",
+      "unitNote": "",
+      "area": "London",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E7 8PF",
+      "address": "E7 8PF, Shaftsbury Rd, London",
+      "lat": 51.539906,
+      "lng": 0.037843,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 12,
+      "available": 3,
+      "onHold": 0,
+      "booked": 9,
+      "priceMin": 500,
+      "priceMax": 750,
+      "currency": "£",
+      "priceDisplay": "£500–£750",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1_OA6shdHgcz9imQN8BEYtBT-adznFHbb?usp=drive_link",
+        "images": [
+          {
+            "name": "Kitchen_ Living A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/1-Kl7VCkN-2T57hRp5XkaQSJaTTloQ0km.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/1-Kl7VCkN-2T57hRp5XkaQSJaTTloQ0km_t.jpg"
+          },
+          {
+            "name": "Kitchen B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/1-dbjRPSM7M1pPOa_9oUiIqBzzx6_ico0.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/1-dbjRPSM7M1pPOa_9oUiIqBzzx6_ico0_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/11KxWiR0_8hr1yFh_C0k385hbzkrbWZyC.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/11KxWiR0_8hr1yFh_C0k385hbzkrbWZyC_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/12PJ0zi1LD2Yii2V8A2cVnJhohP9HhrQd.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/12PJ0zi1LD2Yii2V8A2cVnJhohP9HhrQd_t.jpg"
+          },
+          {
+            "name": "Kitchen B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/13byV-bWZT9t6j0UhUBg5E4hIjS2oE7UE.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/13byV-bWZT9t6j0UhUBg5E4hIjS2oE7UE_t.jpg"
+          },
+          {
+            "name": "Kitchen A",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/13umFibXblObgUaxdn_NWUYue21UAsfGT.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/13umFibXblObgUaxdn_NWUYue21UAsfGT_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/155fA6BJ6nI8IvfLMPGW36Ci_87snEVe1.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/155fA6BJ6nI8IvfLMPGW36Ci_87snEVe1_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Hall B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/157cg4K4OFN3Kr8LKkK4eUwEYtKz8OM_L.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/157cg4K4OFN3Kr8LKkK4eUwEYtKz8OM_L_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living C",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/15ZsExIeCVP1ViHLgwy2moKnYq-YgvQIu.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/15ZsExIeCVP1ViHLgwy2moKnYq-YgvQIu_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/189xR74IXQlgECa5Jnll6oKGdzUnDO54u.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/189xR74IXQlgECa5Jnll6oKGdzUnDO54u_t.jpg"
+          },
+          {
+            "name": "Kitchen_ Living C",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/18Zk0VqYkTIpAyMXyXn8PilAw3oH-P18l.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/18Zk0VqYkTIpAyMXyXn8PilAw3oH-P18l_t.jpg"
+          },
+          {
+            "name": "Kitchen B",
+            "full": "photos/e7-8pf-shaftsbury-rd-london/1A1S7bDw5ZXgBmwCHfJsfxK5U_qjoToWP.jpg",
+            "thumb": "photos/e7-8pf-shaftsbury-rd-london/1A1S7bDw5ZXgBmwCHfJsfxK5U_qjoToWP_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A newly re-furbhished & furnished property 10 mins walk away from the high street and close to all amenities essential for students. Every room is furnished with a double bed and ample storage space. There are 2 washrooms in the property and 1 Ensuite washroom in the loft room. The kitchen and hall is newly furnished with all white good available 8 mins walk to the nearest tube station & 5 mins walk to the closest bus station. Below is the travel time to prominent universities QMUL Mile End - 34 mins UEL Stratford - 24 mins UEL Dockland - 37 mins Ravensbourne - 36 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "2 Communal washrooms",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 500,
+          "rentDisplay": "£500",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 500,
+          "rentDisplay": "£500",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Big Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "6",
+          "floor": "Loft",
+          "type": "Double ensuite",
+          "rawType": "Big Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "£750",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
@@ -928,191 +1113,6 @@
       ]
     },
     {
-      "id": "shaftsbury-rd-e7-8pf",
-      "name": "Shaftsbury Rd",
-      "unitNote": "",
-      "area": "London",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E7 8PF",
-      "address": "E7 8PF, Shaftsbury Rd, London",
-      "lat": 51.539906,
-      "lng": 0.037843,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 12,
-      "available": 2,
-      "onHold": 0,
-      "booked": 10,
-      "priceMin": 500,
-      "priceMax": 750,
-      "currency": "£",
-      "priceDisplay": "£500–£750",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1_OA6shdHgcz9imQN8BEYtBT-adznFHbb?usp=drive_link",
-        "images": [
-          {
-            "name": "Kitchen_ Living A",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/1-Kl7VCkN-2T57hRp5XkaQSJaTTloQ0km.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/1-Kl7VCkN-2T57hRp5XkaQSJaTTloQ0km_t.jpg"
-          },
-          {
-            "name": "Kitchen B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/1-dbjRPSM7M1pPOa_9oUiIqBzzx6_ico0.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/1-dbjRPSM7M1pPOa_9oUiIqBzzx6_ico0_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Hall B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/11KxWiR0_8hr1yFh_C0k385hbzkrbWZyC.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/11KxWiR0_8hr1yFh_C0k385hbzkrbWZyC_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Living B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/12PJ0zi1LD2Yii2V8A2cVnJhohP9HhrQd.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/12PJ0zi1LD2Yii2V8A2cVnJhohP9HhrQd_t.jpg"
-          },
-          {
-            "name": "Kitchen B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/13byV-bWZT9t6j0UhUBg5E4hIjS2oE7UE.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/13byV-bWZT9t6j0UhUBg5E4hIjS2oE7UE_t.jpg"
-          },
-          {
-            "name": "Kitchen A",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/13umFibXblObgUaxdn_NWUYue21UAsfGT.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/13umFibXblObgUaxdn_NWUYue21UAsfGT_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Hall B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/155fA6BJ6nI8IvfLMPGW36Ci_87snEVe1.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/155fA6BJ6nI8IvfLMPGW36Ci_87snEVe1_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Hall B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/157cg4K4OFN3Kr8LKkK4eUwEYtKz8OM_L.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/157cg4K4OFN3Kr8LKkK4eUwEYtKz8OM_L_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Living C",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/15ZsExIeCVP1ViHLgwy2moKnYq-YgvQIu.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/15ZsExIeCVP1ViHLgwy2moKnYq-YgvQIu_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Living B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/189xR74IXQlgECa5Jnll6oKGdzUnDO54u.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/189xR74IXQlgECa5Jnll6oKGdzUnDO54u_t.jpg"
-          },
-          {
-            "name": "Kitchen_ Living C",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/18Zk0VqYkTIpAyMXyXn8PilAw3oH-P18l.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/18Zk0VqYkTIpAyMXyXn8PilAw3oH-P18l_t.jpg"
-          },
-          {
-            "name": "Kitchen B",
-            "full": "photos/e7-8pf-shaftsbury-rd-london/1A1S7bDw5ZXgBmwCHfJsfxK5U_qjoToWP.jpg",
-            "thumb": "photos/e7-8pf-shaftsbury-rd-london/1A1S7bDw5ZXgBmwCHfJsfxK5U_qjoToWP_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A newly re-furbhished & furnished property 10 mins walk away from the high street and close to all amenities essential for students. Every room is furnished with a double bed and ample storage space. There are 2 washrooms in the property and 1 Ensuite washroom in the loft room. The kitchen and hall is newly furnished with all white good available 8 mins walk to the nearest tube station & 5 mins walk to the closest bus station. Below is the travel time to prominent universities QMUL Mile End - 34 mins UEL Stratford - 24 mins UEL Dockland - 37 mins Ravensbourne - 36 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "2 Communal washrooms",
-          "rent": 550,
-          "rentDisplay": "£550",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 500,
-          "rentDisplay": "£500",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 550,
-          "rentDisplay": "£550",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 500,
-          "rentDisplay": "£500",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Big Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 550,
-          "rentDisplay": "£550",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "6",
-          "floor": "Loft",
-          "type": "Double ensuite",
-          "rawType": "Big Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "£750",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
-    {
       "id": "13a-grangemore-drive-d13-h9tx",
       "name": "13A Grangemore Drive",
       "unitNote": "",
@@ -1542,8 +1542,8 @@
         {
           "room": "1",
           "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
+          "type": "Single non-ensuite",
+          "rawType": "Big Single",
           "bedspaces": 2,
           "washrooms": "1 Communal Washroom",
           "rent": 700,
