@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T12:01:04+00:00",
+  "generatedAt": "2026-10-15T16:50:07+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -9,9 +9,9 @@
       "London"
     ],
     "bedspaces": 217,
-    "available": 23,
+    "available": 22,
     "onHold": 7,
-    "booked": 187,
+    "booked": 188,
     "withPhotos": 22,
     "withFolder": 27
   },
@@ -29,9 +29,9 @@
       "lng": 0.021521,
       "geoPrecision": "postcode",
       "totalBedspaces": 16,
-      "available": 5,
+      "available": 3,
       "onHold": 0,
-      "booked": 11,
+      "booked": 13,
       "priceMin": 475,
       "priceMax": 900,
       "currency": "£",
@@ -272,10 +272,10 @@
           "washrooms": "1 Ensuite Washroom",
           "rent": 525,
           "rentDisplay": "£525",
-          "demography": "",
-          "available": 2,
+          "demography": "Male",
+          "available": 0,
           "onHold": 0,
-          "booked": 0
+          "booked": 2
         }
       ]
     },
@@ -1636,6 +1636,149 @@
           "available": 0,
           "onHold": 0,
           "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "beechwood-court-apt-152-a94-x1pr",
+      "name": "Beechwood Court (Apt 152)",
+      "unitNote": "",
+      "area": "Stillorgan, Co. Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "A94 X1PR",
+      "address": "Apartment 152, Beechwood Court, Stillorgan, Co. Dublin, A94 X1PR",
+      "lat": 53.282308,
+      "lng": -6.191611,
+      "geoPrecision": "address",
+      "totalBedspaces": 10,
+      "available": 1,
+      "onHold": 0,
+      "booked": 9,
+      "priceMin": 600,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€600–€800",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026",
+        "5th January'27"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
+        "images": [
+          {
+            "name": "1 cover photo area",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
+          },
+          {
+            "name": "ameneties ",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
+          },
+          {
+            "name": "bedroom",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
+          },
+          {
+            "name": "room 1",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
+          },
+          {
+            "name": "room 2",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
+          },
+          {
+            "name": "room 3",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
+          },
+          {
+            "name": "washroom ",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
+          },
+          {
+            "name": "washroom 3",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "3 Communal washrooms",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
         }
       ]
     },
@@ -3071,149 +3214,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "beechwood-court-apt-152-a94-x1pr",
-      "name": "Beechwood Court (Apt 152)",
-      "unitNote": "",
-      "area": "Stillorgan, Co. Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "A94 X1PR",
-      "address": "Apartment 152, Beechwood Court, Stillorgan, Co. Dublin, A94 X1PR",
-      "lat": 53.282308,
-      "lng": -6.191611,
-      "geoPrecision": "address",
-      "totalBedspaces": 10,
-      "available": 0,
-      "onHold": 0,
-      "booked": 10,
-      "priceMin": 600,
-      "priceMax": 800,
-      "currency": "€",
-      "priceDisplay": "€600–€800",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026",
-        "5th January'27"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
-        "images": [
-          {
-            "name": "1 cover photo area",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
-          },
-          {
-            "name": "ameneties ",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
-          },
-          {
-            "name": "bedroom",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
-          },
-          {
-            "name": "kitchen",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
-          },
-          {
-            "name": "room 1",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
-          },
-          {
-            "name": "room 2",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
-          },
-          {
-            "name": "room 3",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
-          },
-          {
-            "name": "washroom ",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
-          },
-          {
-            "name": "washroom 3",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non Ensuite",
-          "bedspaces": 2,
-          "washrooms": "3 Communal washrooms",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
         }
       ]
     },
