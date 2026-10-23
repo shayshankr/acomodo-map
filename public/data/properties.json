@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T03:28:42+00:00",
+  "generatedAt": "2026-10-23T08:47:26+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -2070,7 +2070,7 @@
           "washrooms": "",
           "rent": 850,
           "rentDisplay": "€850",
-          "demography": "",
+          "demography": "Female",
           "available": 1,
           "onHold": 0,
           "booked": 1
