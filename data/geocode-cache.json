@@ -62,6 +62,13 @@
     "precision": "hint",
     "query": "Artane, Dublin"
   },
+  "1a Brookfield Artane Dublin 5 - D05E7Y0 SELF-CONTAINED 2 BED FLAT AP": {
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "matched": "Dublin, Ireland",
+    "precision": "city",
+    "query": "Dublin"
+  },
   "1a Brookfield Artane Dublin 5 - D05E7Y0 SELF-CONTAINED 2 BED FLAT APT": {
     "lat": 53.382993,
     "lng": -6.205268,
