@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:34:57+00:00",
+  "generatedAt": "2026-11-20T12:39:08+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -16,6 +16,163 @@
     "withFolder": 27
   },
   "properties": [
+    {
+      "id": "1a-brookfield-artane-dublin-5-d05-e7y0",
+      "name": "1a Brookfield Artane Dublin 5 · D05E7Y0",
+      "unitNote": "",
+      "area": "",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D05 E7Y0",
+      "address": "1a Brookfield Artane Dublin 5 - D05E7Y0",
+      "lat": 53.382993,
+      "lng": -6.205268,
+      "geoPrecision": "hint",
+      "totalBedspaces": 8,
+      "available": 3,
+      "onHold": 0,
+      "booked": 5,
+      "priceMin": 625,
+      "priceMax": 750,
+      "currency": "€",
+      "priceDisplay": "€625–€750",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1xbd1Rub2AsZSKhykd8yWXKXxBzBu3uQ_?usp=sharing",
+        "images": [
+          {
+            "name": "2 Kitchen",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR_t.jpg"
+          },
+          {
+            "name": "3 Kitchen",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N_t.jpg"
+          },
+          {
+            "name": "1 Living Room",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i_t.jpg"
+          },
+          {
+            "name": "5 Common Area",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI_t.jpg"
+          },
+          {
+            "name": "4 Backyard",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6_t.jpg"
+          },
+          {
+            "name": "Room 1 -5",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1D2A66MicBqXFsqg5ifjHL76yXDKr1htF.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1D2A66MicBqXFsqg5ifjHL76yXDKr1htF_t.jpg"
+          },
+          {
+            "name": "Room 4 -5",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JlYwhh4x9v9yhYlKFgYIS6uvSwwvB8kH.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JlYwhh4x9v9yhYlKFgYIS6uvSwwvB8kH_t.jpg"
+          },
+          {
+            "name": "Room 4 -1",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1KZiYYN7qp5bwcUrFUzy38rFT6fDRvynp.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1KZiYYN7qp5bwcUrFUzy38rFT6fDRvynp_t.jpg"
+          },
+          {
+            "name": "Room 4 -2",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1MKhOf30bS9gmj9HLYVWpCHVPJOYT5pdd.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1MKhOf30bS9gmj9HLYVWpCHVPJOYT5pdd_t.jpg"
+          },
+          {
+            "name": "Room 1 -3",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1QHQZcNlczLHxynhK8g-GM3JTtBppNLNS.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1QHQZcNlczLHxynhK8g-GM3JTtBppNLNS_t.jpg"
+          },
+          {
+            "name": "Room 1 -4",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1XOrLA7-4cb-j2i623uiU7oGwamMXWLoi.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1XOrLA7-4cb-j2i623uiU7oGwamMXWLoi_t.jpg"
+          },
+          {
+            "name": "Room 1 -1",
+            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1Yhe3bMCG72W4ad2SrtmR73seSTih3Hjg.jpg",
+            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1Yhe3bMCG72W4ad2SrtmR73seSTih3Hjg_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A property situated in the highly sought-after Brookfield estate in the heart of Artane — a mature, safe, and well-established residential neighbourhood in Dublin's Northside, popular with families, professionals, and students alike. Surrounded by an excellent range of amenities including Artane Castle Shopping Centre (Tesco, Penneys, cafés, and restaurants), local shops along the - Malahide Road, Beaumont Hospital, and a wealth of green spaces including St. Anne's Park, Rockfield Park, and Dollymount Strand within easy reach. Superbly connected with DART stations at Killester and Harmonstown both approximately 10–15 mins walk away, providing fast access into Dublin City Centre in just 10 minutes. Numerous Dublin Bus routes (including 27, 27B, 42, 43, 104, and 128) serve the area, and the M50 motorway is easily accessible by car. Transport & Connectivity DART (Killester Station): ~10–12 min walk DART (Harmonstown Station): ~12–15 min walk Dublin City Centre (Connolly) via DART: ~10 mins Bus Routes: 27, 27B, 42, 43, 104, 128 — multiple stops within walking distance M50 Motorway: ~5 min drive Dublin Airport: ~15 min drive Travel Times to Universities DCU (Glasnevin) — ~20 mins via bus (104/N4 from Killester) DCU (All Hallows / St Patrick's) — ~25 mins via bus Trinity College Dublin (TCD) — ~20 mins via DART to Pearse Station TU Dublin (Grangegorman) — ~30 mins via DART + Luas/bus UCD Belfield — ~40 mins via DART + bus NCAD (Thomas Street) — ~35 mins via bus/DART + Luas",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "1",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "2 communal washroom",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "1",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "",
+          "available": 2,
+          "onHold": 0,
+          "booked": 0
+        },
+        {
+          "room": "3",
+          "floor": "1",
+          "type": "Double non-ensuite",
+          "rawType": "Double non ensuite",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 625,
+          "rentDisplay": "€625",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "2",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        }
+      ]
+    },
     {
       "id": "shaftsbury-rd-e7-8pf",
       "name": "Shaftsbury Rd",
@@ -44,7 +201,7 @@
       "tenancies": [
         "12 Months"
       ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "paymentTerms": "1 month rent as deposit + First months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/1_OA6shdHgcz9imQN8BEYtBT-adznFHbb?usp=drive_link",
         "images": [
@@ -202,163 +359,6 @@
       ]
     },
     {
-      "id": "1a-brookfield-artane-dublin-5-d05-e7y0",
-      "name": "1a Brookfield Artane Dublin 5 · D05E7Y0",
-      "unitNote": "",
-      "area": "",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D05 E7Y0",
-      "address": "1a Brookfield Artane Dublin 5 - D05E7Y0",
-      "lat": 53.382993,
-      "lng": -6.205268,
-      "geoPrecision": "hint",
-      "totalBedspaces": 8,
-      "available": 2,
-      "onHold": 0,
-      "booked": 6,
-      "priceMin": 625,
-      "priceMax": 750,
-      "currency": "€",
-      "priceDisplay": "€625–€750",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1xbd1Rub2AsZSKhykd8yWXKXxBzBu3uQ_?usp=sharing",
-        "images": [
-          {
-            "name": "2 Kitchen",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JBxY8agNdHET9fhb1VnO_LS_PnHCyxOR_t.jpg"
-          },
-          {
-            "name": "3 Kitchen",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1nNXywd6-s-rYJ9_rk03iChimZgVQtk1N_t.jpg"
-          },
-          {
-            "name": "1 Living Room",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/12ZFvKvlLJAUt_gFiX89wKTJQEbjatA5i_t.jpg"
-          },
-          {
-            "name": "5 Common Area",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1a3j1IZg9rmNlVCPVBe_meFO781DJ5KzI_t.jpg"
-          },
-          {
-            "name": "4 Backyard",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1szaWEdWOIv0qoFsZtaKrXM4K4rWQt7O6_t.jpg"
-          },
-          {
-            "name": "Room 1 -5",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1D2A66MicBqXFsqg5ifjHL76yXDKr1htF.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1D2A66MicBqXFsqg5ifjHL76yXDKr1htF_t.jpg"
-          },
-          {
-            "name": "Room 4 -5",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JlYwhh4x9v9yhYlKFgYIS6uvSwwvB8kH.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1JlYwhh4x9v9yhYlKFgYIS6uvSwwvB8kH_t.jpg"
-          },
-          {
-            "name": "Room 4 -1",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1KZiYYN7qp5bwcUrFUzy38rFT6fDRvynp.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1KZiYYN7qp5bwcUrFUzy38rFT6fDRvynp_t.jpg"
-          },
-          {
-            "name": "Room 4 -2",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1MKhOf30bS9gmj9HLYVWpCHVPJOYT5pdd.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1MKhOf30bS9gmj9HLYVWpCHVPJOYT5pdd_t.jpg"
-          },
-          {
-            "name": "Room 1 -3",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1QHQZcNlczLHxynhK8g-GM3JTtBppNLNS.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1QHQZcNlczLHxynhK8g-GM3JTtBppNLNS_t.jpg"
-          },
-          {
-            "name": "Room 1 -4",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1XOrLA7-4cb-j2i623uiU7oGwamMXWLoi.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1XOrLA7-4cb-j2i623uiU7oGwamMXWLoi_t.jpg"
-          },
-          {
-            "name": "Room 1 -1",
-            "full": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1Yhe3bMCG72W4ad2SrtmR73seSTih3Hjg.jpg",
-            "thumb": "photos/1a-brookfield-artane-dublin-5-d05e7y0/1Yhe3bMCG72W4ad2SrtmR73seSTih3Hjg_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A property situated in the highly sought-after Brookfield estate in the heart of Artane — a mature, safe, and well-established residential neighbourhood in Dublin's Northside, popular with families, professionals, and students alike. Surrounded by an excellent range of amenities including Artane Castle Shopping Centre (Tesco, Penneys, cafés, and restaurants), local shops along the - Malahide Road, Beaumont Hospital, and a wealth of green spaces including St. Anne's Park, Rockfield Park, and Dollymount Strand within easy reach. Superbly connected with DART stations at Killester and Harmonstown both approximately 10–15 mins walk away, providing fast access into Dublin City Centre in just 10 minutes. Numerous Dublin Bus routes (including 27, 27B, 42, 43, 104, and 128) serve the area, and the M50 motorway is easily accessible by car. Transport & Connectivity DART (Killester Station): ~10–12 min walk DART (Harmonstown Station): ~12–15 min walk Dublin City Centre (Connolly) via DART: ~10 mins Bus Routes: 27, 27B, 42, 43, 104, 128 — multiple stops within walking distance M50 Motorway: ~5 min drive Dublin Airport: ~15 min drive Travel Times to Universities DCU (Glasnevin) — ~20 mins via bus (104/N4 from Killester) DCU (All Hallows / St Patrick's) — ~25 mins via bus Trinity College Dublin (TCD) — ~20 mins via DART to Pearse Station TU Dublin (Grangegorman) — ~30 mins via DART + Luas/bus UCD Belfield — ~40 mins via DART + bus NCAD (Thomas Street) — ~35 mins via bus/DART + Luas",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "1",
-          "type": "Double non-ensuite",
-          "rawType": "Double non ensuite",
-          "bedspaces": 2,
-          "washrooms": "2 communal washroom",
-          "rent": 625,
-          "rentDisplay": "€625",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "1",
-          "type": "Double non-ensuite",
-          "rawType": "Double non ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 625,
-          "rentDisplay": "€625",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "3",
-          "floor": "1",
-          "type": "Double non-ensuite",
-          "rawType": "Double non ensuite",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 625,
-          "rentDisplay": "€625",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "4",
-          "floor": "2",
-          "type": "Double ensuite",
-          "rawType": "Ensuite Double",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
-    {
       "id": "23-belveder-avenue-dublin",
       "name": "23 Belveder Avenue",
       "unitNote": "",
@@ -430,269 +430,6 @@
           "available": 2,
           "onHold": 0,
           "booked": 0
-        }
-      ]
-    },
-    {
-      "id": "42-disraeli-rd-e7-9jp",
-      "name": "42 Disraeli Rd",
-      "unitNote": "",
-      "area": "",
-      "city": "London",
-      "country": "United Kingdom",
-      "eircode": "E7 9JP",
-      "address": "42 Disraeli Rd E7 9JP",
-      "lat": 51.544356,
-      "lng": 0.021521,
-      "geoPrecision": "postcode",
-      "totalBedspaces": 16,
-      "available": 2,
-      "onHold": 0,
-      "booked": 14,
-      "priceMin": 475,
-      "priceMax": 900,
-      "currency": "£",
-      "priceDisplay": "£475–£900",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": false,
-      "moveIn": [
-        "1 Sep 2026"
-      ],
-      "tenancies": [
-        "12 Months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
-        "images": [
-          {
-            "name": "Copy of hollway",
-            "full": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12_.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12__t.jpg"
-          },
-          {
-            "name": "Copy of 9 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0813",
-            "full": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0783",
-            "full": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0_t.jpg"
-          },
-          {
-            "name": "Copy of 9.1",
-            "full": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW_t.jpg"
-          },
-          {
-            "name": "Copy of 4 main",
-            "full": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj_t.jpg"
-          },
-          {
-            "name": "Copy of 4 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A_t.jpg"
-          },
-          {
-            "name": "Copy of 5",
-            "full": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O_t.jpg"
-          },
-          {
-            "name": "Copy of 1 (1)",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA_t.jpg"
-          },
-          {
-            "name": "Copy of IMG_0814",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe_t.jpg"
-          },
-          {
-            "name": "Copy of 10",
-            "full": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY_t.jpg"
-          },
-          {
-            "name": "Copy of 2 (2)",
-            "full": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA.jpg",
-            "thumb": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
-        "sections": [
-          {
-            "title": "Travel Times to Universities",
-            "items": [
-              "QMUL Mile End — 30 mins",
-              "UEL Stratford — 22 mins",
-              "UEL Docklands — 30 mins",
-              "University of Greenwich — 40 mins",
-              "Ravensbourne — 38 mins",
-              "Bayes Business School — 32 mins",
-              "University of Law (Moorgate) — 28 mins",
-              "University of Law (Bloomsbury) — 38 mins",
-              "KCL Strand Campus — 40 mins",
-              "KCL Guy's Campus — 42 mins",
-              "UCL Bloomsbury — 40 mins",
-              "UCL East (Stratford) — 18 mins",
-              "Coventry University London — 25 mins",
-              "CU London Dagenham — 30 mins",
-              "ARU London (Charterhouse St) — 32 mins",
-              "UWS London (East India Dock) — 28 mins"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Double ensuite",
-          "rawType": "Big double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 600,
-          "rentDisplay": "£600",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "2",
-          "floor": "Ground",
-          "type": "Double non-ensuite",
-          "rawType": "Big double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal washroom",
-          "rent": 475,
-          "rentDisplay": "£475",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Single ensuite",
-          "rawType": "Single ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 900,
-          "rentDisplay": "£900",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Single ensuite",
-          "rawType": "Single ensuite",
-          "bedspaces": 1,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 900,
-          "rentDisplay": "£900",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "6",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "1 Communal washroom",
-          "rent": 625,
-          "rentDisplay": "£625",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "7",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "1 Communal washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "8",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "9",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "10",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 525,
-          "rentDisplay": "£525",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
         }
       ]
     },
@@ -1913,6 +1650,269 @@
           "available": 1,
           "onHold": 0,
           "booked": 1
+        }
+      ]
+    },
+    {
+      "id": "42-disraeli-rd-e7-9jp",
+      "name": "42 Disraeli Rd",
+      "unitNote": "",
+      "area": "",
+      "city": "London",
+      "country": "United Kingdom",
+      "eircode": "E7 9JP",
+      "address": "42 Disraeli Rd E7 9JP",
+      "lat": 51.544356,
+      "lng": 0.021521,
+      "geoPrecision": "postcode",
+      "totalBedspaces": 16,
+      "available": 1,
+      "onHold": 0,
+      "booked": 15,
+      "priceMin": 475,
+      "priceMax": 900,
+      "currency": "£",
+      "priceDisplay": "£475–£900",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": false,
+      "moveIn": [
+        "1 Sep 2026"
+      ],
+      "tenancies": [
+        "12 Months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1IE9ITP8rSnxHZIoLKWLHV7baqVZb7nPe?usp=drive_link",
+        "images": [
+          {
+            "name": "Copy of hollway",
+            "full": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12_.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/12UJigvU-SjiOmjzlur8NO5dTFqsyI12__t.jpg"
+          },
+          {
+            "name": "Copy of 9 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/13ipjaJHstHjhlqQkdk_qFjtVlvgTn1e8_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0813",
+            "full": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/14PhurvjthABl79HWh2Zkl28dCVXjOTis_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0783",
+            "full": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/153QW_39NXF-xaziZN0mirWoHiDf6I9h0_t.jpg"
+          },
+          {
+            "name": "Copy of 9.1",
+            "full": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/18EjBj-nWrzuS0BRNXQttmxTts05Du5NW_t.jpg"
+          },
+          {
+            "name": "Copy of 4 main",
+            "full": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/19b4S2yeJrGQdyUBP4pZRPYgZWn46cInj_t.jpg"
+          },
+          {
+            "name": "Copy of 4 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/19uwKZ_IghTeuR6F_Bc3AsljEi0ZupQ-A_t.jpg"
+          },
+          {
+            "name": "Copy of 5",
+            "full": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1DrXflUWzw4z7Azdzy40OAzPTRGmLhv1O_t.jpg"
+          },
+          {
+            "name": "Copy of 1 (1)",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FMKqQuzQ29_6mi_jv73c4J7beN8gXmYA_t.jpg"
+          },
+          {
+            "name": "Copy of IMG_0814",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FPyvzshzHGVvZp21BUjJWYG5JOjAlwGe_t.jpg"
+          },
+          {
+            "name": "Copy of 10",
+            "full": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1FTuxDtA1lMz8xQUfwX6F6tlb93a88WRY_t.jpg"
+          },
+          {
+            "name": "Copy of 2 (2)",
+            "full": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA.jpg",
+            "thumb": "photos/42-disraeli-rd-e7-9jp/1GY8IvEFeDX8tD6g53sb_VSe4B6JJNqZA_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "A well-positioned property on a quiet residential street in the heart of Forest Gate South, close to a wide range of shops, supermarkets, and everyday amenities. Wanstead Flats — one of East London's most popular green spaces — is also within easy reach. Forest Gate Elizabeth line station is approximately 8–10 mins walk, offering fast direct connections into Central London (Liverpool Street in ~12 mins). Multiple bus routes are also accessible within a short walk. The property benefits from excellent access to Stratford — less than 10 mins away — giving residents the full convenience of Westfield Shopping Centre, the Olympic Park, and Stratford's extensive transport hub (Elizabeth line, Jubilee, DLR & Overground).",
+        "sections": [
+          {
+            "title": "Travel Times to Universities",
+            "items": [
+              "QMUL Mile End — 30 mins",
+              "UEL Stratford — 22 mins",
+              "UEL Docklands — 30 mins",
+              "University of Greenwich — 40 mins",
+              "Ravensbourne — 38 mins",
+              "Bayes Business School — 32 mins",
+              "University of Law (Moorgate) — 28 mins",
+              "University of Law (Bloomsbury) — 38 mins",
+              "KCL Strand Campus — 40 mins",
+              "KCL Guy's Campus — 42 mins",
+              "UCL Bloomsbury — 40 mins",
+              "UCL East (Stratford) — 18 mins",
+              "Coventry University London — 25 mins",
+              "CU London Dagenham — 30 mins",
+              "ARU London (Charterhouse St) — 32 mins",
+              "UWS London (East India Dock) — 28 mins"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Double ensuite",
+          "rawType": "Big double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 550,
+          "rentDisplay": "£550",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "2",
+          "floor": "Ground",
+          "type": "Double non-ensuite",
+          "rawType": "Big double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal washroom",
+          "rent": 475,
+          "rentDisplay": "£475",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single ensuite",
+          "rawType": "Single ensuite",
+          "bedspaces": 1,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 900,
+          "rentDisplay": "£900",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 625,
+          "rentDisplay": "£625",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "7",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "1 Communal washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "8",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "9",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "10",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 525,
+          "rentDisplay": "£525",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
         }
       ]
     },
@@ -4293,7 +4293,7 @@
       "tenancies": [
         "12 Months"
       ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "paymentTerms": "1 month rent as deposit + First months rent",
       "media": {
         "folder": "https://drive.google.com/drive/folders/13OBxanZEUmjpNBImpzMI6frspMvwzutq?usp=drive_link",
         "images": [
