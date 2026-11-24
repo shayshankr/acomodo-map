@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T17:07:11+00:00",
+  "generatedAt": "2026-11-24T18:07:52+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -434,6 +434,149 @@
       ]
     },
     {
+      "id": "beechwood-court-apt-152-a94-x1pr",
+      "name": "Beechwood Court (Apt 152)",
+      "unitNote": "",
+      "area": "Stillorgan, Co. Dublin",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "A94 X1PR",
+      "address": "Apartment 152, Beechwood Court, Stillorgan, Co. Dublin, A94 X1PR",
+      "lat": 53.282308,
+      "lng": -6.191611,
+      "geoPrecision": "address",
+      "totalBedspaces": 10,
+      "available": 2,
+      "onHold": 0,
+      "booked": 8,
+      "priceMin": 600,
+      "priceMax": 800,
+      "currency": "€",
+      "priceDisplay": "€600–€800",
+      "utilities": "Bills excluded — charged on actuals",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026",
+        "5th January'27"
+      ],
+      "tenancies": [
+        "12 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
+        "images": [
+          {
+            "name": "1 cover photo area",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
+          },
+          {
+            "name": "ameneties ",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
+          },
+          {
+            "name": "bedroom",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
+          },
+          {
+            "name": "kitchen",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
+          },
+          {
+            "name": "room 1",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
+          },
+          {
+            "name": "room 2",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
+          },
+          {
+            "name": "room 3",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
+          },
+          {
+            "name": "washroom ",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
+          },
+          {
+            "name": "washroom 3",
+            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
+            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
+        "sections": []
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Double Ensuite",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 800,
+          "rentDisplay": "€800",
+          "demography": "Female",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double Non Ensuite",
+          "bedspaces": 2,
+          "washrooms": "3 Communal washrooms",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 1,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "3",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        },
+        {
+          "room": "4",
+          "floor": "Second",
+          "type": "Triple non-ensuite",
+          "rawType": "Triple Sharing",
+          "bedspaces": 3,
+          "washrooms": "",
+          "rent": 600,
+          "rentDisplay": "€600",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 3
+        }
+      ]
+    },
+    {
       "id": "1-waterfall-avenue-d03-da24",
       "name": "1 Waterfall Avenue",
       "unitNote": "",
@@ -835,376 +978,6 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
-        }
-      ]
-    },
-    {
-      "id": "41-ballinteer-crescent-d16-e657",
-      "name": "41 Ballinteer Crescent",
-      "unitNote": "",
-      "area": "Ballinteer, Dublin 16",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "D16 E657",
-      "address": "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657",
-      "lat": 53.276803,
-      "lng": -6.254025,
-      "geoPrecision": "address",
-      "totalBedspaces": 12,
-      "available": 1,
-      "onHold": 0,
-      "booked": 11,
-      "priceMin": 700,
-      "priceMax": 850,
-      "currency": "€",
-      "priceDisplay": "€700–€850",
-      "utilities": "Bills excluded — +€50/bed for all-inclusive",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026"
-      ],
-      "tenancies": [
-        "12 months",
-        "4 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl?usp=drive_link",
-        "images": [
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY_t.jpg"
-          },
-          {
-            "name": "14 Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi_t.jpg"
-          },
-          {
-            "name": "Copy of Exterior",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F_t.jpg"
-          },
-          {
-            "name": "Copy of Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam_t.jpg"
-          },
-          {
-            "name": "Copy of Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b_t.jpg"
-          },
-          {
-            "name": "6 Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe_t.jpg"
-          },
-          {
-            "name": "4 Kitchen",
-            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM.jpg",
-            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Situated in the mature and sought-after suburb of Ballinteer, this expansive semi-detached home offers modern, light-filled living in a quiet residential setting. The property features a stylish interior with generous room proportions, ideal for students or professionals.",
-        "sections": [
-          {
-            "title": "Interior & Facilities",
-            "items": [
-              "A high-end, contemporary grey kitchen featuring a large central island with seating, marble-effect floor tiles, and skylights that bathe the space in natural light.",
-              "A spacious open-plan reception room with polished wood flooring, a modern wall-mounted fireplace, and elegant furnishings.",
-              "Six well-appointed bedrooms including double and single options, featuring bespoke built-in wardrobes and large windows.",
-              "A beautiful sheltered patio area leading to a meticulously maintained private lawned garden.",
-              "Multiple sleek bathrooms finished with contemporary tiling and high-quality fixtures."
-            ]
-          },
-          {
-            "title": "Transport & Connectivity",
-            "items": [
-              "Bus Routes: Highly accessible via the 14, 16, 116, and 161 routes, providing direct access to Dublin City Centre.",
-              "LUAS (Green Line): Balally and Dundrum stops are approximately a 15–20 min walk away.",
-              "M50 Motorway: Just a 5-minute drive away, offering easy access to all major national routes."
-            ]
-          },
-          {
-            "title": "Universities",
-            "items": [
-              "University College Dublin (UCD): ~15 min by bus / 10 min drive.",
-              "Trinity College Dublin: ~35 min via bus or LUAS.",
-              "TU Dublin (Tallaght): ~20 min drive via M50"
-            ]
-          }
-        ]
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "Ground",
-          "type": "Single non-ensuite",
-          "rawType": "Big Single",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Washroom",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "3",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "4",
-          "floor": "First",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "5",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Ensuite Double",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 750,
-          "rentDisplay": "€750",
-          "demography": "Female",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "6",
-          "floor": "Second",
-          "type": "Double non-ensuite",
-          "rawType": "Double",
-          "bedspaces": 2,
-          "washrooms": "1 Communal Toilet",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "7",
-          "floor": "Second",
-          "type": "Single non-ensuite",
-          "rawType": "Single",
-          "bedspaces": 1,
-          "washrooms": "",
-          "rent": 850,
-          "rentDisplay": "€850",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 1
-        }
-      ]
-    },
-    {
-      "id": "beechwood-court-apt-152-a94-x1pr",
-      "name": "Beechwood Court (Apt 152)",
-      "unitNote": "",
-      "area": "Stillorgan, Co. Dublin",
-      "city": "Dublin",
-      "country": "Ireland",
-      "eircode": "A94 X1PR",
-      "address": "Apartment 152, Beechwood Court, Stillorgan, Co. Dublin, A94 X1PR",
-      "lat": 53.282308,
-      "lng": -6.191611,
-      "geoPrecision": "address",
-      "totalBedspaces": 10,
-      "available": 1,
-      "onHold": 0,
-      "booked": 9,
-      "priceMin": 600,
-      "priceMax": 800,
-      "currency": "€",
-      "priceDisplay": "€600–€800",
-      "utilities": "Bills excluded — charged on actuals",
-      "furnished": true,
-      "moveIn": [
-        "1 Sept 2026",
-        "5th January'27"
-      ],
-      "tenancies": [
-        "12 months"
-      ],
-      "paymentTerms": "1 month rent as deposit + First & Last months rent",
-      "media": {
-        "folder": "https://drive.google.com/drive/folders/1cXd-Ksa0vRo0Hx8DXy7HUgVmJo6Fkvcf?usp=drive_link",
-        "images": [
-          {
-            "name": "1 cover photo area",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1kaGtZF8Uyy-SQDJs6u1CbxvnyBCRWgiA_t.jpg"
-          },
-          {
-            "name": "ameneties ",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rTrm_qBzQplxIugqSTd4xnrDrQs_onoh_t.jpg"
-          },
-          {
-            "name": "bedroom",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1ExTK6xYmsHg0IlxNzCXZhvQs190kL-rz_t.jpg"
-          },
-          {
-            "name": "kitchen",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1FRtL9SMN59RlRbc5LcvS_lnGVGOg-91b_t.jpg"
-          },
-          {
-            "name": "room 1",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1hhe3-8GYeoLe-4Aunz35WhHlKdbBaOVV_t.jpg"
-          },
-          {
-            "name": "room 2",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1Fp4If-V5-ruiQ_3BAtAYKvMGoNvEIEJr_t.jpg"
-          },
-          {
-            "name": "room 3",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1cf4wmyyLH8IbJq3b9OqlNr7Cw7X1VrH1_t.jpg"
-          },
-          {
-            "name": "washroom ",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1T_CRJs9qh04NBvLo0Adln9yAO9xbzIum_t.jpg"
-          },
-          {
-            "name": "washroom 3",
-            "full": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0.jpg",
-            "thumb": "photos/apartment-152-beechwood-court-stillorgan-co-dublin-a94-x1pr/1rFENwnI6KSMYYPoZdlDBLL-24_yRRQF0_t.jpg"
-          }
-        ]
-      },
-      "features": {
-        "summary": "Spacious 4-bed penthouse with 1 double ensuite, 1 double room and 2 triple rooms Three communal washrooms and a bright, modern living space Located in Stillorgan, a premium, mature and safe South Dublin suburb Well-known for greenery, strong infrastructure and student-friendly convenience Frequent bus routes (incl. 46A) offer fast, reliable access to the city LUAS Green Line (Sandyford) reachable in 6-8 mins by car or a 20-25 min walk Commute times: UCD Belfield: 12-15 mins by bus DBS / NCI: 40-45 mins",
-        "sections": []
-      },
-      "rooms": [
-        {
-          "room": "1",
-          "floor": "First",
-          "type": "Double ensuite",
-          "rawType": "Double Ensuite",
-          "bedspaces": 2,
-          "washrooms": "1 Ensuite Washroom",
-          "rent": 800,
-          "rentDisplay": "€800",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 2
-        },
-        {
-          "room": "2",
-          "floor": "First",
-          "type": "Double non-ensuite",
-          "rawType": "Double Non Ensuite",
-          "bedspaces": 2,
-          "washrooms": "3 Communal washrooms",
-          "rent": 700,
-          "rentDisplay": "€700",
-          "demography": "Male",
-          "available": 1,
-          "onHold": 0,
-          "booked": 1
-        },
-        {
-          "room": "3",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Male",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
-        },
-        {
-          "room": "4",
-          "floor": "Second",
-          "type": "Triple non-ensuite",
-          "rawType": "Triple Sharing",
-          "bedspaces": 3,
-          "washrooms": "",
-          "rent": 600,
-          "rentDisplay": "€600",
-          "demography": "Female",
-          "available": 0,
-          "onHold": 0,
-          "booked": 3
         }
       ]
     },
@@ -2577,6 +2350,233 @@
           "available": 0,
           "onHold": 0,
           "booked": 2
+        }
+      ]
+    },
+    {
+      "id": "41-ballinteer-crescent-d16-e657",
+      "name": "41 Ballinteer Crescent",
+      "unitNote": "",
+      "area": "Ballinteer, Dublin 16",
+      "city": "Dublin",
+      "country": "Ireland",
+      "eircode": "D16 E657",
+      "address": "41 Ballinteer Crescent,Ballinteer, Dublin 16, D16E657",
+      "lat": 53.276803,
+      "lng": -6.254025,
+      "geoPrecision": "address",
+      "totalBedspaces": 12,
+      "available": 0,
+      "onHold": 0,
+      "booked": 12,
+      "priceMin": 700,
+      "priceMax": 850,
+      "currency": "€",
+      "priceDisplay": "€700–€850",
+      "utilities": "Bills excluded — +€50/bed for all-inclusive",
+      "furnished": true,
+      "moveIn": [
+        "1 Sept 2026"
+      ],
+      "tenancies": [
+        "12 months",
+        "4 months"
+      ],
+      "paymentTerms": "1 month rent as deposit + First & Last months rent",
+      "media": {
+        "folder": "https://drive.google.com/drive/folders/14KluKoGAGeaCB-bZVbeFsFksWTIbWSUl?usp=drive_link",
+        "images": [
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10g5J6rwXUkhuS0eYuGu7shAXS5wx-q8L_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1FmveIuOtQSkTRL98QYaRU1m497PNhlCX_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1HoLqD-8MC4kVJcH9uKQZ8b9_6-s8GNvB_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1LasDf3HnKR3k7nsi4vavxerHRdiEo4Em_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1bCOR49G3peX2eZDsY--6ZCQCBdyygNdY_t.jpg"
+          },
+          {
+            "name": "14 Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m-wapNvbguHUFtGm4kMf8vur-PTExWNT_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1m2V3grnoCl3PqKIgvP24D50BD9-W4YNi_t.jpg"
+          },
+          {
+            "name": "Copy of Exterior",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1mVq5rXw0CT2PCTvMcm-9haH19QuBB98F_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1-956qGoDBItN0Cg_GjMlTtBBXcDFhLam_t.jpg"
+          },
+          {
+            "name": "Copy of Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/10e-W1jAgaq1b9MAiYzy2U5OQY-glAX-b_t.jpg"
+          },
+          {
+            "name": "6 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/150HnjP9OsIUSP39MUrP-jn3kSGFUyAxe_t.jpg"
+          },
+          {
+            "name": "4 Kitchen",
+            "full": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM.jpg",
+            "thumb": "photos/41-ballinteer-crescent-ballinteer-dublin-16-d16e657/1Kem2r8ilfgPzSfCr2YxlFopX8lHe0exM_t.jpg"
+          }
+        ]
+      },
+      "features": {
+        "summary": "Situated in the mature and sought-after suburb of Ballinteer, this expansive semi-detached home offers modern, light-filled living in a quiet residential setting. The property features a stylish interior with generous room proportions, ideal for students or professionals.",
+        "sections": [
+          {
+            "title": "Interior & Facilities",
+            "items": [
+              "A high-end, contemporary grey kitchen featuring a large central island with seating, marble-effect floor tiles, and skylights that bathe the space in natural light.",
+              "A spacious open-plan reception room with polished wood flooring, a modern wall-mounted fireplace, and elegant furnishings.",
+              "Six well-appointed bedrooms including double and single options, featuring bespoke built-in wardrobes and large windows.",
+              "A beautiful sheltered patio area leading to a meticulously maintained private lawned garden.",
+              "Multiple sleek bathrooms finished with contemporary tiling and high-quality fixtures."
+            ]
+          },
+          {
+            "title": "Transport & Connectivity",
+            "items": [
+              "Bus Routes: Highly accessible via the 14, 16, 116, and 161 routes, providing direct access to Dublin City Centre.",
+              "LUAS (Green Line): Balally and Dundrum stops are approximately a 15–20 min walk away.",
+              "M50 Motorway: Just a 5-minute drive away, offering easy access to all major national routes."
+            ]
+          },
+          {
+            "title": "Universities",
+            "items": [
+              "University College Dublin (UCD): ~15 min by bus / 10 min drive.",
+              "Trinity College Dublin: ~35 min via bus or LUAS.",
+              "TU Dublin (Tallaght): ~20 min drive via M50"
+            ]
+          }
+        ]
+      },
+      "rooms": [
+        {
+          "room": "1",
+          "floor": "Ground",
+          "type": "Single non-ensuite",
+          "rawType": "Big Single",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "2",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Washroom",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "3",
+          "floor": "First",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "4",
+          "floor": "First",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
+        },
+        {
+          "room": "5",
+          "floor": "First",
+          "type": "Double ensuite",
+          "rawType": "Ensuite Double",
+          "bedspaces": 2,
+          "washrooms": "1 Ensuite Washroom",
+          "rent": 750,
+          "rentDisplay": "€750",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "6",
+          "floor": "Second",
+          "type": "Double non-ensuite",
+          "rawType": "Double",
+          "bedspaces": 2,
+          "washrooms": "1 Communal Toilet",
+          "rent": 700,
+          "rentDisplay": "€700",
+          "demography": "Male",
+          "available": 0,
+          "onHold": 0,
+          "booked": 2
+        },
+        {
+          "room": "7",
+          "floor": "Second",
+          "type": "Single non-ensuite",
+          "rawType": "Single",
+          "bedspaces": 1,
+          "washrooms": "",
+          "rent": 850,
+          "rentDisplay": "€850",
+          "demography": "Female",
+          "available": 0,
+          "onHold": 0,
+          "booked": 1
         }
       ]
     },
