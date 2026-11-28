@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T03:47:20+00:00",
+  "generatedAt": "2026-11-28T12:27:30+00:00",
   "source": "portfolio.csv",
   "stats": {
     "properties": 30,
@@ -1082,8 +1082,8 @@
           "rawType": "Double Ensuite",
           "bedspaces": 2,
           "washrooms": "2 Washrooms",
-          "rent": null,
-          "rentDisplay": "",
+          "rent": 850,
+          "rentDisplay": "€850",
           "demography": "Male",
           "available": 0,
           "onHold": 0,
